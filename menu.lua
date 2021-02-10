@@ -238,7 +238,7 @@ IDgame.TextWrapped = true
 
 -- Scripts:
 
-local function STELRS_fake_script() -- ImageLabel.LocalScript 
+local function TYUUDUI_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -256,8 +256,8 @@ local function STELRS_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(STELRS_fake_script)()
-local function FULJFI_fake_script() -- newmenu.LocalScript 
+coroutine.wrap(TYUUDUI_fake_script)()
+local function ECUOZ_fake_script() -- newmenu.LocalScript 
 	local script = Instance.new('LocalScript', newmenu)
 
 	--ERRO
@@ -351,7 +351,7 @@ local function FULJFI_fake_script() -- newmenu.LocalScript
 			wait(2)
 			bia.Visible = false
 			runall()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/cripts/main/Ro-Ghoul.lau")))()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ro-Ghoul.lau")))()
 		end	
 	end
 	
@@ -463,7 +463,7 @@ local function FULJFI_fake_script() -- newmenu.LocalScript
 	end)
 	--ban
 	function banscr()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/cripts/main/BAN.lua")))()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ban-user.lua")))()
 	end
 	
 	banscr()
@@ -557,4 +557,4 @@ local function FULJFI_fake_script() -- newmenu.LocalScript
 	
 	
 end
-coroutine.wrap(FULJFI_fake_script)()
+coroutine.wrap(ECUOZ_fake_script)()
