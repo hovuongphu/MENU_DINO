@@ -265,7 +265,7 @@ IDgame.TextWrapped = true
 
 -- Scripts:
 
-local function FLSISNY_fake_script() -- ImageLabel.LocalScript 
+local function SCWICXQ_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -283,8 +283,8 @@ local function FLSISNY_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(FLSISNY_fake_script)()
-local function RHWH_fake_script() -- newmenu.LocalScript 
+coroutine.wrap(SCWICXQ_fake_script)()
+local function PBNOAPY_fake_script() -- newmenu.LocalScript 
 	local script = Instance.new('LocalScript', newmenu)
 
 	--ERRO
@@ -603,4 +603,4 @@ local function RHWH_fake_script() -- newmenu.LocalScript
 	
 	
 end
-coroutine.wrap(RHWH_fake_script)()
+coroutine.wrap(PBNOAPY_fake_script)()
