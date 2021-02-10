@@ -18,22 +18,13 @@ local avatar = Instance.new("ImageLabel")
 local ImageLabel = Instance.new("ImageLabel")
 local blogin = Instance.new("ImageLabel")
 local run = Instance.new("TextButton")
-local menuset = Instance.new("ImageLabel")
-local openset = Instance.new("TextButton")
+local keybox = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
 local loading = Instance.new("Frame")
 local Frame = Instance.new("ImageLabel")
 local namegame = Instance.new("TextLabel")
 local ID_2 = Instance.new("ImageLabel")
 local IDgame = Instance.new("TextLabel")
-local menuset_2 = Instance.new("Frame")
-local textby = Instance.new("ImageLabel")
-local TextLabel = Instance.new("TextLabel")
-local keylogin = Instance.new("ImageLabel")
-local key = Instance.new("TextBox")
-local backr = Instance.new("ImageLabel")
-local TextButton = Instance.new("TextButton")
-local entkey = Instance.new("ImageLabel")
-local entkeyr = Instance.new("TextButton")
 
 --Properties:
 
@@ -172,7 +163,7 @@ blogin.Name = "blogin"
 blogin.Parent = login
 blogin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 blogin.BackgroundTransparency = 1.000
-blogin.Position = UDim2.new(0.810000002, 0, 4.89000034, 0)
+blogin.Position = UDim2.new(0.810000002, 0, 5.51000023, 0)
 blogin.Size = UDim2.new(0, 314, 0, 73)
 blogin.Image = "rbxassetid://3570695787"
 blogin.ImageColor3 = Color3.fromRGB(91, 91, 91)
@@ -193,29 +184,29 @@ run.TextScaled = true
 run.TextSize = 14.000
 run.TextWrapped = true
 
-menuset.Name = "menuset"
-menuset.Parent = login
-menuset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-menuset.BackgroundTransparency = 1.000
-menuset.Position = UDim2.new(0.810000002, 0, 5.9000001, 0)
-menuset.Size = UDim2.new(0, 314, 0, 44)
-menuset.Image = "rbxassetid://3570695787"
-menuset.ImageColor3 = Color3.fromRGB(91, 91, 91)
-menuset.ScaleType = Enum.ScaleType.Slice
-menuset.SliceCenter = Rect.new(100, 100, 100, 100)
-menuset.SliceScale = 0.120
+keybox.Name = "keybox"
+keybox.Parent = login
+keybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+keybox.BackgroundTransparency = 1.000
+keybox.Position = UDim2.new(0.810000181, 0, 4.80999994, 0)
+keybox.Size = UDim2.new(0, 314, 0, 44)
+keybox.Image = "rbxassetid://3570695787"
+keybox.ImageColor3 = Color3.fromRGB(91, 91, 91)
+keybox.ScaleType = Enum.ScaleType.Slice
+keybox.SliceCenter = Rect.new(100, 100, 100, 100)
+keybox.SliceScale = 0.120
 
-openset.Name = "openset"
-openset.Parent = menuset
-openset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-openset.BackgroundTransparency = 1.000
-openset.Size = UDim2.new(0, 312, 0, 44)
-openset.Font = Enum.Font.SourceSans
-openset.Text = "Setting"
-openset.TextColor3 = Color3.fromRGB(0, 0, 0)
-openset.TextScaled = true
-openset.TextSize = 14.000
-openset.TextWrapped = true
+TextBox.Parent = keybox
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Size = UDim2.new(0, 311, 0, 44)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "KEY HERE"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
 
 loading.Name = "loading"
 loading.Parent = menu
@@ -272,112 +263,9 @@ IDgame.TextScaled = true
 IDgame.TextSize = 14.000
 IDgame.TextWrapped = true
 
-menuset_2.Name = "menuset"
-menuset_2.Parent = menu
-menuset_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-menuset_2.BackgroundTransparency = 1.000
-menuset_2.Size = UDim2.new(0, 100, 0, 100)
-menuset_2.Visible = false
-
-textby.Name = "textby"
-textby.Parent = menuset_2
-textby.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-textby.BackgroundTransparency = 1.000
-textby.Position = UDim2.new(0.930000007, 0, 0.280000001, 0)
-textby.Size = UDim2.new(0, 287, 0, 60)
-textby.Image = "rbxassetid://3570695787"
-textby.ImageColor3 = Color3.fromRGB(91, 91, 91)
-textby.ScaleType = Enum.ScaleType.Slice
-textby.SliceCenter = Rect.new(100, 100, 100, 100)
-textby.SliceScale = 0.120
-
-TextLabel.Parent = textby
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Size = UDim2.new(0, 287, 0, 60)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "BY DINO#5485"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-keylogin.Name = "keylogin"
-keylogin.Parent = menuset_2
-keylogin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-keylogin.BackgroundTransparency = 1.000
-keylogin.Position = UDim2.new(0.629999995, 0, 1.61000001, 0)
-keylogin.Size = UDim2.new(0, 346, 0, 60)
-keylogin.Image = "rbxassetid://3570695787"
-keylogin.ImageColor3 = Color3.fromRGB(91, 91, 91)
-keylogin.ScaleType = Enum.ScaleType.Slice
-keylogin.SliceCenter = Rect.new(100, 100, 100, 100)
-keylogin.SliceScale = 0.120
-
-key.Name = "key"
-key.Parent = keylogin
-key.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-key.BackgroundTransparency = 1.000
-key.Position = UDim2.new(-0.000463232136, 0, 0, 0)
-key.Size = UDim2.new(0, 346, 0, 60)
-key.Font = Enum.Font.SourceSans
-key.PlaceholderText = "KEY HERE"
-key.Text = ""
-key.TextColor3 = Color3.fromRGB(0, 0, 0)
-key.TextScaled = true
-key.TextSize = 14.000
-key.TextWrapped = true
-
-backr.Name = "backr"
-backr.Parent = menuset_2
-backr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-backr.BackgroundTransparency = 1.000
-backr.Position = UDim2.new(0.949999988, 0, 5.57000017, 0)
-backr.Size = UDim2.new(0, 287, 0, 60)
-backr.Image = "rbxassetid://3570695787"
-backr.ImageColor3 = Color3.fromRGB(91, 91, 91)
-backr.ScaleType = Enum.ScaleType.Slice
-backr.SliceCenter = Rect.new(100, 100, 100, 100)
-backr.SliceScale = 0.120
-
-TextButton.Parent = backr
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.BackgroundTransparency = 1.000
-TextButton.Size = UDim2.new(0, 285, 0, 60)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "BACK"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
-
-entkey.Name = "entkey"
-entkey.Parent = menuset_2
-entkey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-entkey.BackgroundTransparency = 1.000
-entkey.Position = UDim2.new(0.920000017, 0, 2.28999996, 0)
-entkey.Size = UDim2.new(0, 287, 0, 31)
-entkey.Image = "rbxassetid://3570695787"
-entkey.ImageColor3 = Color3.fromRGB(91, 91, 91)
-entkey.ScaleType = Enum.ScaleType.Slice
-entkey.SliceCenter = Rect.new(100, 100, 100, 100)
-entkey.SliceScale = 0.120
-
-entkeyr.Name = "entkeyr"
-entkeyr.Parent = entkey
-entkeyr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-entkeyr.BackgroundTransparency = 1.000
-entkeyr.Size = UDim2.new(0, 285, 0, 31)
-entkeyr.Font = Enum.Font.SourceSans
-entkeyr.Text = "GET"
-entkeyr.TextColor3 = Color3.fromRGB(0, 0, 0)
-entkeyr.TextScaled = true
-entkeyr.TextSize = 14.000
-entkeyr.TextWrapped = true
-
 -- Scripts:
 
-local function VNSEKW_fake_script() -- ImageLabel.LocalScript 
+local function FLSISNY_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -395,8 +283,8 @@ local function VNSEKW_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(VNSEKW_fake_script)()
-local function RUOGNKS_fake_script() -- newmenu.LocalScript 
+coroutine.wrap(FLSISNY_fake_script)()
+local function RHWH_fake_script() -- newmenu.LocalScript 
 	local script = Instance.new('LocalScript', newmenu)
 
 	--ERRO
@@ -449,11 +337,8 @@ local function RUOGNKS_fake_script() -- newmenu.LocalScript
 	
 	
 	--set
-	local menuset = script.Parent.bia.menu.menuset
-	local openset = script.Parent.bia.menu.login.menuset.openset
-	local keyset = script.Parent.bia.menu.menuset.keylogin.key
-	local backset = script.Parent.bia.menu.menuset.backr.TextButton
-	local getkey = script.Parent.bia.menu.menuset.entkey.entkeyr
+	
+	local boxkey = script.Parent.bia.menu.login.keybox.TextBox
 	
 	--ID show
 	ID.Text = game.Players.LocalPlayer.userId
@@ -494,10 +379,6 @@ local function RUOGNKS_fake_script() -- newmenu.LocalScript
 	
 	
 	--run ahck
-	function rundatascripFRRE()
-		roghoul()
-		waitr()
-	end
 	
 	function rundatascrip()
 		roghoul()
@@ -519,62 +400,6 @@ local function RUOGNKS_fake_script() -- newmenu.LocalScript
 			erro00D()
 		end
 	end
-	
-	--open setting
-	
-	openset.MouseButton1Click:Connect(function()
-		menulogin.Visible = false
-		menuset.Visible = true
-	end)
-	
-	backset.MouseButton1Click:Connect(function()
-		menulogin.Visible = true
-		menuset.Visible = false
-	end)
-	
-	--free-reming
-	
-	
-	function waitr()
-		wait(1800)
-		erro004()
-	end
-	
-	
-	
-	
-	
-	
-	
-	
-	getkey.MouseButton1Click:Connect(function()
-		if User.Text == "hovuoghu4446" or User.Text == "anhbecun1611" and keyset.Text == "0001" or User.Text == "minhkhang2007" and keyset.Text == "0002" or User.Text == "DeathDemonvt" and keyset.Text == "0003" or User.Text == "kubin197763" and keyset.Text == "0004" or User.Text == "ruakhung1181" and keyset.Text == "0005" or User.Text == "khoahatenoob2" and keyset.Text == "0006" then
-			Userrank.Text = "Premium"
-			menuset.Visible = false
-			wait()
-			menuloding.Visible = true
-			rundatascripFRRE()
-			if not passuser() then
-			end	
-		else
-	
-			erro001()
-		end
-	end)
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
@@ -629,10 +454,14 @@ local function RUOGNKS_fake_script() -- newmenu.LocalScript
 		end
 	end
 	
-	DATAADMIN()
+	
+	
+	
+	
 	
 	run.MouseButton1Click:Connect(function()
-		if User.Text == "hovuoghu4446" then
+		if User.Text == "hovuoghu4446" or User.Text == "anhbecun1611" and boxkey.Text == "0001" or User.Text == "minhkhang2007" and boxkey.Text == "0002" or User.Text == "DeathDemonvt" and boxkey.Text == "0003" or User.Text == "kubin197763" and boxkey.Text == "0004" or User.Text == "ruakhung1181" and boxkey.Text == "0005" or User.Text == "khoahatenoob2" and boxkey.Text == "0006" then
+			Userrank.Text = "Premium"
 			menulogin.Visible = false
 			wait()
 			menuloding.Visible = true
@@ -641,10 +470,7 @@ local function RUOGNKS_fake_script() -- newmenu.LocalScript
 			end	
 		else
 	
-			menulogin.Visible = false
-			wait()
-			menuloding.Visible = true
-			rundatascripFRRE()
+			erro001()
 		end
 	end)
 	
@@ -654,10 +480,7 @@ local function RUOGNKS_fake_script() -- newmenu.LocalScript
 	
 	
 	
-	
-	
-	
-	
+	DATAADMIN()
 	
 	
 	
@@ -780,4 +603,4 @@ local function RUOGNKS_fake_script() -- newmenu.LocalScript
 	
 	
 end
-coroutine.wrap(RUOGNKS_fake_script)()
+coroutine.wrap(RHWH_fake_script)()
