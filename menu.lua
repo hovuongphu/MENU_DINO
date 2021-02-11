@@ -265,7 +265,7 @@ IDgame.TextWrapped = true
 
 -- Scripts:
 
-local function SCWICXQ_fake_script() -- ImageLabel.LocalScript 
+local function OBGNB_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -283,8 +283,8 @@ local function SCWICXQ_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(SCWICXQ_fake_script)()
-local function PBNOAPY_fake_script() -- newmenu.LocalScript 
+coroutine.wrap(OBGNB_fake_script)()
+local function UBMG_fake_script() -- newmenu.LocalScript 
 	local script = Instance.new('LocalScript', newmenu)
 
 	--ERRO
@@ -346,7 +346,7 @@ local function PBNOAPY_fake_script() -- newmenu.LocalScript
 	IDgame.Text = game.GameId
 	
 	--free
-	Userrank.Text = "FREE"
+	Userrank.Text = "Premium"
 	
 	--tapro run game
 	function runall()
@@ -396,12 +396,10 @@ local function PBNOAPY_fake_script() -- newmenu.LocalScript
 			if IDgame.Text == "380704901" then
 			end	
 		else
-	
-			erro00D()
+			wait(2)
+			namegame.Text = "erro00D"
 		end
 	end
-	
-	
 	
 	
 	
@@ -603,4 +601,4 @@ local function PBNOAPY_fake_script() -- newmenu.LocalScript
 	
 	
 end
-coroutine.wrap(PBNOAPY_fake_script)()
+coroutine.wrap(UBMG_fake_script)()
