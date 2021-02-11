@@ -265,7 +265,7 @@ IDgame.TextWrapped = true
 
 -- Scripts:
 
-local function OBGNB_fake_script() -- ImageLabel.LocalScript 
+local function CXFF_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -283,8 +283,8 @@ local function OBGNB_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(OBGNB_fake_script)()
-local function UBMG_fake_script() -- newmenu.LocalScript 
+coroutine.wrap(CXFF_fake_script)()
+local function QXPKK_fake_script() -- newmenu.LocalScript 
 	local script = Instance.new('LocalScript', newmenu)
 
 	--ERRO
@@ -402,6 +402,22 @@ local function UBMG_fake_script() -- newmenu.LocalScript
 	end
 	
 	
+	
+	
+	function allstat()
+		if IDgame.Text == "1720936166" then
+			namegame.Text = "load DATA..."
+			wait(3)
+			namegame.Text = "All Star Tower Defense"
+			wait(2)
+			erro00C()
+			if IDgame.Text == "1720936166" then
+			end	
+		else
+			wait(2)
+			namegame.Text = "erro00D"
+		end
+	end
 	
 	
 	
@@ -601,4 +617,4 @@ local function UBMG_fake_script() -- newmenu.LocalScript
 	
 	
 end
-coroutine.wrap(UBMG_fake_script)()
+coroutine.wrap(QXPKK_fake_script)()
