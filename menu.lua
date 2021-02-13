@@ -265,7 +265,7 @@ IDgame.TextWrapped = true
 
 -- Scripts:
 
-local function CXFF_fake_script() -- ImageLabel.LocalScript 
+local function MCXNZL_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -283,8 +283,8 @@ local function CXFF_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(CXFF_fake_script)()
-local function QXPKK_fake_script() -- newmenu.LocalScript 
+coroutine.wrap(MCXNZL_fake_script)()
+local function JTQBM_fake_script() -- newmenu.LocalScript 
 	local script = Instance.new('LocalScript', newmenu)
 
 	--ERRO
@@ -462,7 +462,7 @@ local function QXPKK_fake_script() -- newmenu.LocalScript
 	
 	
 	function DATAADMIN()
-		if User.Text == "hovuoghu4446" and ID.Text == "552402824" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
 			Userrank.Text = "ADMIN"
 	
 		end
@@ -474,7 +474,7 @@ local function QXPKK_fake_script() -- newmenu.LocalScript
 	
 	
 	run.MouseButton1Click:Connect(function()
-		if User.Text == "hovuoghu4446" or User.Text == "anhbecun1611" and boxkey.Text == "0001" or User.Text == "minhkhang2007" and boxkey.Text == "0002" or User.Text == "DeathDemonvt" and boxkey.Text == "0003" or User.Text == "kubin197763" and boxkey.Text == "0004" or User.Text == "ruakhung1181" and boxkey.Text == "0005" or User.Text == "khoahatenoob2" and boxkey.Text == "0006" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "anhbecun1611" and boxkey.Text == "0001" or User.Text == "minhkhang2007" and boxkey.Text == "0002" or User.Text == "DeathDemonvt" and boxkey.Text == "0003" or User.Text == "kubin197763" and boxkey.Text == "0004" or User.Text == "ruakhung1181" and boxkey.Text == "0005" or User.Text == "khoahatenoob2" and boxkey.Text == "0006" then
 			Userrank.Text = "Premium"
 			menulogin.Visible = false
 			wait()
@@ -617,4 +617,4 @@ local function QXPKK_fake_script() -- newmenu.LocalScript
 	
 	
 end
-coroutine.wrap(QXPKK_fake_script)()
+coroutine.wrap(JTQBM_fake_script)()
