@@ -25,6 +25,9 @@ local Frame = Instance.new("ImageLabel")
 local namegame = Instance.new("TextLabel")
 local ID_2 = Instance.new("ImageLabel")
 local IDgame = Instance.new("TextLabel")
+local exitloa = Instance.new("ImageLabel")
+local close = Instance.new("TextButton")
+local phienban = Instance.new("TextLabel")
 
 --Properties:
 
@@ -263,9 +266,48 @@ IDgame.TextScaled = true
 IDgame.TextSize = 14.000
 IDgame.TextWrapped = true
 
+exitloa.Name = "exitloa"
+exitloa.Parent = loading
+exitloa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exitloa.BackgroundTransparency = 1.000
+exitloa.Position = UDim2.new(0.75, 0, 4.86000061, 0)
+exitloa.Size = UDim2.new(0, 324, 0, 53)
+exitloa.Visible = false
+exitloa.Image = "rbxassetid://3570695787"
+exitloa.ImageColor3 = Color3.fromRGB(44, 44, 44)
+exitloa.ScaleType = Enum.ScaleType.Slice
+exitloa.SliceCenter = Rect.new(100, 100, 100, 100)
+exitloa.SliceScale = 0.120
+
+close.Name = "close"
+close.Parent = exitloa
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.Position = UDim2.new(0, 0, 0.0566037744, 0)
+close.Size = UDim2.new(0, 324, 0, 50)
+close.Font = Enum.Font.SourceSans
+close.Text = "close"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+phienban.Name = "phienban"
+phienban.Parent = newmenu
+phienban.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+phienban.BackgroundTransparency = 1.000
+phienban.Position = UDim2.new(-0.00046993047, 0, 0.977110267, 0)
+phienban.Size = UDim2.new(0, 113, 0, 19)
+phienban.Font = Enum.Font.SourceSans
+phienban.Text = "N?A"
+phienban.TextColor3 = Color3.fromRGB(0, 0, 0)
+phienban.TextScaled = true
+phienban.TextSize = 14.000
+phienban.TextWrapped = true
+
 -- Scripts:
 
-local function MCXNZL_fake_script() -- ImageLabel.LocalScript 
+local function NYDOG_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -283,8 +325,8 @@ local function MCXNZL_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(MCXNZL_fake_script)()
-local function JTQBM_fake_script() -- newmenu.LocalScript 
+coroutine.wrap(NYDOG_fake_script)()
+local function YNKVOAD_fake_script() -- newmenu.LocalScript 
 	local script = Instance.new('LocalScript', newmenu)
 
 	--ERRO
@@ -320,8 +362,11 @@ local function JTQBM_fake_script() -- newmenu.LocalScript
 		game.Players.LocalPlayer:Kick("Erro#00D")
 	end
 	
+	
 	---menu
+	local phienban = script.Parent.phienban
 	local bia = script.Parent.bia
+	local menu = script.Parent.bia.menu
 	
 	--login menu
 	local menulogin = script.Parent.bia.menu.login
@@ -337,7 +382,8 @@ local function JTQBM_fake_script() -- newmenu.LocalScript
 	
 	
 	--set
-	
+	local menuthoatloading = script.Parent.bia.menu.loading.exitloa
+	local thoatloding = script.Parent.bia.menu.loading.exitloa.close
 	local boxkey = script.Parent.bia.menu.login.keybox.TextBox
 	
 	--ID show
@@ -345,8 +391,14 @@ local function JTQBM_fake_script() -- newmenu.LocalScript
 	User.Text = game.Players.LocalPlayer.Name
 	IDgame.Text = game.GameId
 	
-	--free
+	--Premium/Version
 	Userrank.Text = "Premium"
+	phienban.Text = "Version 3.4"
+	
+	----dong loding
+	thoatloding.MouseButton1Click:Connect(function()
+		bia.Visible = false
+	end)
 	
 	--tapro run game
 	function runall()
@@ -398,6 +450,7 @@ local function JTQBM_fake_script() -- newmenu.LocalScript
 		else
 			wait(2)
 			namegame.Text = "erro00D"
+			menuthoatloading.Visible = true
 		end
 	end
 	
@@ -415,6 +468,7 @@ local function JTQBM_fake_script() -- newmenu.LocalScript
 			end	
 		else
 			wait(2)
+			menuthoatloading.Visible = true
 			namegame.Text = "erro00D"
 		end
 	end
@@ -495,12 +549,6 @@ local function JTQBM_fake_script() -- newmenu.LocalScript
 	
 	
 	DATAADMIN()
-	
-	
-	
-	
-	
-	
 	
 	
 	
@@ -617,4 +665,4 @@ local function JTQBM_fake_script() -- newmenu.LocalScript
 	
 	
 end
-coroutine.wrap(JTQBM_fake_script)()
+coroutine.wrap(YNKVOAD_fake_script)()
