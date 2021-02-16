@@ -840,7 +840,7 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 			wait(3)
 			IDgame.Text = "Counter Blox"
 			runall()
-			loadstring(game:HttpGetAsync(("https://github.com/hovuongphu/MENU_DINO/blob/main/Counter%20Blox.lua")))()
+			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
 			if gameee.Text == "115797356" then
 			end	
 		else
