@@ -3,312 +3,651 @@
 
 -- Instances:
 
-local newmenu = Instance.new("ScreenGui")
-local bia = Instance.new("ImageLabel")
-local menu = Instance.new("ImageLabel")
-local login = Instance.new("Frame")
-local nameID = Instance.new("Frame")
-local bID = Instance.new("ImageLabel")
-local ID = Instance.new("TextLabel")
-local bname = Instance.new("ImageLabel")
-local name = Instance.new("TextLabel")
-local brank = Instance.new("ImageLabel")
-local rank = Instance.new("TextLabel")
-local avatar = Instance.new("ImageLabel")
+local MenuDINOV3 = Instance.new("ScreenGui")
+local bia = Instance.new("Frame")
+local thanh = Instance.new("Frame")
+local clost = Instance.new("Frame")
+local bin = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local exit = Instance.new("ImageButton")
+local seting = Instance.new("Frame")
+local bin_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local setting = Instance.new("ImageButton")
+local run = Instance.new("Frame")
+local bin_3 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local open = Instance.new("ImageButton")
+local ImageButton = Instance.new("ImageButton")
 local ImageLabel = Instance.new("ImageLabel")
-local blogin = Instance.new("ImageLabel")
-local run = Instance.new("TextButton")
-local keybox = Instance.new("ImageLabel")
-local TextBox = Instance.new("TextBox")
-local loading = Instance.new("Frame")
-local Frame = Instance.new("ImageLabel")
-local namegame = Instance.new("TextLabel")
-local ID_2 = Instance.new("ImageLabel")
+local Rank = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local menu = Instance.new("Frame")
+local Server = Instance.new("Frame")
+local bin_4 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local status = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Online = Instance.new("Frame")
+local cmdServer = Instance.new("TextLabel")
+local cmdScript = Instance.new("TextLabel")
+local Run = Instance.new("Frame")
+local bin_5 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
 local IDgame = Instance.new("TextLabel")
-local exitloa = Instance.new("ImageLabel")
-local close = Instance.new("TextButton")
-local phienban = Instance.new("TextLabel")
+local runscrop = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local discor = Instance.new("Frame")
+local bin_6 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local copyLink = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local setting_2 = Instance.new("Frame")
+local ServerL = Instance.new("Frame")
+local bin_7 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local status_2 = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local Login = Instance.new("Frame")
+local ServerL_2 = Instance.new("Frame")
+local bin_8 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local status_3 = Instance.new("Frame")
+local IDuser = Instance.new("TextLabel")
+local User = Instance.new("TextLabel")
+local login = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Code = Instance.new("TextBox")
+local gameee = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local exitnow = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local yes = Instance.new("TextButton")
+local no = Instance.new("TextButton")
 
 --Properties:
 
-newmenu.Name = "newmenu"
-newmenu.Parent = game.CoreGui
+MenuDINOV3.Name = "MenuDINOV3"
+MenuDINOV3.Parent = game.CoreGui
 
 bia.Name = "bia"
-bia.Parent = newmenu
-bia.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-bia.BackgroundTransparency = 1.000
-bia.Position = UDim2.new(0.340398192, 0, 0.135876045, 0)
-bia.Size = UDim2.new(0, 497, 0, 689)
-bia.Image = "rbxassetid://3570695787"
-bia.ImageColor3 = Color3.fromRGB(53, 53, 53)
-bia.ScaleType = Enum.ScaleType.Slice
-bia.SliceCenter = Rect.new(100, 100, 100, 100)
-bia.SliceScale = 0.120
+bia.Parent = MenuDINOV3
+bia.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+bia.BorderSizePixel = 0
+bia.Position = UDim2.new(0.326910734, 0, 0.303933263, 0)
+bia.Size = UDim2.new(0, 539, 0, 293)
+
+thanh.Name = "thanh"
+thanh.Parent = bia
+thanh.BackgroundColor3 = Color3.fromRGB(38, 52, 29)
+thanh.BorderSizePixel = 0
+thanh.Size = UDim2.new(0, 85, 0, 293)
+
+clost.Name = "clost"
+clost.Parent = thanh
+clost.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+clost.BackgroundTransparency = 1.000
+clost.BorderSizePixel = 0
+clost.Position = UDim2.new(0, 0, 0.296928316, 0)
+clost.Size = UDim2.new(0, 85, 0, 50)
+
+bin.Name = "bin"
+bin.Parent = clost
+bin.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin.BorderSizePixel = 0
+bin.Size = UDim2.new(0, 2, 0, 50)
+bin.Visible = false
+
+UICorner.Parent = bin
+
+exit.Name = "exit"
+exit.Parent = clost
+exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exit.BackgroundTransparency = 1.000
+exit.BorderSizePixel = 0
+exit.Position = UDim2.new(0.270588249, 0, 0.119999997, 0)
+exit.Size = UDim2.new(0, 37, 0, 37)
+exit.Image = "rbxassetid://5679295310"
+
+seting.Name = "seting"
+seting.Parent = thanh
+seting.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+seting.BackgroundTransparency = 1.000
+seting.BorderSizePixel = 0
+seting.Position = UDim2.new(0, 0, 0.638225257, 0)
+seting.Size = UDim2.new(0, 85, 0, 50)
+
+bin_2.Name = "bin"
+bin_2.Parent = seting
+bin_2.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_2.BorderSizePixel = 0
+bin_2.Size = UDim2.new(0, 2, 0, 50)
+bin_2.Visible = false
+
+UICorner_2.Parent = bin_2
+
+setting.Name = "setting"
+setting.Parent = seting
+setting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+setting.BackgroundTransparency = 1.000
+setting.BorderSizePixel = 0
+setting.Position = UDim2.new(0.270588249, 0, 0.0910144076, 0)
+setting.Size = UDim2.new(0, 37, 0, 37)
+setting.Image = "rbxassetid://4492476121"
+
+run.Name = "run"
+run.Parent = thanh
+run.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+run.BackgroundTransparency = 1.000
+run.BorderSizePixel = 0
+run.Position = UDim2.new(0, 0, 0.467576802, 0)
+run.Size = UDim2.new(0, 85, 0, 50)
+
+bin_3.Name = "bin"
+bin_3.Parent = run
+bin_3.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_3.BorderSizePixel = 0
+bin_3.Size = UDim2.new(0, 2, 0, 50)
+bin_3.Visible = false
+
+UICorner_3.Parent = bin_3
+
+open.Name = "open"
+open.Parent = run
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.BackgroundTransparency = 1.000
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.270588249, 0, 0.105507202, 0)
+open.Size = UDim2.new(0, 37, 0, 37)
+open.Image = "rbxassetid://2876994160"
+
+ImageButton.Parent = thanh
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.141000003, 0, 0.0579999983, 0)
+ImageButton.Size = UDim2.new(0, 61, 0, 61)
+ImageButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+ImageLabel.Parent = ImageButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(56, 76, 43)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 61, 0, 61)
+ImageLabel.Image = "rbxassetid://4031889928"
+ImageLabel.ImageColor3 = Color3.fromRGB(38, 52, 29)
+
+Rank.Name = "Rank"
+Rank.Parent = thanh
+Rank.BackgroundColor3 = Color3.fromRGB(61, 84, 46)
+Rank.BorderSizePixel = 0
+Rank.Position = UDim2.new(0.0705882385, 0, 0.8566553, 0)
+Rank.Size = UDim2.new(0, 72, 0, 28)
+Rank.Font = Enum.Font.SourceSans
+Rank.Text = "Rank?"
+Rank.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rank.TextScaled = true
+Rank.TextSize = 14.000
+Rank.TextWrapped = true
+
+UICorner_4.Parent = Rank
 
 menu.Name = "menu"
 menu.Parent = bia
 menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 menu.BackgroundTransparency = 1.000
-menu.Position = UDim2.new(0.020120725, 0, 0.0196070559, 0)
-menu.Size = UDim2.new(0, 476, 0, 660)
-menu.Image = "rbxassetid://3570695787"
-menu.ImageColor3 = Color3.fromRGB(61, 61, 61)
-menu.ScaleType = Enum.ScaleType.Slice
-menu.SliceCenter = Rect.new(100, 100, 100, 100)
-menu.SliceScale = 0.120
+menu.BorderSizePixel = 0
+menu.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+menu.Size = UDim2.new(0, 430, 0, 271)
+menu.Visible = false
 
-login.Name = "login"
-login.Parent = menu
-login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-login.BackgroundTransparency = 1.000
-login.Size = UDim2.new(0, 100, 0, 100)
+Server.Name = "Server "
+Server.Parent = menu
+Server.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Server.BorderSizePixel = 0
+Server.Position = UDim2.new(0, 0, 0.00386100379, 0)
+Server.Size = UDim2.new(0, 430, 0, 29)
 
-nameID.Name = "nameID"
-nameID.Parent = login
-nameID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-nameID.BackgroundTransparency = 1.000
-nameID.Position = UDim2.new(1.88000011, 0, 1.01999998, 0)
-nameID.Size = UDim2.new(0, 100, 0, 100)
+bin_4.Name = "bin"
+bin_4.Parent = Server
+bin_4.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_4.BorderSizePixel = 0
+bin_4.Size = UDim2.new(0, 2, 0, 29)
 
-bID.Name = "bID"
-bID.Parent = nameID
-bID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-bID.BackgroundTransparency = 1.000
-bID.Position = UDim2.new(-1.07003176, 0, 2.60771251, 0)
-bID.Size = UDim2.new(0, 313, 0, 44)
-bID.Image = "rbxassetid://3570695787"
-bID.ImageColor3 = Color3.fromRGB(103, 103, 103)
-bID.ScaleType = Enum.ScaleType.Slice
-bID.SliceCenter = Rect.new(100, 100, 100, 100)
-bID.SliceScale = 0.120
+UICorner_5.Parent = bin_4
 
-ID.Name = "ID"
-ID.Parent = bID
-ID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ID.BackgroundTransparency = 1.000
-ID.Position = UDim2.new(0, 0, -0.0127750747, 0)
-ID.Size = UDim2.new(0, 312, 0, 44)
-ID.Font = Enum.Font.Arial
-ID.Text = "N?A"
-ID.TextColor3 = Color3.fromRGB(0, 0, 0)
-ID.TextScaled = true
-ID.TextSize = 14.000
-ID.TextWrapped = true
+TextLabel.Parent = Server
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0579710156, 0, 0.103448279, 0)
+TextLabel.Size = UDim2.new(0, 123, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Server Status"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
 
-bname.Name = "bname"
-bname.Parent = nameID
-bname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-bname.BackgroundTransparency = 1.000
-bname.Position = UDim2.new(-1.08000004, 0, 2.03999996, 0)
-bname.Size = UDim2.new(0, 313, 0, 44)
-bname.Image = "rbxassetid://3570695787"
-bname.ImageColor3 = Color3.fromRGB(103, 103, 103)
-bname.ScaleType = Enum.ScaleType.Slice
-bname.SliceCenter = Rect.new(100, 100, 100, 100)
-bname.SliceScale = 0.120
+status.Name = "status"
+status.Parent = menu
+status.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status.BorderSizePixel = 0
+status.Position = UDim2.new(0.00465116277, 0, 0.123974875, 0)
+status.Size = UDim2.new(0, 427, 0, 114)
 
-name.Name = "name"
-name.Parent = bname
-name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-name.BackgroundTransparency = 1.000
-name.Size = UDim2.new(0, 313, 0, 44)
-name.Font = Enum.Font.Arial
-name.Text = "N?A"
-name.TextColor3 = Color3.fromRGB(0, 0, 0)
-name.TextScaled = true
-name.TextSize = 14.000
-name.TextWrapped = true
+TextLabel_2.Parent = status
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.252927393, 0, 0.10898459, 0)
+TextLabel_2.Size = UDim2.new(0, 50, 0, 30)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Server"
+TextLabel_2.TextColor3 = Color3.fromRGB(90, 124, 94)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
 
-brank.Name = "brank"
-brank.Parent = nameID
-brank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-brank.BackgroundTransparency = 1.000
-brank.Position = UDim2.new(-1.07003176, 0, 3.19771242, 0)
-brank.Size = UDim2.new(0, 313, 0, 44)
-brank.Image = "rbxassetid://3570695787"
-brank.ImageColor3 = Color3.fromRGB(103, 103, 103)
-brank.ScaleType = Enum.ScaleType.Slice
-brank.SliceCenter = Rect.new(100, 100, 100, 100)
-brank.SliceScale = 0.120
+TextLabel_3.Parent = status
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.629976511, 0, 0.10898459, 0)
+TextLabel_3.Size = UDim2.new(0, 50, 0, 30)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Script"
+TextLabel_3.TextColor3 = Color3.fromRGB(90, 124, 94)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
 
-rank.Name = "rank"
-rank.Parent = brank
-rank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-rank.BackgroundTransparency = 1.000
-rank.Size = UDim2.new(0, 312, 0, 44)
-rank.Font = Enum.Font.Arial
-rank.Text = "N?A"
-rank.TextColor3 = Color3.fromRGB(0, 0, 0)
-rank.TextScaled = true
-rank.TextSize = 14.000
-rank.TextWrapped = true
+Online.Name = "Online"
+Online.Parent = status
+Online.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Online.BackgroundTransparency = 1.000
+Online.BorderSizePixel = 0
+Online.Size = UDim2.new(0, 100, 0, 100)
 
-avatar.Name = "avatar"
-avatar.Parent = login
-avatar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-avatar.BackgroundTransparency = 1.000
-avatar.Position = UDim2.new(0.970000029, 0, 0.109999999, 0)
-avatar.Size = UDim2.new(0, 283, 0, 283)
-avatar.Image = "rbxassetid://3570695787"
-avatar.ImageColor3 = Color3.fromRGB(85, 85, 85)
-avatar.ScaleType = Enum.ScaleType.Slice
-avatar.SliceCenter = Rect.new(100, 100, 100, 100)
-avatar.SliceScale = 0.120
+cmdServer.Name = "cmdServer"
+cmdServer.Parent = Online
+cmdServer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cmdServer.BackgroundTransparency = 1.000
+cmdServer.BorderSizePixel = 0
+cmdServer.Position = UDim2.new(0.920000076, 0, 0.49000001, 0)
+cmdServer.Size = UDim2.new(0, 82, 0, 30)
+cmdServer.Font = Enum.Font.SourceSans
+cmdServer.Text = "Online"
+cmdServer.TextColor3 = Color3.fromRGB(45, 192, 179)
+cmdServer.TextScaled = true
+cmdServer.TextSize = 14.000
+cmdServer.TextWrapped = true
 
-ImageLabel.Parent = avatar
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.Size = UDim2.new(0, 283, 0, 283)
-ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+cmdScript.Name = "cmdScript"
+cmdScript.Parent = Online
+cmdScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cmdScript.BackgroundTransparency = 1.000
+cmdScript.BorderSizePixel = 0
+cmdScript.Position = UDim2.new(2.53000021, 0, 0.49000001, 0)
+cmdScript.Size = UDim2.new(0, 82, 0, 30)
+cmdScript.Font = Enum.Font.SourceSans
+cmdScript.Text = "Online"
+cmdScript.TextColor3 = Color3.fromRGB(45, 192, 179)
+cmdScript.TextScaled = true
+cmdScript.TextSize = 14.000
+cmdScript.TextWrapped = true
 
-blogin.Name = "blogin"
-blogin.Parent = login
-blogin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-blogin.BackgroundTransparency = 1.000
-blogin.Position = UDim2.new(0.810000002, 0, 5.51000023, 0)
-blogin.Size = UDim2.new(0, 314, 0, 73)
-blogin.Image = "rbxassetid://3570695787"
-blogin.ImageColor3 = Color3.fromRGB(91, 91, 91)
-blogin.ScaleType = Enum.ScaleType.Slice
-blogin.SliceCenter = Rect.new(100, 100, 100, 100)
-blogin.SliceScale = 0.120
+Run.Name = "Run"
+Run.Parent = menu
+Run.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Run.BorderSizePixel = 0
+Run.Position = UDim2.new(0.00465116277, 0, 0.5549559, 0)
+Run.Size = UDim2.new(0, 208, 0, 29)
 
-run.Name = "run"
-run.Parent = blogin
-run.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-run.BackgroundTransparency = 1.000
-run.Position = UDim2.new(0.00318471342, 0, 0, 0)
-run.Size = UDim2.new(0, 314, 0, 73)
-run.Font = Enum.Font.Roboto
-run.Text = "GO"
-run.TextColor3 = Color3.fromRGB(0, 0, 0)
-run.TextScaled = true
-run.TextSize = 14.000
-run.TextWrapped = true
+bin_5.Name = "bin"
+bin_5.Parent = Run
+bin_5.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_5.BorderSizePixel = 0
+bin_5.Size = UDim2.new(0, 2, 0, 29)
 
-keybox.Name = "keybox"
-keybox.Parent = login
-keybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-keybox.BackgroundTransparency = 1.000
-keybox.Position = UDim2.new(0.810000181, 0, 4.80999994, 0)
-keybox.Size = UDim2.new(0, 314, 0, 44)
-keybox.Image = "rbxassetid://3570695787"
-keybox.ImageColor3 = Color3.fromRGB(91, 91, 91)
-keybox.ScaleType = Enum.ScaleType.Slice
-keybox.SliceCenter = Rect.new(100, 100, 100, 100)
-keybox.SliceScale = 0.120
+UICorner_6.Parent = bin_5
 
-TextBox.Parent = keybox
-TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.BackgroundTransparency = 1.000
-TextBox.Size = UDim2.new(0, 311, 0, 44)
-TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderText = "KEY HERE"
-TextBox.Text = ""
-TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.TextScaled = true
-TextBox.TextSize = 14.000
-TextBox.TextWrapped = true
+TextLabel_4.Parent = Run
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.113808572, 0, 0.103448279, 0)
+TextLabel_4.Size = UDim2.new(0, 85, 0, 23)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Script"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
 
-loading.Name = "loading"
-loading.Parent = menu
-loading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-loading.BackgroundTransparency = 1.000
-loading.Size = UDim2.new(0, 100, 0, 100)
-loading.Visible = false
-
-Frame.Name = "Frame"
-Frame.Parent = loading
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.BackgroundTransparency = 1.000
-Frame.Position = UDim2.new(0.25, 0, 3.31000018, 0)
-Frame.Size = UDim2.new(0, 425, 0, 114)
-Frame.Image = "rbxassetid://3570695787"
-Frame.ImageColor3 = Color3.fromRGB(44, 44, 44)
-Frame.ScaleType = Enum.ScaleType.Slice
-Frame.SliceCenter = Rect.new(100, 100, 100, 100)
-Frame.SliceScale = 0.120
-
-namegame.Name = "namegame"
-namegame.Parent = Frame
-namegame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-namegame.BackgroundTransparency = 1.000
-namegame.Size = UDim2.new(0, 425, 0, 114)
-namegame.Font = Enum.Font.SourceSansBold
-namegame.Text = "N?A"
-namegame.TextColor3 = Color3.fromRGB(0, 0, 0)
-namegame.TextScaled = true
-namegame.TextSize = 14.000
-namegame.TextWrapped = true
-
-ID_2.Name = "ID"
-ID_2.Parent = loading
-ID_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ID_2.BackgroundTransparency = 1.000
-ID_2.Position = UDim2.new(0.25999999, 0, 1.41000009, 0)
-ID_2.Size = UDim2.new(0, 425, 0, 114)
-ID_2.Image = "rbxassetid://3570695787"
-ID_2.ImageColor3 = Color3.fromRGB(44, 44, 44)
-ID_2.ScaleType = Enum.ScaleType.Slice
-ID_2.SliceCenter = Rect.new(100, 100, 100, 100)
-ID_2.SliceScale = 0.120
+Frame.Parent = Run
+Frame.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.00961538497, 0, 1.31034482, 0)
+Frame.Size = UDim2.new(0, 206, 0, 82)
 
 IDgame.Name = "IDgame"
-IDgame.Parent = ID_2
+IDgame.Parent = Frame
 IDgame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 IDgame.BackgroundTransparency = 1.000
-IDgame.Size = UDim2.new(0, 424, 0, 114)
-IDgame.Font = Enum.Font.SourceSansBold
-IDgame.Text = "N?A"
-IDgame.TextColor3 = Color3.fromRGB(0, 0, 0)
+IDgame.BorderSizePixel = 0
+IDgame.Position = UDim2.new(0.174757287, 0, 0.0853658617, 0)
+IDgame.Size = UDim2.new(0, 132, 0, 23)
+IDgame.Font = Enum.Font.SourceSans
+IDgame.Text = "Script"
+IDgame.TextColor3 = Color3.fromRGB(225, 225, 225)
 IDgame.TextScaled = true
 IDgame.TextSize = 14.000
 IDgame.TextWrapped = true
 
-exitloa.Name = "exitloa"
-exitloa.Parent = loading
-exitloa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-exitloa.BackgroundTransparency = 1.000
-exitloa.Position = UDim2.new(0.75, 0, 4.86000061, 0)
-exitloa.Size = UDim2.new(0, 324, 0, 53)
-exitloa.Visible = false
-exitloa.Image = "rbxassetid://3570695787"
-exitloa.ImageColor3 = Color3.fromRGB(44, 44, 44)
-exitloa.ScaleType = Enum.ScaleType.Slice
-exitloa.SliceCenter = Rect.new(100, 100, 100, 100)
-exitloa.SliceScale = 0.120
+runscrop.Name = "runscrop"
+runscrop.Parent = Frame
+runscrop.BackgroundColor3 = Color3.fromRGB(94, 147, 85)
+runscrop.BorderSizePixel = 0
+runscrop.Position = UDim2.new(0.135922328, 0, 0.463414609, 0)
+runscrop.Size = UDim2.new(0, 149, 0, 21)
+runscrop.Font = Enum.Font.SourceSans
+runscrop.Text = "RUN"
+runscrop.TextColor3 = Color3.fromRGB(225, 225, 225)
+runscrop.TextScaled = true
+runscrop.TextSize = 14.000
+runscrop.TextWrapped = true
 
-close.Name = "close"
-close.Parent = exitloa
-close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-close.BackgroundTransparency = 1.000
-close.Position = UDim2.new(0, 0, 0.0566037744, 0)
-close.Size = UDim2.new(0, 324, 0, 50)
-close.Font = Enum.Font.SourceSans
-close.Text = "close"
-close.TextColor3 = Color3.fromRGB(0, 0, 0)
-close.TextScaled = true
-close.TextSize = 14.000
-close.TextWrapped = true
+UICorner_7.Parent = runscrop
 
-phienban.Name = "phienban"
-phienban.Parent = newmenu
-phienban.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-phienban.BackgroundTransparency = 1.000
-phienban.Position = UDim2.new(-0.00046993047, 0, 0.977110267, 0)
-phienban.Size = UDim2.new(0, 113, 0, 19)
-phienban.Font = Enum.Font.SourceSans
-phienban.Text = "N?A"
-phienban.TextColor3 = Color3.fromRGB(0, 0, 0)
-phienban.TextScaled = true
-phienban.TextSize = 14.000
-phienban.TextWrapped = true
+discor.Name = "discor"
+discor.Parent = menu
+discor.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+discor.BorderSizePixel = 0
+discor.Position = UDim2.new(0.516279042, 0, 0.5549559, 0)
+discor.Size = UDim2.new(0, 207, 0, 29)
+
+bin_6.Name = "bin"
+bin_6.Parent = discor
+bin_6.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_6.BorderSizePixel = 0
+bin_6.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_8.Parent = bin_6
+
+TextLabel_5.Parent = discor
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.113808572, 0, 0.103448279, 0)
+TextLabel_5.Size = UDim2.new(0, 85, 0, 23)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Server"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Frame_2.Parent = discor
+Frame_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.00966183562, 0, 1.31034482, 0)
+Frame_2.Size = UDim2.new(0, 205, 0, 82)
+
+TextLabel_6.Parent = Frame_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.175609753, 0, 0.0853658617, 0)
+TextLabel_6.Size = UDim2.new(0, 132, 0, 23)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Discord"
+TextLabel_6.TextColor3 = Color3.fromRGB(225, 225, 225)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+copyLink.Name = "copyLink"
+copyLink.Parent = Frame_2
+copyLink.BackgroundColor3 = Color3.fromRGB(94, 147, 85)
+copyLink.BorderSizePixel = 0
+copyLink.Position = UDim2.new(0.13658537, 0, 0.463414639, 0)
+copyLink.Size = UDim2.new(0, 149, 0, 21)
+copyLink.Font = Enum.Font.SourceSans
+copyLink.Text = "Copy Link"
+copyLink.TextColor3 = Color3.fromRGB(225, 225, 225)
+copyLink.TextSize = 14.000
+
+UICorner_9.Parent = copyLink
+
+setting_2.Name = "setting"
+setting_2.Parent = bia
+setting_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+setting_2.BackgroundTransparency = 1.000
+setting_2.BorderSizePixel = 0
+setting_2.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+setting_2.Size = UDim2.new(0, 430, 0, 271)
+setting_2.Visible = false
+
+ServerL.Name = "Server L"
+ServerL.Parent = setting_2
+ServerL.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+ServerL.BorderSizePixel = 0
+ServerL.Position = UDim2.new(0, 0, 0.00386100379, 0)
+ServerL.Size = UDim2.new(0, 430, 0, 29)
+
+bin_7.Name = "bin"
+bin_7.Parent = ServerL
+bin_7.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_7.BorderSizePixel = 0
+bin_7.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_10.Parent = bin_7
+
+TextLabel_7.Parent = ServerL
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
+TextLabel_7.Size = UDim2.new(0, 123, 0, 23)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Create"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+status_2.Name = "status"
+status_2.Parent = setting_2
+status_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status_2.BorderSizePixel = 0
+status_2.Position = UDim2.new(0.00465116277, 0, 0.123974875, 0)
+status_2.Size = UDim2.new(0, 427, 0, 114)
+
+TextLabel_8.Parent = status_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(87, 127, 69)
+TextLabel_8.Position = UDim2.new(0.152224809, 0, 0.280701756, 0)
+TextLabel_8.Size = UDim2.new(0, 297, 0, 54)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "BY DINO#5485"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+UICorner_11.Parent = TextLabel_8
+
+Login.Name = "Login"
+Login.Parent = bia
+Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Login.BackgroundTransparency = 1.000
+Login.BorderSizePixel = 0
+Login.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+Login.Size = UDim2.new(0, 430, 0, 271)
+
+ServerL_2.Name = "Server L"
+ServerL_2.Parent = Login
+ServerL_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+ServerL_2.BorderSizePixel = 0
+ServerL_2.Position = UDim2.new(0, 0, 0.00386100379, 0)
+ServerL_2.Size = UDim2.new(0, 430, 0, 29)
+
+bin_8.Name = "bin"
+bin_8.Parent = ServerL_2
+bin_8.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_8.BorderSizePixel = 0
+bin_8.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_12.Parent = bin_8
+
+TextLabel_9.Parent = ServerL_2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
+TextLabel_9.Size = UDim2.new(0, 123, 0, 23)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Create"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+status_3.Name = "status"
+status_3.Parent = Login
+status_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status_3.BorderSizePixel = 0
+status_3.Position = UDim2.new(0.00465116277, 0, 0.123974904, 0)
+status_3.Size = UDim2.new(0, 427, 0, 242)
+
+IDuser.Name = "IDuser"
+IDuser.Parent = status_3
+IDuser.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+IDuser.BorderSizePixel = 0
+IDuser.Position = UDim2.new(0.173302114, 0, 0.318181813, 0)
+IDuser.Size = UDim2.new(0, 279, 0, 40)
+IDuser.Font = Enum.Font.SourceSans
+IDuser.TextColor3 = Color3.fromRGB(255, 255, 255)
+IDuser.TextScaled = true
+IDuser.TextSize = 14.000
+IDuser.TextWrapped = true
+
+User.Name = "User"
+User.Parent = status_3
+User.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+User.BorderSizePixel = 0
+User.Position = UDim2.new(0.173302114, 0, 0.0950413197, 0)
+User.Size = UDim2.new(0, 279, 0, 40)
+User.Font = Enum.Font.SourceSans
+User.TextColor3 = Color3.fromRGB(255, 255, 255)
+User.TextScaled = true
+User.TextSize = 14.000
+User.TextWrapped = true
+
+login.Name = "login"
+login.Parent = status_3
+login.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+login.BorderSizePixel = 0
+login.Position = UDim2.new(0.285714298, 0, 0.797520638, 0)
+login.Size = UDim2.new(0, 183, 0, 26)
+login.Font = Enum.Font.SourceSans
+login.Text = "Login"
+login.TextColor3 = Color3.fromRGB(255, 255, 255)
+login.TextScaled = true
+login.TextSize = 14.000
+login.TextWrapped = true
+
+UICorner_13.Parent = login
+
+Code.Name = "Code"
+Code.Parent = status_3
+Code.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+Code.BorderSizePixel = 0
+Code.Position = UDim2.new(0, 74, 0, 135)
+Code.Size = UDim2.new(0, 279, 0, 40)
+Code.Font = Enum.Font.SourceSans
+Code.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Code.PlaceholderText = "Code"
+Code.Text = ""
+Code.TextColor3 = Color3.fromRGB(0, 0, 0)
+Code.TextScaled = true
+Code.TextSize = 14.000
+Code.TextWrapped = true
+
+gameee.Name = "gameee"
+gameee.Parent = bia
+gameee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gameee.Size = UDim2.new(0, 200, 0, 50)
+gameee.Visible = false
+gameee.Font = Enum.Font.SourceSans
+gameee.TextColor3 = Color3.fromRGB(0, 0, 0)
+gameee.TextSize = 14.000
+
+UICorner_14.Parent = bia
+
+exitnow.Name = "exitnow"
+exitnow.Parent = MenuDINOV3
+exitnow.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+exitnow.BorderSizePixel = 0
+exitnow.Position = UDim2.new(0.326910734, 0, 0.40225035, 0)
+exitnow.Size = UDim2.new(0, 539, 0, 152)
+exitnow.Visible = false
+
+TextLabel_10.Parent = exitnow
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.0259740259, 0, 0.105263159, 0)
+TextLabel_10.Size = UDim2.new(0, 502, 0, 50)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Do you really want to exit?"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+yes.Name = "yes"
+yes.Parent = exitnow
+yes.BackgroundColor3 = Color3.fromRGB(39, 104, 44)
+yes.BorderSizePixel = 0
+yes.Position = UDim2.new(0.0983302444, 0, 0.638157845, 0)
+yes.Size = UDim2.new(0, 136, 0, 34)
+yes.Font = Enum.Font.SourceSans
+yes.Text = "YES"
+yes.TextColor3 = Color3.fromRGB(255, 255, 255)
+yes.TextScaled = true
+yes.TextSize = 14.000
+yes.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+yes.TextWrapped = true
+
+no.Name = "no"
+no.Parent = exitnow
+no.BackgroundColor3 = Color3.fromRGB(186, 0, 3)
+no.BorderSizePixel = 0
+no.Position = UDim2.new(0.649350703, 0, 0.638157845, 0)
+no.Size = UDim2.new(0, 136, 0, 34)
+no.Font = Enum.Font.SourceSans
+no.Text = "NO"
+no.TextColor3 = Color3.fromRGB(255, 255, 255)
+no.TextScaled = true
+no.TextSize = 14.000
+no.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+no.TextWrapped = true
 
 -- Scripts:
 
-local function NYDOG_fake_script() -- ImageLabel.LocalScript 
-	local script = Instance.new('LocalScript', ImageLabel)
+local function WHOT_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
 	
@@ -325,10 +664,43 @@ local function NYDOG_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(NYDOG_fake_script)()
-local function YNKVOAD_fake_script() -- newmenu.LocalScript 
-	local script = Instance.new('LocalScript', newmenu)
+coroutine.wrap(WHOT_fake_script)()
+local function CCQHK_fake_script() -- MenuDINOV3.scropt 
+	local script = Instance.new('LocalScript', MenuDINOV3)
 
+	-----menu.bia
+	local bia = script.Parent.bia
+	local menu = script.Parent.bia.menu
+	local thang = script.Parent.bia.thanh
+	local settingmenu = script.Parent.bia.setting
+	local menulogin = script.Parent.bia.Login
+	local IDgame = script.Parent.bia.menu.Run.Frame.IDgame
+	--Rank
+	local Userrank = script.Parent.bia.thanh.Rank
+	--mix game
+	local gameee = script.Parent.bia.gameee
+	
+	
+	--NO/YES
+	local menunoyes = script.Parent.exitnow
+	local YES = script.Parent.exitnow.yes
+	local NO = script.Parent.exitnow.no
+	--
+	YES.MouseButton1Click:Connect(function()
+		menunoyes.Visible = false
+		bia.Visible = false
+	end)
+	
+	NO.MouseButton1Click:Connect(function()
+		menunoyes.Visible = false
+		bia.Visible = true
+	end)
+	
+	
+	
+	
+	
+	
 	--ERRO
 	function erro001()
 		game.Players.LocalPlayer:Kick("Erro#001")
@@ -361,44 +733,56 @@ local function YNKVOAD_fake_script() -- newmenu.LocalScript
 	function erro00D()
 		game.Players.LocalPlayer:Kick("Erro#00D")
 	end
-	
-	
-	---menu
-	local phienban = script.Parent.phienban
-	local bia = script.Parent.bia
-	local menu = script.Parent.bia.menu
-	
-	--login menu
-	local menulogin = script.Parent.bia.menu.login
-	local menuloding = script.Parent.bia.menu.loading
-	local User = script.Parent.bia.menu.login.nameID.bname.name
-	local ID = script.Parent.bia.menu.login.nameID.bID.ID
-	local Userrank = script.Parent.bia.menu.login.nameID.brank.rank
-	local IDgame = script.Parent.bia.menu.loading.ID.IDgame
-	local namegame = script.Parent.bia.menu.loading.Frame.namegame
-	--login
-	local run = script.Parent.bia.menu.login.blogin.run
+	--
 	
 	
 	
-	--set
-	local menuthoatloading = script.Parent.bia.menu.loading.exitloa
-	local thoatloding = script.Parent.bia.menu.loading.exitloa.close
-	local boxkey = script.Parent.bia.menu.login.keybox.TextBox
 	
-	--ID show
-	ID.Text = game.Players.LocalPlayer.userId
-	User.Text = game.Players.LocalPlayer.Name
-	IDgame.Text = game.GameId
+	-----menu.status.Online.run
+	local Onnescript = script.Parent.bia.menu.status.Online.cmdScript
+	local OnneSever = script.Parent.bia.menu.status.Online.cmdServer
+	--
+	local runscrip = script.Parent.bia.menu.Run.Frame.runscrop
+	local copylink = script.Parent.bia.menu.discor.Frame.copyLink
 	
-	--Premium/Version
-	Userrank.Text = "Premium"
-	phienban.Text = "Version 3.4"
 	
-	----dong loding
-	thoatloding.MouseButton1Click:Connect(function()
-		bia.Visible = false
-	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	-----thang menu
+	local menurun = script.Parent.bia.thanh.run
+	local menuexit = script.Parent.bia.thanh.clost
+	local menuseting = script.Parent.bia.thanh.seting
+	-----thanh run
+	local thanhopen = script.Parent.bia.thanh.run.open
+	local thanhexit = script.Parent.bia.thanh.clost.exit
+	local thanhsetting = script.Parent.bia.thanh.seting.setting
+	-----Bin.
+	local binOpen = script.Parent.bia.thanh.run.bin
+	local binExit = script.Parent.bia.thanh.clost.bin
+	local binSetting = script.Parent.bia.thanh.seting.bin
+	-----cole.BIN
+	
+	
+	thanhopen.Visible = false
+	thanhsetting.Visible = false
+	
+	
+	
+	
+	
+	
 	
 	--tapro run game
 	function runall()
@@ -422,54 +806,31 @@ local function YNKVOAD_fake_script() -- newmenu.LocalScript
 	})
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	--run ahck
 	
 	function rundatascrip()
 		roghoul()
 	end
+	
+	--IDgame
+	gameee.Text = game.GameId
+	
 	--hack
 	function roghoul()
-		if IDgame.Text == "380704901" then
-			namegame.Text = "load DATA..."
+		if gameee.Text == "380704901" then
+			IDgame.Text = "load DATA..."
 			wait(3)
-			namegame.Text = "Ro-Ghoul"
-			wait(2)
-			bia.Visible = false
+			IDgame.Text = "Ro-Ghoul"
 			runall()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ro-Ghoul.lau")))()
-			if IDgame.Text == "380704901" then
+			if gameee.Text == "380704901" then
 			end	
 		else
+			IDgame.Text = "load DATA..."
 			wait(2)
-			namegame.Text = "erro00D"
-			menuthoatloading.Visible = true
-		end
-	end
-	
-	
-	
-	
-	function allstat()
-		if IDgame.Text == "1720936166" then
-			namegame.Text = "load DATA..."
-			wait(3)
-			namegame.Text = "All Star Tower Defense"
-			wait(2)
-			erro00C()
-			if IDgame.Text == "1720936166" then
-			end	
-		else
-			wait(2)
-			menuthoatloading.Visible = true
-			namegame.Text = "erro00D"
+			IDgame.Text = "erro00D"
+			wait(5)
+			IDgame.Text = "Script"
 		end
 	end
 	
@@ -480,6 +841,63 @@ local function YNKVOAD_fake_script() -- newmenu.LocalScript
 	
 	
 	
+	----Exit.Menuall
+	thanhexit.MouseButton1Click:Connect(function()
+		bia.Visible = false
+		menunoyes.Visible = true
+	end)
+	
+	----Open.menu
+	thanhopen.MouseButton1Click:Connect(function()
+		menu.Visible = true
+		binOpen.Visible = true
+		menurun.BackgroundTransparency = "0.7"
+		---
+		settingmenu.Visible = false
+		binSetting.Visible = false
+		menuseting.BackgroundTransparency = "1"
+	end)
+	----Open.setting
+	thanhsetting.MouseButton1Click:Connect(function()
+		settingmenu.Visible = true
+		menuseting.BackgroundTransparency = "0.7"
+		binSetting.Visible = true
+		---
+		menu.Visible = false
+		binOpen.Visible = false
+		menurun.BackgroundTransparency = "1"
+		
+	end)
+	
+	
+	
+	
+	
+	
+	
+	function openall()
+		menu.Visible = true
+		binOpen.Visible = true
+		menurun.BackgroundTransparency = "0.7"
+		--
+		settingmenu.Visible = false
+		--
+		thanhopen.Visible = true
+		thanhsetting.Visible = true
+		--
+		menulogin.Visible = false
+		thanhopen.Visible = true
+		thanhsetting.Visible = true
+	end
+	
+	
+	
+	
+	
+	
+	runscrip.MouseButton1Click:Connect(function()
+		rundatascrip()
+	end)
 	
 	
 	
@@ -505,35 +923,92 @@ local function YNKVOAD_fake_script() -- newmenu.LocalScript
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	------------------
+	
+	--User.IDuser.login
+	local IDuser = script.Parent.bia.Login.status.IDuser
+	local User = script.Parent.bia.Login.status.User
+	local Keycode = script.Parent.bia.Login.status.Code
+	local login = script.Parent.bia.Login.status.login
+	---ID.name show
+	IDuser.Text = game.Players.LocalPlayer.userId
+	User.Text = game.Players.LocalPlayer.Name
+	--login.menu
+	function DATAADMIN()
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
+			Userrank.Text = "ADMIN"
+			openall()
+		end
+	end
 	
 	
 	
 	
 	function passuser()
-		
+	
 	end
 	
 	
-	
-	function DATAADMIN()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
-			Userrank.Text = "ADMIN"
-	
-		end
-	end
-	
-	
-	
-	
-	
-	
-	run.MouseButton1Click:Connect(function()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "anhbecun1611" and boxkey.Text == "0001" or User.Text == "minhkhang2007" and boxkey.Text == "0002" or User.Text == "DeathDemonvt" and boxkey.Text == "0003" or User.Text == "kubin197763" and boxkey.Text == "0004" or User.Text == "ruakhung1181" and boxkey.Text == "0005" or User.Text == "khoahatenoob2" and boxkey.Text == "0006" then
+	login.MouseButton1Click:Connect(function()
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "anhbecun1611" and Keycode.Text == "0001" or User.Text == "minhkhang2007" and Keycode.Text == "0002" or User.Text == "DeathDemonvt" and Keycode.Text == "0003" or User.Text == "kubin197763" and Keycode.Text == "0004" or User.Text == "ruakhung1181" and Keycode.Text == "0005" or User.Text == "khoahatenoob2" and Keycode.Text == "0006" then
 			Userrank.Text = "Premium"
-			menulogin.Visible = false
-			wait()
-			menuloding.Visible = true
-			rundatascrip()
+			openall()
 			if not passuser() then
 			end	
 		else
@@ -571,98 +1046,198 @@ local function YNKVOAD_fake_script() -- newmenu.LocalScript
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	--ban
 	function banscr()
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ban-user.lua")))()
 	end
 	
 	banscr()
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 end
-coroutine.wrap(YNKVOAD_fake_script)()
+coroutine.wrap(CCQHK_fake_script)()
