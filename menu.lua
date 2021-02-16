@@ -646,7 +646,7 @@ no.TextWrapped = true
 
 -- Scripts:
 
-local function WHOT_fake_script() -- ImageButton.LocalScript 
+local function VZXJEEX_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -664,8 +664,8 @@ local function WHOT_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(WHOT_fake_script)()
-local function CCQHK_fake_script() -- MenuDINOV3.scropt 
+coroutine.wrap(VZXJEEX_fake_script)()
+local function PIEEC_fake_script() -- MenuDINOV3.scropt 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----menu.bia
@@ -834,7 +834,23 @@ local function CCQHK_fake_script() -- MenuDINOV3.scropt
 		end
 	end
 	
-	
+	function roghoul()
+		if gameee.Text == "115797356" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "Counter Blox"
+			runall()
+			loadstring(game:HttpGetAsync(("https://github.com/hovuongphu/MENU_DINO/blob/main/Counter%20Blox.lua")))()
+			if gameee.Text == "115797356" then
+			end	
+		else
+			IDgame.Text = "load DATA..."
+			wait(2)
+			IDgame.Text = "erro00D"
+			wait(5)
+			IDgame.Text = "Script"
+		end
+	end
 	
 	
 	
@@ -1240,4 +1256,4 @@ local function CCQHK_fake_script() -- MenuDINOV3.scropt
 	
 	banscr()
 end
-coroutine.wrap(CCQHK_fake_script)()
+coroutine.wrap(PIEEC_fake_script)()
