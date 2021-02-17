@@ -60,7 +60,6 @@ local UICorner_11 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local status_2 = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
-local UIListLayout = Instance.new("UIListLayout")
 local counterbloxskins = Instance.new("Frame")
 local run_2 = Instance.new("ImageButton")
 local namegame = Instance.new("TextLabel")
@@ -529,12 +528,6 @@ ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.0281030443, 0, 0.268085092, 0)
 ScrollingFrame.Size = UDim2.new(0, 402, 0, 160)
 
-UIListLayout.Archivable = false
-UIListLayout.Parent = ScrollingFrame
-UIListLayout.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout.Padding = UDim.new(0, 5)
-
 counterbloxskins.Name = "counterbloxskins"
 counterbloxskins.Parent = ScrollingFrame
 counterbloxskins.BackgroundColor3 = Color3.fromRGB(83, 112, 63)
@@ -796,7 +789,7 @@ no.TextWrapped = true
 
 -- Scripts:
 
-local function BRQUPS_fake_script() -- ImageButton.LocalScript 
+local function TJIMXW_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -814,8 +807,8 @@ local function BRQUPS_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(BRQUPS_fake_script)()
-local function HMRDKD_fake_script() -- MenuDINOV3.scropt 
+coroutine.wrap(TJIMXW_fake_script)()
+local function CSRFDZ_fake_script() -- MenuDINOV3.scropt 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----menu.bia
@@ -995,7 +988,7 @@ local function HMRDKD_fake_script() -- MenuDINOV3.scropt
 			wait(3)
 			IDgame.Text = "Counter Blox"
 			runall()
-			loadstring(game:HttpGetAsync(("https://github.com/hovuongphu/MENU_DINO/blob/main/Counter%20Blox.lua")))()
+			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
 			if gameee.Text == "115797356" then
 			end	
 		else
@@ -1434,8 +1427,8 @@ local function HMRDKD_fake_script() -- MenuDINOV3.scropt
 	
 	banscr()
 end
-coroutine.wrap(HMRDKD_fake_script)()
-local function TESVJZ_fake_script() -- MenuDINOV3.run mix game 
+coroutine.wrap(CSRFDZ_fake_script)()
+local function FTOXJHG_fake_script() -- MenuDINOV3.run mix game 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local counterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins.run
@@ -1484,4 +1477,4 @@ local function TESVJZ_fake_script() -- MenuDINOV3.run mix game
 		})
 	end
 end
-coroutine.wrap(TESVJZ_fake_script)()
+coroutine.wrap(FTOXJHG_fake_script)()
