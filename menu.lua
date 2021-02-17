@@ -87,10 +87,9 @@ local TextLabel_10 = Instance.new("TextLabel")
 local status_4 = Instance.new("Frame")
 local TextLabel_11 = Instance.new("TextLabel")
 local UICorner_18 = Instance.new("UICorner")
-local exitnow = Instance.new("Frame")
-local TextLabel_12 = Instance.new("TextLabel")
-local yes = Instance.new("TextButton")
-local no = Instance.new("TextButton")
+local Ban = Instance.new("Frame")
+local Openn = Instance.new("ImageButton")
+local UICorner_19 = Instance.new("UICorner")
 
 --Properties:
 
@@ -335,7 +334,7 @@ cmdServer.Position = UDim2.new(0.920000076, 0, 0.49000001, 0)
 cmdServer.Size = UDim2.new(0, 82, 0, 30)
 cmdServer.Font = Enum.Font.SourceSans
 cmdServer.Text = "Online"
-cmdServer.TextColor3 = Color3.fromRGB(45, 192, 179)
+cmdServer.TextColor3 = Color3.fromRGB(84, 192, 76)
 cmdServer.TextScaled = true
 cmdServer.TextSize = 14.000
 cmdServer.TextWrapped = true
@@ -349,7 +348,7 @@ cmdScript.Position = UDim2.new(2.53000021, 0, 0.49000001, 0)
 cmdScript.Size = UDim2.new(0, 82, 0, 30)
 cmdScript.Font = Enum.Font.SourceSans
 cmdScript.Text = "Online"
-cmdScript.TextColor3 = Color3.fromRGB(45, 192, 179)
+cmdScript.TextColor3 = Color3.fromRGB(84, 192, 76)
 cmdScript.TextScaled = true
 cmdScript.TextSize = 14.000
 cmdScript.TextWrapped = true
@@ -738,58 +737,26 @@ TextLabel_11.TextWrapped = true
 
 UICorner_18.Parent = TextLabel_11
 
-exitnow.Name = "exitnow"
-exitnow.Parent = MenuDINOV3
-exitnow.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
-exitnow.BorderSizePixel = 0
-exitnow.Position = UDim2.new(0.326910734, 0, 0.40225035, 0)
-exitnow.Size = UDim2.new(0, 539, 0, 152)
-exitnow.Visible = false
+Ban.Name = "Ban"
+Ban.Parent = MenuDINOV3
+Ban.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ban.Size = UDim2.new(0, 100, 0, 100)
+Ban.Visible = false
 
-TextLabel_12.Parent = exitnow
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.BorderSizePixel = 0
-TextLabel_12.Position = UDim2.new(0.0259740259, 0, 0.105263159, 0)
-TextLabel_12.Size = UDim2.new(0, 502, 0, 50)
-TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "Do you really want to exit?"
-TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextScaled = true
-TextLabel_12.TextSize = 14.000
-TextLabel_12.TextWrapped = true
+Openn.Name = "Openn"
+Openn.Parent = MenuDINOV3
+Openn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Openn.BackgroundTransparency = 1.000
+Openn.BorderSizePixel = 0
+Openn.Position = UDim2.new(0, 0, 0.96305126, 0)
+Openn.Size = UDim2.new(0, 31, 0, 31)
+Openn.Image = "http://www.roblox.com/asset/?id=6406888704"
 
-yes.Name = "yes"
-yes.Parent = exitnow
-yes.BackgroundColor3 = Color3.fromRGB(39, 104, 44)
-yes.BorderSizePixel = 0
-yes.Position = UDim2.new(0.0983302444, 0, 0.638157845, 0)
-yes.Size = UDim2.new(0, 136, 0, 34)
-yes.Font = Enum.Font.SourceSans
-yes.Text = "YES"
-yes.TextColor3 = Color3.fromRGB(255, 255, 255)
-yes.TextScaled = true
-yes.TextSize = 14.000
-yes.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-yes.TextWrapped = true
-
-no.Name = "no"
-no.Parent = exitnow
-no.BackgroundColor3 = Color3.fromRGB(186, 0, 3)
-no.BorderSizePixel = 0
-no.Position = UDim2.new(0.649350703, 0, 0.638157845, 0)
-no.Size = UDim2.new(0, 136, 0, 34)
-no.Font = Enum.Font.SourceSans
-no.Text = "NO"
-no.TextColor3 = Color3.fromRGB(255, 255, 255)
-no.TextScaled = true
-no.TextSize = 14.000
-no.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-no.TextWrapped = true
+UICorner_19.Parent = Openn
 
 -- Scripts:
 
-local function IIRSNMQ_fake_script() -- ImageButton.LocalScript 
+local function DYXBT_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -807,95 +774,40 @@ local function IIRSNMQ_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(IIRSNMQ_fake_script)()
-local function QTBZZ_fake_script() -- MenuDINOV3.run mix game 
+coroutine.wrap(DYXBT_fake_script)()
+local function JAZMOVM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
-	local counterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins.run
+	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
+	local StatusSever = script.Parent.bia.menu.status.Online.cmdServer
 	
-	counterbloxgameskins.MouseButton1Click:Connect(function()
-		runall()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Scrip%20MiX/counter%20blox%20skins.lua")))()	
-	end)
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	function runall()
-		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "script system!!";
-			Text = "script run MIX";
-			Duration = 10;
-		})
+	function SeverOff()
+		StatusSever.Text = "Offline"
+		StatusSever.TextColor3 = "121, 0, 0"
 	end
+	
+	function ScriptOff()
+		Statusscript.Text = "Offline"
+		Statusscript.TextColor3 = "121, 0, 0"
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	---Máy chủ-Sever
+	--SeverOff()
+	
+	---Máy chủ-script
+	--ScriptOff()
 end
-coroutine.wrap(QTBZZ_fake_script)()
-local function NXEY_fake_script() -- MenuDINOV3.menu 
+coroutine.wrap(JAZMOVM_fake_script)()
+local function EPJZ_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
-	-----menu.bia
-	local bia = script.Parent.bia
-	local menu = script.Parent.bia.menu
-	local thang = script.Parent.bia.thanh
-	local settingmenu = script.Parent.bia.setting
-	local menulogin = script.Parent.bia.Login
-	local IDgame = script.Parent.bia.menu.Run.Frame.IDgame
-	local openmix = script.Parent.bia.Mix
-	
-	--Rank
-	local Userrank = script.Parent.bia.thanh.Rank
-	--mix game
-	local gameee = script.Parent.bia.gameee
-	
-	
-	--NO/YES
-	local menunoyes = script.Parent.exitnow
-	local YES = script.Parent.exitnow.yes
-	local NO = script.Parent.exitnow.no
-	--
-	YES.MouseButton1Click:Connect(function()
-		menunoyes.Visible = false
-		bia.Visible = false
-	end)
-	
-	NO.MouseButton1Click:Connect(function()
-		menunoyes.Visible = false
-		bia.Visible = true
-	end)
-	
-	
-	
-	
-	
-	
 	--ERRO
 	function erro001()
 		game.Players.LocalPlayer:Kick("Erro#001")
@@ -934,223 +846,68 @@ local function NXEY_fake_script() -- MenuDINOV3.menu
 	end
 	--
 	
-	
-	
-	
-	-----menu.status.Online.run
-	local Onnescript = script.Parent.bia.menu.status.Online.cmdScript
-	local OnneSever = script.Parent.bia.menu.status.Online.cmdServer
-	--
-	local runscrip = script.Parent.bia.menu.Run.Frame.runscrop
-	local copylink = script.Parent.bia.menu.discor.Frame.copyLink
-	
-	-----thang menu
-	local menumix = script.Parent.bia.thanh.mis
-	local menurun = script.Parent.bia.thanh.run
-	local menuexit = script.Parent.bia.thanh.clost
-	local menuseting = script.Parent.bia.thanh.seting
-	-----thanh run
-	local thanhmix = script.Parent.bia.thanh.mis.mis
-	local thanhopen = script.Parent.bia.thanh.run.open
-	local thanhexit = script.Parent.bia.thanh.clost.exit
-	local thanhsetting = script.Parent.bia.thanh.seting.setting
-	-----Bin.
-	local binmix = script.Parent.bia.thanh.mis.bin
-	local binOpen = script.Parent.bia.thanh.run.bin
-	local binExit = script.Parent.bia.thanh.clost.bin
-	local binSetting = script.Parent.bia.thanh.seting.bin
-	-----cole.BIN
-	
-	
-	thanhopen.Visible = false
-	thanhsetting.Visible = false
-	----MIx.game
-	thanhmix.MouseButton1Click:Connect(function()
-		openmix.Visible = true
-		binmix.Visible = true
-		menumix.BackgroundTransparency = "0.7"
-	
-		---
-		menu.Visible = false
-		binOpen.Visible = false
-		menurun.BackgroundTransparency = "1"
-		---
-		settingmenu.Visible = false
-		binSetting.Visible = false
-		menuseting.BackgroundTransparency = "1"
-	
-	end)
-	
-	
-	----Exit.Menuall
-	thanhexit.MouseButton1Click:Connect(function()
-		bia.Visible = false
-		menunoyes.Visible = true
-	end)
-	
-	----Open.menu
-	thanhopen.MouseButton1Click:Connect(function()
-		menu.Visible = true
-		binOpen.Visible = true
-		menurun.BackgroundTransparency = "0.7"
-		---
-		settingmenu.Visible = false
-		binSetting.Visible = false
-		menuseting.BackgroundTransparency = "1"
-		---
-		openmix.Visible = false
-		binmix.Visible = false
-		menumix.BackgroundTransparency = "1"
-	end)
-	----Open.setting
-	thanhsetting.MouseButton1Click:Connect(function()
-		settingmenu.Visible = true
-		menuseting.BackgroundTransparency = "0.7"
-		binSetting.Visible = true
-		---
-		menu.Visible = false
-		binOpen.Visible = false
-		menurun.BackgroundTransparency = "1"
-		---
-		openmix.Visible = false
-		binmix.Visible = false
-		menumix.BackgroundTransparency = "1"
-	
-	end)
-	
-	
-	
-	
-	
-	
-	
-	function openall()
-		menu.Visible = true
-		binOpen.Visible = true
-		menurun.BackgroundTransparency = "0.7"
-		--
-		settingmenu.Visible = false
-		--
-		thanhopen.Visible = true
-		thanhsetting.Visible = true
-		--
-		menulogin.Visible = false
-		thanhopen.Visible = true
-		thanhsetting.Visible = true
-	end
-end
-coroutine.wrap(NXEY_fake_script)()
-local function IUAXTG_fake_script() -- MenuDINOV3.login 
-	local script = Instance.new('LocalScript', MenuDINOV3)
-
-	
-	
-	
-	--ERRO
-	function erro001()
-		game.Players.LocalPlayer:Kick("Erro#001")
-	end
-	
-	function erro002()
-		game.Players.LocalPlayer:Kick("Erro#002")
-	end
-	
-	function erro003()
-		game.Players.LocalPlayer:Kick("Erro#003")
-	end
-	
-	function erro004()
-		game.Players.LocalPlayer:Kick("Erro#004")
-	end
-	----
-	function erro00A()
-		game.Players.LocalPlayer:Kick("You are banned/Erro#00A")
-	end
-	
-	function erro00B()
-		game.Players.LocalPlayer:Kick("Erro#00B")
-	end
-	
-	function erro00C()
-		game.Players.LocalPlayer:Kick("Erro#00C")
-	end
-	
-	function erro00D()
-		game.Players.LocalPlayer:Kick("Erro#00D")
-	end
-	
-	function erro00C()
-		game.Players.LocalPlayer:Kick("Erro#00C")
-	end
-	--
-	
-	-----menu.bia
-	local bia = script.Parent.bia
-	local menu = script.Parent.bia.menu
-	local thang = script.Parent.bia.thanh
-	local settingmenu = script.Parent.bia.setting
-	local menulogin = script.Parent.bia.Login
-	local IDgame = script.Parent.bia.menu.Run.Frame.IDgame
-	local openmix = script.Parent.bia.Mix
-	
-	--Rank
-	local Userrank = script.Parent.bia.thanh.Rank
-	-----menu.status.Online.run
-	local Onnescript = script.Parent.bia.menu.status.Online.cmdScript
-	local OnneSever = script.Parent.bia.menu.status.Online.cmdServer
-	--
-	local runscrip = script.Parent.bia.menu.Run.Frame.runscrop
-	local copylink = script.Parent.bia.menu.discor.Frame.copyLink
-	
-	-----thang menu
-	local menumix = script.Parent.bia.thanh.mis
-	local menurun = script.Parent.bia.thanh.run
-	local menuexit = script.Parent.bia.thanh.clost
-	local menuseting = script.Parent.bia.thanh.seting
-	-----thanh run
-	local thanhmix = script.Parent.bia.thanh.mis.mis
-	local thanhopen = script.Parent.bia.thanh.run.open
-	local thanhexit = script.Parent.bia.thanh.clost.exit
-	local thanhsetting = script.Parent.bia.thanh.seting.setting
-	-----Bin.
-	local binmix = script.Parent.bia.thanh.mis.bin
-	local binOpen = script.Parent.bia.thanh.run.bin
-	local binExit = script.Parent.bia.thanh.clost.bin
-	local binSetting = script.Parent.bia.thanh.seting.bin
-	-----cole.BIN
-	
-	
-	function openall()
-		menu.Visible = true
-		binOpen.Visible = true
-		menurun.BackgroundTransparency = "0.7"
-		--
-		settingmenu.Visible = false
-		--
-		thanhopen.Visible = true
-		thanhsetting.Visible = true
-		--
-		menulogin.Visible = false
-		thanhopen.Visible = true
-		thanhsetting.Visible = true
-	end
-	
-	
-	
-	
-	
-	
-	------------------
-	
-	--User.IDuser.login
-	local IDuser = script.Parent.bia.Login.status.IDuser
-	local User = script.Parent.bia.Login.status.User
-	local Keycode = script.Parent.bia.Login.status.Code
+	-----Statu.Menu
+	-----
+	local statusMenu = script.Parent.bia.menu
+	local statusSetting = script.Parent.bia.setting
+	local statusMix = script.Parent.bia.Mix
+	local statuslogin = script.Parent.bia.Login
+	-----INFO.Login
 	local login = script.Parent.bia.Login.status.login
-	---ID.name show
-	IDuser.Text = game.Players.LocalPlayer.userId
+	-----
+	local User = script.Parent.bia.Login.status.User
+	local ID = script.Parent.bia.Login.status.IDuser
+	local KeyCODE =script.Parent.bia.Login.status.Code
+	local Userrank = script.Parent.bia.thanh.Rank
+	-----
+	-----IFNO.BIN
+	local BinMenu = script.Parent.bia.thanh.run.bin
+	local BinMix = script.Parent.bia.thanh.mis.bin
+	local BinSetting = script.Parent.bia.thanh.seting.bin
+	-----
+	-----INFO.Thanh.menu
+	local ThanhRunMenu = script.Parent.bia.thanh.run
+	local ThanhRunSettig = script.Parent.bia.thanh.seting
+	local ThanhRunMix = script.Parent.bia.thanh.mis
+	-----
+	-----Thanh.Open Statu
+	local OpenStatusMenu = script.Parent.bia.thanh.run.open
+	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
+	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
+	-----
+	-----Off.Thanh.status
+	OpenStatusMenu.Visible = false
+	OpenStatusSetting.Visible = false
+	OpenStatusMix.Visible = false
+	-----
+	-----ID.Name
+	ID.Text = game.Players.LocalPlayer.userId
 	User.Text = game.Players.LocalPlayer.Name
-	--login.menu
+	
+	
+	
+	
+	
+	-----
+	function openall()
+		----Status.Menu
+		statusMenu.Visible = true
+		BinMenu.Visible = true
+		OpenStatusMenu.Visible = true
+		ThanhRunMenu.BackgroundTransparency = "0.7"
+		--
+		----Thanh.Seeting
+		OpenStatusSetting.Visible = true
+		--Thanh.Mix
+		OpenStatusMix.Visible = true
+		--Uot.Login.Status
+		statuslogin.Visible = false
+	end
+	---Login
+	-----
+	
+	
+	
 	function DATAADMIN()
 		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
 			Userrank.Text = "ADMIN"
@@ -1185,57 +942,109 @@ local function IUAXTG_fake_script() -- MenuDINOV3.login
 	
 	
 	DATAADMIN()
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 end
-coroutine.wrap(IUAXTG_fake_script)()
-local function AQWGLI_fake_script() -- MenuDINOV3.loadScip 
+coroutine.wrap(EPJZ_fake_script)()
+local function MYKOR_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
-	
-	
-	--ERRO
-	function erro001()
-		game.Players.LocalPlayer:Kick("Erro#001")
-	end
-	
-	function erro002()
-		game.Players.LocalPlayer:Kick("Erro#002")
-	end
-	
-	function erro003()
-		game.Players.LocalPlayer:Kick("Erro#003")
-	end
-	
-	function erro004()
-		game.Players.LocalPlayer:Kick("Erro#004")
-	end
-	----
-	function erro00A()
-		game.Players.LocalPlayer:Kick("You are banned/Erro#00A")
-	end
-	
-	function erro00B()
-		game.Players.LocalPlayer:Kick("Erro#00B")
-	end
-	
-	function erro00C()
-		game.Players.LocalPlayer:Kick("Erro#00C")
-	end
-	
-	function erro00D()
-		game.Players.LocalPlayer:Kick("Erro#00D")
-	end
-	
-	function erro00C()
-		game.Players.LocalPlayer:Kick("Erro#00C")
-	end
+	-----Statu.Menu
+	-----
+	local statusMenu = script.Parent.bia.menu
+	local statusSetting = script.Parent.bia.setting
+	local statusMix = script.Parent.bia.Mix
+	local statuslogin = script.Parent.bia.Login
+	-----
+	-----IFNO.BIN
+	local BinMenu = script.Parent.bia.thanh.run.bin
+	local BinMix = script.Parent.bia.thanh.mis.bin
+	local BinSetting = script.Parent.bia.thanh.seting.bin
+	-----
+	-----INFO.Thanh.menu
+	local ThanhRunMenu = script.Parent.bia.thanh.run
+	local ThanhRunSettig = script.Parent.bia.thanh.seting
+	local ThanhRunMix = script.Parent.bia.thanh.mis
+	-----
+	-----Thanh.Open Statu
+	local OpenStatusMenu = script.Parent.bia.thanh.run.open
+	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
+	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
+	-----
+	-----Menu.Hoạt động
 	--
+	----Mix.game
+	OpenStatusMix.MouseButton1Click:Connect(function()
+		statusMix.Visible = true
+		BinMix.Visible = true
+		ThanhRunMix.BackgroundTransparency = "0.7"
 	
+		---
+		statusMenu.Visible = false
+		BinMenu.Visible = false
+		ThanhRunMenu.BackgroundTransparency = "1"
+		---
+		statusSetting.Visible = false
+		BinSetting.Visible = false
+		ThanhRunSettig.BackgroundTransparency = "1"
 	
+	end)
+	--
+	----Open.menu
+	OpenStatusMenu.MouseButton1Click:Connect(function()
+		statusMenu.Visible = true
+		BinMenu.Visible = true
+		ThanhRunMenu.BackgroundTransparency = "0.7"
+		---
+		statusSetting.Visible = false
+		BinSetting.Visible = false
+		ThanhRunSettig.BackgroundTransparency = "1"
+		---
+		statusMix.Visible = false
+		BinMix.Visible = false
+		ThanhRunMix.BackgroundTransparency = "1"
+	end)
+	----Open.setting
+	OpenStatusSetting.MouseButton1Click:Connect(function()
+		statusSetting.Visible = true
+		BinSetting.Visible = true
+		ThanhRunSettig.BackgroundTransparency = "0.7"
+		---
+		statusMenu.Visible = false
+		BinMenu.Visible = false
+		ThanhRunMenu.BackgroundTransparency = "1"
+		---
+		statusMix.Visible = false
+		BinMix.Visible = false
+		ThanhRunMix.BackgroundTransparency = "1"
 	
+	end)
 	
-	
-	
-	--mix game
+end
+coroutine.wrap(MYKOR_fake_script)()
+local function YGQGRD_fake_script() -- MenuDINOV3.Run Scrip 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	-----Run luacher
+	----
+	----Menu
 	local gameee = script.Parent.bia.gameee
 	gameee.Text = game.GameId
 	local IDgame = script.Parent.bia.menu.Run.Frame.IDgame
@@ -1250,46 +1059,33 @@ local function AQWGLI_fake_script() -- MenuDINOV3.loadScip
 			Duration = 20;
 		})
 	end
-	---bang quyen
-	
-	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "script system!!";
-		Text = "script by DINO#5485";
-		Duration = 20;
-	})
-	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "script system!!";
-		Text = "Anti-Cheat ON";
-		Duration = 10;
-	})
-	
-	
-	--run ahck
 	
 	function rundatascrip()
 		Counter()
 		roghoul()
+		Arsenal()
+		
+		---
+		ERROgame()
 	end
 	
 	--IDgame
 	gameee.Text = game.GameId
 	
+	
+	
+	
+	
+	
+	-------
 	--hack
 	function roghoul()
 		if gameee.Text == "380704901" then
 			IDgame.Text = "load DATA..."
 			wait(3)
-			IDgame.Text = "Ro-Ghoul"
+			IDgame.Text = "Ro-Ghoul."
 			runall()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ro-Ghoul.lau")))()
-			if gameee.Text == "380704901" then
-			end	
-		else
-			IDgame.Text = "load DATA..."
-			wait(2)
-			IDgame.Text = "erro00D"
-			wait(5)
-			IDgame.Text = "Script"
 		end
 	end
 	
@@ -1297,22 +1093,32 @@ local function AQWGLI_fake_script() -- MenuDINOV3.loadScip
 		if gameee.Text == "115797356" then
 			IDgame.Text = "load DATA..."
 			wait(3)
-			IDgame.Text = "Counter Blox"
+			IDgame.Text = "Counter Blox."
 			runall()
 			--liclC()
 			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
-			if gameee.Text == "115797356" then
-			end	
-		else
-			IDgame.Text = "load DATA..."
-			wait(2)
-			IDgame.Text = "erro00D"
-			wait(5)
-			IDgame.Text = "Script"
 		end
 	end
 	
+	function Arsenal()
+		if gameee.Text == "111958650" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "Arsenal."
+			runall()
+			--liclC()
+			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+		end
+	end
 	
+	function ERROgame()
+		wait()
+		IDgame.Text = "load DATA..."
+		wait(2)
+		IDgame.Text = "erro00D"
+		wait(5)
+		IDgame.Text = "Script"
+	end
 	
 	
 	
@@ -1328,18 +1134,68 @@ local function AQWGLI_fake_script() -- MenuDINOV3.loadScip
 		rundatascrip()
 	end)
 	
-	local User = script.Parent.bia.Login.status.User
-	--00C
-	function liclC()
-		if User.Text == "anhbecun1611" then
-			wait(600)
-			erro00C()
-		end
-	end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	-----Run Mix
+	----
+	--Menu-Mix-Script
+	local counterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins.run
+	
+	counterbloxgameskins.MouseButton1Click:Connect(function()
+		runall()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Scrip%20MiX/counter%20blox%20skins.lua")))()	
+	end)
+	
+	
 end
-coroutine.wrap(AQWGLI_fake_script)()
-local function NPXHR_fake_script() -- MenuDINOV3.BanUSer 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(YGQGRD_fake_script)()
+local function RYXRPAL_fake_script() -- Ban.BanUSer 
+	local script = Instance.new('LocalScript', Ban)
 
 	--ban
 	function banscr()
@@ -1348,4 +1204,20 @@ local function NPXHR_fake_script() -- MenuDINOV3.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(NPXHR_fake_script)()
+coroutine.wrap(RYXRPAL_fake_script)()
+local function WHSLCAG_fake_script() -- Openn.LocalScript 
+	local script = Instance.new('LocalScript', Openn)
+
+	local open = script.Parent.Parent.Openn
+	local bia = script.Parent.Parent.bia
+	local exit = script.Parent.Parent.bia.thanh.clost.exit
+	
+	exit.MouseButton1Click:Connect(function()
+		bia.Visible = false
+	end)
+	
+	open.MouseButton1Click:Connect(function()
+		bia.Visible = true
+	end)
+end
+coroutine.wrap(WHSLCAG_fake_script)()
