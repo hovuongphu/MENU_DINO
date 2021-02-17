@@ -756,7 +756,7 @@ UICorner_19.Parent = Openn
 
 -- Scripts:
 
-local function DYXBT_fake_script() -- ImageButton.LocalScript 
+local function VJZCT_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -774,8 +774,8 @@ local function DYXBT_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(DYXBT_fake_script)()
-local function JAZMOVM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(VJZCT_fake_script)()
+local function OZYBM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -804,8 +804,8 @@ local function JAZMOVM_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(JAZMOVM_fake_script)()
-local function EPJZ_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(OZYBM_fake_script)()
+local function QNFIVD_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -857,7 +857,7 @@ local function EPJZ_fake_script() -- MenuDINOV3.Login
 	-----
 	local User = script.Parent.bia.Login.status.User
 	local ID = script.Parent.bia.Login.status.IDuser
-	local KeyCODE =script.Parent.bia.Login.status.Code
+	local KeyCode =script.Parent.bia.Login.status.Code
 	local Userrank = script.Parent.bia.thanh.Rank
 	-----
 	-----IFNO.BIN
@@ -924,7 +924,7 @@ local function EPJZ_fake_script() -- MenuDINOV3.Login
 	
 	
 	login.MouseButton1Click:Connect(function()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "anhbecun1611" and Keycode.Text == "0001" or User.Text == "minhkhang2007" and Keycode.Text == "0002" or User.Text == "DeathDemonvt" and Keycode.Text == "0003" or User.Text == "kubin197763" and Keycode.Text == "0004" or User.Text == "ruakhung1181" and Keycode.Text == "0005" or User.Text == "khoahatenoob2" and Keycode.Text == "0006" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "anhbecun1611" and KeyCode.Text == "0001" or User.Text == "minhkhang2007" and KeyCode.Text == "0002" or User.Text == "DeathDemonvt" and KeyCode.Text == "0003" or User.Text == "kubin197763" and KeyCode.Text == "0004" or User.Text == "ruakhung1181" and KeyCode.Text == "0005" or User.Text == "khoahatenoob2" and KeyCode.Text == "0006" then
 			Userrank.Text = "Friends"
 			openall()
 			if not passuser() then
@@ -962,8 +962,8 @@ local function EPJZ_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(EPJZ_fake_script)()
-local function MYKOR_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(QNFIVD_fake_script)()
+local function LIYS_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1038,8 +1038,8 @@ local function MYKOR_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(MYKOR_fake_script)()
-local function YGQGRD_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(LIYS_fake_script)()
+local function PCAMUUS_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1193,8 +1193,8 @@ local function YGQGRD_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(YGQGRD_fake_script)()
-local function RYXRPAL_fake_script() -- Ban.BanUSer 
+coroutine.wrap(PCAMUUS_fake_script)()
+local function VNKFA_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1204,8 +1204,8 @@ local function RYXRPAL_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(RYXRPAL_fake_script)()
-local function WHSLCAG_fake_script() -- Openn.LocalScript 
+coroutine.wrap(VNKFA_fake_script)()
+local function BHNAHVN_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1220,4 +1220,4 @@ local function WHSLCAG_fake_script() -- Openn.LocalScript
 		bia.Visible = true
 	end)
 end
-coroutine.wrap(WHSLCAG_fake_script)()
+coroutine.wrap(BHNAHVN_fake_script)()
