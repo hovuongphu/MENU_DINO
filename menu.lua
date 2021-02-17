@@ -6,10 +6,10 @@
 local MenuDINOV3 = Instance.new("ScreenGui")
 local bia = Instance.new("Frame")
 local thanh = Instance.new("Frame")
-local clost = Instance.new("Frame")
+local mis = Instance.new("Frame")
 local bin = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local exit = Instance.new("ImageButton")
+local mis_2 = Instance.new("ImageButton")
 local seting = Instance.new("Frame")
 local bin_2 = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
@@ -22,10 +22,14 @@ local ImageButton = Instance.new("ImageButton")
 local ImageLabel = Instance.new("ImageLabel")
 local Rank = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
-local menu = Instance.new("Frame")
-local Server = Instance.new("Frame")
+local clost = Instance.new("Frame")
 local bin_4 = Instance.new("Frame")
 local UICorner_5 = Instance.new("UICorner")
+local exit = Instance.new("ImageButton")
+local menu = Instance.new("Frame")
+local Server = Instance.new("Frame")
+local bin_5 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local status = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
@@ -34,44 +38,58 @@ local Online = Instance.new("Frame")
 local cmdServer = Instance.new("TextLabel")
 local cmdScript = Instance.new("TextLabel")
 local Run = Instance.new("Frame")
-local bin_5 = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
+local bin_6 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 local Frame = Instance.new("Frame")
 local IDgame = Instance.new("TextLabel")
 local runscrop = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local discor = Instance.new("Frame")
-local bin_6 = Instance.new("Frame")
 local UICorner_8 = Instance.new("UICorner")
+local discor = Instance.new("Frame")
+local bin_7 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
 local Frame_2 = Instance.new("Frame")
 local TextLabel_6 = Instance.new("TextLabel")
 local copyLink = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local setting_2 = Instance.new("Frame")
-local ServerL = Instance.new("Frame")
-local bin_7 = Instance.new("Frame")
 local UICorner_10 = Instance.new("UICorner")
+local Mix = Instance.new("Frame")
+local ServerL = Instance.new("Frame")
+local bin_8 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local status_2 = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local counterbloxskins = Instance.new("Frame")
+local run_2 = Instance.new("ImageButton")
+local namegame = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local Login = Instance.new("Frame")
 local ServerL_2 = Instance.new("Frame")
-local bin_8 = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
+local bin_9 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
 local TextLabel_9 = Instance.new("TextLabel")
 local status_3 = Instance.new("Frame")
 local IDuser = Instance.new("TextLabel")
 local User = Instance.new("TextLabel")
 local login = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local Code = Instance.new("TextBox")
 local gameee = Instance.new("TextLabel")
-local UICorner_14 = Instance.new("UICorner")
-local exitnow = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local setting_2 = Instance.new("Frame")
+local ServerL_3 = Instance.new("Frame")
+local bin_10 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
+local status_4 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local exitnow = Instance.new("Frame")
+local TextLabel_12 = Instance.new("TextLabel")
 local yes = Instance.new("TextButton")
 local no = Instance.new("TextButton")
 
@@ -84,7 +102,7 @@ bia.Name = "bia"
 bia.Parent = MenuDINOV3
 bia.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
 bia.BorderSizePixel = 0
-bia.Position = UDim2.new(0.326910734, 0, 0.303933263, 0)
+bia.Position = UDim2.new(0.330057353, 0, 0.314660311, 0)
 bia.Size = UDim2.new(0, 539, 0, 293)
 
 thanh.Name = "thanh"
@@ -93,45 +111,47 @@ thanh.BackgroundColor3 = Color3.fromRGB(38, 52, 29)
 thanh.BorderSizePixel = 0
 thanh.Size = UDim2.new(0, 85, 0, 293)
 
-clost.Name = "clost"
-clost.Parent = thanh
-clost.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
-clost.BackgroundTransparency = 1.000
-clost.BorderSizePixel = 0
-clost.Position = UDim2.new(0, 0, 0.296928316, 0)
-clost.Size = UDim2.new(0, 85, 0, 50)
+mis.Name = "mis"
+mis.Parent = thanh
+mis.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+mis.BackgroundTransparency = 1.000
+mis.BorderSizePixel = 0
+mis.Position = UDim2.new(0, 0, 0.296928316, 0)
+mis.Size = UDim2.new(0, 85, 0, 39)
 
 bin.Name = "bin"
-bin.Parent = clost
+bin.Parent = mis
 bin.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin.BorderSizePixel = 0
-bin.Size = UDim2.new(0, 2, 0, 50)
+bin.Position = UDim2.new(0.00422918983, 0, 0, 0)
+bin.Size = UDim2.new(0, 1, 0, 39)
 bin.Visible = false
 
 UICorner.Parent = bin
 
-exit.Name = "exit"
-exit.Parent = clost
-exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-exit.BackgroundTransparency = 1.000
-exit.BorderSizePixel = 0
-exit.Position = UDim2.new(0.270588249, 0, 0.119999997, 0)
-exit.Size = UDim2.new(0, 37, 0, 37)
-exit.Image = "rbxassetid://5679295310"
+mis_2.Name = "mis"
+mis_2.Parent = mis
+mis_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mis_2.BackgroundTransparency = 1.000
+mis_2.BorderSizePixel = 0
+mis_2.Position = UDim2.new(0.262513995, 0, 0.0953846499, 0)
+mis_2.Size = UDim2.new(0, 30, 0, 29)
+mis_2.Image = "rbxassetid://5942241281"
 
 seting.Name = "seting"
 seting.Parent = thanh
 seting.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
 seting.BackgroundTransparency = 1.000
 seting.BorderSizePixel = 0
-seting.Position = UDim2.new(0, 0, 0.638225257, 0)
-seting.Size = UDim2.new(0, 85, 0, 50)
+seting.Position = UDim2.new(0, 0, 0.562002361, 0)
+seting.Size = UDim2.new(0, 84, 0, 39)
 
 bin_2.Name = "bin"
 bin_2.Parent = seting
 bin_2.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_2.BorderSizePixel = 0
-bin_2.Size = UDim2.new(0, 2, 0, 50)
+bin_2.Position = UDim2.new(0.00422918983, 0, -0.0170937572, 0)
+bin_2.Size = UDim2.new(0, 1, 0, 39)
 bin_2.Visible = false
 
 UICorner_2.Parent = bin_2
@@ -141,8 +161,8 @@ setting.Parent = seting
 setting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 setting.BackgroundTransparency = 1.000
 setting.BorderSizePixel = 0
-setting.Position = UDim2.new(0.270588249, 0, 0.0910144076, 0)
-setting.Size = UDim2.new(0, 37, 0, 37)
+setting.Position = UDim2.new(0.27427879, 0, 0.0746984258, 0)
+setting.Size = UDim2.new(0, 29, 0, 29)
 setting.Image = "rbxassetid://4492476121"
 
 run.Name = "run"
@@ -150,14 +170,15 @@ run.Parent = thanh
 run.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
 run.BackgroundTransparency = 1.000
 run.BorderSizePixel = 0
-run.Position = UDim2.new(0, 0, 0.467576802, 0)
-run.Size = UDim2.new(0, 85, 0, 50)
+run.Position = UDim2.new(0, 0, 0.431171834, 0)
+run.Size = UDim2.new(0, 85, 0, 39)
 
 bin_3.Name = "bin"
 bin_3.Parent = run
 bin_3.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_3.BorderSizePixel = 0
-bin_3.Size = UDim2.new(0, 2, 0, 50)
+bin_3.Position = UDim2.new(0.00422918983, 0, -0.0085464865, 0)
+bin_3.Size = UDim2.new(0, 1, 0, 39)
 bin_3.Visible = false
 
 UICorner_3.Parent = bin_3
@@ -167,8 +188,8 @@ open.Parent = run
 open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 open.BackgroundTransparency = 1.000
 open.BorderSizePixel = 0
-open.Position = UDim2.new(0.270588249, 0, 0.105507202, 0)
-open.Size = UDim2.new(0, 37, 0, 37)
+open.Position = UDim2.new(0.27427879, 0, 0.0978620499, 0)
+open.Size = UDim2.new(0, 29, 0, 29)
 open.Image = "rbxassetid://2876994160"
 
 ImageButton.Parent = thanh
@@ -202,6 +223,33 @@ Rank.TextWrapped = true
 
 UICorner_4.Parent = Rank
 
+clost.Name = "clost"
+clost.Parent = thanh
+clost.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+clost.BackgroundTransparency = 1.000
+clost.BorderSizePixel = 0
+clost.Position = UDim2.new(-0.0117647061, 0, 0.69624573, 0)
+clost.Size = UDim2.new(0, 85, 0, 39)
+
+bin_4.Name = "bin"
+bin_4.Parent = clost
+bin_4.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_4.BorderSizePixel = 0
+bin_4.Position = UDim2.new(0.00422918983, 0, 0, 0)
+bin_4.Size = UDim2.new(0, 1, 0, 39)
+bin_4.Visible = false
+
+UICorner_5.Parent = bin_4
+
+exit.Name = "exit"
+exit.Parent = clost
+exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exit.BackgroundTransparency = 1.000
+exit.BorderSizePixel = 0
+exit.Position = UDim2.new(0.27427879, 0, 0.0697436184, 0)
+exit.Size = UDim2.new(0, 29, 0, 29)
+exit.Image = "rbxassetid://5679295310"
+
 menu.Name = "menu"
 menu.Parent = bia
 menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -218,13 +266,13 @@ Server.BorderSizePixel = 0
 Server.Position = UDim2.new(0, 0, 0.00386100379, 0)
 Server.Size = UDim2.new(0, 430, 0, 29)
 
-bin_4.Name = "bin"
-bin_4.Parent = Server
-bin_4.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_4.BorderSizePixel = 0
-bin_4.Size = UDim2.new(0, 2, 0, 29)
+bin_5.Name = "bin"
+bin_5.Parent = Server
+bin_5.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_5.BorderSizePixel = 0
+bin_5.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_5.Parent = bin_4
+UICorner_6.Parent = bin_5
 
 TextLabel.Parent = Server
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -314,13 +362,13 @@ Run.BorderSizePixel = 0
 Run.Position = UDim2.new(0.00465116277, 0, 0.5549559, 0)
 Run.Size = UDim2.new(0, 208, 0, 29)
 
-bin_5.Name = "bin"
-bin_5.Parent = Run
-bin_5.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_5.BorderSizePixel = 0
-bin_5.Size = UDim2.new(0, 2, 0, 29)
+bin_6.Name = "bin"
+bin_6.Parent = Run
+bin_6.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_6.BorderSizePixel = 0
+bin_6.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_6.Parent = bin_5
+UICorner_7.Parent = bin_6
 
 TextLabel_4.Parent = Run
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -368,7 +416,7 @@ runscrop.TextScaled = true
 runscrop.TextSize = 14.000
 runscrop.TextWrapped = true
 
-UICorner_7.Parent = runscrop
+UICorner_8.Parent = runscrop
 
 discor.Name = "discor"
 discor.Parent = menu
@@ -377,13 +425,13 @@ discor.BorderSizePixel = 0
 discor.Position = UDim2.new(0.516279042, 0, 0.5549559, 0)
 discor.Size = UDim2.new(0, 207, 0, 29)
 
-bin_6.Name = "bin"
-bin_6.Parent = discor
-bin_6.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_6.BorderSizePixel = 0
-bin_6.Size = UDim2.new(0, 2, 0, 29)
+bin_7.Name = "bin"
+bin_7.Parent = discor
+bin_7.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_7.BorderSizePixel = 0
+bin_7.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_8.Parent = bin_6
+UICorner_9.Parent = bin_7
 
 TextLabel_5.Parent = discor
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -428,31 +476,31 @@ copyLink.Text = "Copy Link"
 copyLink.TextColor3 = Color3.fromRGB(225, 225, 225)
 copyLink.TextSize = 14.000
 
-UICorner_9.Parent = copyLink
+UICorner_10.Parent = copyLink
 
-setting_2.Name = "setting"
-setting_2.Parent = bia
-setting_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-setting_2.BackgroundTransparency = 1.000
-setting_2.BorderSizePixel = 0
-setting_2.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
-setting_2.Size = UDim2.new(0, 430, 0, 271)
-setting_2.Visible = false
+Mix.Name = "Mix"
+Mix.Parent = bia
+Mix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mix.BackgroundTransparency = 1.000
+Mix.BorderSizePixel = 0
+Mix.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+Mix.Size = UDim2.new(0, 430, 0, 271)
+Mix.Visible = false
 
 ServerL.Name = "Server L"
-ServerL.Parent = setting_2
+ServerL.Parent = Mix
 ServerL.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
 ServerL.BorderSizePixel = 0
 ServerL.Position = UDim2.new(0, 0, 0.00386100379, 0)
 ServerL.Size = UDim2.new(0, 430, 0, 29)
 
-bin_7.Name = "bin"
-bin_7.Parent = ServerL
-bin_7.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_7.BorderSizePixel = 0
-bin_7.Size = UDim2.new(0, 2, 0, 29)
+bin_8.Name = "bin"
+bin_8.Parent = ServerL
+bin_8.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_8.BorderSizePixel = 0
+bin_8.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_10.Parent = bin_7
+UICorner_11.Parent = bin_8
 
 TextLabel_7.Parent = ServerL
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -468,24 +516,69 @@ TextLabel_7.TextSize = 14.000
 TextLabel_7.TextWrapped = true
 
 status_2.Name = "status"
-status_2.Parent = setting_2
+status_2.Parent = Mix
 status_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
 status_2.BorderSizePixel = 0
-status_2.Position = UDim2.new(0.00465116277, 0, 0.123974875, 0)
-status_2.Size = UDim2.new(0, 427, 0, 114)
+status_2.Position = UDim2.new(0.00465116277, 0, 0.123974904, 0)
+status_2.Size = UDim2.new(0, 427, 0, 235)
+
+ScrollingFrame.Parent = status_2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0281030443, 0, 0.268085092, 0)
+ScrollingFrame.Size = UDim2.new(0, 402, 0, 160)
+
+UIListLayout.Archivable = false
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+counterbloxskins.Name = "counterbloxskins"
+counterbloxskins.Parent = ScrollingFrame
+counterbloxskins.BackgroundColor3 = Color3.fromRGB(83, 112, 63)
+counterbloxskins.BorderSizePixel = 0
+counterbloxskins.Position = UDim2.new(0.0696517378, 0, 0.00851044711, 0)
+counterbloxskins.Size = UDim2.new(0, 100, 0, 100)
+
+run_2.Name = "run"
+run_2.Parent = counterbloxskins
+run_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+run_2.BackgroundTransparency = 1.000
+run_2.BorderSizePixel = 0
+run_2.Position = UDim2.new(0.0900000036, 0, 0.0799999982, 0)
+run_2.Size = UDim2.new(0, 82, 0, 60)
+run_2.Image = "rbxassetid://4030893123"
+
+namegame.Name = "name game"
+namegame.Parent = counterbloxskins
+namegame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+namegame.BackgroundTransparency = 1.000
+namegame.BorderSizePixel = 0
+namegame.Position = UDim2.new(0, 0, 0.74000001, 0)
+namegame.Size = UDim2.new(0, 100, 0, 26)
+namegame.Font = Enum.Font.SourceSans
+namegame.Text = "counter blox skins"
+namegame.TextColor3 = Color3.fromRGB(255, 255, 255)
+namegame.TextScaled = true
+namegame.TextSize = 14.000
+namegame.TextWrapped = true
+
+UICorner_12.Parent = counterbloxskins
 
 TextLabel_8.Parent = status_2
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(87, 127, 69)
-TextLabel_8.Position = UDim2.new(0.152224809, 0, 0.280701756, 0)
-TextLabel_8.Size = UDim2.new(0, 297, 0, 54)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+TextLabel_8.Position = UDim2.new(0.0280000009, 0, 0.0599999987, 0)
+TextLabel_8.Size = UDim2.new(0, 402, 0, 33)
 TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "BY DINO#5485"
+TextLabel_8.Text = "Roblox game mix"
 TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_8.TextScaled = true
 TextLabel_8.TextSize = 14.000
 TextLabel_8.TextWrapped = true
 
-UICorner_11.Parent = TextLabel_8
+UICorner_13.Parent = TextLabel_8
 
 Login.Name = "Login"
 Login.Parent = bia
@@ -502,13 +595,13 @@ ServerL_2.BorderSizePixel = 0
 ServerL_2.Position = UDim2.new(0, 0, 0.00386100379, 0)
 ServerL_2.Size = UDim2.new(0, 430, 0, 29)
 
-bin_8.Name = "bin"
-bin_8.Parent = ServerL_2
-bin_8.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_8.BorderSizePixel = 0
-bin_8.Size = UDim2.new(0, 2, 0, 29)
+bin_9.Name = "bin"
+bin_9.Parent = ServerL_2
+bin_9.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_9.BorderSizePixel = 0
+bin_9.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_12.Parent = bin_8
+UICorner_14.Parent = bin_9
 
 TextLabel_9.Parent = ServerL_2
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -567,7 +660,7 @@ login.TextScaled = true
 login.TextSize = 14.000
 login.TextWrapped = true
 
-UICorner_13.Parent = login
+UICorner_15.Parent = login
 
 Code.Name = "Code"
 Code.Parent = status_3
@@ -593,7 +686,64 @@ gameee.Font = Enum.Font.SourceSans
 gameee.TextColor3 = Color3.fromRGB(0, 0, 0)
 gameee.TextSize = 14.000
 
-UICorner_14.Parent = bia
+UICorner_16.Parent = bia
+
+setting_2.Name = "setting"
+setting_2.Parent = bia
+setting_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+setting_2.BackgroundTransparency = 1.000
+setting_2.BorderSizePixel = 0
+setting_2.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+setting_2.Size = UDim2.new(0, 430, 0, 271)
+setting_2.Visible = false
+
+ServerL_3.Name = "Server L"
+ServerL_3.Parent = setting_2
+ServerL_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+ServerL_3.BorderSizePixel = 0
+ServerL_3.Position = UDim2.new(0, 0, 0.00386100379, 0)
+ServerL_3.Size = UDim2.new(0, 430, 0, 29)
+
+bin_10.Name = "bin"
+bin_10.Parent = ServerL_3
+bin_10.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_10.BorderSizePixel = 0
+bin_10.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_17.Parent = bin_10
+
+TextLabel_10.Parent = ServerL_3
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
+TextLabel_10.Size = UDim2.new(0, 123, 0, 23)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Create"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+status_4.Name = "status"
+status_4.Parent = setting_2
+status_4.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status_4.BorderSizePixel = 0
+status_4.Position = UDim2.new(0.00465116277, 0, 0.123974875, 0)
+status_4.Size = UDim2.new(0, 427, 0, 114)
+
+TextLabel_11.Parent = status_4
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(87, 127, 69)
+TextLabel_11.Position = UDim2.new(0.152224809, 0, 0.280701756, 0)
+TextLabel_11.Size = UDim2.new(0, 297, 0, 54)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "BY DINO#5485"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+UICorner_18.Parent = TextLabel_11
 
 exitnow.Name = "exitnow"
 exitnow.Parent = MenuDINOV3
@@ -603,18 +753,18 @@ exitnow.Position = UDim2.new(0.326910734, 0, 0.40225035, 0)
 exitnow.Size = UDim2.new(0, 539, 0, 152)
 exitnow.Visible = false
 
-TextLabel_10.Parent = exitnow
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0.0259740259, 0, 0.105263159, 0)
-TextLabel_10.Size = UDim2.new(0, 502, 0, 50)
-TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "Do you really want to exit?"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextScaled = true
-TextLabel_10.TextSize = 14.000
-TextLabel_10.TextWrapped = true
+TextLabel_12.Parent = exitnow
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.0259740259, 0, 0.105263159, 0)
+TextLabel_12.Size = UDim2.new(0, 502, 0, 50)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Do you really want to exit?"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
 
 yes.Name = "yes"
 yes.Parent = exitnow
@@ -646,7 +796,7 @@ no.TextWrapped = true
 
 -- Scripts:
 
-local function VZXJEEX_fake_script() -- ImageButton.LocalScript 
+local function BRQUPS_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -664,8 +814,8 @@ local function VZXJEEX_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(VZXJEEX_fake_script)()
-local function PIEEC_fake_script() -- MenuDINOV3.scropt 
+coroutine.wrap(BRQUPS_fake_script)()
+local function HMRDKD_fake_script() -- MenuDINOV3.scropt 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----menu.bia
@@ -675,6 +825,8 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 	local settingmenu = script.Parent.bia.setting
 	local menulogin = script.Parent.bia.Login
 	local IDgame = script.Parent.bia.menu.Run.Frame.IDgame
+	local openmix = script.Parent.bia.Mix
+	
 	--Rank
 	local Userrank = script.Parent.bia.thanh.Rank
 	--mix game
@@ -761,14 +913,17 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 	
 	
 	-----thang menu
+	local menumix = script.Parent.bia.thanh.mis
 	local menurun = script.Parent.bia.thanh.run
 	local menuexit = script.Parent.bia.thanh.clost
 	local menuseting = script.Parent.bia.thanh.seting
 	-----thanh run
+	local thanhmix = script.Parent.bia.thanh.mis.mis
 	local thanhopen = script.Parent.bia.thanh.run.open
 	local thanhexit = script.Parent.bia.thanh.clost.exit
 	local thanhsetting = script.Parent.bia.thanh.seting.setting
 	-----Bin.
+	local binmix = script.Parent.bia.thanh.mis.bin
 	local binOpen = script.Parent.bia.thanh.run.bin
 	local binExit = script.Parent.bia.thanh.clost.bin
 	local binSetting = script.Parent.bia.thanh.seting.bin
@@ -840,7 +995,7 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 			wait(3)
 			IDgame.Text = "Counter Blox"
 			runall()
-			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+			loadstring(game:HttpGetAsync(("https://github.com/hovuongphu/MENU_DINO/blob/main/Counter%20Blox.lua")))()
 			if gameee.Text == "115797356" then
 			end	
 		else
@@ -854,7 +1009,22 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 	
 	
 	
-	
+	----MIx.game
+	thanhmix.MouseButton1Click:Connect(function()
+		openmix.Visible = true
+		binmix.Visible = true
+		menumix.BackgroundTransparency = "0.7"
+		
+		---
+		menu.Visible = false
+		binOpen.Visible = false
+		menurun.BackgroundTransparency = "1"
+		---
+		settingmenu.Visible = false
+		binSetting.Visible = false
+		menuseting.BackgroundTransparency = "1"
+		
+	end)
 	
 	
 	----Exit.Menuall
@@ -872,6 +1042,10 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 		settingmenu.Visible = false
 		binSetting.Visible = false
 		menuseting.BackgroundTransparency = "1"
+		---
+		openmix.Visible = false
+		binmix.Visible = false
+		menumix.BackgroundTransparency = "1"
 	end)
 	----Open.setting
 	thanhsetting.MouseButton1Click:Connect(function()
@@ -882,6 +1056,10 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 		menu.Visible = false
 		binOpen.Visible = false
 		menurun.BackgroundTransparency = "1"
+		---
+		openmix.Visible = false
+		binmix.Visible = false
+		menumix.BackgroundTransparency = "1"
 		
 	end)
 	
@@ -1023,7 +1201,7 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 	
 	login.MouseButton1Click:Connect(function()
 		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "anhbecun1611" and Keycode.Text == "0001" or User.Text == "minhkhang2007" and Keycode.Text == "0002" or User.Text == "DeathDemonvt" and Keycode.Text == "0003" or User.Text == "kubin197763" and Keycode.Text == "0004" or User.Text == "ruakhung1181" and Keycode.Text == "0005" or User.Text == "khoahatenoob2" and Keycode.Text == "0006" then
-			Userrank.Text = "Premium"
+			Userrank.Text = "Friends"
 			openall()
 			if not passuser() then
 			end	
@@ -1256,4 +1434,54 @@ local function PIEEC_fake_script() -- MenuDINOV3.scropt
 	
 	banscr()
 end
-coroutine.wrap(PIEEC_fake_script)()
+coroutine.wrap(HMRDKD_fake_script)()
+local function TESVJZ_fake_script() -- MenuDINOV3.run mix game 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	local counterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins.run
+	
+	counterbloxgameskins.MouseButton1Click:Connect(function()
+		runall()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Scrip%20MiX/counter%20blox%20skins.lua")))()	
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	function runall()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "script system!!";
+			Text = "script run MIX";
+			Duration = 10;
+		})
+	end
+end
+coroutine.wrap(TESVJZ_fake_script)()
