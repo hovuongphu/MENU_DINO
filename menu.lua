@@ -756,7 +756,7 @@ UICorner_19.Parent = Openn
 
 -- Scripts:
 
-local function VJZCT_fake_script() -- ImageButton.LocalScript 
+local function RNHWSKR_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -774,8 +774,8 @@ local function VJZCT_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(VJZCT_fake_script)()
-local function OZYBM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(RNHWSKR_fake_script)()
+local function TDCGE_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -804,8 +804,8 @@ local function OZYBM_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(OZYBM_fake_script)()
-local function QNFIVD_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(TDCGE_fake_script)()
+local function IQDNH_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -962,8 +962,8 @@ local function QNFIVD_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(QNFIVD_fake_script)()
-local function LIYS_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(IQDNH_fake_script)()
+local function QQQJGKC_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1038,8 +1038,8 @@ local function LIYS_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(LIYS_fake_script)()
-local function PCAMUUS_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(QQQJGKC_fake_script)()
+local function WOOTE_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1193,8 +1193,8 @@ local function PCAMUUS_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(PCAMUUS_fake_script)()
-local function VNKFA_fake_script() -- Ban.BanUSer 
+coroutine.wrap(WOOTE_fake_script)()
+local function YAWYBFC_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1204,20 +1204,22 @@ local function VNKFA_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(VNKFA_fake_script)()
-local function BHNAHVN_fake_script() -- Openn.LocalScript 
+coroutine.wrap(YAWYBFC_fake_script)()
+local function XDVX_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
 	local bia = script.Parent.Parent.bia
 	local exit = script.Parent.Parent.bia.thanh.clost.exit
-	
+	open.Visible = false
 	exit.MouseButton1Click:Connect(function()
 		bia.Visible = false
+		open.Visible = true
 	end)
 	
 	open.MouseButton1Click:Connect(function()
 		bia.Visible = true
+		open.Visible = false
 	end)
 end
-coroutine.wrap(BHNAHVN_fake_script)()
+coroutine.wrap(XDVX_fake_script)()
