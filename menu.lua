@@ -789,7 +789,7 @@ no.TextWrapped = true
 
 -- Scripts:
 
-local function JJTCB_fake_script() -- ImageButton.LocalScript 
+local function TOVFCGF_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -807,8 +807,8 @@ local function JJTCB_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(JJTCB_fake_script)()
-local function NMFCM_fake_script() -- MenuDINOV3.scropt 
+coroutine.wrap(TOVFCGF_fake_script)()
+local function GQOWXS_fake_script() -- MenuDINOV3.scropt 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----menu.bia
@@ -989,10 +989,11 @@ local function NMFCM_fake_script() -- MenuDINOV3.scropt
 		if gameee.Text == "115797356" then
 			IDgame.Text = "load DATA..."
 			wait(3)
-			liclC()
 			IDgame.Text = "Counter Blox"
 			runall()
 			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+			wait(300)
+			liclC()
 			if gameee.Text == "115797356" then
 			end	
 		else
@@ -1437,8 +1438,8 @@ local function NMFCM_fake_script() -- MenuDINOV3.scropt
 	
 	banscr()
 end
-coroutine.wrap(NMFCM_fake_script)()
-local function ENPJKZ_fake_script() -- MenuDINOV3.run mix game 
+coroutine.wrap(GQOWXS_fake_script)()
+local function TPWHLT_fake_script() -- MenuDINOV3.run mix game 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local counterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins.run
@@ -1487,4 +1488,4 @@ local function ENPJKZ_fake_script() -- MenuDINOV3.run mix game
 		})
 	end
 end
-coroutine.wrap(ENPJKZ_fake_script)()
+coroutine.wrap(TPWHLT_fake_script)()
