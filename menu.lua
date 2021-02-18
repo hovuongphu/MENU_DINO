@@ -756,7 +756,7 @@ UICorner_19.Parent = Openn
 
 -- Scripts:
 
-local function RNHWSKR_fake_script() -- ImageButton.LocalScript 
+local function BLIJ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -774,8 +774,8 @@ local function RNHWSKR_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(RNHWSKR_fake_script)()
-local function TDCGE_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(BLIJ_fake_script)()
+local function MYLZB_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -804,8 +804,8 @@ local function TDCGE_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(TDCGE_fake_script)()
-local function IQDNH_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(MYLZB_fake_script)()
+local function MFOFN_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -924,7 +924,7 @@ local function IQDNH_fake_script() -- MenuDINOV3.Login
 	
 	
 	login.MouseButton1Click:Connect(function()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "anhbecun1611" and KeyCode.Text == "0001" or User.Text == "minhkhang2007" and KeyCode.Text == "0002" or User.Text == "DeathDemonvt" and KeyCode.Text == "0003" or User.Text == "kubin197763" and KeyCode.Text == "0004" or User.Text == "ruakhung1181" and KeyCode.Text == "0005" or User.Text == "khoahatenoob2" and KeyCode.Text == "0006" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "anhbecun1611" and KeyCode.Text == "0001" or User.Text == "minhkhang2007" and KeyCode.Text == "0002" or User.Text == "DeathDemonvt" and KeyCode.Text == "0003" or User.Text == "kubin197763" and KeyCode.Text == "0004" or User.Text == "ruakhung1181" and KeyCode.Text == "0005" or User.Text == "khoahatenoob2" and KeyCode.Text == "0006" or User.Text == "kocotenlun" and KeyCode.Text == "9979" then
 			Userrank.Text = "Friends"
 			openall()
 			if not passuser() then
@@ -962,8 +962,8 @@ local function IQDNH_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(IQDNH_fake_script)()
-local function QQQJGKC_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(MFOFN_fake_script)()
+local function TMGDF_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1038,8 +1038,8 @@ local function QQQJGKC_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(QQQJGKC_fake_script)()
-local function WOOTE_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(TMGDF_fake_script)()
+local function BOJKF_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1138,14 +1138,50 @@ local function WOOTE_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 	
+	--ERRO
+	function erro001()
+		game.Players.LocalPlayer:Kick("Erro#001")
+	end
+	
+	function erro002()
+		game.Players.LocalPlayer:Kick("Erro#002")
+	end
+	
+	function erro003()
+		game.Players.LocalPlayer:Kick("Erro#003")
+	end
+	
+	function erro004()
+		game.Players.LocalPlayer:Kick("Erro#004")
+	end
+	----
+	function erro00A()
+		game.Players.LocalPlayer:Kick("You are banned/Erro#00A")
+	end
+	
+	function erro00B()
+		game.Players.LocalPlayer:Kick("Erro#00B")
+	end
+	
+	function erro00C()
+		game.Players.LocalPlayer:Kick("Erro#00C")
+	end
+	
+	function erro00D()
+		game.Players.LocalPlayer:Kick("Erro#00D")
+	end
+	
+	function erro00C()
+		game.Players.LocalPlayer:Kick("Erro#00C")
+	end
 	
 	
 	
 	
 	
-	
-	
-	
+	local User = script.Parent.bia.Login.status.User
+	function lamdung()
+	end
 	
 	
 	
@@ -1193,8 +1229,8 @@ local function WOOTE_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(WOOTE_fake_script)()
-local function YAWYBFC_fake_script() -- Ban.BanUSer 
+coroutine.wrap(BOJKF_fake_script)()
+local function OPNHGN_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1204,8 +1240,8 @@ local function YAWYBFC_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(YAWYBFC_fake_script)()
-local function XDVX_fake_script() -- Openn.LocalScript 
+coroutine.wrap(OPNHGN_fake_script)()
+local function JKFIY_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1222,4 +1258,4 @@ local function XDVX_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(XDVX_fake_script)()
+coroutine.wrap(JKFIY_fake_script)()
