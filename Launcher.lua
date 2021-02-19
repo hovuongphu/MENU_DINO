@@ -870,7 +870,7 @@ maydor.BackgroundTransparency = 1.000
 maydor.Position = UDim2.new(0.287553638, 0, 0.720000029, 0)
 maydor.Size = UDim2.new(0, 200, 0, 21)
 maydor.Font = Enum.Font.SourceSans
-maydor.Text = "N?A"
+maydor.Text = "Loading.."
 maydor.TextColor3 = Color3.fromRGB(255, 255, 255)
 maydor.TextScaled = true
 maydor.TextSize = 14.000
@@ -878,7 +878,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function VLPHPLQ_fake_script() -- ImageButton.LocalScript 
+local function IDKX_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -896,8 +896,8 @@ local function VLPHPLQ_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(VLPHPLQ_fake_script)()
-local function EMZX_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(IDKX_fake_script)()
+local function NSTKOX_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -926,8 +926,8 @@ local function EMZX_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(EMZX_fake_script)()
-local function TVFXLI_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(NSTKOX_fake_script)()
+local function DXQQF_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1088,8 +1088,8 @@ local function TVFXLI_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(TVFXLI_fake_script)()
-local function GSPD_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(DXQQF_fake_script)()
+local function CNVZUOZ_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1164,8 +1164,8 @@ local function GSPD_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(GSPD_fake_script)()
-local function SHPECYC_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(CNVZUOZ_fake_script)()
+local function VWMCCLX_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1194,6 +1194,8 @@ local function SHPECYC_fake_script() -- MenuDINOV3.Run Scrip
 		AllStat()
 		---
 		ERROgame()
+		--mix
+		mixcounterbloxgameskins()
 	end
 	
 	--IDgame
@@ -1411,8 +1413,8 @@ local function SHPECYC_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(SHPECYC_fake_script)()
-local function ZTQFDM_fake_script() -- Ban.BanUSer 
+coroutine.wrap(VWMCCLX_fake_script)()
+local function VUDOFQ_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1422,8 +1424,8 @@ local function ZTQFDM_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(ZTQFDM_fake_script)()
-local function PXVOY_fake_script() -- Openn.LocalScript 
+coroutine.wrap(VUDOFQ_fake_script)()
+local function OABHIW_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1440,8 +1442,8 @@ local function PXVOY_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(PXVOY_fake_script)()
-local function ANVDMR_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(OABHIW_fake_script)()
+local function FECI_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1473,4 +1475,4 @@ local function ANVDMR_fake_script() -- MenuDINOV3.loading
 	menu.Visible = false
 	bia.Visible = true
 end
-coroutine.wrap(ANVDMR_fake_script)()
+coroutine.wrap(FECI_fake_script)()
