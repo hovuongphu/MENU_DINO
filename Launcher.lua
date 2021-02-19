@@ -64,42 +64,46 @@ local counterbloxskins = Instance.new("Frame")
 local run_2 = Instance.new("ImageButton")
 local namegame = Instance.new("TextLabel")
 local UICorner_12 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
+local ScriptAdmin = Instance.new("Frame")
+local run_3 = Instance.new("ImageButton")
+local namegame_2 = Instance.new("TextLabel")
 local UICorner_13 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
 local Login = Instance.new("Frame")
 local ServerL_2 = Instance.new("Frame")
 local bin_9 = Instance.new("Frame")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local TextLabel_9 = Instance.new("TextLabel")
 local status_3 = Instance.new("Frame")
 local IDuser = Instance.new("TextLabel")
 local User = Instance.new("TextLabel")
 local login = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Code = Instance.new("TextBox")
 local gameee = Instance.new("TextLabel")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local setting_2 = Instance.new("Frame")
 local ServerL_3 = Instance.new("Frame")
 local bin_10 = Instance.new("Frame")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
 local status_4 = Instance.new("Frame")
 local TextLabel_11 = Instance.new("TextLabel")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local Ban = Instance.new("Frame")
 local Openn = Instance.new("ImageButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local loaddding = Instance.new("Frame")
 local Frame_3 = Instance.new("Frame")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local TextLabel_12 = Instance.new("TextLabel")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local menulaoding = Instance.new("Frame")
 local Frame_4 = Instance.new("Frame")
 local tanlaod = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local maydor = Instance.new("TextLabel")
 
 --Properties:
@@ -571,6 +575,38 @@ namegame.TextWrapped = true
 
 UICorner_12.Parent = counterbloxskins
 
+ScriptAdmin.Name = "ScriptAdmin"
+ScriptAdmin.Parent = ScrollingFrame
+ScriptAdmin.BackgroundColor3 = Color3.fromRGB(83, 112, 63)
+ScriptAdmin.BorderSizePixel = 0
+ScriptAdmin.Position = UDim2.new(0.338308454, 0, 0.00851044711, 0)
+ScriptAdmin.Size = UDim2.new(0, 100, 0, 100)
+
+run_3.Name = "run"
+run_3.Parent = ScriptAdmin
+run_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+run_3.BackgroundTransparency = 1.000
+run_3.BorderSizePixel = 0
+run_3.Position = UDim2.new(0.0900000036, 0, 0.0799999982, 0)
+run_3.Size = UDim2.new(0, 82, 0, 60)
+run_3.Image = "rbxassetid://4030893123"
+
+namegame_2.Name = "name game"
+namegame_2.Parent = ScriptAdmin
+namegame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+namegame_2.BackgroundTransparency = 1.000
+namegame_2.BorderSizePixel = 0
+namegame_2.Position = UDim2.new(0, 0, 0.74000001, 0)
+namegame_2.Size = UDim2.new(0, 100, 0, 26)
+namegame_2.Font = Enum.Font.SourceSans
+namegame_2.Text = "Script Admin fake"
+namegame_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+namegame_2.TextScaled = true
+namegame_2.TextSize = 14.000
+namegame_2.TextWrapped = true
+
+UICorner_13.Parent = ScriptAdmin
+
 TextLabel_8.Parent = status_2
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
 TextLabel_8.Position = UDim2.new(0.0280000009, 0, 0.0599999987, 0)
@@ -582,7 +618,7 @@ TextLabel_8.TextScaled = true
 TextLabel_8.TextSize = 14.000
 TextLabel_8.TextWrapped = true
 
-UICorner_13.Parent = TextLabel_8
+UICorner_14.Parent = TextLabel_8
 
 Login.Name = "Login"
 Login.Parent = bia
@@ -605,7 +641,7 @@ bin_9.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_9.BorderSizePixel = 0
 bin_9.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_14.Parent = bin_9
+UICorner_15.Parent = bin_9
 
 TextLabel_9.Parent = ServerL_2
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -664,7 +700,7 @@ login.TextScaled = true
 login.TextSize = 14.000
 login.TextWrapped = true
 
-UICorner_15.Parent = login
+UICorner_16.Parent = login
 
 Code.Name = "Code"
 Code.Parent = status_3
@@ -690,7 +726,7 @@ gameee.Font = Enum.Font.SourceSans
 gameee.TextColor3 = Color3.fromRGB(0, 0, 0)
 gameee.TextSize = 14.000
 
-UICorner_16.Parent = bia
+UICorner_17.Parent = bia
 
 setting_2.Name = "setting"
 setting_2.Parent = bia
@@ -714,7 +750,7 @@ bin_10.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_10.BorderSizePixel = 0
 bin_10.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_17.Parent = bin_10
+UICorner_18.Parent = bin_10
 
 TextLabel_10.Parent = ServerL_3
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -747,7 +783,7 @@ TextLabel_11.TextScaled = true
 TextLabel_11.TextSize = 14.000
 TextLabel_11.TextWrapped = true
 
-UICorner_18.Parent = TextLabel_11
+UICorner_19.Parent = TextLabel_11
 
 Ban.Name = "Ban"
 Ban.Parent = MenuDINOV3
@@ -764,7 +800,7 @@ Openn.Position = UDim2.new(0, 0, 0.96305126, 0)
 Openn.Size = UDim2.new(0, 31, 0, 31)
 Openn.Image = "http://www.roblox.com/asset/?id=6406888704"
 
-UICorner_19.Parent = Openn
+UICorner_20.Parent = Openn
 
 loaddding.Name = "loaddding"
 loaddding.Parent = MenuDINOV3
@@ -805,7 +841,7 @@ TextLabel_12.TextScaled = true
 TextLabel_12.TextSize = 14.000
 TextLabel_12.TextWrapped = true
 
-UICorner_20.Parent = loaddding
+UICorner_21.Parent = loaddding
 
 menulaoding.Name = "menulaoding"
 menulaoding.Parent = loaddding
@@ -825,7 +861,7 @@ tanlaod.Parent = Frame_4
 tanlaod.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
 tanlaod.Size = UDim2.new(0, 0, 0, 11)
 
-UICorner_21.Parent = tanlaod
+UICorner_22.Parent = tanlaod
 
 maydor.Name = "maydor"
 maydor.Parent = menulaoding
@@ -842,7 +878,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function QGTXD_fake_script() -- ImageButton.LocalScript 
+local function VLPHPLQ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -860,8 +896,8 @@ local function QGTXD_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(QGTXD_fake_script)()
-local function HQMZCTT_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(VLPHPLQ_fake_script)()
+local function EMZX_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -890,8 +926,8 @@ local function HQMZCTT_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(HQMZCTT_fake_script)()
-local function FUVV_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(EMZX_fake_script)()
+local function TVFXLI_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -909,6 +945,10 @@ local function FUVV_fake_script() -- MenuDINOV3.Login
 	
 	function erro004()
 		game.Players.LocalPlayer:Kick("Erro#004")
+	end
+	
+	function erro005()
+		game.Players.LocalPlayer:Kick("Erro#005")
 	end
 	----
 	function erro00A()
@@ -1048,8 +1088,8 @@ local function FUVV_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(FUVV_fake_script)()
-local function LECUZ_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(TVFXLI_fake_script)()
+local function GSPD_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1124,8 +1164,8 @@ local function LECUZ_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(LECUZ_fake_script)()
-local function YNYKKPE_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(GSPD_fake_script)()
+local function SHPECYC_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1150,7 +1190,8 @@ local function YNYKKPE_fake_script() -- MenuDINOV3.Run Scrip
 		Counter()
 		roghoul()
 		Arsenal()
-		
+		PhantomForces()
+		AllStat()
 		---
 		ERROgame()
 	end
@@ -1171,7 +1212,7 @@ local function YNYKKPE_fake_script() -- MenuDINOV3.Run Scrip
 			wait(3)
 			IDgame.Text = "Ro-Ghoul."
 			runall()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Ro-Ghoul.lau")))()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Ro-Ghoul.lau")))()--Ro.Ghoul
 		end
 	end
 	
@@ -1182,7 +1223,7 @@ local function YNYKKPE_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Counter Blox."
 			runall()
 			--liclC()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
 		end
 	end
 	
@@ -1193,12 +1234,39 @@ local function YNYKKPE_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Arsenal."
 			runall()
 			--liclC()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
 		end
 	end
 	
+	
+	function PhantomForces()
+		if gameee.Text == "113491250" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "Phantom Forces."
+			runall()
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
+		end
+	end
+	
+	
+	
+	
+	function AllStat()
+		if gameee.Text == "1720936166" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			game.Players.LocalPlayer:Kick("Erro#005")
+			
+		end
+	end
+	
+	
+	
+	--mix.no.game
 	function ERROgame()
-		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" then
+		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" or gameee.Text == "113491250" then
 			
 		else
 			wait()
@@ -1306,21 +1374,45 @@ local function YNYKKPE_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 	
-	
 	-----Run Mix
 	----
-	--Menu-Mix-Script
+	--Menu-Mix-Script.RUn
 	local counterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins.run
+	local ScriptAdmin = script.Parent.bia.Mix.status.ScrollingFrame.ScriptAdmin.run
+	--Menu-Mix-Script
+	local menucounterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins
+	menucounterbloxgameskins.Visible = false
 	
-	counterbloxgameskins.MouseButton1Click:Connect(function()
+	
+	
+	
+	
+	
+	
+	
+	
+	ScriptAdmin.MouseButton1Click:Connect(function()
 		runall()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Scrip%20MiX/counter%20blox%20skins.lua")))()	
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Scrip%20MiX/Admin%20hack%20all%20game.lua")))()	
 	end)
 	
 	
+	function mixcounterbloxgameskins()
+		if gameee.Text == "115797356" then
+			menucounterbloxgameskins.Visible = true
+			counterbloxgameskins.MouseButton1Click:Connect(function()
+				runall()
+				loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Scrip%20MiX/counter%20blox%20skins.lua")))()	
+			end)
+		end
+	end
+	
+	
+	
+	
 end
-coroutine.wrap(YNYKKPE_fake_script)()
-local function PBLVY_fake_script() -- Ban.BanUSer 
+coroutine.wrap(SHPECYC_fake_script)()
+local function ZTQFDM_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1330,8 +1422,8 @@ local function PBLVY_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(PBLVY_fake_script)()
-local function CLRECN_fake_script() -- Openn.LocalScript 
+coroutine.wrap(ZTQFDM_fake_script)()
+local function PXVOY_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1348,8 +1440,8 @@ local function CLRECN_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(CLRECN_fake_script)()
-local function XNZZXEW_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(PXVOY_fake_script)()
+local function ANVDMR_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1381,4 +1473,4 @@ local function XNZZXEW_fake_script() -- MenuDINOV3.loading
 	menu.Visible = false
 	bia.Visible = true
 end
-coroutine.wrap(XNZZXEW_fake_script)()
+coroutine.wrap(ANVDMR_fake_script)()
