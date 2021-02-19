@@ -885,10 +885,10 @@ local function UAZF_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	
 	
 	---Máy chủ-Sever
-	--SeverOff()
+	SeverOff()
 	
 	---Máy chủ-script
-	--ScriptOff()
+	ScriptOff()
 end
 coroutine.wrap(UAZF_fake_script)()
 local function JZNGAG_fake_script() -- MenuDINOV3.Login 
