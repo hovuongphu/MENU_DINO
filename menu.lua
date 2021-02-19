@@ -90,6 +90,17 @@ local UICorner_18 = Instance.new("UICorner")
 local Ban = Instance.new("Frame")
 local Openn = Instance.new("ImageButton")
 local UICorner_19 = Instance.new("UICorner")
+local loaddding = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local menulaoding = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local tanlaod = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local maydor = Instance.new("TextLabel")
 
 --Properties:
 
@@ -102,6 +113,7 @@ bia.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
 bia.BorderSizePixel = 0
 bia.Position = UDim2.new(0.330057353, 0, 0.314660311, 0)
 bia.Size = UDim2.new(0, 539, 0, 293)
+bia.Visible = false
 
 thanh.Name = "thanh"
 thanh.Parent = bia
@@ -754,9 +766,83 @@ Openn.Image = "http://www.roblox.com/asset/?id=6406888704"
 
 UICorner_19.Parent = Openn
 
+loaddding.Name = "loaddding"
+loaddding.Parent = MenuDINOV3
+loaddding.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+loaddding.BorderSizePixel = 0
+loaddding.Position = UDim2.new(0.330057353, 0, 0.370919108, 0)
+loaddding.Size = UDim2.new(0, 539, 0, 182)
+
+Frame_3.Parent = loaddding
+Frame_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Frame_3.BorderSizePixel = 0
+Frame_3.Size = UDim2.new(0, 539, 0, 38)
+
+ImageLabel_2.Parent = Frame_3
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Size = UDim2.new(0, 38, 0, 38)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6406888704"
+
+ImageLabel_3.Parent = ImageLabel_2
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Size = UDim2.new(0, 38, 0, 38)
+ImageLabel_3.Image = "rbxassetid://4031889928"
+ImageLabel_3.ImageColor3 = Color3.fromRGB(46, 62, 35)
+
+TextLabel_12.Parent = Frame_3
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.788497329, 0, 0.131578952, 0)
+TextLabel_12.Size = UDim2.new(0, 87, 0, 28)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "DINO"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+UICorner_20.Parent = loaddding
+
+menulaoding.Name = "menulaoding"
+menulaoding.Parent = loaddding
+menulaoding.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menulaoding.BackgroundTransparency = 1.000
+menulaoding.Position = UDim2.new(0.0667903498, 0, 0.335164845, 0)
+menulaoding.Size = UDim2.new(0, 466, 0, 100)
+
+Frame_4.Parent = menulaoding
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.Position = UDim2.new(0.00429184549, 0, 0.439999998, 0)
+Frame_4.Size = UDim2.new(0, 464, 0, 11)
+
+tanlaod.Name = "tanlaod"
+tanlaod.Parent = Frame_4
+tanlaod.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+tanlaod.Size = UDim2.new(0, 0, 0, 11)
+
+UICorner_21.Parent = tanlaod
+
+maydor.Name = "maydor"
+maydor.Parent = menulaoding
+maydor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+maydor.BackgroundTransparency = 1.000
+maydor.Position = UDim2.new(0.287553638, 0, 0.720000029, 0)
+maydor.Size = UDim2.new(0, 200, 0, 21)
+maydor.Font = Enum.Font.SourceSans
+maydor.Text = "N?A"
+maydor.TextColor3 = Color3.fromRGB(255, 255, 255)
+maydor.TextScaled = true
+maydor.TextSize = 14.000
+maydor.TextWrapped = true
+
 -- Scripts:
 
-local function BLIJ_fake_script() -- ImageButton.LocalScript 
+local function SWCR_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -774,8 +860,8 @@ local function BLIJ_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(BLIJ_fake_script)()
-local function MYLZB_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(SWCR_fake_script)()
+local function UAZF_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -804,8 +890,8 @@ local function MYLZB_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(MYLZB_fake_script)()
-local function MFOFN_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(UAZF_fake_script)()
+local function JZNGAG_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -962,8 +1048,8 @@ local function MFOFN_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(MFOFN_fake_script)()
-local function TMGDF_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(JZNGAG_fake_script)()
+local function HGNISW_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1038,8 +1124,8 @@ local function TMGDF_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(TMGDF_fake_script)()
-local function BOJKF_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(HGNISW_fake_script)()
+local function UFZVLD_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1229,8 +1315,8 @@ local function BOJKF_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(BOJKF_fake_script)()
-local function OPNHGN_fake_script() -- Ban.BanUSer 
+coroutine.wrap(UFZVLD_fake_script)()
+local function NRZLY_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1240,8 +1326,8 @@ local function OPNHGN_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(OPNHGN_fake_script)()
-local function JKFIY_fake_script() -- Openn.LocalScript 
+coroutine.wrap(NRZLY_fake_script)()
+local function HVRDNA_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1258,4 +1344,37 @@ local function JKFIY_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(JKFIY_fake_script)()
+coroutine.wrap(HVRDNA_fake_script)()
+local function ZCCQW_fake_script() -- MenuDINOV3.loading 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
+	local text = script.Parent.loaddding.menulaoding.maydor
+	local menu = script.Parent.loaddding
+	local bia = script.Parent.bia
+	
+	wait(2)
+	text.Text = "Check Version."
+	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
+	wait(0.50)
+	thanhloading :TweenSize(UDim2.new(0, 89,0, 11), "Out", "Linear", 1, true)
+	wait(0.50)
+	text.Text = "Server Connection."
+	thanhloading :TweenSize(UDim2.new(0, 163,0, 11), "Out", "Linear", 1, true)
+	wait(0.50)
+	thanhloading:TweenSize(UDim2.new(0, 224,0, 11), "Out", "Linear", 2, true)
+	wait(0.50)
+	thanhloading :TweenSize(UDim2.new(0, 307,0, 11), "Out", "Linear", 1, true)
+	wait(0.50)
+	text.Text = "Running Version."
+	thanhloading :TweenSize(UDim2.new(0, 395,0, 11), "Out", "Linear", 1, true)
+	wait(0.50)
+	thanhloading:TweenSize(UDim2.new(0, 435,0, 11), "Out", "Linear", 2, true)
+	wait(0.50)
+	text.Text = "Running Dino.Lua"
+	thanhloading :TweenSize(UDim2.new(0, 464,0, 11), "Out", "Linear", 1, true)
+	wait(2)
+	menu.Visible = false
+	bia.Visible = true
+end
+coroutine.wrap(ZCCQW_fake_script)()
