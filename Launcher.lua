@@ -842,7 +842,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function SWCR_fake_script() -- ImageButton.LocalScript 
+local function QGTXD_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -860,8 +860,8 @@ local function SWCR_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(SWCR_fake_script)()
-local function UAZF_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(QGTXD_fake_script)()
+local function HQMZCTT_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -885,13 +885,13 @@ local function UAZF_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	
 	
 	---Máy chủ-Sever
-	SeverOff()
+	--SeverOff()
 	
 	---Máy chủ-script
-	ScriptOff()
+	--ScriptOff()
 end
-coroutine.wrap(UAZF_fake_script)()
-local function JZNGAG_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(HQMZCTT_fake_script)()
+local function FUVV_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1048,8 +1048,8 @@ local function JZNGAG_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(JZNGAG_fake_script)()
-local function HGNISW_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(FUVV_fake_script)()
+local function LECUZ_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1124,8 +1124,8 @@ local function HGNISW_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(HGNISW_fake_script)()
-local function UFZVLD_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(LECUZ_fake_script)()
+local function YNYKKPE_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1171,7 +1171,7 @@ local function UFZVLD_fake_script() -- MenuDINOV3.Run Scrip
 			wait(3)
 			IDgame.Text = "Ro-Ghoul."
 			runall()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ro-Ghoul.lau")))()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Ro-Ghoul.lau")))()
 		end
 	end
 	
@@ -1182,7 +1182,7 @@ local function UFZVLD_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Counter Blox."
 			runall()
 			--liclC()
-			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()
 		end
 	end
 	
@@ -1193,17 +1193,21 @@ local function UFZVLD_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Arsenal."
 			runall()
 			--liclC()
-			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()
 		end
 	end
 	
 	function ERROgame()
-		wait()
-		IDgame.Text = "load DATA..."
-		wait(2)
-		IDgame.Text = "erro00D"
-		wait(5)
-		IDgame.Text = "Script"
+		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" then
+			
+		else
+			wait()
+			IDgame.Text = "load DATA..."
+			wait(2)
+			IDgame.Text = "erro00D"
+			wait(5)
+			IDgame.Text = "Script"
+		end
 	end
 	
 	
@@ -1315,8 +1319,8 @@ local function UFZVLD_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(UFZVLD_fake_script)()
-local function NRZLY_fake_script() -- Ban.BanUSer 
+coroutine.wrap(YNYKKPE_fake_script)()
+local function PBLVY_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1326,8 +1330,8 @@ local function NRZLY_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(NRZLY_fake_script)()
-local function HVRDNA_fake_script() -- Openn.LocalScript 
+coroutine.wrap(PBLVY_fake_script)()
+local function CLRECN_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1344,8 +1348,8 @@ local function HVRDNA_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(HVRDNA_fake_script)()
-local function ZCCQW_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(CLRECN_fake_script)()
+local function XNZZXEW_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1377,4 +1381,4 @@ local function ZCCQW_fake_script() -- MenuDINOV3.loading
 	menu.Visible = false
 	bia.Visible = true
 end
-coroutine.wrap(ZCCQW_fake_script)()
+coroutine.wrap(XNZZXEW_fake_script)()
