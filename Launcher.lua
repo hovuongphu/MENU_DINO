@@ -878,7 +878,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function IDKX_fake_script() -- ImageButton.LocalScript 
+local function NMITNHK_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -896,8 +896,8 @@ local function IDKX_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(IDKX_fake_script)()
-local function NSTKOX_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(NMITNHK_fake_script)()
+local function HGCKMKG_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -926,8 +926,8 @@ local function NSTKOX_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(NSTKOX_fake_script)()
-local function DXQQF_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(HGCKMKG_fake_script)()
+local function HSDETXD_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1088,8 +1088,8 @@ local function DXQQF_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(DXQQF_fake_script)()
-local function CNVZUOZ_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(HSDETXD_fake_script)()
+local function DZTJG_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1164,8 +1164,8 @@ local function CNVZUOZ_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(CNVZUOZ_fake_script)()
-local function VWMCCLX_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(DZTJG_fake_script)()
+local function OWMQH_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1194,9 +1194,14 @@ local function VWMCCLX_fake_script() -- MenuDINOV3.Run Scrip
 		AllStat()
 		---
 		ERROgame()
-		--mix
+	end
+	
+	MIXGAME()
+	
+	function MIXGAME()
 		mixcounterbloxgameskins()
 	end
+	
 	
 	--IDgame
 	gameee.Text = game.GameId
@@ -1413,8 +1418,8 @@ local function VWMCCLX_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(VWMCCLX_fake_script)()
-local function VUDOFQ_fake_script() -- Ban.BanUSer 
+coroutine.wrap(OWMQH_fake_script)()
+local function LXSJOI_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1424,8 +1429,8 @@ local function VUDOFQ_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(VUDOFQ_fake_script)()
-local function OABHIW_fake_script() -- Openn.LocalScript 
+coroutine.wrap(LXSJOI_fake_script)()
+local function KBPKV_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1442,8 +1447,8 @@ local function OABHIW_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(OABHIW_fake_script)()
-local function FECI_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(KBPKV_fake_script)()
+local function BOMFHFF_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1475,4 +1480,4 @@ local function FECI_fake_script() -- MenuDINOV3.loading
 	menu.Visible = false
 	bia.Visible = true
 end
-coroutine.wrap(FECI_fake_script)()
+coroutine.wrap(BOMFHFF_fake_script)()
