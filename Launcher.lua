@@ -878,7 +878,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function RFXP_fake_script() -- ImageButton.LocalScript 
+local function YAVL_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -896,8 +896,8 @@ local function RFXP_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(RFXP_fake_script)()
-local function AYWM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(YAVL_fake_script)()
+local function VDPA_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -926,8 +926,8 @@ local function AYWM_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(AYWM_fake_script)()
-local function IZMSDV_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(VDPA_fake_script)()
+local function PVEOVVT_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1088,8 +1088,8 @@ local function IZMSDV_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(IZMSDV_fake_script)()
-local function OQIN_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(PVEOVVT_fake_script)()
+local function VAVHCE_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1164,8 +1164,8 @@ local function OQIN_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(OQIN_fake_script)()
-local function WQOZ_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(VAVHCE_fake_script)()
+local function TCGCSY_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1192,6 +1192,7 @@ local function WQOZ_fake_script() -- MenuDINOV3.Run Scrip
 		Arsenal()
 		PhantomForces()
 		AllStat()
+		KingPiece()
 		---
 		ERROgame()
 	end
@@ -1262,7 +1263,16 @@ local function WQOZ_fake_script() -- MenuDINOV3.Run Scrip
 		end
 	end
 	
-	
+	function KingPiece()
+		if gameee.Text == "1451439645" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "King Piece."
+			runall()
+			--liclC()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/KingPiece.lua')))()
+		end
+	end
 	
 	--mix.no.game
 	function ERROgame()
@@ -1375,8 +1385,8 @@ local function WQOZ_fake_script() -- MenuDINOV3.Run Scrip
 	end)
 	
 end
-coroutine.wrap(WQOZ_fake_script)()
-local function SLPGBR_fake_script() -- Ban.BanUSer 
+coroutine.wrap(TCGCSY_fake_script)()
+local function HYTMNRS_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1386,8 +1396,8 @@ local function SLPGBR_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(SLPGBR_fake_script)()
-local function CDVXEYR_fake_script() -- Openn.LocalScript 
+coroutine.wrap(HYTMNRS_fake_script)()
+local function HMBN_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1404,8 +1414,8 @@ local function CDVXEYR_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(CDVXEYR_fake_script)()
-local function VBCTH_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(HMBN_fake_script)()
+local function HPUDP_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1437,4 +1447,4 @@ local function VBCTH_fake_script() -- MenuDINOV3.loading
 	menu.Visible = false
 	bia.Visible = true
 end
-coroutine.wrap(VBCTH_fake_script)()
+coroutine.wrap(HPUDP_fake_script)()
