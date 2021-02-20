@@ -878,7 +878,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function NMITNHK_fake_script() -- ImageButton.LocalScript 
+local function NVBR_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -896,8 +896,8 @@ local function NMITNHK_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(NMITNHK_fake_script)()
-local function HGCKMKG_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(NVBR_fake_script)()
+local function UPMVMM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -926,8 +926,8 @@ local function HGCKMKG_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(HGCKMKG_fake_script)()
-local function HSDETXD_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(UPMVMM_fake_script)()
+local function AFWO_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1088,8 +1088,8 @@ local function HSDETXD_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(HSDETXD_fake_script)()
-local function DZTJG_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(AFWO_fake_script)()
+local function GAJG_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1164,8 +1164,8 @@ local function DZTJG_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(DZTJG_fake_script)()
-local function OWMQH_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(GAJG_fake_script)()
+local function WSBFZIB_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1273,7 +1273,7 @@ local function OWMQH_fake_script() -- MenuDINOV3.Run Scrip
 	
 	--mix.no.game
 	function ERROgame()
-		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" or gameee.Text == "113491250" then
+		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" or gameee.Text == "113491250" or gameee.Text == "1720936166" then
 			
 		else
 			wait()
@@ -1418,8 +1418,8 @@ local function OWMQH_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(OWMQH_fake_script)()
-local function LXSJOI_fake_script() -- Ban.BanUSer 
+coroutine.wrap(WSBFZIB_fake_script)()
+local function TEMJS_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1429,8 +1429,8 @@ local function LXSJOI_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(LXSJOI_fake_script)()
-local function KBPKV_fake_script() -- Openn.LocalScript 
+coroutine.wrap(TEMJS_fake_script)()
+local function YMSEMT_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1447,8 +1447,8 @@ local function KBPKV_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(KBPKV_fake_script)()
-local function BOMFHFF_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(YMSEMT_fake_script)()
+local function IPED_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1480,4 +1480,4 @@ local function BOMFHFF_fake_script() -- MenuDINOV3.loading
 	menu.Visible = false
 	bia.Visible = true
 end
-coroutine.wrap(BOMFHFF_fake_script)()
+coroutine.wrap(IPED_fake_script)()
