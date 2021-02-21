@@ -943,10 +943,10 @@ local function KQYCLA_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	
 	
 	---Máy chủ-Sever
-	SeverOff()
+	--SeverOff()
 	
 	---Máy chủ-script
-	ScriptOff()
+	--ScriptOff()
 end
 coroutine.wrap(KQYCLA_fake_script)()
 local function ENNEAI_fake_script() -- MenuDINOV3.Login 
