@@ -943,7 +943,7 @@ local function KQYCLA_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	
 	
 	---Máy chủ-Sever
-	--SeverOff()
+	SeverOff()
 	
 	---Máy chủ-script
 	ScriptOff()
