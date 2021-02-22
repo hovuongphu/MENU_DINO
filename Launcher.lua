@@ -45,67 +45,65 @@ local Frame = Instance.new("Frame")
 local IDgame = Instance.new("TextLabel")
 local runscrop = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local Offline = Instance.new("TextLabel")
-local UICorner_9 = Instance.new("UICorner")
 local discor = Instance.new("Frame")
 local bin_7 = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
 local Frame_2 = Instance.new("Frame")
 local TextLabel_6 = Instance.new("TextLabel")
 local copyLink = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local Mix = Instance.new("Frame")
 local ServerL = Instance.new("Frame")
 local bin_8 = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local status_2 = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local counterbloxskins = Instance.new("Frame")
 local run_2 = Instance.new("ImageButton")
 local namegame = Instance.new("TextLabel")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local ScriptAdmin = Instance.new("Frame")
 local run_3 = Instance.new("ImageButton")
 local namegame_2 = Instance.new("TextLabel")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local Login = Instance.new("Frame")
 local ServerL_2 = Instance.new("Frame")
 local bin_9 = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local TextLabel_9 = Instance.new("TextLabel")
 local status_3 = Instance.new("Frame")
 local IDuser = Instance.new("TextLabel")
 local User = Instance.new("TextLabel")
 local login = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Code = Instance.new("TextBox")
 local gameee = Instance.new("TextLabel")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local setting_2 = Instance.new("Frame")
 local ServerL_3 = Instance.new("Frame")
 local bin_10 = Instance.new("Frame")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
 local status_4 = Instance.new("Frame")
 local TextLabel_11 = Instance.new("TextLabel")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local Ban = Instance.new("Frame")
 local Openn = Instance.new("ImageButton")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local loaddding = Instance.new("Frame")
 local Frame_3 = Instance.new("Frame")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local TextLabel_12 = Instance.new("TextLabel")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local menulaoding = Instance.new("Frame")
 local Frame_4 = Instance.new("Frame")
 local tanlaod = Instance.new("Frame")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local maydor = Instance.new("TextLabel")
 
 --Properties:
@@ -421,7 +419,6 @@ IDgame.TextWrapped = true
 
 runscrop.Name = "runscrop"
 runscrop.Parent = Frame
-runscrop.Active = false
 runscrop.BackgroundColor3 = Color3.fromRGB(94, 147, 85)
 runscrop.BorderSizePixel = 0
 runscrop.Position = UDim2.new(0.135922328, 0, 0.463414609, 0)
@@ -434,21 +431,6 @@ runscrop.TextSize = 14.000
 runscrop.TextWrapped = true
 
 UICorner_8.Parent = runscrop
-
-Offline.Name = "Offline"
-Offline.Parent = Frame
-Offline.BackgroundColor3 = Color3.fromRGB(94, 147, 85)
-Offline.Position = UDim2.new(0.136000007, 0, 0.463, 0)
-Offline.Size = UDim2.new(0, 149, 0, 21)
-Offline.Visible = false
-Offline.Font = Enum.Font.SourceSans
-Offline.Text = "Offline!"
-Offline.TextColor3 = Color3.fromRGB(225, 225, 225)
-Offline.TextScaled = true
-Offline.TextSize = 14.000
-Offline.TextWrapped = true
-
-UICorner_9.Parent = Offline
 
 discor.Name = "discor"
 discor.Parent = menu
@@ -463,7 +445,7 @@ bin_7.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_7.BorderSizePixel = 0
 bin_7.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_10.Parent = bin_7
+UICorner_9.Parent = bin_7
 
 TextLabel_5.Parent = discor
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -508,7 +490,7 @@ copyLink.Text = "Copy Link"
 copyLink.TextColor3 = Color3.fromRGB(225, 225, 225)
 copyLink.TextSize = 14.000
 
-UICorner_11.Parent = copyLink
+UICorner_10.Parent = copyLink
 
 Mix.Name = "Mix"
 Mix.Parent = bia
@@ -532,7 +514,7 @@ bin_8.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_8.BorderSizePixel = 0
 bin_8.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_12.Parent = bin_8
+UICorner_11.Parent = bin_8
 
 TextLabel_7.Parent = ServerL
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -591,7 +573,7 @@ namegame.TextScaled = true
 namegame.TextSize = 14.000
 namegame.TextWrapped = true
 
-UICorner_13.Parent = counterbloxskins
+UICorner_12.Parent = counterbloxskins
 
 ScriptAdmin.Name = "ScriptAdmin"
 ScriptAdmin.Parent = ScrollingFrame
@@ -623,7 +605,7 @@ namegame_2.TextScaled = true
 namegame_2.TextSize = 14.000
 namegame_2.TextWrapped = true
 
-UICorner_14.Parent = ScriptAdmin
+UICorner_13.Parent = ScriptAdmin
 
 TextLabel_8.Parent = status_2
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
@@ -636,7 +618,7 @@ TextLabel_8.TextScaled = true
 TextLabel_8.TextSize = 14.000
 TextLabel_8.TextWrapped = true
 
-UICorner_15.Parent = TextLabel_8
+UICorner_14.Parent = TextLabel_8
 
 Login.Name = "Login"
 Login.Parent = bia
@@ -659,7 +641,7 @@ bin_9.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_9.BorderSizePixel = 0
 bin_9.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_16.Parent = bin_9
+UICorner_15.Parent = bin_9
 
 TextLabel_9.Parent = ServerL_2
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -718,7 +700,7 @@ login.TextScaled = true
 login.TextSize = 14.000
 login.TextWrapped = true
 
-UICorner_17.Parent = login
+UICorner_16.Parent = login
 
 Code.Name = "Code"
 Code.Parent = status_3
@@ -744,7 +726,7 @@ gameee.Font = Enum.Font.SourceSans
 gameee.TextColor3 = Color3.fromRGB(0, 0, 0)
 gameee.TextSize = 14.000
 
-UICorner_18.Parent = bia
+UICorner_17.Parent = bia
 
 setting_2.Name = "setting"
 setting_2.Parent = bia
@@ -768,7 +750,7 @@ bin_10.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_10.BorderSizePixel = 0
 bin_10.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_19.Parent = bin_10
+UICorner_18.Parent = bin_10
 
 TextLabel_10.Parent = ServerL_3
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -801,7 +783,7 @@ TextLabel_11.TextScaled = true
 TextLabel_11.TextSize = 14.000
 TextLabel_11.TextWrapped = true
 
-UICorner_20.Parent = TextLabel_11
+UICorner_19.Parent = TextLabel_11
 
 Ban.Name = "Ban"
 Ban.Parent = MenuDINOV3
@@ -818,7 +800,7 @@ Openn.Position = UDim2.new(0, 0, 0.96305126, 0)
 Openn.Size = UDim2.new(0, 31, 0, 31)
 Openn.Image = "http://www.roblox.com/asset/?id=6406888704"
 
-UICorner_21.Parent = Openn
+UICorner_20.Parent = Openn
 
 loaddding.Name = "loaddding"
 loaddding.Parent = MenuDINOV3
@@ -859,7 +841,7 @@ TextLabel_12.TextScaled = true
 TextLabel_12.TextSize = 14.000
 TextLabel_12.TextWrapped = true
 
-UICorner_22.Parent = loaddding
+UICorner_21.Parent = loaddding
 
 menulaoding.Name = "menulaoding"
 menulaoding.Parent = loaddding
@@ -879,7 +861,7 @@ tanlaod.Parent = Frame_4
 tanlaod.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
 tanlaod.Size = UDim2.new(0, 0, 0, 11)
 
-UICorner_23.Parent = tanlaod
+UICorner_22.Parent = tanlaod
 
 maydor.Name = "maydor"
 maydor.Parent = menulaoding
@@ -896,7 +878,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function NQGIU_fake_script() -- ImageButton.LocalScript 
+local function VKWXOZ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -914,25 +896,21 @@ local function NQGIU_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(NQGIU_fake_script)()
-local function KQYCLA_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(VKWXOZ_fake_script)()
+local function HPPOYL_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
 	local StatusSever = script.Parent.bia.menu.status.Online.cmdServer
-	local runscrip = script.Parent.bia.menu.Run.Frame.runscrop
-	local Offlines = script.Parent.bia.menu.Run.Frame.Offline
+	
 	function SeverOff()
 		StatusSever.Text = "Offline"
-		StatusSever.TextColor3 = Color3.new(0.666667, 0, 0)
+		StatusSever.TextColor3 = "121, 0, 0"
 	end
 	
 	function ScriptOff()
-		Offlines.Visible = true
-		runscrip.Visible = false
 		Statusscript.Text = "Offline"
-		Statusscript.TextColor3 = Color3.new(0.666667, 0, 0)
-		
+		Statusscript.TextColor3 = "121, 0, 0"
 	end
 	
 	
@@ -943,13 +921,13 @@ local function KQYCLA_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	
 	
 	---Máy chủ-Sever
-	SeverOff()
+	--SeverOff()
 	
 	---Máy chủ-script
-	ScriptOff()
+	--ScriptOff()
 end
-coroutine.wrap(KQYCLA_fake_script)()
-local function ENNEAI_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(HPPOYL_fake_script)()
+local function HGOMO_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1110,8 +1088,8 @@ local function ENNEAI_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(ENNEAI_fake_script)()
-local function TMQT_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(HGOMO_fake_script)()
+local function FRVVGC_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1186,8 +1164,8 @@ local function TMQT_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(TMQT_fake_script)()
-local function ZRZQINJ_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(FRVVGC_fake_script)()
+local function RGSE_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1223,7 +1201,8 @@ local function ZRZQINJ_fake_script() -- MenuDINOV3.Run Scrip
 	gameee.Text = game.GameId
 	
 	
-	
+	local bia = script.Parent.bia
+	local menusl = script.Parent.Openn
 	
 	
 	
@@ -1280,7 +1259,12 @@ local function ZRZQINJ_fake_script() -- MenuDINOV3.Run Scrip
 		if gameee.Text == "1720936166" then
 			IDgame.Text = "load DATA..."
 			wait(3)
-			game.Players.LocalPlayer:Kick("Erro#005")
+			IDgame.Text = "All Star Tower Defense."
+			runall()
+			menusl.Visible = true
+			bia.Visible = false
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/User%20CMDs/lol.lua")))()
 			
 		end
 	end
@@ -1385,9 +1369,6 @@ local function ZRZQINJ_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 	
-	
-	
-	
 	-----Run Mix
 	----
 	--Menu-Mix-Script.RUn
@@ -1415,11 +1396,9 @@ local function ZRZQINJ_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 	
-	
-	-----------
 end
-coroutine.wrap(ZRZQINJ_fake_script)()
-local function FGJGNCL_fake_script() -- Ban.BanUSer 
+coroutine.wrap(RGSE_fake_script)()
+local function GFWL_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1429,8 +1408,8 @@ local function FGJGNCL_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(FGJGNCL_fake_script)()
-local function VFBGV_fake_script() -- Openn.LocalScript 
+coroutine.wrap(GFWL_fake_script)()
+local function IRPKU_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1447,8 +1426,8 @@ local function VFBGV_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(VFBGV_fake_script)()
-local function UCOA_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(IRPKU_fake_script)()
+local function OVRDH_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1456,10 +1435,7 @@ local function UCOA_fake_script() -- MenuDINOV3.loading
 	local menu = script.Parent.loaddding
 	local bia = script.Parent.bia
 	
-	thanhloading.Visible = false
 	wait(2)
-	thanhloading.Visible = true
-	wait(0.91)
 	text.Text = "Check Version."
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 	wait(0.50)
@@ -1482,5 +1458,18 @@ local function UCOA_fake_script() -- MenuDINOV3.loading
 	wait(2)
 	menu.Visible = false
 	bia.Visible = true
+	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(UCOA_fake_script)()
+coroutine.wrap(OVRDH_fake_script)()
+local function JAHQ_fake_script() -- MenuDINOV3.controle 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	local controle = 1
+	
+	while controle < 2 do
+		wait(300)
+		print("check Sever")
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/CMD/CMD%20ADMIN.lua")))()
+	end
+end
+coroutine.wrap(JAHQ_fake_script)()
