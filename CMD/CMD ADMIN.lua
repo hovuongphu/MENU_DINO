@@ -1,1 +1,5 @@
-game.Players.LocalPlayer:Kick("Erro#00E")
+function update()
+	game.Players.LocalPlayer:Kick("Script Update")
+end
+
+--update()
