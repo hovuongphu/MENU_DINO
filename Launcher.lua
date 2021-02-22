@@ -921,10 +921,10 @@ local function OGBA_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	
 	
 	---Máy chủ-Sever
-	--SeverOff()
+	SeverOff()
 	
 	---Máy chủ-script
-	--ScriptOff()
+	ScriptOff()
 end
 coroutine.wrap(OGBA_fake_script)()
 local function QCDD_fake_script() -- MenuDINOV3.Login 
