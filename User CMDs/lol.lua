@@ -113,7 +113,7 @@ local function ZSIGOFI_fake_script() -- ScreenGui.loading
 		thanhloading :TweenSize(UDim2.new(0, 89,0, 11), "Out", "Linear", 3, true)
 		wait(0.99)
 		text.Text = "Server EU."
-		game.Players.LocalPlayer:Kick("Erro#005")
+		game.Players.LocalPlayer:Kick("Server EU Full")
 		thanhloading :TweenSize(UDim2.new(0, 163,0, 11), "Out", "Linear", 3, true)
 		wait(0.99)
 		thanhloading:TweenSize(UDim2.new(0, 224,0, 11), "Out", "Linear", 3, true)
@@ -143,7 +143,7 @@ local function ZSIGOFI_fake_script() -- ScreenGui.loading
 		wait(0.99)
 		thanhloading:TweenSize(UDim2.new(0, 224,0, 11), "Out", "Linear", 3, true)
 		wait(0.99)
-		game.Players.LocalPlayer:Kick("Erro#005")
+		game.Players.LocalPlayer:Kick("Server INDO Full")
 		thanhloading :TweenSize(UDim2.new(0, 307,0, 11), "Out", "Linear", 3, true)
 		wait(0.99)
 		text.Text = "Running Script."
@@ -171,13 +171,14 @@ local function ZSIGOFI_fake_script() -- ScreenGui.loading
 		wait(0.99)
 		thanhloading :TweenSize(UDim2.new(0, 307,0, 11), "Out", "Linear", 3, true)
 		wait(0.99)
+		game.Players.LocalPlayer:Kick("Server VI Full")
 		text.Text = "Running Script."
 		thanhloading :TweenSize(UDim2.new(0, 395,0, 11), "Out", "Linear", 3, true)
 		wait(0.99)
 		thanhloading:TweenSize(UDim2.new(0, 435,0, 11), "Out", "Linear", 3, true)
 		wait(0.99)
 		text.Text = "Running DinoAllStatVI.Lua"
-		game.Players.LocalPlayer:Kick("Erro#005")
+		
 		thanhloading :TweenSize(UDim2.new(0, 464,0, 11), "Out", "Linear", 3, true)
 		wait(2)
 		menu.Visible = false
