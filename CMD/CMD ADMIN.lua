@@ -4,7 +4,7 @@ function update()
 		Text = "UPDATE HEY!";
 		Duration = 20;
 	})
-	wait(5)
+	wait(20)
 	game.Players.LocalPlayer:Kick("UPDATE HEY!")
 end
 update()
