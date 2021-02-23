@@ -878,7 +878,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function JNJYEM_fake_script() -- ImageButton.LocalScript 
+local function PUEV_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -896,8 +896,8 @@ local function JNJYEM_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(JNJYEM_fake_script)()
-local function WFZW_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(PUEV_fake_script)()
+local function MQST_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -926,8 +926,8 @@ local function WFZW_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(WFZW_fake_script)()
-local function MYRKLG_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(MQST_fake_script)()
+local function ADVWYQS_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1111,8 +1111,8 @@ local function MYRKLG_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(MYRKLG_fake_script)()
-local function VMYIDET_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(ADVWYQS_fake_script)()
+local function XWTZQUC_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1187,8 +1187,8 @@ local function VMYIDET_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(VMYIDET_fake_script)()
-local function PLINM_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(XWTZQUC_fake_script)()
+local function KUBXVX_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1393,12 +1393,12 @@ local function PLINM_fake_script() -- MenuDINOV3.Run Scrip
 	
 	ScriptAdmin.MouseButton1Click:Connect(function()
 		runall()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Scrip%20MiX/Admin%20hack%20all%20game.lua")))()	
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/ScripMiX/Adminhackallgame.lua")))()	
 	end)
 	
 	counterbloxgameskins.MouseButton1Click:Connect(function()
 		runall()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Scrip%20MiX/counter%20blox%20skins.lua")))()	
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/ScripMiX/counterbloxskins.lua")))()	
 	end)
 	
 	
@@ -1411,8 +1411,8 @@ local function PLINM_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(PLINM_fake_script)()
-local function YZEVD_fake_script() -- Ban.BanUSer 
+coroutine.wrap(KUBXVX_fake_script)()
+local function DISEE_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1422,8 +1422,8 @@ local function YZEVD_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(YZEVD_fake_script)()
-local function ZTVUHRV_fake_script() -- Openn.LocalScript 
+coroutine.wrap(DISEE_fake_script)()
+local function NJJA_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1440,8 +1440,8 @@ local function ZTVUHRV_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(ZTVUHRV_fake_script)()
-local function METC_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(NJJA_fake_script)()
+local function LIVUPVI_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1474,8 +1474,8 @@ local function METC_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(METC_fake_script)()
-local function CSTZY_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(LIVUPVI_fake_script)()
+local function YUAFY_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
@@ -1485,4 +1485,4 @@ local function CSTZY_fake_script() -- MenuDINOV3.controle
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/CMD/CMD%20ADMIN.lua")))()
 	end
 end
-coroutine.wrap(CSTZY_fake_script)()
+coroutine.wrap(YUAFY_fake_script)()
