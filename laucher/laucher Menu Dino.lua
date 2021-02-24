@@ -1,1 +1,1451 @@
-return(function(e,...)local L="This file was obfuscated using PSU Obfuscator 4.0.A | https://www.psu.dev/ & discord.gg/psu";local n=e['ilJ9gRLdT'];local v=e['QphYtZa9A'];local M=e[((#{}+105154307))];local U=e['LvXTl'];local V=e.xvVhfVvQj8;local S=e.bUQGYoy;local O=e[(650224135)];local o=e[((#{369;753;}+229788680))];local w=e[(486202166)];local Y=e['du8al5UL'];local g=e["a2ZaxmH"];local x=e[((300551408-#("who the fuck looked at synapse xen and said 'yeah this is good enough for release'")))];local d=e["zkv5P"];local N=e[((#{901;178;658;413;}+154869116))];local Q=e[((196931579-#("you dumped constants by printing the deserializer??? ladies and gentlemen stand clear we have a genius in the building.")))];local p=e[(156076146)];local t=e[((776915501-#("psu premium chads winning (only joe biden supporters use the free version)")))];local E=e[(389474244)];local G=e["vLBUI2aP6"];local b=e[((#{661;599;(function(...)return 999,838,929,653,...;end)(136,827,581)}+736987166))];local s=e[((503800781-#("concat was here")))];local a=e.s2NX9tkSv;local y=e[(237944411)];local k=e.mxZizUMVU;local r=e[((#{837;364;}+78261821))];local u=e[(896724075)];local I=e.ebwTwSN;local P=e['z9zbyLgcQ'];local C=e[((#{360;}+263710991))];local H=e[(336938817)];local h=e[(239762702)];local T=((getfenv)or(function(...)return(_ENV);end));local c,i,l=({}),(""),(T(a));local c=((l["\98"..e[w].."\116\51"..e[k]])or(l["\98"..e[w]..e[n]])or({}));local o=(((c)and(c["\98"..e[o].."\111\114"]))or(function(e,o)local l,n=a,s;while((e>s)and(o>s))do local c,a=e%t,o%t;if c~=a then n=n+l;end;e,o,l=(e-c)/t,(o-a)/t,l*t;end;if e<o then e=o;end;while e>s do local o=e%t;if o>s then n=n+l;end;e,l=(e-o)/t,l*t;end;return(n);end));local f=(t^I);local m=(f-a);local B,D,A;local f=(i[""..e[x]..e.TG07wEp9.."\98"]);local h=(i[""..e[u]..e[h]..e[n].."\101"]);local X=(i["\99\104\97\114"]);local i=(i[""..e[Q].."\115\117"..e[u]]);local i=(l["\114"..e[r]..e[U].."\115"..e[d].."\116"]);local U=(l["\115\101"..e["kwap0"]..e[d].."\99"..e[n]]);local F=(l["\109"..e[r]..e[n].."\104"]["\102"..e.kwap0.."\111"..e[g].."\114"]);local Q=(l["\116\111\110\117\109\98\101"..e[p]]);local z=(l["\112"..e[r].."\105\114\115"]);local i=(l[""..e[n].."\121"..e[E].."\101"]);local i=((l["\117\110"..e[E]..e[r]..e["D4VtH1"]..e[P]])or(l["\116\97\98\108"..e[d]]["\117"..e[y]..e[E]..e[r]..e.D4VtH1.."\107"]));local E=(l["\115"..e[d]..e[n]..e[b].."\101"..e[n].."\97\116\97\98"..e.kwap0..e[d]]);local P=((l[""..e[b]..e[r]..e[n].."\104"]["\108\100"..e[d].."\120\112"])or(function(l,e,...)return((l*t)^e);end));D=((c[""..e[p]..e[x]..e[v].."\105"..e.nD0BxcO.."\116"])or(function(l,e,...)if(e<s)then return(B(l,-(e)));end;return(F(l%t^I/t^e));end));B=((c[""..e.kwap0..e[x]..e[v].."\105\102"..e[n]])or(function(l,e,...)if(e<s)then return(D(l,-(e)));end;return((l*t^e)%t^I);end));local E=(c[""..e[u].."\111"..e[p]])or(function(e,l,...)return(m-A(m-e,m-l));end);A=(c[""..e[u]..e[r].."\110\100"])or(function(l,e,...)return(((l+e)-o(l,e))/t);end);local t=(c[""..e[u].."\110"..e[g]..e[n]])or(function(e,...)return(m-e);end);if((not(l[""..e[u]..e[w].."\116\51"..e[k]]))and(not(l["\98\105\116"])))then c[""..e[u].."\120\111\114"]=o;c["\98\111"..e[p]]=E;c["\98"..e[y]..e[g].."\116"]=t;c["\114"..e[x]..e[v].."\105"..e['nD0BxcO']..e[n]]=D;c["\98"..e[r]..e[y].."\100"]=A;c[""..e['kwap0']..e[x].."\104"..e[w]..e.nD0BxcO..e[n]]=B;end;local m=(l["\116\97\98\108\101"]["\99\111\110"..e['D4VtH1'].."\97"..e[n]]);local t=(l[""..e[n].."\97\98\108\101"]["\114"..e[d]..e[b].."\111\118"..e[d]]);local t=(l[""..e[n]..e[r].."\98"..e['kwap0'].."\101"][""..e[w]..e[y]..e[x].."\101\114"..e[n]]);local b=(((l["\116\97"..e[u].."\108\101"][""..e["D4VtH1"]..e[p].."\101"..e[r].."\116"..e[d]]))or((function(e,...)return({i({},s,e);});end)));l[""..e[u].."\105"..e[n]..e['Muelqwbc']..e[k]]=c;local l=(O);local n=(#L+N);local r,p=({}),({});for e=s,n-a do local l=X(e);r[e]=l;p[e]=l;p[l]=e;end;local x,a=(function(o)local c,t,e=h(o,a,S);if((c+t+e)~=M)then l=l+Y;n=n+V;end;o=f(o,H);local l,t,c=(""),(""),({});local e=a;local function i()local l=Q(f(o,e,e),C);e=e+a;local o=Q(f(o,e,e+l-a),C);e=e+l;return(o);end;l=p[i()];c[a]=l;while(e<#o)do local e=i();if r[e]then t=r[e];else t=l..f(l,a,a);end;r[n]=l..f(t,a,a);c[#c+a],l,n=t,t,n+a;end;return(m(c));end)("PSU|23w25R10102161W1A276231121b1D1f1V1u1I1R1t22h1X1b27622E21R1R16111k1D21l2121M1N22G2151327622t1M1322I2131d27622p22a1711161728h111L1t1t171d28227622x171Q22m2101E27621Z1Y1H21c1x1M1g161b1a151f1q1722H28p102321B1I22L1y182762381r1S17161r171922521A1427b1C1L1S21U2191727622C21d1n101J181721W21b152a41Z1i101B21w2121c27622w2A3141D1J1r1d1N1T27T21W29D237161n22027n2762241Z1c121d21R21c1H1r1p1422M218162762202151f1A18192272b4102371m1H2b114151B11121L22B29d22121m21E22Z29j27622U2aS2aU2AW1121W28927622221128G29a1w21I1N141v1A162272A227621v217191f1912112262bI2CX1521G1j1c182272cA1021U1z12181R1h2dI21T2Bs28y1H21j21711151827z2aJ2AL2762212131o2bF1E21I2cp141j2801z1927p14112e62CS2cU2BS2bU161m171N21M21O2B91021y29V27622q28A1321Y2dE22r1B191L17131h1c21z27927621y21B1r1N2E52Cq2E822G2aD2FA2D92db22729d21Y191p23g2d61021z2aL1821821922628V276236171r21d2181m2EK2Em21M21f1P1K2232F9102F01d1618121f28f1o2C4283102341s1u22g21N1H276235141G2h221M21c1121D2171h192F21v2Aw22m22q2202an1S1014132211l1022l1j1m22H2211E1T1s1T1n1N2ek1n2F6111Q1h1b1q22I2252b821U21z171p131Q11191n1o1T22i22q181B1R1a2At28e22O21U2DB1721T22r2191K2aT27E1n22k21u2gD2232cw1022A21F16131b28321y2j92bU2cq2EG2272ft2361J2Bn1B1221Z2141227622N1o2312de2A11b1T21Q21q2k221X2ea2bK2131v101l1N21C2172ab2et1023B1M1J1S21W2ki22v162fM2ds2762892ci2Df2kg297131e191W21f1J2I622M2fJ1022b21n2a31r22M2GX27622b21e1o21G2141m101i161221J21j1K2H12EL22m2Gg22a2131R21p2EF2CT2272lf2bt2bv1s1128A111b1u121t1v2kD161d22B2K81022s28F2b81t1P152Bq2Bs22B21329q29s21D21j1D1P1g2bR27O102E01U151121n219181f2b122M2j92MV1h2Hn1l2D42g12GH2f12D1121G152B12n11g2hR21d1R27621W1X13171K1p1O2Dr2f22132161a171H1821a2Cz1L21D2l42I629B2Ft22r1C2m92c222m2ML21t1y2AV1V1N1l1H2D429d22v2IO2d52bJ2gH2I519141R21x2de2392i01m151l1L2232nN2Fb171a1y2Fc11172dR2DT182262J92A51T1C21I2191N22A2mL23b2IK2O62F5122cu2M522U1f2fd161F152Bo2gn1h2BW1n27K22g2j922e2jc2Qn1t21s1o2L82341229r28t2DE2fB2ms2142ll1r2Dg2eB1022x1q2182ep27d1D2d42De2Bu2Gy28M191k22h2kW22821r2Cm172CO2Jk2M32l822821D29929b2j921X2171F2L0192D42l822c2122a91521y2bs22621N1o1F2Em2l32nQ2272KI2ry29Z21u2m522A21J29Z2Qi2c22P021j2LZ1T1j2Lp2n427622R1H1J27j1r27z2E72802kI22b21i141L22M2De22V122gy1H141C1u22H21o2Lm2P72cq2oz21m2G72g92eN21L2Cd2av2ax2li2Lg21M142E21d28k27T21O21f151D1S1621r2B72b9192Fy2P52762TL2qM122252m52UR2M82mA2Mc2mE2MG2HZ2mj2ML22F21i1D1721K1z2Hn2D42ft28r1t27Z1622m2Bs2py1c2132M22CU2l82MN2Em1i2252BS2Qy1T2dk2B121721k1I1s21V2dE2a52HA1L2HC2VH2L82lA1127s22M2ki22F21e192Pv2dY1022c2AG2aI2m12rv2CU2De2e028M1l1F2Gj2272gG2DP2Vm2Wq2JM2p622821o1d1O1s2802wK2gi2GK2GM28n151v1J2272u22762rj2172171S1Q2CQ1521N2v62MB1Q28L2mj2nN2sT2GL2Dk1Z21F2At2u42cG2KW2311C1A1e21M2141527k1L2s62cV2a31022I21H2gM1b1c2Hr2BS21U21c2cq1A1x2CL28S2s12YK28r2aA2AM122K72R922b2bc2A71b21521e2W22l822d1h219142jx2KW2262H8132q72122181J1P1E2802xk102uR2Xn2XP2XR2Xt2Rg2I62xX22b2fT22p18142ww2ld2wk22B21O1q2Iq21J2VN2272ml22p1k2wC1s29R102LD2111F2762sT2SV1a2SX112Pp1r2PR22M2Zw2G32g52tZ2El2u12u32cF21w2De28Y310y182Bw1B22B2j92X52x72x91122h2L82372F51m1p2Ak2Am2bT1i1n2dA172Wu2WW2CU2KW22R122Rf21m2Q229Z1D2qa2Yj2g21N2lT2nW172l72aE1022u28N1v1m310K2r923B1i2od1S2dB1E1H2Tj29K102242111E1F2hw29S2252QX1J2eq2Ey31322pe2vG1d2F22t431332uL1d21o2x62x82Xa311x2FV2db2e52rK29S2RN2wZ2zD21m310j2KI2cY2F231312762dg1i1M21H21d2t2312l2o01X2Lp1D2JH2YK2UR2b11B1O22k2wk2251y1B1H1P1921i2bC2be2Bg2j921v2182HX1Y2Zd21V2J92Rb21821P2OD2Pj2FT2321R2Si2em2FI312M2ur1J142212fT2Ry2e82l621m1g2Fa2Ad1o1h2qN29s1y2s42S62d42gG2uR1q1b2Tc2lV310t2a421d2w62W82X12cr2m32Ki2zG2zi21Z2FT23729P29R29T2Ki22c21n102Ex2wa21N313I2ER2ml2K11T21R2151T2BW312f1031442Hn2p02uP2Tv2Th1h2Sn29W102S3315G21Z2L822U1a2831t2qP314k2tM313c314n22k2fT2w32Db3120223316B2kj2YF31762eo2qh1p1i1d1e2hQ2g028W2ja21j296111n1X21i313w2Rm22h2WS2131Q1Y2N02n22wY27A102302l0151N316p31392l822T2a728L22g2ml31441J313C2I1280317Y21813131t21t1P2nn2Yt1r2Nd21p27y181O21121f1t1d22N2L822e318U2N32j92p32F127D1122z318F2761026O25R1l2ki2qd2FD2272L82t62f12bG2L8314r1Q2Ek317822321a1S2ty2C02x32xl2g81h2g421w2Ot1Y102ek102Hw311J2AZ1a1N21w315T2BK21P1o1C2Gn2mI21I21P310R210314C2VH2nn2sG315H318K21i312i27E2Cu2kI238313I1l31aY102o1171G1R1Q22H2j922p2991t18310921Z2Ki2kK181t2oS2R922a21n31361S21F21H2be22i2l82Ck1D2172FZ2m531AP2ek21321j11310r1122N2362AD2bO21t2j9236312h14310P1N31c42202zi311N21U2Gg2B61821G310J3183314L2hQ1Q311h2pI2YH2L1312S276311M313q21H31562L823831e12Mt2n522421L1K21e318M102RL2Rn2kt101a1W2S921d2TP2tR2j921z21h2E82HC2Mj2qQ2qS27K319l2de22031Bh31BJ28f1d2262ki22621B2fM31C01t31dD29d2JB2gp2NN2UR1n2oP2aI2B12cf27l31C028G2N32KW2391r2mD2vw2Qm2vZ2w121V2L821t21e102Bv23E31aa1021s26726722Y2mL2WM2Ah1b2132132bp21X2kw21v21i2A31N2I621J1y31801j2232bs2Y02qz1h2L32l528t2Gg31aH1n1M1q2l12wW21Y31bf1022D27Y1N21N2132N811316g2Jl2Tk2tM2i12Hv1022h2W02Lg21k1a2oz28N318c1M21G2x61l1i192MF313t2bk21o2Hj31GV1H31E731bc1d2c6315u2gH312827E3141171o1N1D2UG2PH1H24726Q2761131D72761F310u312831AB2761T1f25z25h31iy111C1d2Fy31281a27A1I21621k276319i2tq25024M2761431Es24723p27615152TQ1B1p276162Kr1U22V23927628h2TQ23d22Z27631cG2tq22s23A2762HA2tq22322h27631jH2tQ21E1W2761b2yP1u26425q2761C31Kz1U21D1z2761D1D2Tq22F21x2761e1E2TQ23422q31J11f2TQ23p2472762H22TQ22Q2342762qL2tQ21a31iC2ln1I2tQ22Y23C276319C2TQ25t25F2761k1k2tQ21v2292762pi2tQ24x24J2761M1m2tq25624o2762hy31kF31Kh101o31bI1u1Y21c2761P1P2TQ1e2hi101Q1Q2tq31912761R1R2TQ24t25B2761s312x1U22w23e31J62pz1u22P2372761U1U2Tq22921V2761V1v2tQ21l2172761W1W2tq21Q2182761x1x2tq22522n2761Y31gw1U24523r2761Z2b71U21t22B2762102102tq24023m2762112112tQ23r2452762122aL1u22222g2KU2132Tq24g24y2762R52TQ24123n2762152152tQ1v28A2772162tq142tU2xn2tQ1N312m2182182tq2F52762192192Tq22C21Y27621a21A2tQ23323h27621B31Fd1U23U24827621c21c2Tq24f23X27621D21D2tQ31NQ27621E21E2tQ21G21227621f21f2TQ2NR27621g21G31jD21h21G312829p111i24a23s31jM132TQ24s25a31Jr31Es1Z21d31Jw31Jy1U21021i31K231K425824u31k8172TQ111j31Kd182Tq21821q31KI192tq1r2R931KO1u22Z23d31ks31Ku22j22131Ky31l025V25D31L431l61u26325L31LA31lc1U22A21S31lg2tq25S25E31Ll1g2tQ22T23B31lq2f61u2F32761I31Lw1U24L25331m02DA1U31Dy31M531m71u21h21331mB1l2tQ23Q24431Mg31MI1U24v25931mm31fN1U23y24c27631Mr2tq23223g31MW31My1U21c31b531n231n41u22O23631N731n91u23622o31Nd31NF21Z22D31Nj2tQ23l24331No31NQ1u25324l31Nu31NW1U2yD31o031o21U23822u31o631o81U24h24z31oc31oE23N24131oI31Ok26225K31OO31oq1U23522r31OU31OW1U24n25131p031p223a22s31p62TQ31j731pB2142Tq22d21z31PG31pi1U2lN27621631PN1U1A1o27631pR1U21J21127631PV2tQ21s22A31pZ31q11U21y22C31Q531q71U1W31g71031Qc31Mj31Ml1031qi2tq23b22T31qN31qp1U1D2kB1031qt2tQ24i24W31Qy31R01u24C23Y31R331r51D31R731r915121I25124n31rF2TQ25924v31RK2tq22622k31Ro2TQ25724P31rT2Tq23023i31Rx2tq24623O31S22Tq21o21a31s72TQ24W24i31Kn1a2TQ23M24031Sg2tQ23123j31sK2tq24k25231SO2Tq23c22y31ST2Tq22r23531sY1u21x22f31T22tQ24m25031t72tQ23T24b31tb31td24q25431TH2tq26025M31Tl2tQ22B21T31tq2tQ22G22231TV2TQ23o24631u02tq25x25j31u531ms2tQ31Ua2Tq22m22427631N32tq21321H31Uk2TQ1f1t31UP2tq21921r31UT1u23e22W31UX2tq1p2n531nv2TQ25a24S31V62tQ22N22531Vb2TQ23h23331VG2TQ1X21f31Vk2tQ22U23831vo2TQ22722L31Vt2tQ23j23131vy2tq24O25631W21u1o318X31Pc1U24223K31wa2tq22l22731we31wg24323L31wK2172TQ22422M31WP31pW1u1K2p631q02TQ25U25c31wZ2Tq25W25i31qb31qd23z24d31qH31qj1u161K31xD2Tq24U25831qs31QU1U22821u31Xn2tQ24E23W31xS31R631r812172hK1I23F22x31Y22tR22331y61U25424Q31yA1U1s318F31k32TQ24P25731yi1u21K21631yM1U22122J31Yq1u22i2hG31EN31yV1U25224K31yz1U23V24931z31u21221g31z71U23x24f31zB1U1j31j031J22Tq24j24x31ZJ1U21421M31Zn1u22E21W31ZR2TQ24923V31zv1U22022i31Zz1u21b31bN2kc31tr1U31Ql32071U1m317i31mN1U24423q320f2tQ181Q320i1U21n215320M31UG172hn310r31ul26625O320V1u24B23T320Z21p21B32131U24D23z31V22Tq25y25G321B1u21F1X321f1u23K242321J1u215316u1031OJ2tq23W24e321r1U23722p321v1u21u228321Z1u24823U322326125N31W52TQ23g232322b1U192nZ31pm2tQ21121j322j2tQ2ah322o2TQ23922V31WU2TQ24y24G322X1u23I23032312tQ1g2Jv31x8323622K226323A1U25b24T323e2tq22X23F323j1U25524r323N31Xu323P2F42Ed31d7319I31l52ln24Z24h31Y62mA31JX319c329i329k31B62kR23z22V26C31Rk1g25h25X31Tb31tf31s21U317431cG181e22G22E2C1132ha329O1I1h2gR31SC31TA2Ai2mC1c31Tk1031l021r31q131kZ1E2152131I329J31z71D131231lb31aB111F31lc1C31Mr101132aZ31kZ1431s331iZ32AJ31N82LN32AP31z31d29631Jh1q31mi2mB2bo311H2gY23N22E329Z2HJ2Hk26E26D32a031tg32BW32A321131jS141E21J21l32AA329n31S11i24r25531yE2v71631JS2Ql2ln23S24a31RK31NQ31O431Ro32A321031jX2PH26025p1i21I21031YI2gJ1731JX31CG32b831d731js31mh32d632Bw31Tc32dA31U032dd31j531JS31JB31ab31j232dA31iz32BE32dn2c12jV32Be32De31J531j421h320q"),(#L-G);local function n(l,e,...)if(l==869412554)then return((o((e)-352824,255764))-235483);elseif(l==122931029)then return((((o(e,821864))-434364)-576489)-298689);elseif(l==120289407)then return(o((o(o(e,628584),927575))-690443,910848));elseif(l==737645079)then return(o((o(e,864953))-723034,838830));elseif(l==109952425)then return(o(o((o(o(e,161705),484332))-840519,524132),181625));elseif(l==433196326)then return(o(o((o(e,32782))-329217,304109),64929));elseif(l==796619049)then return(o(o(o((o(e,486062))-663509,453097),665220),391987));elseif(l==662016491)then return(((o(o(o(e,718213),751420),687681))-104768)-851847);elseif(l==986218294)then return(o(o(o(o(e,215461),360463),725900),704512));elseif(l==971614823)then return(((((e)-482600)-866990)-452830)-406410);elseif(l==202700661)then return(((o(o(o(e,243890),727189),947446))-216417)-451811);else end;end;local w=e[((#{}+503800766))];local r=e[(666534059)];local t=e["s2NX9tkSv"];local d=e["bUQGYoy"];local s=e[(810249081)];local u=e[((776915534-#("I'm not ignoring you, my DMs are full. Can't DM me? Shoot me a email: mem@mem.rip (Business enquiries only)")))];local m=e["WXN2sO"];local n=e[((#{664;}+981535383))];local y=e['iu1eog3'];local function c()local c,i,t,e=h(x,a,a+d);c=o(c,l);l=c%n;i=o(i,l);l=i%n;t=o(t,l);l=t%n;e=o(e,l);l=e%n;a=a+r;return((e*y)+(t*s)+(i*n)+c);end;local function r()local e=o(h(x,a,a),l);l=e%n;a=(a+t);return(e);end;local function d()local t,e=h(x,a,a+u);t=o(t,l);l=t%n;e=o(e,l);l=e%n;a=a+u;return((e*n)+t);end;local function s(o,e,l)if(l)then local e=(o/u^(e-t))%u^((l-t)-(e-t)+t);return(e-(e%t));else local e=u^(e-t);return(((o%(e+e)>=e)and(t))or(w));end;end;local D=""..e[m];local function A(...)return({...}),U(D,...);end;local function V(...)local g=e[(776915427)];local A=e[((122107501-#("still waiting for luci to fix the API :|")))];local D=e["ebwTwSN"];local S=e.vzO0Si;local O=e.lXf1eu;local M=e[(713975452)];local Y=e[(905286504)];local I=e[((#{587;822;(function(...)return 485,932,311,779;end)()}+87003460))];local N=e[(437047177)];local v=e["uRaPElyWGo"];local X=e["zDipg"];local F=e[((784204961-#("who the fuck looked at synapse xen and said 'yeah this is good enough for release'")))];local V=e['uviOge6'];local n=e.s2NX9tkSv;local k=e.bUQGYoy;local L=e[(316758195)];local T=e[((977686539-#("uh oh everyone watch out pain exist coming in with the backspace method one dot two dot man dot")))];local m=e[((#{(function(...)return...;end)(814,579)}+459506001))];local C=e[((#{213;52;}+522761216))];local t=e[((#{699;364;169;(function(...)return 93;end)()}+503800762))];local U=e[((#{421;671;833;666;(function(...)return;end)()}+609060583))];local Q=e[((#{587;704;439;976;}+409151108))];local w=e[((981535445-#("guys someone play Among Us with memcorrupt he is so lonely :(")))];local y=e[(336938817)];local b=e[((666534120-#("guys someone play Among Us with memcorrupt he is so lonely :(")))];local function E(...)local u=({});local e=({});local B=({});for i=t,c(l)-n,n do local d=r(l);if(d==X)then local l=r(l);e[i]=(l~=t);elseif(d==Y)then while(true)do local c=c(l);if(c==t)then e[i]=('');break;end;if(c>S)then local t,r=(''),(f(x,a,a+c-n));a=a+c;for e=n,#r,n do local e=o(h(f(r,e,e)),l);l=e%w;t=t..p[e];end;e[i]=t;else local n,t=(''),({h(x,a,a+c-n)});a=a+c;for a,e in z(t)do local e=o(e,l);l=e%w;n=n..p[e];end;e[i]=n;end;break;end;elseif(d==L)then while(true)do local l=c(l);e[i]=f(x,a,a+l-n);a=a+l;break;end;elseif(d==V)then while(true)do local a=c(l);local o=c(l);local c=n;local a=(s(o,n,Q)*(g^D))+a;local l=s(o,T,O);local o=((-n)^s(o,D));if(l==t)then if(a==t)then e[i]=(o*t);break;else l=n;c=t;end;elseif(l==C)then e[i]=(a==t)and(o*(n/t))or(o*(t/t));break;end;e[i]=P(o,l-U)*(c+(a/(g^N)));break;end;else e[i]=nil end;end;local o=c(l);for e=t,o-n,n do u[e]=({});end;for E=t,o-n,n do local o=r(l);if(o~=t)then o=o-n;local i,h,a,w,f,p=t,t,t,t,t,t;local x=s(o,n,k);if(x==g)then a=u[(c(l))];i=(d(l));h=(r(l));elseif(x==n)then a=(c(l));i=(d(l));h=(r(l));elseif(x==t)then a=(d(l));i=(d(l));h=(r(l));f=(d(l));elseif(x==m)then elseif(x==y)then a=(c(l));i=(d(l));h=(r(l));f=(d(l));p=({});for e=n,f,n do p[e]=({[t]=r(l),[n]=d(l)});end;elseif(x==k)then a=u[(c(l))];i=(d(l));h=(r(l));f=(d(l));end;if(s(o,b,b)==n)then i=e[i];end;if(s(o,m,m)==n)then f=e[f];end;if(s(o,y,y)==n)then a=e[a];end;if(s(o,I,I)==n)then w=u[c(l)];else w=u[E+n];end;if(s(o,A,A)==n)then p=({});for e=n,r(),n do p[e]=c();end;end;local e=u[E];e[F]=a;e['MTpT']=h;e['YsI8']=i;e[988522.0966730644]=f;e["fxRtQ"]=p;e['Ue4mWHxgD']=w;end;end;for e=t,c(l)-n,n do B[e]=E();end;local o=d(l);local l=r(l);return({['UbR1Q']=B;[v]=e;[-M]=l;['bLuT']=o;["ZQfDT4"]=u;["wIPctx"]=t;});end;return(E(...));end;local function p(e,l,s,...)local d=e['bLuT'];local t=e[-59460];local o=0;local l=e[419947];local l=e['ZQfDT4'];local w=e['UbR1Q'];return(function(...)local e=({});local u=l[o];local l={};local e=(true);local e=(619261956);local o='YsI8';local x=(U(D,...)-1);local c=-(1);local n=345166;local f={...};local e='fxRtQ';local h={};local m='MTpT';local a="Ue4mWHxgD";local r=988522.0966730644;for e=0,x,1 do if(e>=t)then h[e-t]=f[e+1];else l[e]=f[e+1];end;end;local f=x-t+1;while(true)do local e=u;local t=e[m];u=e[a];if(t<=14)then if(t<=6)then if(t<=2)then if(t<=0)then l[e[o]]=#l[e[n]];elseif(t>1)then local e=e[o];do return i(l,e,c);end;elseif(t<2)then local e=e[o];c=e+f-1;for o=0,f do l[e+o]=h[o];end;for e=c+1,d do l[e]=nil;end;end;elseif(t<=4)then if(t==3)then local o=e[o];local t=l[o+2];local a=l[o]+t;l[o]=a;if(t>0)then if(a<=l[o+1])then u=e[n];l[o+3]=a;end;elseif(a>=l[o+1])then u=e[n];l[o+3]=a;end;elseif(t<=4)then l[e[o]]=l[e[n]][l[e[r]]];end;elseif(t==5)then l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];e=e[a];elseif(t<=6)then l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];e=e[a];end;elseif(t<=10)then if(t<=8)then if(t==7)then local o=e[o];local n=e[n];local t=50*(e[r]-1);local a=l[o];local e=0;for n=o+1,n do a[t+e+1]=l[o+(n-o)];e=e+1;end;elseif(t<=8)then local o=e[o];local n,e=A(l[o](i(l,o+1,e[n])));c=e+o-1;local e=0;for o=o,c do e=e+1;l[o]=n[e];end;end;elseif(t==9)then l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];e=e[a];elseif(t<=10)then l[e[o]]=b(e[n]);end;elseif(t<=12)then if(t>11)then l[e[o]]=e[n];elseif(t<12)then e=e[a];local n=e[o];c=n+f-1;for e=0,f do l[n+e]=h[e];end;for e=c+1,d do l[e]=nil;end;e=e[a];local o=e[o];do return i(l,o,c);end;e=e[a];e=e[a];end;elseif(t==13)then l[e[o]]=b(256);elseif(t<=14)then l[e[o]]=l[e[n]][e[r]];end;elseif(t<=22)then if(t<=18)then if(t<=16)then if(t==15)then elseif(t<=16)then local o=e[o];l[o]=0+(l[o]);l[o+1]=0+(l[o+1]);l[o+2]=0+(l[o+2]);local a=l[o];local t=l[o+2];if(t>0)then if(a>l[o+1])then u=e[n];else l[o+3]=a;end;elseif(a<l[o+1])then u=e[n];else l[o+3]=a;end;end;elseif(t==17)then local o=e[o];l[o](i(l,o+1,e[n]));for e=o+1,d do l[e]=nil;end;elseif(t<=18)then l[e[o]]();end;elseif(t<=20)then if(t==19)then l[e[o]]=l[e[n]];elseif(t<=20)then l[e[o]]=l[e[n]];e=e[a];l[e[o]]=e[n];e=e[a];local t=e[o];l[t](i(l,t+1,e[n]));for e=t+1,d do l[e]=nil;end;e=e[a];l[e[o]]=s[e[n]];e=e[a];l[e[o]]=s[e[n]];e=e[a];local t=e[o];local d=l[e[n]];l[t+1]=d;l[t]=d[e[r]];e=e[a];l[e[o]]=e[n];e=e[a];local t=e[o];local r,n=A(l[t](i(l,t+1,e[n])));c=n+t-1;local n=0;for e=t,c do n=n+1;l[e]=r[n];end;e=e[a];local n=e[o];l[n]=l[n](i(l,n+1,c));for e=n+1,c do l[e]=nil;end;e=e[a];l[e[o]]();e=e[a];e=e[a];end;elseif(t>21)then local e=e[o];l[e]=l[e](i(l,e+1,c));for e=e+1,c do l[e]=nil;end;elseif(t<22)then local o=e[o];local n=l[e[n]];l[o+1]=n;l[o]=n[e[r]];end;elseif(t<=26)then if(t<=24)then if(t>23)then local o=e[o];l[o]=l[o](i(l,o+1,e[n]));for e=o+1,d do l[e]=nil;end;elseif(t<24)then do return;end;end;elseif(t>25)then local a=e[n];local n=l[a];for e=a+1,e[r]do n=n..l[e];end;l[e[o]]=n;elseif(t<26)then l[e[o]]=l[e[n]];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=s[e[n]];e=e[a];l[e[o]]=s[e[n]];e=e[a];l[e[o]]=l[e[n]][e[r]];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=#l[e[n]];e=e[a];local t=e[o];l[t]=l[t](i(l,t+1,e[n]));for e=t+1,d do l[e]=nil;end;e=e[a];l[e[o]]=l[e[n]][l[e[r]]];e=e[a];local t=e[o];l[t]=l[t](l[t+1]);for e=t+1,d do l[e]=nil;end;e=e[a];l[e[o]]=e[n];e=e[a];local c=e[n];local t=l[c];for e=c+1,e[r]do t=t..l[e];end;l[e[o]]=t;e=e[a];local o=e[o];l[o](i(l,o+1,e[n]));for e=o+1,d do l[e]=nil;end;e=e[a];e=e[a];end;elseif(t<=28)then if(t>27)then l[e[o]]=b(e[n]);e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];l[e[o]]=e[n];e=e[a];e=e[a];elseif(t<28)then local e=e[o];l[e]=l[e](l[e+1]);for e=e+1,d do l[e]=nil;end;end;elseif(t>29)then l[e[o]]=s[e[n]];elseif(t<30)then l[e[o]]=p(w[e[n]],(nil),s);end;end;end);end;return p(V(),{},T())(...);end)(({["lXf1eu"]=((31));[(635115883)]=("\105");[(87003466)]=((8));Muelqwbc=("\51");vLBUI2aP6=((90));[((714151159-#("psu 34567890fps, luraph 1fps, xen 0fps")))]=("\119");['ilJ9gRLdT']=(((#{(function(...)return 987;end)()}+972395573)));[(268826284)]=("\120");['z9zbyLgcQ']=((999431404));['D4VtH1']=("\99");[((#{418;231;624;}+336938814))]=(((#{}+5)));[((#{86;209;341;99;(function(...)return;end)()}+810249077))]=(((65563-#("IIiIIiillIiiIIIiiii :troll:"))));[(21249185)]=("\50");[(999431404)]=("\107");[((434217055-#("psu premium chads winning (only joe biden supporters use the free version)")))]=("\112");LvXTl=(((#{763;}+714151120)));[(713975452)]=(((59553-#("Luraph v12.6 has been released!: changed absolutely fucking nothing but donate to my patreon!"))));ebwTwSN=(((#{131;429;125;678;(function(...)return 894,951;end)()}+26)));[((#{}+459506003))]=(((#{266;456;132;31;(function(...)return 296,...;end)(401,983)}-1)));zkv5P=(((48693852-#("oh Mr. Pools, thats a little close please dont touch me there... please Mr. Pools I am only eight years old please stop..."))));[(489754260)]=("\115");[((609060614-#("IIiIIiillIiiIIIiiii :troll:")))]=((1023));[(48693730)]=("\101");[(503800766)]=(((#{261;175;}-2)));[(360356722)]=("\103");["WXN2sO"]=((431894183));[((608241590-#("guys someone play Among Us with memcorrupt he is so lonely :(")))]=("\111");[(431894183)]=("\35");[(47717964)]=("\97");[(486202166)]=(((635115944-#("guys someone play Among Us with memcorrupt he is so lonely :("))));[(977686444)]=(((#{540;}+20)));uviOge6=((14));[(154869120)]=(((350-#("Luraph: Probably considered the worst out of the three, Luraph is another Lua Obfuscator. It isnt remotely as secure as Ironbrew or Synapse Xen, and it isn't as fast as Ironbrew either."))));TG07wEp9=("\117");bUQGYoy=((3));[(729141540)]=("\98");[((409151179-#("i am not wally stop asking me for wally hub support please fuck off")))]=(((50-#("please suck my cock :pleading:"))));['QphYtZa9A']=(((743282791-#("you dumped constants by printing the deserializer??? ladies and gentlemen stand clear we have a genius in the building."))));iu1eog3=((16777216));[((#{384;(function(...)return 225,302,999,...;end)(517,362)}+196931454))]=((360356722));['kwap0']=("\108");[((#{20;592;(function(...)return 34;end)()}+61632166))]=("\121");[((#{346;50;756;433;(function(...)return 589,914;end)()}+896724069))]=((729141540));[((905286583-#("Are you using AztupBrew, clvbrew, or IB2? Congratulations! You're deobfuscated!")))]=((42));[(229788682)]=(((268826324-#("still waiting for luci to fix the API :|"))));[((263711034-#("this isn't krnl support you bonehead moron")))]=((36));[((#{846;934;689;478;(function(...)return 667;end)()}+105154302))]=((248));['zDipg']=(((148-#("oh Mr. Pools, thats a little close please dont touch me there... please Mr. Pools I am only eight years old please stop..."))));[(60193174)]=("\114");[(666534059)]=((4));["s2NX9tkSv"]=((1));['a2ZaxmH']=(((#{438;443;}+608241527)));[(78261823)]=((47717964));[(156076146)]=(((#{468;}+60193173)));['xvVhfVvQj8']=((16));[((#{110;698;686;154;}+343841491))]=("\109");[((#{821;438;257;(function(...)return;end)()}+522761215))]=((2047));[(650224135)]=(((138-#("why the fuck would we sell a deobfuscator for a product we created....."))));['vzO0Si']=((5e3));['mxZizUMVU']=((21249185));[(972395574)]=("\116");[(776915427)]=(((73-#("why the fuck would we sell a deobfuscator for a product we created....."))));[(316758195)]=(((#{653;848;6;(function(...)return 361;end)()}+35)));[((#{845;537;501;(function(...)return...;end)(556,587)}+239762697))]=((61632169));["uRaPElyWGo"]=(((420008-#("guys someone play Among Us with memcorrupt he is so lonely :("))));du8al5UL=(((270-#("@everyone designs are done. luraph website coming.... eta JULY 2020"))));[((743282714-#("this isn't krnl support you bonehead moron")))]=("\104");[((116554569-#("woooow u hooked an opcode, congratulations~ now suck my cock")))]=("\110");[(237944411)]=(((#{597;746;}+116554507)));[(784204879)]=((345166));[((981535455-#("why the fuck would we sell a deobfuscator for a product we created.....")))]=((256));[(300551326)]=((489754260));[(389474244)]=(((434216996-#("concat was here"))));[(736987175)]=(((343841569-#("psu premium chads winning (only joe biden supporters use the free version)"))));["nD0BxcO"]=("\102");[((122107503-#("this isn't krnl support you bonehead moron")))]=((7));[((#{(function(...)return 400;end)()}+437047176))]=((52));}),...);
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MenuDINOV3 = Instance.new("ScreenGui")
+local bia = Instance.new("Frame")
+local thanh = Instance.new("Frame")
+local mis = Instance.new("Frame")
+local bin = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local mis_2 = Instance.new("ImageButton")
+local seting = Instance.new("Frame")
+local bin_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local setting = Instance.new("ImageButton")
+local run = Instance.new("Frame")
+local bin_3 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local open = Instance.new("ImageButton")
+local ImageButton = Instance.new("ImageButton")
+local ImageLabel = Instance.new("ImageLabel")
+local Rank = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local clost = Instance.new("Frame")
+local bin_4 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local exit = Instance.new("ImageButton")
+local menu = Instance.new("Frame")
+local Server = Instance.new("Frame")
+local bin_5 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local status = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Online = Instance.new("Frame")
+local cmdServer = Instance.new("TextLabel")
+local cmdScript = Instance.new("TextLabel")
+local Run = Instance.new("Frame")
+local bin_6 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local IDgame = Instance.new("TextLabel")
+local runscrop = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local discor = Instance.new("Frame")
+local bin_7 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local copyLink = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Mix = Instance.new("Frame")
+local ServerL = Instance.new("Frame")
+local bin_8 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local status_2 = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local counterbloxskins = Instance.new("Frame")
+local run_2 = Instance.new("ImageButton")
+local namegame = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local ScriptAdmin = Instance.new("Frame")
+local run_3 = Instance.new("ImageButton")
+local namegame_2 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local Login = Instance.new("Frame")
+local ServerL_2 = Instance.new("Frame")
+local bin_9 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local status_3 = Instance.new("Frame")
+local IDuser = Instance.new("TextLabel")
+local User = Instance.new("TextLabel")
+local login = Instance.new("TextLabel")
+local gameee = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local setting_2 = Instance.new("Frame")
+local ServerL_3 = Instance.new("Frame")
+local bin_10 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local status_4 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local Ban = Instance.new("Frame")
+local Openn = Instance.new("ImageButton")
+local UICorner_19 = Instance.new("UICorner")
+local loaddding = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local UICorner_20 = Instance.new("UICorner")
+local menulaoding = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local tanlaod = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local maydor = Instance.new("TextLabel")
+
+--Properties:
+
+MenuDINOV3.Name = "MenuDINOV3"
+MenuDINOV3.Parent = game.CoreGui
+
+bia.Name = "bia"
+bia.Parent = MenuDINOV3
+bia.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+bia.BorderSizePixel = 0
+bia.Position = UDim2.new(0.330057353, 0, 0.314660311, 0)
+bia.Size = UDim2.new(0, 539, 0, 293)
+bia.Visible = false
+
+thanh.Name = "thanh"
+thanh.Parent = bia
+thanh.BackgroundColor3 = Color3.fromRGB(38, 52, 29)
+thanh.BorderSizePixel = 0
+thanh.Size = UDim2.new(0, 85, 0, 293)
+
+mis.Name = "mis"
+mis.Parent = thanh
+mis.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+mis.BackgroundTransparency = 1.000
+mis.BorderSizePixel = 0
+mis.Position = UDim2.new(0, 0, 0.296928316, 0)
+mis.Size = UDim2.new(0, 85, 0, 39)
+
+bin.Name = "bin"
+bin.Parent = mis
+bin.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin.BorderSizePixel = 0
+bin.Position = UDim2.new(0.00422918983, 0, 0, 0)
+bin.Size = UDim2.new(0, 1, 0, 39)
+bin.Visible = false
+
+UICorner.Parent = bin
+
+mis_2.Name = "mis"
+mis_2.Parent = mis
+mis_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mis_2.BackgroundTransparency = 1.000
+mis_2.BorderSizePixel = 0
+mis_2.Position = UDim2.new(0.262513995, 0, 0.0953846499, 0)
+mis_2.Size = UDim2.new(0, 30, 0, 29)
+mis_2.Image = "rbxassetid://5942241281"
+
+seting.Name = "seting"
+seting.Parent = thanh
+seting.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+seting.BackgroundTransparency = 1.000
+seting.BorderSizePixel = 0
+seting.Position = UDim2.new(0, 0, 0.562002361, 0)
+seting.Size = UDim2.new(0, 84, 0, 39)
+
+bin_2.Name = "bin"
+bin_2.Parent = seting
+bin_2.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_2.BorderSizePixel = 0
+bin_2.Position = UDim2.new(0.00422918983, 0, -0.0170937572, 0)
+bin_2.Size = UDim2.new(0, 1, 0, 39)
+bin_2.Visible = false
+
+UICorner_2.Parent = bin_2
+
+setting.Name = "setting"
+setting.Parent = seting
+setting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+setting.BackgroundTransparency = 1.000
+setting.BorderSizePixel = 0
+setting.Position = UDim2.new(0.27427879, 0, 0.0746984258, 0)
+setting.Size = UDim2.new(0, 29, 0, 29)
+setting.Image = "rbxassetid://4492476121"
+
+run.Name = "run"
+run.Parent = thanh
+run.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+run.BackgroundTransparency = 1.000
+run.BorderSizePixel = 0
+run.Position = UDim2.new(0, 0, 0.431171834, 0)
+run.Size = UDim2.new(0, 85, 0, 39)
+
+bin_3.Name = "bin"
+bin_3.Parent = run
+bin_3.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_3.BorderSizePixel = 0
+bin_3.Position = UDim2.new(0.00422918983, 0, -0.0085464865, 0)
+bin_3.Size = UDim2.new(0, 1, 0, 39)
+bin_3.Visible = false
+
+UICorner_3.Parent = bin_3
+
+open.Name = "open"
+open.Parent = run
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.BackgroundTransparency = 1.000
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.27427879, 0, 0.0978620499, 0)
+open.Size = UDim2.new(0, 29, 0, 29)
+open.Image = "rbxassetid://2876994160"
+
+ImageButton.Parent = thanh
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.141000003, 0, 0.0579999983, 0)
+ImageButton.Size = UDim2.new(0, 61, 0, 61)
+ImageButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+ImageLabel.Parent = ImageButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(56, 76, 43)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 61, 0, 61)
+ImageLabel.Image = "rbxassetid://4031889928"
+ImageLabel.ImageColor3 = Color3.fromRGB(38, 52, 29)
+
+Rank.Name = "Rank"
+Rank.Parent = thanh
+Rank.BackgroundColor3 = Color3.fromRGB(61, 84, 46)
+Rank.BorderSizePixel = 0
+Rank.Position = UDim2.new(0.0705882385, 0, 0.8566553, 0)
+Rank.Size = UDim2.new(0, 72, 0, 28)
+Rank.Font = Enum.Font.SourceSans
+Rank.Text = "Rank?"
+Rank.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rank.TextScaled = true
+Rank.TextSize = 14.000
+Rank.TextWrapped = true
+
+UICorner_4.Parent = Rank
+
+clost.Name = "clost"
+clost.Parent = thanh
+clost.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
+clost.BackgroundTransparency = 1.000
+clost.BorderSizePixel = 0
+clost.Position = UDim2.new(-0.0117647061, 0, 0.69624573, 0)
+clost.Size = UDim2.new(0, 85, 0, 39)
+
+bin_4.Name = "bin"
+bin_4.Parent = clost
+bin_4.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_4.BorderSizePixel = 0
+bin_4.Position = UDim2.new(0.00422918983, 0, 0, 0)
+bin_4.Size = UDim2.new(0, 1, 0, 39)
+bin_4.Visible = false
+
+UICorner_5.Parent = bin_4
+
+exit.Name = "exit"
+exit.Parent = clost
+exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exit.BackgroundTransparency = 1.000
+exit.BorderSizePixel = 0
+exit.Position = UDim2.new(0.27427879, 0, 0.0697436184, 0)
+exit.Size = UDim2.new(0, 29, 0, 29)
+exit.Image = "rbxassetid://5679295310"
+
+menu.Name = "menu"
+menu.Parent = bia
+menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menu.BackgroundTransparency = 1.000
+menu.BorderSizePixel = 0
+menu.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+menu.Size = UDim2.new(0, 430, 0, 271)
+menu.Visible = false
+
+Server.Name = "Server "
+Server.Parent = menu
+Server.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Server.BorderSizePixel = 0
+Server.Position = UDim2.new(0, 0, 0.00386100379, 0)
+Server.Size = UDim2.new(0, 430, 0, 29)
+
+bin_5.Name = "bin"
+bin_5.Parent = Server
+bin_5.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_5.BorderSizePixel = 0
+bin_5.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_6.Parent = bin_5
+
+TextLabel.Parent = Server
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0579710156, 0, 0.103448279, 0)
+TextLabel.Size = UDim2.new(0, 123, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Server Status"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+status.Name = "status"
+status.Parent = menu
+status.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status.BorderSizePixel = 0
+status.Position = UDim2.new(0.00465116277, 0, 0.123974875, 0)
+status.Size = UDim2.new(0, 427, 0, 114)
+
+TextLabel_2.Parent = status
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.252927393, 0, 0.10898459, 0)
+TextLabel_2.Size = UDim2.new(0, 50, 0, 30)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Server"
+TextLabel_2.TextColor3 = Color3.fromRGB(90, 124, 94)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = status
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.629976511, 0, 0.10898459, 0)
+TextLabel_3.Size = UDim2.new(0, 50, 0, 30)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Script"
+TextLabel_3.TextColor3 = Color3.fromRGB(90, 124, 94)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Online.Name = "Online"
+Online.Parent = status
+Online.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Online.BackgroundTransparency = 1.000
+Online.BorderSizePixel = 0
+Online.Size = UDim2.new(0, 100, 0, 100)
+
+cmdServer.Name = "cmdServer"
+cmdServer.Parent = Online
+cmdServer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cmdServer.BackgroundTransparency = 1.000
+cmdServer.BorderSizePixel = 0
+cmdServer.Position = UDim2.new(0.920000076, 0, 0.49000001, 0)
+cmdServer.Size = UDim2.new(0, 82, 0, 30)
+cmdServer.Font = Enum.Font.SourceSans
+cmdServer.Text = "Online"
+cmdServer.TextColor3 = Color3.fromRGB(84, 192, 76)
+cmdServer.TextScaled = true
+cmdServer.TextSize = 14.000
+cmdServer.TextWrapped = true
+
+cmdScript.Name = "cmdScript"
+cmdScript.Parent = Online
+cmdScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cmdScript.BackgroundTransparency = 1.000
+cmdScript.BorderSizePixel = 0
+cmdScript.Position = UDim2.new(2.53000021, 0, 0.49000001, 0)
+cmdScript.Size = UDim2.new(0, 82, 0, 30)
+cmdScript.Font = Enum.Font.SourceSans
+cmdScript.Text = "Online"
+cmdScript.TextColor3 = Color3.fromRGB(84, 192, 76)
+cmdScript.TextScaled = true
+cmdScript.TextSize = 14.000
+cmdScript.TextWrapped = true
+
+Run.Name = "Run"
+Run.Parent = menu
+Run.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Run.BorderSizePixel = 0
+Run.Position = UDim2.new(0.00465116277, 0, 0.5549559, 0)
+Run.Size = UDim2.new(0, 208, 0, 29)
+
+bin_6.Name = "bin"
+bin_6.Parent = Run
+bin_6.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_6.BorderSizePixel = 0
+bin_6.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_7.Parent = bin_6
+
+TextLabel_4.Parent = Run
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.113808572, 0, 0.103448279, 0)
+TextLabel_4.Size = UDim2.new(0, 85, 0, 23)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Script"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Frame.Parent = Run
+Frame.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.00961538497, 0, 1.31034482, 0)
+Frame.Size = UDim2.new(0, 206, 0, 82)
+
+IDgame.Name = "IDgame"
+IDgame.Parent = Frame
+IDgame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IDgame.BackgroundTransparency = 1.000
+IDgame.BorderSizePixel = 0
+IDgame.Position = UDim2.new(0.174757287, 0, 0.0853658617, 0)
+IDgame.Size = UDim2.new(0, 132, 0, 23)
+IDgame.Font = Enum.Font.SourceSans
+IDgame.Text = "Script"
+IDgame.TextColor3 = Color3.fromRGB(225, 225, 225)
+IDgame.TextScaled = true
+IDgame.TextSize = 14.000
+IDgame.TextWrapped = true
+
+runscrop.Name = "runscrop"
+runscrop.Parent = Frame
+runscrop.BackgroundColor3 = Color3.fromRGB(94, 147, 85)
+runscrop.BorderSizePixel = 0
+runscrop.Position = UDim2.new(0.135922328, 0, 0.463414609, 0)
+runscrop.Size = UDim2.new(0, 149, 0, 21)
+runscrop.Font = Enum.Font.SourceSans
+runscrop.Text = "RUN"
+runscrop.TextColor3 = Color3.fromRGB(225, 225, 225)
+runscrop.TextScaled = true
+runscrop.TextSize = 14.000
+runscrop.TextWrapped = true
+
+UICorner_8.Parent = runscrop
+
+discor.Name = "discor"
+discor.Parent = menu
+discor.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+discor.BorderSizePixel = 0
+discor.Position = UDim2.new(0.516279042, 0, 0.5549559, 0)
+discor.Size = UDim2.new(0, 207, 0, 29)
+
+bin_7.Name = "bin"
+bin_7.Parent = discor
+bin_7.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_7.BorderSizePixel = 0
+bin_7.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_9.Parent = bin_7
+
+TextLabel_5.Parent = discor
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.113808572, 0, 0.103448279, 0)
+TextLabel_5.Size = UDim2.new(0, 85, 0, 23)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Server"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Frame_2.Parent = discor
+Frame_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.00966183562, 0, 1.31034482, 0)
+Frame_2.Size = UDim2.new(0, 205, 0, 82)
+
+TextLabel_6.Parent = Frame_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.175609753, 0, 0.0853658617, 0)
+TextLabel_6.Size = UDim2.new(0, 132, 0, 23)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Discord"
+TextLabel_6.TextColor3 = Color3.fromRGB(225, 225, 225)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+copyLink.Name = "copyLink"
+copyLink.Parent = Frame_2
+copyLink.BackgroundColor3 = Color3.fromRGB(94, 147, 85)
+copyLink.BorderSizePixel = 0
+copyLink.Position = UDim2.new(0.13658537, 0, 0.463414639, 0)
+copyLink.Size = UDim2.new(0, 149, 0, 21)
+copyLink.Font = Enum.Font.SourceSans
+copyLink.Text = "Copy Link"
+copyLink.TextColor3 = Color3.fromRGB(225, 225, 225)
+copyLink.TextSize = 14.000
+
+UICorner_10.Parent = copyLink
+
+Mix.Name = "Mix"
+Mix.Parent = bia
+Mix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mix.BackgroundTransparency = 1.000
+Mix.BorderSizePixel = 0
+Mix.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+Mix.Size = UDim2.new(0, 430, 0, 271)
+Mix.Visible = false
+
+ServerL.Name = "Server L"
+ServerL.Parent = Mix
+ServerL.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+ServerL.BorderSizePixel = 0
+ServerL.Position = UDim2.new(0, 0, 0.00386100379, 0)
+ServerL.Size = UDim2.new(0, 430, 0, 29)
+
+bin_8.Name = "bin"
+bin_8.Parent = ServerL
+bin_8.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_8.BorderSizePixel = 0
+bin_8.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_11.Parent = bin_8
+
+TextLabel_7.Parent = ServerL
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
+TextLabel_7.Size = UDim2.new(0, 123, 0, 23)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Create"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+status_2.Name = "status"
+status_2.Parent = Mix
+status_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status_2.BorderSizePixel = 0
+status_2.Position = UDim2.new(0.00465116277, 0, 0.123974904, 0)
+status_2.Size = UDim2.new(0, 427, 0, 235)
+
+ScrollingFrame.Parent = status_2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0281030443, 0, 0.268085092, 0)
+ScrollingFrame.Size = UDim2.new(0, 402, 0, 160)
+
+counterbloxskins.Name = "counterbloxskins"
+counterbloxskins.Parent = ScrollingFrame
+counterbloxskins.BackgroundColor3 = Color3.fromRGB(83, 112, 63)
+counterbloxskins.BorderSizePixel = 0
+counterbloxskins.Position = UDim2.new(0.0696517378, 0, 0.00851044711, 0)
+counterbloxskins.Size = UDim2.new(0, 100, 0, 100)
+
+run_2.Name = "run"
+run_2.Parent = counterbloxskins
+run_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+run_2.BackgroundTransparency = 1.000
+run_2.BorderSizePixel = 0
+run_2.Position = UDim2.new(0.0900000036, 0, 0.0799999982, 0)
+run_2.Size = UDim2.new(0, 82, 0, 60)
+run_2.Image = "rbxassetid://4030893123"
+
+namegame.Name = "name game"
+namegame.Parent = counterbloxskins
+namegame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+namegame.BackgroundTransparency = 1.000
+namegame.BorderSizePixel = 0
+namegame.Position = UDim2.new(0, 0, 0.74000001, 0)
+namegame.Size = UDim2.new(0, 100, 0, 26)
+namegame.Font = Enum.Font.SourceSans
+namegame.Text = "counter blox skins"
+namegame.TextColor3 = Color3.fromRGB(255, 255, 255)
+namegame.TextScaled = true
+namegame.TextSize = 14.000
+namegame.TextWrapped = true
+
+UICorner_12.Parent = counterbloxskins
+
+ScriptAdmin.Name = "ScriptAdmin"
+ScriptAdmin.Parent = ScrollingFrame
+ScriptAdmin.BackgroundColor3 = Color3.fromRGB(83, 112, 63)
+ScriptAdmin.BorderSizePixel = 0
+ScriptAdmin.Position = UDim2.new(0.338308454, 0, 0.00851044711, 0)
+ScriptAdmin.Size = UDim2.new(0, 100, 0, 100)
+
+run_3.Name = "run"
+run_3.Parent = ScriptAdmin
+run_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+run_3.BackgroundTransparency = 1.000
+run_3.BorderSizePixel = 0
+run_3.Position = UDim2.new(0.0900000036, 0, 0.0799999982, 0)
+run_3.Size = UDim2.new(0, 82, 0, 60)
+run_3.Image = "rbxassetid://4030893123"
+
+namegame_2.Name = "name game"
+namegame_2.Parent = ScriptAdmin
+namegame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+namegame_2.BackgroundTransparency = 1.000
+namegame_2.BorderSizePixel = 0
+namegame_2.Position = UDim2.new(0, 0, 0.74000001, 0)
+namegame_2.Size = UDim2.new(0, 100, 0, 26)
+namegame_2.Font = Enum.Font.SourceSans
+namegame_2.Text = "Script Admin fake"
+namegame_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+namegame_2.TextScaled = true
+namegame_2.TextSize = 14.000
+namegame_2.TextWrapped = true
+
+UICorner_13.Parent = ScriptAdmin
+
+TextLabel_8.Parent = status_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+TextLabel_8.Position = UDim2.new(0.0280000009, 0, 0.0599999987, 0)
+TextLabel_8.Size = UDim2.new(0, 402, 0, 33)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Roblox game mix"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+UICorner_14.Parent = TextLabel_8
+
+Login.Name = "Login"
+Login.Parent = bia
+Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Login.BackgroundTransparency = 1.000
+Login.BorderSizePixel = 0
+Login.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+Login.Size = UDim2.new(0, 430, 0, 271)
+
+ServerL_2.Name = "Server L"
+ServerL_2.Parent = Login
+ServerL_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+ServerL_2.BorderSizePixel = 0
+ServerL_2.Position = UDim2.new(0, 0, 0.00386100379, 0)
+ServerL_2.Size = UDim2.new(0, 430, 0, 29)
+
+bin_9.Name = "bin"
+bin_9.Parent = ServerL_2
+bin_9.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_9.BorderSizePixel = 0
+bin_9.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_15.Parent = bin_9
+
+TextLabel_9.Parent = ServerL_2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
+TextLabel_9.Size = UDim2.new(0, 123, 0, 23)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Create"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+status_3.Name = "status"
+status_3.Parent = Login
+status_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status_3.BorderSizePixel = 0
+status_3.Position = UDim2.new(0.00465116277, 0, 0.123974904, 0)
+status_3.Size = UDim2.new(0, 427, 0, 242)
+
+IDuser.Name = "IDuser"
+IDuser.Parent = status_3
+IDuser.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+IDuser.BorderSizePixel = 0
+IDuser.Position = UDim2.new(0.173302114, 0, 0.318181813, 0)
+IDuser.Size = UDim2.new(0, 279, 0, 40)
+IDuser.Font = Enum.Font.SourceSans
+IDuser.TextColor3 = Color3.fromRGB(255, 255, 255)
+IDuser.TextScaled = true
+IDuser.TextSize = 14.000
+IDuser.TextWrapped = true
+
+User.Name = "User"
+User.Parent = status_3
+User.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+User.BorderSizePixel = 0
+User.Position = UDim2.new(0.173302114, 0, 0.0950413197, 0)
+User.Size = UDim2.new(0, 279, 0, 40)
+User.Font = Enum.Font.SourceSans
+User.TextColor3 = Color3.fromRGB(255, 255, 255)
+User.TextScaled = true
+User.TextSize = 14.000
+User.TextWrapped = true
+
+login.Name = "login"
+login.Parent = status_3
+login.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+login.BorderSizePixel = 0
+login.Position = UDim2.new(0.334894598, 0, 0.545454562, 0)
+login.Size = UDim2.new(0, 141, 0, 31)
+login.Font = Enum.Font.SourceSans
+login.TextColor3 = Color3.fromRGB(255, 255, 255)
+login.TextScaled = true
+login.TextSize = 14.000
+login.TextWrapped = true
+
+gameee.Name = "gameee"
+gameee.Parent = bia
+gameee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gameee.Size = UDim2.new(0, 200, 0, 50)
+gameee.Visible = false
+gameee.Font = Enum.Font.SourceSans
+gameee.TextColor3 = Color3.fromRGB(0, 0, 0)
+gameee.TextSize = 14.000
+
+UICorner_16.Parent = bia
+
+setting_2.Name = "setting"
+setting_2.Parent = bia
+setting_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+setting_2.BackgroundTransparency = 1.000
+setting_2.BorderSizePixel = 0
+setting_2.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+setting_2.Size = UDim2.new(0, 430, 0, 271)
+setting_2.Visible = false
+
+ServerL_3.Name = "Server L"
+ServerL_3.Parent = setting_2
+ServerL_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+ServerL_3.BorderSizePixel = 0
+ServerL_3.Position = UDim2.new(0, 0, 0.00386100379, 0)
+ServerL_3.Size = UDim2.new(0, 430, 0, 29)
+
+bin_10.Name = "bin"
+bin_10.Parent = ServerL_3
+bin_10.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_10.BorderSizePixel = 0
+bin_10.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_17.Parent = bin_10
+
+TextLabel_10.Parent = ServerL_3
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
+TextLabel_10.Size = UDim2.new(0, 123, 0, 23)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Create"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+status_4.Name = "status"
+status_4.Parent = setting_2
+status_4.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status_4.BorderSizePixel = 0
+status_4.Position = UDim2.new(0.00465116277, 0, 0.123974875, 0)
+status_4.Size = UDim2.new(0, 427, 0, 114)
+
+TextLabel_11.Parent = status_4
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(87, 127, 69)
+TextLabel_11.Position = UDim2.new(0.152224809, 0, 0.280701756, 0)
+TextLabel_11.Size = UDim2.new(0, 297, 0, 54)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "BY DINO#5485"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+UICorner_18.Parent = TextLabel_11
+
+Ban.Name = "Ban"
+Ban.Parent = MenuDINOV3
+Ban.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ban.Size = UDim2.new(0, 100, 0, 100)
+Ban.Visible = false
+
+Openn.Name = "Openn"
+Openn.Parent = MenuDINOV3
+Openn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Openn.BackgroundTransparency = 1.000
+Openn.BorderSizePixel = 0
+Openn.Position = UDim2.new(0, 0, 0.96305126, 0)
+Openn.Size = UDim2.new(0, 31, 0, 31)
+Openn.Image = "http://www.roblox.com/asset/?id=6406888704"
+
+UICorner_19.Parent = Openn
+
+loaddding.Name = "loaddding"
+loaddding.Parent = MenuDINOV3
+loaddding.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+loaddding.BorderSizePixel = 0
+loaddding.Position = UDim2.new(0.330057353, 0, 0.370919108, 0)
+loaddding.Size = UDim2.new(0, 539, 0, 182)
+
+Frame_3.Parent = loaddding
+Frame_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+Frame_3.BorderSizePixel = 0
+Frame_3.Size = UDim2.new(0, 539, 0, 38)
+
+ImageLabel_2.Parent = Frame_3
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Size = UDim2.new(0, 38, 0, 38)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6406888704"
+
+ImageLabel_3.Parent = ImageLabel_2
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Size = UDim2.new(0, 38, 0, 38)
+ImageLabel_3.Image = "rbxassetid://4031889928"
+ImageLabel_3.ImageColor3 = Color3.fromRGB(46, 62, 35)
+
+TextLabel_12.Parent = Frame_3
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.788497329, 0, 0.131578952, 0)
+TextLabel_12.Size = UDim2.new(0, 87, 0, 28)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "DINO"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+UICorner_20.Parent = loaddding
+
+menulaoding.Name = "menulaoding"
+menulaoding.Parent = loaddding
+menulaoding.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+menulaoding.BackgroundTransparency = 1.000
+menulaoding.Position = UDim2.new(0.0667903498, 0, 0.335164845, 0)
+menulaoding.Size = UDim2.new(0, 466, 0, 100)
+
+Frame_4.Parent = menulaoding
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.Position = UDim2.new(0.00429184549, 0, 0.439999998, 0)
+Frame_4.Size = UDim2.new(0, 464, 0, 11)
+
+tanlaod.Name = "tanlaod"
+tanlaod.Parent = Frame_4
+tanlaod.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+tanlaod.Size = UDim2.new(0, 0, 0, 11)
+
+UICorner_21.Parent = tanlaod
+
+maydor.Name = "maydor"
+maydor.Parent = menulaoding
+maydor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+maydor.BackgroundTransparency = 1.000
+maydor.Position = UDim2.new(0.287553638, 0, 0.720000029, 0)
+maydor.Size = UDim2.new(0, 200, 0, 21)
+maydor.Font = Enum.Font.SourceSans
+maydor.Text = "Loading.."
+maydor.TextColor3 = Color3.fromRGB(255, 255, 255)
+maydor.TextScaled = true
+maydor.TextSize = 14.000
+maydor.TextWrapped = true
+
+-- Scripts:
+
+local function UVABZ_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	
+end
+coroutine.wrap(UVABZ_fake_script)()
+local function XCBWM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
+	local StatusSever = script.Parent.bia.menu.status.Online.cmdServer
+	
+	function SeverOff()
+		StatusSever.Text = "Offline"
+		StatusSever.TextColor3 = "121, 0, 0"
+	end
+	
+	function ScriptOff()
+		Statusscript.Text = "Offline"
+		Statusscript.TextColor3 = "121, 0, 0"
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	---Máy chủ-Sever
+	--SeverOff()
+	
+	---Máy chủ-script
+	--ScriptOff()
+end
+coroutine.wrap(XCBWM_fake_script)()
+local function BKAC_fake_script() -- MenuDINOV3.Login 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	--ERRO
+	function erro001()
+		game.Players.LocalPlayer:Kick("Erro#001")
+	end
+	
+	function erro002()
+		game.Players.LocalPlayer:Kick("Erro#002")
+	end
+	
+	function erro003()
+		game.Players.LocalPlayer:Kick("Erro#003")
+	end
+	
+	function erro004()
+		game.Players.LocalPlayer:Kick("Erro#004")
+	end
+	
+	function erro005()
+		game.Players.LocalPlayer:Kick("Erro#005")
+	end
+	----
+	function erro00A()
+		game.Players.LocalPlayer:Kick("You are banned/Erro#00A")
+	end
+	
+	function erro00B()
+		game.Players.LocalPlayer:Kick("Erro#00B")
+	end
+	
+	function erro00C()
+		game.Players.LocalPlayer:Kick("Erro#00C")
+	end
+	
+	function erro00D()
+		game.Players.LocalPlayer:Kick("Erro#00D")
+	end
+	
+	function erro00C()
+		game.Players.LocalPlayer:Kick("Erro#00C")
+	end
+	--
+	
+	-----Statu.Menu
+	-----
+	local statusMenu = script.Parent.bia.menu
+	local statusSetting = script.Parent.bia.setting
+	local statusMix = script.Parent.bia.Mix
+	local statuslogin = script.Parent.bia.Login
+	-----INFO.Login
+	local login = script.Parent.bia.Login.status.login
+	-----
+	local User = script.Parent.bia.Login.status.User
+	local ID = script.Parent.bia.Login.status.IDuser
+	local Userrank = script.Parent.bia.thanh.Rank
+	-----
+	-----IFNO.BIN
+	local BinMenu = script.Parent.bia.thanh.run.bin
+	local BinMix = script.Parent.bia.thanh.mis.bin
+	local BinSetting = script.Parent.bia.thanh.seting.bin
+	-----
+	-----INFO.Thanh.menu
+	local ThanhRunMenu = script.Parent.bia.thanh.run
+	local ThanhRunSettig = script.Parent.bia.thanh.seting
+	local ThanhRunMix = script.Parent.bia.thanh.mis
+	-----
+	-----Thanh.Open Statu
+	local OpenStatusMenu = script.Parent.bia.thanh.run.open
+	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
+	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
+	-----
+	-----Off.Thanh.status
+	OpenStatusMenu.Visible = false
+	OpenStatusSetting.Visible = false
+	OpenStatusMix.Visible = false
+	-----
+	-----ID.Name
+	ID.Text = game.Players.LocalPlayer.userId
+	User.Text = game.Players.LocalPlayer.Name
+	
+	
+	
+	
+	
+	-----
+	function openall()
+		----Status.Menu
+		statusMenu.Visible = true
+		BinMenu.Visible = true
+		OpenStatusMenu.Visible = true
+		ThanhRunMenu.BackgroundTransparency = "0.7"
+		--
+		----Thanh.Seeting
+		OpenStatusSetting.Visible = true
+		--Thanh.Mix
+		OpenStatusMix.Visible = true
+		--Uot.Login.Status
+		statuslogin.Visible = false
+	end
+	---AQY
+	function openallQQ()
+		----Status.Menu
+		statusMenu.Visible = true
+		BinMenu.Visible = true
+		OpenStatusMenu.Visible = true
+		ThanhRunMenu.BackgroundTransparency = "0.7"
+		--
+		----Thanh.Seeting
+		OpenStatusSetting.Visible = true
+		--Uot.Login.Status
+		statuslogin.Visible = false
+	end
+	---Login
+	-----
+	
+	
+	
+	function DATAADMIN()
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
+			Userrank.Text = "ADMIN"
+			openall()
+		end
+	end
+	
+	
+	
+	
+	function passuser()
+	
+	end
+	function autolodi()
+		if User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "bolatao2000" then
+			
+			Userrank.Text = "Friends"
+			openall()
+			if not passuser() then
+			end	
+		else
+	
+			login.Text = "Erro:0001"
+		end
+	end
+	autolodi()
+	
+	DATAADMIN()
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(BKAC_fake_script)()
+local function WQEZMRN_fake_script() -- MenuDINOV3.Menu run 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	-----Statu.Menu
+	-----
+	local statusMenu = script.Parent.bia.menu
+	local statusSetting = script.Parent.bia.setting
+	local statusMix = script.Parent.bia.Mix
+	local statuslogin = script.Parent.bia.Login
+	-----
+	-----IFNO.BIN
+	local BinMenu = script.Parent.bia.thanh.run.bin
+	local BinMix = script.Parent.bia.thanh.mis.bin
+	local BinSetting = script.Parent.bia.thanh.seting.bin
+	-----
+	-----INFO.Thanh.menu
+	local ThanhRunMenu = script.Parent.bia.thanh.run
+	local ThanhRunSettig = script.Parent.bia.thanh.seting
+	local ThanhRunMix = script.Parent.bia.thanh.mis
+	-----
+	-----Thanh.Open Statu
+	local OpenStatusMenu = script.Parent.bia.thanh.run.open
+	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
+	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
+	-----
+	-----Menu.Hoạt động
+	--
+	----Mix.game
+	OpenStatusMix.MouseButton1Click:Connect(function()
+		statusMix.Visible = true
+		BinMix.Visible = true
+		ThanhRunMix.BackgroundTransparency = "0.7"
+	
+		---
+		statusMenu.Visible = false
+		BinMenu.Visible = false
+		ThanhRunMenu.BackgroundTransparency = "1"
+		---
+		statusSetting.Visible = false
+		BinSetting.Visible = false
+		ThanhRunSettig.BackgroundTransparency = "1"
+	
+	end)
+	--
+	----Open.menu
+	OpenStatusMenu.MouseButton1Click:Connect(function()
+		statusMenu.Visible = true
+		BinMenu.Visible = true
+		ThanhRunMenu.BackgroundTransparency = "0.7"
+		---
+		statusSetting.Visible = false
+		BinSetting.Visible = false
+		ThanhRunSettig.BackgroundTransparency = "1"
+		---
+		statusMix.Visible = false
+		BinMix.Visible = false
+		ThanhRunMix.BackgroundTransparency = "1"
+	end)
+	----Open.setting
+	OpenStatusSetting.MouseButton1Click:Connect(function()
+		statusSetting.Visible = true
+		BinSetting.Visible = true
+		ThanhRunSettig.BackgroundTransparency = "0.7"
+		---
+		statusMenu.Visible = false
+		BinMenu.Visible = false
+		ThanhRunMenu.BackgroundTransparency = "1"
+		---
+		statusMix.Visible = false
+		BinMix.Visible = false
+		ThanhRunMix.BackgroundTransparency = "1"
+	
+	end)
+	
+end
+coroutine.wrap(WQEZMRN_fake_script)()
+local function SDAEEQ_fake_script() -- MenuDINOV3.Run Scrip 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	-----Run luacher
+	----
+	----Menu
+	local gameee = script.Parent.bia.gameee
+	gameee.Text = game.GameId
+	local IDgame = script.Parent.bia.menu.Run.Frame.IDgame
+	local runscrip = script.Parent.bia.menu.Run.Frame.runscrop
+	
+	
+	--tapro run game
+	function runall()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "script system!!";
+			Text = "script run";
+			Duration = 20;
+		})
+	end
+	
+	
+	function rundatascrip()
+		Counter()
+		roghoul()
+		Arsenal()
+		PhantomForces()
+		AllStat()
+		KingPiece()
+		---
+		ERROgame()
+	end
+	
+	--IDgame
+	gameee.Text = game.GameId
+	
+	
+	local bia = script.Parent.bia
+	local menusl = script.Parent.Openn
+	
+	
+	
+	-------
+	--hack
+	function roghoul()
+		if gameee.Text == "380704901" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "Ro-Ghoul."
+			runall()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Ro-Ghoul.lau")))()--Ro.Ghoul
+		end
+	end
+	
+	function Counter()
+		if gameee.Text == "115797356" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "Counter Blox."
+			runall()
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
+		end
+	end
+	
+	function Arsenal()
+		if gameee.Text == "111958650" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "Arsenal."
+			runall()
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
+		end
+	end
+	
+	
+	function PhantomForces()
+		if gameee.Text == "113491250" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "Phantom Forces."
+			runall()
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
+		end
+	end
+	
+	
+	
+	
+	function AllStat()
+		if gameee.Text == "1720936166" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "All Star Tower Defense."
+			runall()
+			menusl.Visible = true
+			bia.Visible = false
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/User%20CMDs/lol.lua")))()
+			
+		end
+	end
+	
+	function KingPiece()
+		if gameee.Text == "1451439645" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "King Piece."
+			runall()
+			--liclC()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/KingPiece.lua')))()
+		end
+	end
+	
+	--mix.no.game
+	function ERROgame()
+		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" or gameee.Text == "113491250" or gameee.Text == "1720936166" then
+			
+		else
+			wait()
+			IDgame.Text = "load DATA..."
+			wait(2)
+			IDgame.Text = "erro00D"
+			wait(5)
+			IDgame.Text = "Script"
+		end
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	runscrip.MouseButton1Click:Connect(function()
+		rundatascrip()
+	end)
+	
+	
+	
+	
+	
+	--ERRO
+	function erro001()
+		game.Players.LocalPlayer:Kick("Erro#001")
+	end
+	
+	function erro002()
+		game.Players.LocalPlayer:Kick("Erro#002")
+	end
+	
+	function erro003()
+		game.Players.LocalPlayer:Kick("Erro#003")
+	end
+	
+	function erro004()
+		game.Players.LocalPlayer:Kick("Erro#004")
+	end
+	----
+	function erro00A()
+		game.Players.LocalPlayer:Kick("You are banned/Erro#00A")
+	end
+	
+	function erro00B()
+		game.Players.LocalPlayer:Kick("Erro#00B")
+	end
+	
+	function erro00C()
+		game.Players.LocalPlayer:Kick("Erro#00C")
+	end
+	
+	function erro00D()
+		game.Players.LocalPlayer:Kick("Erro#00D")
+	end
+	
+	function erro00C()
+		game.Players.LocalPlayer:Kick("Erro#00C")
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	-----Run Mix
+	----
+	--Menu-Mix-Script.RUn
+	local counterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins.run
+	local ScriptAdmin = script.Parent.bia.Mix.status.ScrollingFrame.ScriptAdmin.run
+	
+	
+	
+	ScriptAdmin.MouseButton1Click:Connect(function()
+		runall()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/ScripMiX/Adminhackallgame.lua")))()	
+	end)
+	
+	counterbloxgameskins.MouseButton1Click:Connect(function()
+		runall()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/ScripMiX/counterbloxskins.lua")))()	
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(SDAEEQ_fake_script)()
+local function HTCGS_fake_script() -- Ban.BanUSer 
+	local script = Instance.new('LocalScript', Ban)
+
+	--ban
+	function banscr()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ban-user.lua")))()
+	end
+	
+	banscr()
+end
+coroutine.wrap(HTCGS_fake_script)()
+local function TGMF_fake_script() -- Openn.LocalScript 
+	local script = Instance.new('LocalScript', Openn)
+
+	local open = script.Parent.Parent.Openn
+	local bia = script.Parent.Parent.bia
+	local exit = script.Parent.Parent.bia.thanh.clost.exit
+	open.Visible = false
+	exit.MouseButton1Click:Connect(function()
+		bia.Visible = false
+		open.Visible = true
+	end)
+	
+	open.MouseButton1Click:Connect(function()
+		bia.Visible = true
+		open.Visible = false
+	end)
+end
+coroutine.wrap(TGMF_fake_script)()
+local function BASXB_fake_script() -- MenuDINOV3.loading 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
+	local text = script.Parent.loaddding.menulaoding.maydor
+	local menu = script.Parent.loaddding
+	local bia = script.Parent.bia
+	
+	wait(2)
+	text.Text = "Check Version."
+	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
+	wait(0.50)
+	thanhloading :TweenSize(UDim2.new(0, 89,0, 11), "Out", "Linear", 1, true)
+	wait(0.50)
+	text.Text = "Server Connection."
+	thanhloading :TweenSize(UDim2.new(0, 163,0, 11), "Out", "Linear", 1, true)
+	wait(0.50)
+	thanhloading:TweenSize(UDim2.new(0, 224,0, 11), "Out", "Linear", 2, true)
+	wait(0.50)
+	thanhloading :TweenSize(UDim2.new(0, 307,0, 11), "Out", "Linear", 1, true)
+	wait(0.50)
+	text.Text = "Running Version."
+	thanhloading :TweenSize(UDim2.new(0, 395,0, 11), "Out", "Linear", 1, true)
+	wait(0.50)
+	thanhloading:TweenSize(UDim2.new(0, 435,0, 11), "Out", "Linear", 2, true)
+	wait(0.50)
+	text.Text = "Running Dino.Lua"
+	thanhloading :TweenSize(UDim2.new(0, 464,0, 11), "Out", "Linear", 1, true)
+	wait(2)
+	menu.Visible = false
+	bia.Visible = true
+	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
+end
+coroutine.wrap(BASXB_fake_script)()
+local function FKXFX_fake_script() -- MenuDINOV3.controle 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	local controle = 1
+	
+	while controle < 2 do
+		wait(5)
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/CMD/CMD%20ADMIN.lua")))()
+	end
+end
+coroutine.wrap(FKXFX_fake_script)()
