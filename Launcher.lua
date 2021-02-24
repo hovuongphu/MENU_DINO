@@ -50,7 +50,7 @@ UIAspectRatioConstraint.Parent = Frame
 
 -- Scripts:
 
-local function XSRGY_fake_script() -- ITRO.LocalScript 
+local function XNZRSVB_fake_script() -- ITRO.LocalScript 
 	local script = Instance.new('LocalScript', ITRO)
 
 	local logo = script.Parent.Frame
@@ -68,4 +68,4 @@ local function XSRGY_fake_script() -- ITRO.LocalScript
 	
 	
 end
-coroutine.wrap(XSRGY_fake_script)()
+coroutine.wrap(XNZRSVB_fake_script)()
