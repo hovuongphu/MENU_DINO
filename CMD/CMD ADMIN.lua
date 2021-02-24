@@ -7,4 +7,4 @@ function update()
 	wait(0)
 	game.Players.LocalPlayer:Kick("Please wait for the new update")
 end
-update()
+--update()
