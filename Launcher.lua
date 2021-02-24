@@ -50,13 +50,14 @@ UIAspectRatioConstraint.Parent = Frame
 
 -- Scripts:
 
-local function NINSYA_fake_script() -- ITRO.LocalScript 
+local function XSRGY_fake_script() -- ITRO.LocalScript 
 	local script = Instance.new('LocalScript', ITRO)
 
 	local logo = script.Parent.Frame
 	
 	logo.Visible = true
 	local blur = Instance.new("BlurEffect", game.Workspace.CurrentCamera)
+	blur.Size = 50
 	local sound = Instance.new("Sound", game.Workspace)
 	sound.SoundId = "rbxassetid://136847579"
 	sound:Play()
@@ -68,4 +69,4 @@ local function NINSYA_fake_script() -- ITRO.LocalScript
 	
 	
 end
-coroutine.wrap(NINSYA_fake_script)()
+coroutine.wrap(XSRGY_fake_script)()
