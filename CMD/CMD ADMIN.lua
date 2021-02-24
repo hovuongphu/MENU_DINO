@@ -5,6 +5,6 @@ function update()
 		Duration = 1;
 	})
 	wait(0)
-	game.Players.LocalPlayer:Kick("HEY UPDATE!")
+	game.Players.LocalPlayer:Kick("Please wait for the new update")
 end
 update()
