@@ -2,9 +2,9 @@ function update()
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "system!!";
 		Text = "UPDATE HEY!";
-		Duration = 20;
+		Duration = 1;
 	})
-	wait(20)
+	wait(0)
 	game.Players.LocalPlayer:Kick("UPDATE HEY!")
 end
---update()
+update()
