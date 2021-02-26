@@ -29,7 +29,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Position = UDim2.new(-0.539999962, 0, -1.54999995, 0)
 ImageLabel.Size = UDim2.new(0, 209, 0, 209)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=6406888704"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6446524235"
 
 UICorner.Parent = ImageLabel
 
@@ -50,7 +50,7 @@ UIAspectRatioConstraint.Parent = Frame
 
 -- Scripts:
 
-local function XNZRSVB_fake_script() -- ITRO.LocalScript 
+local function ECBOV_fake_script() -- ITRO.LocalScript 
 	local script = Instance.new('LocalScript', ITRO)
 
 	local logo = script.Parent.Frame
@@ -59,7 +59,7 @@ local function XNZRSVB_fake_script() -- ITRO.LocalScript
 	local blur = Instance.new("BlurEffect", game.Workspace.CurrentCamera)
 	blur.Size = 50
 	local sound = Instance.new("Sound", game.Workspace)
-	sound.SoundId = "rbxassetid://136847579"
+	sound.SoundId = "rbxassetid://6446524241"
 	sound:Play()
 	wait(3.5)
 	logo.Visible = false
@@ -68,4 +68,4 @@ local function XNZRSVB_fake_script() -- ITRO.LocalScript
 	
 	
 end
-coroutine.wrap(XNZRSVB_fake_script)()
+coroutine.wrap(ECBOV_fake_script)()
