@@ -858,7 +858,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function UVABZ_fake_script() -- ImageButton.LocalScript 
+local function RASDYTO_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local Players = game:GetService("Players")
@@ -876,8 +876,8 @@ local function UVABZ_fake_script() -- ImageButton.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(UVABZ_fake_script)()
-local function XCBWM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(RASDYTO_fake_script)()
+local function AIURP_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -906,8 +906,8 @@ local function XCBWM_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(XCBWM_fake_script)()
-local function BKAC_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(AIURP_fake_script)()
+local function WLGUA_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1040,7 +1040,7 @@ local function BKAC_fake_script() -- MenuDINOV3.Login
 	
 	end
 	function autolodi()
-		if User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "bolatao2000" then
+		if User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "bolatao2000" or User.Text == "Thedemo2003" then
 			
 			Userrank.Text = "Friends"
 			openall()
@@ -1074,8 +1074,8 @@ local function BKAC_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(BKAC_fake_script)()
-local function WQEZMRN_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(WLGUA_fake_script)()
+local function UXDZAQI_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1150,8 +1150,8 @@ local function WQEZMRN_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(WQEZMRN_fake_script)()
-local function SDAEEQ_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(UXDZAQI_fake_script)()
+local function MVXGF_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1374,8 +1374,8 @@ local function SDAEEQ_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(SDAEEQ_fake_script)()
-local function HTCGS_fake_script() -- Ban.BanUSer 
+coroutine.wrap(MVXGF_fake_script)()
+local function SPYRTX_fake_script() -- Ban.BanUSer 
 	local script = Instance.new('LocalScript', Ban)
 
 	--ban
@@ -1385,8 +1385,8 @@ local function HTCGS_fake_script() -- Ban.BanUSer
 	
 	banscr()
 end
-coroutine.wrap(HTCGS_fake_script)()
-local function TGMF_fake_script() -- Openn.LocalScript 
+coroutine.wrap(SPYRTX_fake_script)()
+local function PWZYCW_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1403,8 +1403,8 @@ local function TGMF_fake_script() -- Openn.LocalScript
 		open.Visible = false
 	end)
 end
-coroutine.wrap(TGMF_fake_script)()
-local function BASXB_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(PWZYCW_fake_script)()
+local function LRHJXQR_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1437,8 +1437,8 @@ local function BASXB_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(BASXB_fake_script)()
-local function FKXFX_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(LRHJXQR_fake_script)()
+local function OYCGZTF_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
@@ -1448,4 +1448,4 @@ local function FKXFX_fake_script() -- MenuDINOV3.controle
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/CMD/CMD%20ADMIN.lua")))()
 	end
 end
-coroutine.wrap(FKXFX_fake_script)()
+coroutine.wrap(OYCGZTF_fake_script)()
