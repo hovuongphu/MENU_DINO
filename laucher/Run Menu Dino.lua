@@ -89,9 +89,9 @@ local TextLabel_10 = Instance.new("TextLabel")
 local status_4 = Instance.new("Frame")
 local TextLabel_11 = Instance.new("TextLabel")
 local UICorner_18 = Instance.new("UICorner")
-local Ban = Instance.new("Frame")
 local Openn = Instance.new("ImageButton")
 local UICorner_19 = Instance.new("UICorner")
+local name = Instance.new("TextLabel")
 local loaddding = Instance.new("Frame")
 local Frame_3 = Instance.new("Frame")
 local ImageLabel_2 = Instance.new("ImageLabel")
@@ -210,7 +210,7 @@ ImageButton.BackgroundTransparency = 1.000
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.141000003, 0, 0.0579999983, 0)
 ImageButton.Size = UDim2.new(0, 61, 0, 61)
-ImageButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+ImageButton.Image = "http://www.roblox.com/asset/?id=6446524235"
 
 ImageLabel.Parent = ImageButton
 ImageLabel.BackgroundColor3 = Color3.fromRGB(56, 76, 43)
@@ -765,12 +765,6 @@ TextLabel_11.TextWrapped = true
 
 UICorner_18.Parent = TextLabel_11
 
-Ban.Name = "Ban"
-Ban.Parent = MenuDINOV3
-Ban.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Ban.Size = UDim2.new(0, 100, 0, 100)
-Ban.Visible = false
-
 Openn.Name = "Openn"
 Openn.Parent = MenuDINOV3
 Openn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -781,6 +775,18 @@ Openn.Size = UDim2.new(0, 31, 0, 31)
 Openn.Image = "http://www.roblox.com/asset/?id=6446524235"
 
 UICorner_19.Parent = Openn
+
+name.Name = "name"
+name.Parent = Openn
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.BackgroundTransparency = 1.000
+name.Position = UDim2.new(1, 0, 0.258064508, 0)
+name.Size = UDim2.new(0, 80, 0, 23)
+name.Font = Enum.Font.SourceSans
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextScaled = true
+name.TextSize = 14.000
+name.TextWrapped = true
 
 loaddding.Name = "loaddding"
 loaddding.Parent = MenuDINOV3
@@ -858,26 +864,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function CBRX_fake_script() -- ImageButton.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton)
-
-	local Players = game:GetService("Players")
-	
-	local player = Players.LocalPlayer
-	
-	-- Fetch the thumbnail
-	local userId = player.UserId
-	local thumbType = Enum.ThumbnailType.HeadShot
-	local thumbSize = Enum.ThumbnailSize.Size420x420
-	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-	-- Set the ImageLabel's content to the user thumbnail
-	local imageLabel = script.Parent
-	imageLabel.Image = content
-	
-end
-coroutine.wrap(CBRX_fake_script)()
-local function XQEFX_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+local function IBCZDD_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -906,8 +893,8 @@ local function XQEFX_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(XQEFX_fake_script)()
-local function SKIFBPM_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(IBCZDD_fake_script)()
+local function UKTGRW_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1042,7 +1029,7 @@ local function SKIFBPM_fake_script() -- MenuDINOV3.Login
 	function autolodi()
 		if User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "bolatao2000" or User.Text == "Thedemo2003" then
 			
-			Userrank.Text = "UT"
+			Userrank.Text = "Friends"
 			openall()
 			if not passuser() then
 			end	
@@ -1074,8 +1061,8 @@ local function SKIFBPM_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(SKIFBPM_fake_script)()
-local function WUBUV_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(UKTGRW_fake_script)()
+local function VLLLOC_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1150,8 +1137,8 @@ local function WUBUV_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(WUBUV_fake_script)()
-local function XHCUAL_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(VLLLOC_fake_script)()
+local function SIIBIM_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1374,19 +1361,8 @@ local function XHCUAL_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(XHCUAL_fake_script)()
-local function TENIO_fake_script() -- Ban.BanUSer 
-	local script = Instance.new('LocalScript', Ban)
-
-	--ban
-	function banscr()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ban-user.lua")))()
-	end
-	
-	banscr()
-end
-coroutine.wrap(TENIO_fake_script)()
-local function GZTXHB_fake_script() -- Openn.LocalScript 
+coroutine.wrap(SIIBIM_fake_script)()
+local function OCKQDQW_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1402,9 +1378,12 @@ local function GZTXHB_fake_script() -- Openn.LocalScript
 		bia.Visible = true
 		open.Visible = false
 	end)
+	
+	local name = script.Parent.name
+	name.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(GZTXHB_fake_script)()
-local function TNUMEI_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(OCKQDQW_fake_script)()
+local function HWGJ_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1437,15 +1416,21 @@ local function TNUMEI_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(TNUMEI_fake_script)()
-local function BJMTX_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(HWGJ_fake_script)()
+local function DFFTRLW_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
-	
+	local conBan = 1
+	--Update
 	while controle < 2 do
 		wait(5)
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/CMD/CMD%20ADMIN.lua")))()
 	end
+	
+	--Ban
+	while conBan < 2 do
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ban-user.lua")))()
+	end
 end
-coroutine.wrap(BJMTX_fake_script)()
+coroutine.wrap(DFFTRLW_fake_script)()
