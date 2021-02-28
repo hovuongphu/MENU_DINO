@@ -864,7 +864,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function JOFN_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+local function KPQJH_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -893,8 +893,8 @@ local function JOFN_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(JOFN_fake_script)()
-local function PQKS_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(KPQJH_fake_script)()
+local function ILCY_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1014,9 +1014,15 @@ local function PQKS_fake_script() -- MenuDINOV3.Login
 	
 	
 	function DATAADMIN()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "minhkhang2007" then
 			Userrank.Text = "ADMIN"
 			openall()
+			--
+			local loading = script.Parent.loaddding
+			local bia = script.Parent.bia
+			bia.Visible = true
+			loading.Visible = false
+			--
 		end
 	end
 	
@@ -1061,8 +1067,8 @@ local function PQKS_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(PQKS_fake_script)()
-local function NDKOCJC_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(ILCY_fake_script)()
+local function CXWB_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1137,8 +1143,8 @@ local function NDKOCJC_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(NDKOCJC_fake_script)()
-local function VKSEPGM_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(CXWB_fake_script)()
+local function CWOMV_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1361,8 +1367,8 @@ local function VKSEPGM_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(VKSEPGM_fake_script)()
-local function VCKXLRZ_fake_script() -- Openn.LocalScript 
+coroutine.wrap(CWOMV_fake_script)()
+local function CGMSM_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1382,8 +1388,8 @@ local function VCKXLRZ_fake_script() -- Openn.LocalScript
 	local name = script.Parent.name
 	name.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(VCKXLRZ_fake_script)()
-local function PLFUQ_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(CGMSM_fake_script)()
+local function WMRLY_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1416,8 +1422,8 @@ local function PLFUQ_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(PLFUQ_fake_script)()
-local function CCXQPWR_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(WMRLY_fake_script)()
+local function PPRUKZ_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
@@ -1433,4 +1439,4 @@ local function CCXQPWR_fake_script() -- MenuDINOV3.controle
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ban-user.lua")))()
 	end
 end
-coroutine.wrap(CCXQPWR_fake_script)()
+coroutine.wrap(PPRUKZ_fake_script)()
