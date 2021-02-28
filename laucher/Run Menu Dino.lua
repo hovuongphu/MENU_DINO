@@ -80,28 +80,44 @@ local IDuser = Instance.new("TextLabel")
 local User = Instance.new("TextLabel")
 local login = Instance.new("TextLabel")
 local gameee = Instance.new("TextLabel")
-local UICorner_16 = Instance.new("UICorner")
 local setting_2 = Instance.new("Frame")
 local ServerL_3 = Instance.new("Frame")
 local bin_10 = Instance.new("Frame")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
 local status_4 = Instance.new("Frame")
 local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
 local UICorner_18 = Instance.new("UICorner")
-local Openn = Instance.new("ImageButton")
+local admin = Instance.new("Frame")
+local ServerL_4 = Instance.new("Frame")
+local bin_11 = Instance.new("Frame")
 local UICorner_19 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local status_5 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_24 = Instance.new("UICorner")
+local Openn = Instance.new("ImageButton")
+local UICorner_25 = Instance.new("UICorner")
 local name = Instance.new("TextLabel")
 local loaddding = Instance.new("Frame")
 local Frame_3 = Instance.new("Frame")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
-local TextLabel_12 = Instance.new("TextLabel")
-local UICorner_20 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
 local menulaoding = Instance.new("Frame")
 local Frame_4 = Instance.new("Frame")
 local tanlaod = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local maydor = Instance.new("TextLabel")
 
 --Properties:
@@ -706,8 +722,6 @@ gameee.Font = Enum.Font.SourceSans
 gameee.TextColor3 = Color3.fromRGB(0, 0, 0)
 gameee.TextSize = 14.000
 
-UICorner_16.Parent = bia
-
 setting_2.Name = "setting"
 setting_2.Parent = bia
 setting_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -730,7 +744,7 @@ bin_10.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
 bin_10.BorderSizePixel = 0
 bin_10.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_17.Parent = bin_10
+UICorner_16.Parent = bin_10
 
 TextLabel_10.Parent = ServerL_3
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -763,7 +777,119 @@ TextLabel_11.TextScaled = true
 TextLabel_11.TextSize = 14.000
 TextLabel_11.TextWrapped = true
 
-UICorner_18.Parent = TextLabel_11
+UICorner_17.Parent = TextLabel_11
+
+UICorner_18.Parent = bia
+
+admin.Name = "admin"
+admin.Parent = bia
+admin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+admin.BackgroundTransparency = 1.000
+admin.BorderSizePixel = 0
+admin.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
+admin.Size = UDim2.new(0, 430, 0, 271)
+admin.Visible = false
+
+ServerL_4.Name = "Server L"
+ServerL_4.Parent = admin
+ServerL_4.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+ServerL_4.BorderSizePixel = 0
+ServerL_4.Position = UDim2.new(0, 0, 0.00386100379, 0)
+ServerL_4.Size = UDim2.new(0, 430, 0, 29)
+
+bin_11.Name = "bin"
+bin_11.Parent = ServerL_4
+bin_11.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_11.BorderSizePixel = 0
+bin_11.Size = UDim2.new(0, 2, 0, 29)
+
+UICorner_19.Parent = bin_11
+
+TextLabel_12.Parent = ServerL_4
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
+TextLabel_12.Size = UDim2.new(0, 123, 0, 23)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Admin"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+status_5.Name = "status"
+status_5.Parent = admin
+status_5.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
+status_5.BorderSizePixel = 0
+status_5.Position = UDim2.new(0.00465116277, 0, 0.123974904, 0)
+status_5.Size = UDim2.new(0, 427, 0, 235)
+
+TextButton.Parent = status_5
+TextButton.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
+TextButton.Position = UDim2.new(0.0468384102, 0, 0.114893615, 0)
+TextButton.Size = UDim2.new(0, 386, 0, 20)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Counter Blox config"
+TextButton.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_20.Parent = TextButton
+
+TextButton_2.Parent = status_5
+TextButton_2.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
+TextButton_2.Position = UDim2.new(0.0468384102, 0, 0.280851066, 0)
+TextButton_2.Size = UDim2.new(0, 386, 0, 20)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "shutdow monco"
+TextButton_2.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_21.Parent = TextButton_2
+
+TextButton_3.Parent = status_5
+TextButton_3.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
+TextButton_3.Position = UDim2.new(0.754098356, 0, 0.765957415, 0)
+TextButton_3.Size = UDim2.new(0, 62, 0, 27)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "ADD"
+TextButton_3.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_22.Parent = TextButton_3
+
+TextButton_4.Parent = status_5
+TextButton_4.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
+TextButton_4.Position = UDim2.new(0.590163946, 0, 0.765957415, 0)
+TextButton_4.Size = UDim2.new(0, 62, 0, 27)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Ban"
+TextButton_4.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_23.Parent = TextButton_4
+
+TextBox.Parent = status_5
+TextBox.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
+TextBox.Position = UDim2.new(0.0468384326, 0, 0.765957415, 0)
+TextBox.Size = UDim2.new(0, 220, 0, 27)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Name User"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_24.Parent = TextBox
 
 Openn.Name = "Openn"
 Openn.Parent = MenuDINOV3
@@ -774,7 +900,7 @@ Openn.Position = UDim2.new(0, 0, 0.96305126, 0)
 Openn.Size = UDim2.new(0, 31, 0, 31)
 Openn.Image = "http://www.roblox.com/asset/?id=6446524235"
 
-UICorner_19.Parent = Openn
+UICorner_25.Parent = Openn
 
 name.Name = "name"
 name.Parent = Openn
@@ -814,20 +940,20 @@ ImageLabel_3.Size = UDim2.new(0, 38, 0, 38)
 ImageLabel_3.Image = "rbxassetid://4031889928"
 ImageLabel_3.ImageColor3 = Color3.fromRGB(46, 62, 35)
 
-TextLabel_12.Parent = Frame_3
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.BorderSizePixel = 0
-TextLabel_12.Position = UDim2.new(0.788497329, 0, 0.131578952, 0)
-TextLabel_12.Size = UDim2.new(0, 87, 0, 28)
-TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "DINO"
-TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextScaled = true
-TextLabel_12.TextSize = 14.000
-TextLabel_12.TextWrapped = true
+TextLabel_13.Parent = Frame_3
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.788497329, 0, 0.131578952, 0)
+TextLabel_13.Size = UDim2.new(0, 87, 0, 28)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "DINO"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
 
-UICorner_20.Parent = loaddding
+UICorner_26.Parent = loaddding
 
 menulaoding.Name = "menulaoding"
 menulaoding.Parent = loaddding
@@ -847,7 +973,7 @@ tanlaod.Parent = Frame_4
 tanlaod.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
 tanlaod.Size = UDim2.new(0, 0, 0, 11)
 
-UICorner_21.Parent = tanlaod
+UICorner_27.Parent = tanlaod
 
 maydor.Name = "maydor"
 maydor.Parent = menulaoding
@@ -864,7 +990,93 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function XWIF_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+local function UINAGC_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		all()
+		runall()
+	end)
+	
+	function all()
+		loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+		wait()
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local Client = getsenv(game.Players.LocalPlayer.PlayerGui.Client)
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	
+		local allSkins = {
+			{'Butterfly Knife_Jade Dream'},
+			{'Karambit_Jade Dream'},
+			{'Fingerless Glove_Scapter'},
+		}
+	
+		local isUnlocked
+	
+		local mt = getrawmetatable(game)
+		local oldNamecall = mt.__namecall
+		setreadonly(mt, false)
+	
+		local isUnlocked
+	
+		mt.__namecall = newcclosure(function(self, ...)
+			local args = {...}
+			if getnamecallmethod() == "InvokeServer" and tostring(self) == "Hugh" then
+				return
+			end
+			if getnamecallmethod() == "FireServer" then
+				if args[1] == LocalPlayer.UserId then
+					return
+				end
+				if string.len(tostring(self)) == 38 then
+					if not isUnlocked then
+						isUnlocked = true
+						for i,v in pairs(allSkins) do
+							local doSkip
+							for i2,v2 in pairs(args[1]) do
+								if v[1] == v2[1] then
+									doSkip = true
+								end
+							end
+							if not doSkip then
+								table.insert(args[1], v)
+							end
+						end
+					end
+					return
+				end
+				if tostring(self) == "DataEvent" and args[1][4] then
+					local currentSkin = string.split(args[1][4][1], "_")[2]
+					if args[1][2] == "Both" then
+						LocalPlayer["SkinFolder"]["CTFolder"][args[1][3]].Value = currentSkin
+						LocalPlayer["SkinFolder"]["TFolder"][args[1][3]].Value = currentSkin
+					else
+						LocalPlayer["SkinFolder"][args[1][2] .. "Folder"][args[1][3]].Value = currentSkin
+					end
+				end
+			end
+			return oldNamecall(self, ...)
+		end)
+	
+		setreadonly(mt, true)
+	
+	
+		local TClone, CTClone = LocalPlayer.SkinFolder.TFolder:Clone(), game.Players.LocalPlayer.SkinFolder.CTFolder:Clone()
+		LocalPlayer.SkinFolder.TFolder:Destroy()
+		LocalPlayer.SkinFolder.CTFolder:Destroy()
+		TClone.Parent = LocalPlayer.SkinFolder
+		CTClone.Parent = LocalPlayer.SkinFolder
+	end
+	function runall()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "script system!!";
+			Text = "script run";
+			Duration = 20;
+		})
+	end
+end
+coroutine.wrap(UINAGC_fake_script)()
+local function GYFT_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -893,8 +1105,8 @@ local function XWIF_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(XWIF_fake_script)()
-local function DPXEOY_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(GYFT_fake_script)()
+local function MAVCF_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1067,12 +1279,13 @@ local function DPXEOY_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(DPXEOY_fake_script)()
-local function PSFSG_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(MAVCF_fake_script)()
+local function WDOVCNN_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
 	-----
+	local statusAdmin = script.Parent.bia.admin
 	local statusMenu = script.Parent.bia.menu
 	local statusSetting = script.Parent.bia.setting
 	local statusMix = script.Parent.bia.Mix
@@ -1109,6 +1322,8 @@ local function PSFSG_fake_script() -- MenuDINOV3.Menu run
 		statusSetting.Visible = false
 		BinSetting.Visible = false
 		ThanhRunSettig.BackgroundTransparency = "1"
+		--
+		statusAdmin.Visible = false
 	
 	end)
 	--
@@ -1125,6 +1340,8 @@ local function PSFSG_fake_script() -- MenuDINOV3.Menu run
 		statusMix.Visible = false
 		BinMix.Visible = false
 		ThanhRunMix.BackgroundTransparency = "1"
+		--
+		statusAdmin.Visible = false
 	end)
 	----Open.setting
 	OpenStatusSetting.MouseButton1Click:Connect(function()
@@ -1139,12 +1356,13 @@ local function PSFSG_fake_script() -- MenuDINOV3.Menu run
 		statusMix.Visible = false
 		BinMix.Visible = false
 		ThanhRunMix.BackgroundTransparency = "1"
-	
+		--
+		statusAdmin.Visible = false
 	end)
 	
 end
-coroutine.wrap(PSFSG_fake_script)()
-local function NUZFLZR_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(WDOVCNN_fake_script)()
+local function UPCLHJP_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1367,8 +1585,8 @@ local function NUZFLZR_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(NUZFLZR_fake_script)()
-local function BLYWCTU_fake_script() -- Openn.LocalScript 
+coroutine.wrap(UPCLHJP_fake_script)()
+local function EHQDYHY_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1388,8 +1606,8 @@ local function BLYWCTU_fake_script() -- Openn.LocalScript
 	local name = script.Parent.name
 	name.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(BLYWCTU_fake_script)()
-local function POSANOW_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(EHQDYHY_fake_script)()
+local function QVRMDHL_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1422,8 +1640,8 @@ local function POSANOW_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(POSANOW_fake_script)()
-local function GZDZCY_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(QVRMDHL_fake_script)()
+local function MKDDUQL_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
@@ -1439,4 +1657,84 @@ local function GZDZCY_fake_script() -- MenuDINOV3.controle
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ban-user.lua")))()
 	end
 end
-coroutine.wrap(GZDZCY_fake_script)()
+coroutine.wrap(MKDDUQL_fake_script)()
+local function BYSPX_fake_script() -- MenuDINOV3.open admin 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	
+	-----Statu.Menu
+	-----
+	local statusMenu = script.Parent.bia.menu
+	local statusSetting = script.Parent.bia.setting
+	local statusMix = script.Parent.bia.Mix
+	local statuslogin = script.Parent.bia.Login
+	-----INFO.Login
+	local login = script.Parent.bia.Login.status.login
+	-----
+	local User = script.Parent.bia.Login.status.User
+	local ID = script.Parent.bia.Login.status.IDuser
+	local Userrank = script.Parent.bia.thanh.Rank
+	-----
+	-----IFNO.BIN
+	local BinMenu = script.Parent.bia.thanh.run.bin
+	local BinMix = script.Parent.bia.thanh.mis.bin
+	local BinSetting = script.Parent.bia.thanh.seting.bin
+	-----
+	-----INFO.Thanh.menu
+	local ThanhRunMenu = script.Parent.bia.thanh.run
+	local ThanhRunSettig = script.Parent.bia.thanh.seting
+	local ThanhRunMix = script.Parent.bia.thanh.mis
+	-----
+	-----Thanh.Open Statu
+	local OpenStatusMenu = script.Parent.bia.thanh.run.open
+	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
+	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local menuadmin = script.Parent.bia.admin
+	local nuc = script.Parent.bia.thanh.ImageButton
+	local User = script.Parent.bia.Login.status.User
+	
+	nuc.MouseButton1Click:Connect(function()
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
+			openaddll()
+		end
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	function openaddll()
+		menuadmin.Visible = true
+		statusMix.Visible = false
+		BinMix.Visible = false
+		ThanhRunMix.BackgroundTransparency = "1"
+	
+		---
+		statusMenu.Visible = false
+		BinMenu.Visible = false
+		ThanhRunMenu.BackgroundTransparency = "1"
+		---
+		statusSetting.Visible = false
+		BinSetting.Visible = false
+		ThanhRunSettig.BackgroundTransparency = "1"
+	end
+	
+	
+end
+coroutine.wrap(BYSPX_fake_script)()
