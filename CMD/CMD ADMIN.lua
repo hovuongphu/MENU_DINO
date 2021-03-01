@@ -9,4 +9,3 @@ function update()
 end
 --update()
 --game.Players.LocalPlayer:Kick("shutdown to Update")
-
