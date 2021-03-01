@@ -990,7 +990,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function MRUJXJA_fake_script() -- TextButton.LocalScript 
+local function NNHBHN_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1075,8 +1075,8 @@ local function MRUJXJA_fake_script() -- TextButton.LocalScript
 		})
 	end
 end
-coroutine.wrap(MRUJXJA_fake_script)()
-local function CWCA_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(NNHBHN_fake_script)()
+local function TTWODP_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -1105,8 +1105,8 @@ local function CWCA_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(CWCA_fake_script)()
-local function XBYP_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(TTWODP_fake_script)()
+local function SAPYBI_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1226,23 +1226,6 @@ local function XBYP_fake_script() -- MenuDINOV3.Login
 	
 	
 	
-	function DATAADMIN()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "chuotti2008" then
-			Userrank.Text = "ADMIN"
-			openall()
-			openaddll()
-			--
-			local loading = script.Parent.loaddding
-			local bia = script.Parent.bia
-			bia.Visible = true
-			loading.Visible = false
-			--
-		end
-	end
-	
-	
-	
-	
 	function passuser()
 	
 	end
@@ -1260,32 +1243,6 @@ local function XBYP_fake_script() -- MenuDINOV3.Login
 	end
 	autolodi()
 	
-	DATAADMIN()
-	
-	
-	
-	--ADMIN
-	local menuadmin = script.Parent.bia.admin
-	local nuc = script.Parent.bia.thanh.ImageButton
-	local User = script.Parent.bia.Login.status.User
-	
-	
-	function openaddll()
-		menuadmin.Visible = true
-		statusMix.Visible = false
-		BinMix.Visible = false
-		ThanhRunMix.BackgroundTransparency = "1"
-	
-		---
-		statusMenu.Visible = false
-		BinMenu.Visible = false
-		ThanhRunMenu.BackgroundTransparency = "1"
-		---
-		statusSetting.Visible = false
-		BinSetting.Visible = false
-		ThanhRunSettig.BackgroundTransparency = "1"
-	end
-	
 	
 	
 	
@@ -1299,8 +1256,8 @@ local function XBYP_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(XBYP_fake_script)()
-local function OECJ_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(SAPYBI_fake_script)()
+local function TBMCEZU_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1381,8 +1338,8 @@ local function OECJ_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(OECJ_fake_script)()
-local function VQLXQK_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(TBMCEZU_fake_script)()
+local function ZCAOGH_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1605,8 +1562,8 @@ local function VQLXQK_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(VQLXQK_fake_script)()
-local function WIEVRT_fake_script() -- Openn.LocalScript 
+coroutine.wrap(ZCAOGH_fake_script)()
+local function ATRTP_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1626,8 +1583,8 @@ local function WIEVRT_fake_script() -- Openn.LocalScript
 	local name = script.Parent.name
 	name.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(WIEVRT_fake_script)()
-local function OCXNQZ_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(ATRTP_fake_script)()
+local function AWGCVJ_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1660,8 +1617,8 @@ local function OCXNQZ_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(OCXNQZ_fake_script)()
-local function UVMVP_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(AWGCVJ_fake_script)()
+local function QFRD_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
@@ -1678,4 +1635,93 @@ local function UVMVP_fake_script() -- MenuDINOV3.controle
 		wait(60)
 	end
 end
-coroutine.wrap(UVMVP_fake_script)()
+coroutine.wrap(QFRD_fake_script)()
+local function NSIDD_fake_script() -- MenuDINOV3.Admin 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	
+	--ADMIN
+	local menuadmin = script.Parent.bia.admin
+	local nuc = script.Parent.bia.thanh.ImageButton
+	local User = script.Parent.bia.Login.status.User
+	
+	
+	
+	local statusMenu = script.Parent.bia.menu
+	local statusSetting = script.Parent.bia.setting
+	local statusMix = script.Parent.bia.Mix
+	local statuslogin = script.Parent.bia.Login
+	-----INFO.Login
+	local login = script.Parent.bia.Login.status.login
+	-----
+	local User = script.Parent.bia.Login.status.User
+	local ID = script.Parent.bia.Login.status.IDuser
+	local Userrank = script.Parent.bia.thanh.Rank
+	-----
+	-----IFNO.BIN
+	local BinMenu = script.Parent.bia.thanh.run.bin
+	local BinMix = script.Parent.bia.thanh.mis.bin
+	local BinSetting = script.Parent.bia.thanh.seting.bin
+	-----
+	-----INFO.Thanh.menu
+	local ThanhRunMenu = script.Parent.bia.thanh.run
+	local ThanhRunSettig = script.Parent.bia.thanh.seting
+	local ThanhRunMix = script.Parent.bia.thanh.mis
+	-----
+	-----Thanh.Open Statu
+	local OpenStatusMenu = script.Parent.bia.thanh.run.open
+	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
+	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
+	
+	
+	
+	
+	
+	function DATAADMIN()
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "chuotti2008" then
+			Userrank.Text = "ADMIN"
+			openall()
+			openaddll()
+			--
+			local loading = script.Parent.loaddding
+			local bia = script.Parent.bia
+			bia.Visible = true
+			loading.Visible = false
+			--
+		end
+	end
+	
+	
+	function openaddll()
+		menuadmin.Visible = true
+		statusMix.Visible = false
+		BinMix.Visible = false
+		ThanhRunMix.BackgroundTransparency = "1"
+	
+		---
+		statusMenu.Visible = false
+		BinMenu.Visible = false
+		ThanhRunMenu.BackgroundTransparency = "1"
+		---
+		statusSetting.Visible = false
+		BinSetting.Visible = false
+		ThanhRunSettig.BackgroundTransparency = "1"
+	end
+	
+	function openall()
+		----Status.Menu
+		statusMenu.Visible = true
+		BinMenu.Visible = true
+		OpenStatusMenu.Visible = true
+		ThanhRunMenu.BackgroundTransparency = "0.7"
+		--
+		----Thanh.Seeting
+		OpenStatusSetting.Visible = true
+		--Thanh.Mix
+		OpenStatusMix.Visible = true
+		--Uot.Login.Status
+		statuslogin.Visible = false
+	end
+	
+end
+coroutine.wrap(NSIDD_fake_script)()
