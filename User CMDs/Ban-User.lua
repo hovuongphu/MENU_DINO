@@ -33,7 +33,7 @@ local function XBRCFJU_fake_script() -- ban.ban
 	
 	
 	function erro00A()
-		game.Players.LocalPlayer:Kick("You have been banned from DINO/Erro # 00A")
+		game.Players.LocalPlayer:Kick("You have been banned from DINO/Erro#00A")
 	end
 	name.Visible = false
 	name.Text = game.Players.LocalPlayer.Name
