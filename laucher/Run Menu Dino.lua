@@ -990,7 +990,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function UINAGC_fake_script() -- TextButton.LocalScript 
+local function AQWBS_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1075,8 +1075,8 @@ local function UINAGC_fake_script() -- TextButton.LocalScript
 		})
 	end
 end
-coroutine.wrap(UINAGC_fake_script)()
-local function GYFT_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(AQWBS_fake_script)()
+local function SYHGGM_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -1105,8 +1105,8 @@ local function GYFT_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(GYFT_fake_script)()
-local function MAVCF_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(SYHGGM_fake_script)()
+local function QDVL_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1226,7 +1226,7 @@ local function MAVCF_fake_script() -- MenuDINOV3.Login
 	
 	
 	function DATAADMIN()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "chuotti2008" then
 			Userrank.Text = "ADMIN"
 			openall()
 			--
@@ -1279,8 +1279,8 @@ local function MAVCF_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(MAVCF_fake_script)()
-local function WDOVCNN_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(QDVL_fake_script)()
+local function PRPZTH_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1361,8 +1361,8 @@ local function WDOVCNN_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(WDOVCNN_fake_script)()
-local function UPCLHJP_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(PRPZTH_fake_script)()
+local function TQNT_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1585,8 +1585,8 @@ local function UPCLHJP_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(UPCLHJP_fake_script)()
-local function EHQDYHY_fake_script() -- Openn.LocalScript 
+coroutine.wrap(TQNT_fake_script)()
+local function LOIMXX_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1606,8 +1606,8 @@ local function EHQDYHY_fake_script() -- Openn.LocalScript
 	local name = script.Parent.name
 	name.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(EHQDYHY_fake_script)()
-local function QVRMDHL_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(LOIMXX_fake_script)()
+local function JAISRA_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1640,8 +1640,8 @@ local function QVRMDHL_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(QVRMDHL_fake_script)()
-local function MKDDUQL_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(JAISRA_fake_script)()
+local function FBDGN_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
@@ -1657,8 +1657,8 @@ local function MKDDUQL_fake_script() -- MenuDINOV3.controle
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Ban-user.lua")))()
 	end
 end
-coroutine.wrap(MKDDUQL_fake_script)()
-local function BYSPX_fake_script() -- MenuDINOV3.open admin 
+coroutine.wrap(FBDGN_fake_script)()
+local function AAOG_fake_script() -- MenuDINOV3.open admin 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	
@@ -1737,4 +1737,4 @@ local function BYSPX_fake_script() -- MenuDINOV3.open admin
 	
 	
 end
-coroutine.wrap(BYSPX_fake_script)()
+coroutine.wrap(AAOG_fake_script)()
