@@ -39,7 +39,7 @@ local function XBRCFJU_fake_script() -- ban.ban
 	name.Text = game.Players.LocalPlayer.Name
 	
 	function banscr()
-		if name.Text == "no1" then
+		if name.Text == "Ninjakhoi124" then
 			erro00A()
 		end
 	end
