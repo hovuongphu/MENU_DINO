@@ -1230,7 +1230,7 @@ local function WPOE_fake_script() -- MenuDINOV3.Login
 		--NO user here UwU
 	end
 	function autolodi()
-		if User.Text == "Ninjakhoi124" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "bolatao2000" or User.Text == "Thedemo2003" then
+		if User.Text == "chuotti2008" or User.Text == "Ninjakhoi124" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "bolatao2000" or User.Text == "Thedemo2003" then
 			
 			Userrank.Text = "UT"
 			openall()
@@ -1729,7 +1729,7 @@ local function ZHFME_fake_script() -- MenuDINOV3.adminaa
 	
 	
 	function DATAADMIN()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "chuotti2008" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
 			Userrank.Text = "ADMIN"
 			openallAdmin()
 			OpenStatusMenuAdmin.MouseButton1Click:Connect(function()
