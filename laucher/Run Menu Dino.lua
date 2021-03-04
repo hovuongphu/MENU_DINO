@@ -990,7 +990,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function RURACY_fake_script() -- TextButton.LocalScript 
+local function DNSEYL_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1075,8 +1075,8 @@ local function RURACY_fake_script() -- TextButton.LocalScript
 		})
 	end
 end
-coroutine.wrap(RURACY_fake_script)()
-local function KCJQ_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(DNSEYL_fake_script)()
+local function BRBWQ_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -1105,8 +1105,8 @@ local function KCJQ_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(KCJQ_fake_script)()
-local function WPOE_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(BRBWQ_fake_script)()
+local function TEVN_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1230,7 +1230,7 @@ local function WPOE_fake_script() -- MenuDINOV3.Login
 		--NO user here UwU
 	end
 	function autolodi()
-		if User.Text == "chuotti2008" or User.Text == "Ninjakhoi124" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "bolatao2000" or User.Text == "Thedemo2003" then
+		if User.Text == "Ninjakhoi124" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "bolatao2000" or User.Text == "Thedemo2003" then
 			
 			Userrank.Text = "UT"
 			openall()
@@ -1259,8 +1259,8 @@ local function WPOE_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(WPOE_fake_script)()
-local function HQGFPKV_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(TEVN_fake_script)()
+local function ZGHABEA_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1341,8 +1341,8 @@ local function HQGFPKV_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(HQGFPKV_fake_script)()
-local function FBBHTRZ_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(ZGHABEA_fake_script)()
+local function PCOH_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1458,9 +1458,55 @@ local function FBBHTRZ_fake_script() -- MenuDINOV3.Run Scrip
 		end
 	end
 	
+	function ProjectXL()
+		if gameee.Text == "2265532481" then
+			IDgame.Text = "load DATA..."
+			wait(3)
+			IDgame.Text = "Project XL."
+			runall()
+			--liclC()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/project.lua')))()
+		end
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	--mix.no.game
 	function ERROgame()
-		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" or gameee.Text == "113491250" or gameee.Text == "1720936166" then
+		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" or gameee.Text == "113491250" or gameee.Text == "1720936166" or gameee.Text == "1451439645" or gameee.Text == "2265532481"  then
 			
 		else
 			wait()
@@ -1565,8 +1611,8 @@ local function FBBHTRZ_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(FBBHTRZ_fake_script)()
-local function EKAVZJQ_fake_script() -- Openn.LocalScript 
+coroutine.wrap(PCOH_fake_script)()
+local function XMMULXF_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1586,8 +1632,8 @@ local function EKAVZJQ_fake_script() -- Openn.LocalScript
 	local name = script.Parent.name
 	name.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(EKAVZJQ_fake_script)()
-local function VOCER_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(XMMULXF_fake_script)()
+local function HFLJ_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1620,8 +1666,8 @@ local function VOCER_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(VOCER_fake_script)()
-local function IYGD_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(HFLJ_fake_script)()
+local function LWXYHMP_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
@@ -1634,8 +1680,8 @@ local function IYGD_fake_script() -- MenuDINOV3.controle
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/User%20CMDs/Ban-User.lua")))()
 end
-coroutine.wrap(IYGD_fake_script)()
-local function ZHFME_fake_script() -- MenuDINOV3.adminaa 
+coroutine.wrap(LWXYHMP_fake_script)()
+local function XVNFK_fake_script() -- MenuDINOV3.adminaa 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1729,7 +1775,7 @@ local function ZHFME_fake_script() -- MenuDINOV3.adminaa
 	
 	
 	function DATAADMIN()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "chuotti2008" then
 			Userrank.Text = "ADMIN"
 			openallAdmin()
 			OpenStatusMenuAdmin.MouseButton1Click:Connect(function()
@@ -1746,4 +1792,4 @@ local function ZHFME_fake_script() -- MenuDINOV3.adminaa
 	
 	DATAADMIN()
 end
-coroutine.wrap(ZHFME_fake_script)()
+coroutine.wrap(XVNFK_fake_script)()
