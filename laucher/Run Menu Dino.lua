@@ -1371,6 +1371,7 @@ local function PCOH_fake_script() -- MenuDINOV3.Run Scrip
 		PhantomForces()
 		AllStat()
 		KingPiece()
+		ProjectXL()
 		---
 		ERROgame()
 	end
