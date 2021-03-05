@@ -1466,7 +1466,8 @@ local function PCOH_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Project XL."
 			runall()
 			--liclC()
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/project.lua')))()
+			loadstring(game:HttpGet(("http://assasine.com/Scripts/Project_XL.lua"),true))()
+
 		end
 	end
 	
