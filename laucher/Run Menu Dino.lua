@@ -990,7 +990,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function DNSEYL_fake_script() -- TextButton.LocalScript 
+local function TYUS_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1075,8 +1075,8 @@ local function DNSEYL_fake_script() -- TextButton.LocalScript
 		})
 	end
 end
-coroutine.wrap(DNSEYL_fake_script)()
-local function BRBWQ_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(TYUS_fake_script)()
+local function BELTWOL_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -1105,8 +1105,8 @@ local function BRBWQ_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(BRBWQ_fake_script)()
-local function TEVN_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(BELTWOL_fake_script)()
+local function GEHCF_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1229,8 +1229,8 @@ local function TEVN_fake_script() -- MenuDINOV3.Login
 	function passuser()
 		--NO user here UwU
 	end
-	function autolodi()
-		if User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "Thedemo2003" then
+	function autoUT()
+		if User.Text == "bolatao2000" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "Thedemo2003" then
 			
 			Userrank.Text = "UT"
 			openall()
@@ -1242,11 +1242,22 @@ local function TEVN_fake_script() -- MenuDINOV3.Login
 		end
 	end
 	
+	function autofremium()
+		if User.Text == "chuotti2008" then
 	
+			Userrank.Text = "UT"
+			openall()
+			if not passuser() then
+			end	
+		else
 	
-	autolodi()
+			login.Text = "Erro:0001"
+		end
+	end
 	
+	autoUT()
 	
+	autofremium()
 	
 	
 	
@@ -1259,8 +1270,8 @@ local function TEVN_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(TEVN_fake_script)()
-local function ZGHABEA_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(GEHCF_fake_script)()
+local function WCWDYD_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1341,8 +1352,8 @@ local function ZGHABEA_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(ZGHABEA_fake_script)()
-local function PCOH_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(WCWDYD_fake_script)()
+local function KZTXBJ_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1612,8 +1623,8 @@ local function PCOH_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(PCOH_fake_script)()
-local function XMMULXF_fake_script() -- Openn.LocalScript 
+coroutine.wrap(KZTXBJ_fake_script)()
+local function OVRO_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1633,8 +1644,8 @@ local function XMMULXF_fake_script() -- Openn.LocalScript
 	local name = script.Parent.name
 	name.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(XMMULXF_fake_script)()
-local function HFLJ_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(OVRO_fake_script)()
+local function BNDUVNH_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1667,8 +1678,8 @@ local function HFLJ_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(HFLJ_fake_script)()
-local function LWXYHMP_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(BNDUVNH_fake_script)()
+local function RMCGRS_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
@@ -1678,11 +1689,10 @@ local function LWXYHMP_fake_script() -- MenuDINOV3.controle
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/CMD/CMD%20ADMIN.lua")))()
 	end
 	
-	--Ban
-	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/User%20CMDs/Ban-User.lua")))()
+	
 end
-coroutine.wrap(LWXYHMP_fake_script)()
-local function XVNFK_fake_script() -- MenuDINOV3.adminaa 
+coroutine.wrap(RMCGRS_fake_script)()
+local function FPWSWAA_fake_script() -- MenuDINOV3.adminaa 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1776,7 +1786,7 @@ local function XVNFK_fake_script() -- MenuDINOV3.adminaa
 	
 	
 	function DATAADMIN()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" or User.Text == "chuotti2008" then
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
 			Userrank.Text = "ADMIN"
 			openallAdmin()
 			OpenStatusMenuAdmin.MouseButton1Click:Connect(function()
@@ -1793,4 +1803,11 @@ local function XVNFK_fake_script() -- MenuDINOV3.adminaa
 	
 	DATAADMIN()
 end
-coroutine.wrap(XVNFK_fake_script)()
+coroutine.wrap(FPWSWAA_fake_script)()
+local function JGEH_fake_script() -- MenuDINOV3.Ban 
+	local script = Instance.new('LocalScript', MenuDINOV3)
+
+	--Ban
+	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/User%20CMDs/Ban-User.lua")))()
+end
+coroutine.wrap(JGEH_fake_script)()
