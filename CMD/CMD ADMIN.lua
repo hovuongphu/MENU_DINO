@@ -8,4 +8,4 @@ function update()
 	game.Players.LocalPlayer:Kick("Please wait for the new update")
 end
 --update()
-game.Players.LocalPlayer:Kick("Disconnected from the system | 000X03042")
+--game.Players.LocalPlayer:Kick("Disconnected from the system | 000X03042")
