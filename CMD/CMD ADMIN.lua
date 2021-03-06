@@ -7,5 +7,5 @@ function update()
 	wait(10)
 	game.Players.LocalPlayer:Kick("Please wait for the new update")
 end
---update()
+update()
 --game.Players.LocalPlayer:Kick("Disconnected from the system | 000X03042")
