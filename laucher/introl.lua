@@ -64,7 +64,7 @@ local function LKMGWXU_fake_script() -- ITRO.LocalScript
 	wait(3.5)
 	logo.Visible = false
 	blur.Size = 0
-	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/laucher/Run%20Menu%20Dino.lua")))()
+	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Dino%20Hud.lua")))()
 	
 	
 end
