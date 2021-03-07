@@ -990,7 +990,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function OLHLUR_fake_script() -- TextButton.LocalScript 
+local function MWXEHU_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1075,8 +1075,8 @@ local function OLHLUR_fake_script() -- TextButton.LocalScript
 		})
 	end
 end
-coroutine.wrap(OLHLUR_fake_script)()
-local function DUPYR_fake_script() -- MenuDINOV3.On-OFF-SEVER 
+coroutine.wrap(MWXEHU_fake_script)()
+local function WIPGC_fake_script() -- MenuDINOV3.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -1105,8 +1105,8 @@ local function DUPYR_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(DUPYR_fake_script)()
-local function LVMOETH_fake_script() -- MenuDINOV3.Login 
+coroutine.wrap(WIPGC_fake_script)()
+local function RRLZL_fake_script() -- MenuDINOV3.Login 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--ERRO
@@ -1230,7 +1230,7 @@ local function LVMOETH_fake_script() -- MenuDINOV3.Login
 		--NO user here UwU
 	end
 	function autoUT()
-		if User.Text == "bolatao2000" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "kaubeks2" or User.Text == "Thedemo2003" then
+		if User.Text == "bolatao2000" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "Thedemo2003" then
 			
 			Userrank.Text = "UT"
 			openall()
@@ -1270,8 +1270,8 @@ local function LVMOETH_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(LVMOETH_fake_script)()
-local function IBFCP_fake_script() -- MenuDINOV3.Menu run 
+coroutine.wrap(RRLZL_fake_script)()
+local function DSLQNJA_fake_script() -- MenuDINOV3.Menu run 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1352,8 +1352,8 @@ local function IBFCP_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(IBFCP_fake_script)()
-local function CLJY_fake_script() -- MenuDINOV3.Run Scrip 
+coroutine.wrap(DSLQNJA_fake_script)()
+local function PHRYS_fake_script() -- MenuDINOV3.Run Scrip 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Run luacher
@@ -1405,7 +1405,7 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 			wait(3)
 			IDgame.Text = "Ro-Ghoul."
 			runall()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Ro-Ghoul.lau")))()--Ro.Ghoul
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lau")))()--Ro.Ghoul
 		end
 	end
 	
@@ -1416,7 +1416,7 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Counter Blox."
 			runall()
 			--liclC()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
 		end
 	end
 	
@@ -1427,7 +1427,7 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Arsenal."
 			runall()
 			--liclC()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
 		end
 	end
 	
@@ -1439,7 +1439,7 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Phantom Forces."
 			runall()
 			--liclC()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/Counter%20Blox.lua")))()--OWL HUB
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
 		end
 	end
 	
@@ -1455,7 +1455,7 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 			menusl.Visible = true
 			bia.Visible = false
 			--liclC()
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/User%20CMDs/lol.lua")))()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/all%20star%20tower%20defense.lua")))()
 			
 		end
 	end
@@ -1467,7 +1467,7 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "King Piece."
 			runall()
 			--liclC()
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/KingPiece.lua')))()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/King%20Piece.lua')))()
 		end
 	end
 	
@@ -1478,7 +1478,7 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Project XL."
 			runall()
 			--liclC()
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/Script%20game/project.lua')))()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/projectXL.lua')))()
 		end
 	end
 	
@@ -1489,7 +1489,7 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 			IDgame.Text = "Bee Swarm Simulator."
 			runall()
 			--liclC()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/infinitylua/Luascripts/main/KJFsdEj8sXrja.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Bee%20Swarm%20Simulator.lua"))()
 		end
 	end
 	
@@ -1616,12 +1616,12 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 	
 	ScriptAdmin.MouseButton1Click:Connect(function()
 		runall()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/ScripMiX/Adminhackallgame.lua")))()	
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/Adminhackallgame.lua")))()	
 	end)
 	
 	counterbloxgameskins.MouseButton1Click:Connect(function()
 		runall()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/ScripMiX/counterbloxskins.lua")))()	
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/counterbloxskins.lua")))()	
 	end)
 	
 	
@@ -1634,8 +1634,8 @@ local function CLJY_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(CLJY_fake_script)()
-local function UYPQVI_fake_script() -- Openn.LocalScript 
+coroutine.wrap(PHRYS_fake_script)()
+local function EPFHH_fake_script() -- Openn.LocalScript 
 	local script = Instance.new('LocalScript', Openn)
 
 	local open = script.Parent.Parent.Openn
@@ -1655,8 +1655,8 @@ local function UYPQVI_fake_script() -- Openn.LocalScript
 	local name = script.Parent.name
 	name.Text = game.Players.LocalPlayer.Name
 end
-coroutine.wrap(UYPQVI_fake_script)()
-local function IIMGYB_fake_script() -- MenuDINOV3.loading 
+coroutine.wrap(EPFHH_fake_script)()
+local function EHMPQH_fake_script() -- MenuDINOV3.loading 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1689,21 +1689,21 @@ local function IIMGYB_fake_script() -- MenuDINOV3.loading
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
 end
-coroutine.wrap(IIMGYB_fake_script)()
-local function KBPET_fake_script() -- MenuDINOV3.controle 
+coroutine.wrap(EHMPQH_fake_script)()
+local function ROMBSN_fake_script() -- MenuDINOV3.controle 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	local controle = 1
 	--Update
 	while controle < 2 do
 		wait(5)
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/CMD/CMD%20ADMIN.lua")))()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Cmd%20System.lua")))()
 	end
 	
 	
 end
-coroutine.wrap(KBPET_fake_script)()
-local function YHYIUKR_fake_script() -- MenuDINOV3.adminaa 
+coroutine.wrap(ROMBSN_fake_script)()
+local function ARNJAN_fake_script() -- MenuDINOV3.adminaa 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	-----Statu.Menu
@@ -1814,11 +1814,11 @@ local function YHYIUKR_fake_script() -- MenuDINOV3.adminaa
 	
 	DATAADMIN()
 end
-coroutine.wrap(YHYIUKR_fake_script)()
-local function QGOTVE_fake_script() -- MenuDINOV3.Ban 
+coroutine.wrap(ARNJAN_fake_script)()
+local function KCOY_fake_script() -- MenuDINOV3.Ban 
 	local script = Instance.new('LocalScript', MenuDINOV3)
 
 	--Ban
-	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/MENU_DINO/main/User%20CMDs/Ban-User.lua")))()
+	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(QGOTVE_fake_script)()
+coroutine.wrap(KCOY_fake_script)()
