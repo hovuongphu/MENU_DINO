@@ -8,4 +8,4 @@ function update()
 	game.Players.LocalPlayer:Kick("Please wait for the new update")
 end
 --update()
-game.Players.LocalPlayer:Kick("shutdown for new update")
+--game.Players.LocalPlayer:Kick("shutdown for new update")
