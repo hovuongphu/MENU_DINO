@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local MenuDINOV3 = Instance.new("ScreenGui")
+local DinoHudV4 = Instance.new("ScreenGui")
 local bia = Instance.new("Frame")
 local thanh = Instance.new("Frame")
 local mis = Instance.new("Frame")
@@ -22,13 +22,11 @@ local ImageButton = Instance.new("ImageButton")
 local ImageLabel = Instance.new("ImageLabel")
 local Rank = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
-local clost = Instance.new("Frame")
-local bin_4 = Instance.new("Frame")
+local Namee = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
-local exit = Instance.new("ImageButton")
 local menu = Instance.new("Frame")
 local Server = Instance.new("Frame")
-local bin_5 = Instance.new("Frame")
+local bin_4 = Instance.new("Frame")
 local UICorner_6 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local status = Instance.new("Frame")
@@ -38,7 +36,7 @@ local Online = Instance.new("Frame")
 local cmdServer = Instance.new("TextLabel")
 local cmdScript = Instance.new("TextLabel")
 local Run = Instance.new("Frame")
-local bin_6 = Instance.new("Frame")
+local bin_5 = Instance.new("Frame")
 local UICorner_7 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 local Frame = Instance.new("Frame")
@@ -46,7 +44,7 @@ local IDgame = Instance.new("TextLabel")
 local runscrop = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
 local discor = Instance.new("Frame")
-local bin_7 = Instance.new("Frame")
+local bin_6 = Instance.new("Frame")
 local UICorner_9 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
 local Frame_2 = Instance.new("Frame")
@@ -55,7 +53,7 @@ local copyLink = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
 local Mix = Instance.new("Frame")
 local ServerL = Instance.new("Frame")
-local bin_8 = Instance.new("Frame")
+local bin_7 = Instance.new("Frame")
 local UICorner_11 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local status_2 = Instance.new("Frame")
@@ -72,7 +70,7 @@ local TextLabel_8 = Instance.new("TextLabel")
 local UICorner_14 = Instance.new("UICorner")
 local Login = Instance.new("Frame")
 local ServerL_2 = Instance.new("Frame")
-local bin_9 = Instance.new("Frame")
+local bin_8 = Instance.new("Frame")
 local UICorner_15 = Instance.new("UICorner")
 local TextLabel_9 = Instance.new("TextLabel")
 local status_3 = Instance.new("Frame")
@@ -82,7 +80,7 @@ local login = Instance.new("TextLabel")
 local gameee = Instance.new("TextLabel")
 local setting_2 = Instance.new("Frame")
 local ServerL_3 = Instance.new("Frame")
-local bin_10 = Instance.new("Frame")
+local bin_9 = Instance.new("Frame")
 local UICorner_16 = Instance.new("UICorner")
 local TextLabel_10 = Instance.new("TextLabel")
 local status_4 = Instance.new("Frame")
@@ -91,7 +89,7 @@ local UICorner_17 = Instance.new("UICorner")
 local UICorner_18 = Instance.new("UICorner")
 local admin = Instance.new("Frame")
 local ServerL_4 = Instance.new("Frame")
-local bin_11 = Instance.new("Frame")
+local bin_10 = Instance.new("Frame")
 local UICorner_19 = Instance.new("UICorner")
 local TextLabel_12 = Instance.new("TextLabel")
 local status_5 = Instance.new("Frame")
@@ -105,28 +103,25 @@ local TextButton_4 = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
 local TextBox = Instance.new("TextBox")
 local UICorner_24 = Instance.new("UICorner")
-local Openn = Instance.new("ImageButton")
-local UICorner_25 = Instance.new("UICorner")
-local name = Instance.new("TextLabel")
 local loaddding = Instance.new("Frame")
 local Frame_3 = Instance.new("Frame")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local TextLabel_13 = Instance.new("TextLabel")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local menulaoding = Instance.new("Frame")
 local Frame_4 = Instance.new("Frame")
 local tanlaod = Instance.new("Frame")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local maydor = Instance.new("TextLabel")
 
 --Properties:
 
-MenuDINOV3.Name = "MenuDINOV3"
-MenuDINOV3.Parent = game.CoreGui
+DinoHudV4.Name = "Dino-HudV4"
+DinoHudV4.Parent = game.CoreGui
 
 bia.Name = "bia"
-bia.Parent = MenuDINOV3
+bia.Parent = DinoHudV4
 bia.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
 bia.BorderSizePixel = 0
 bia.Position = UDim2.new(0.330057353, 0, 0.314660311, 0)
@@ -251,32 +246,20 @@ Rank.TextWrapped = true
 
 UICorner_4.Parent = Rank
 
-clost.Name = "clost"
-clost.Parent = thanh
-clost.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
-clost.BackgroundTransparency = 1.000
-clost.BorderSizePixel = 0
-clost.Position = UDim2.new(-0.0117647061, 0, 0.69624573, 0)
-clost.Size = UDim2.new(0, 85, 0, 39)
+Namee.Name = "Namee"
+Namee.Parent = thanh
+Namee.BackgroundColor3 = Color3.fromRGB(61, 84, 46)
+Namee.BorderSizePixel = 0
+Namee.Position = UDim2.new(0.0705882385, 0, 0.740614355, 0)
+Namee.Size = UDim2.new(0, 72, 0, 28)
+Namee.Font = Enum.Font.SourceSans
+Namee.Text = "User?"
+Namee.TextColor3 = Color3.fromRGB(255, 255, 255)
+Namee.TextScaled = true
+Namee.TextSize = 14.000
+Namee.TextWrapped = true
 
-bin_4.Name = "bin"
-bin_4.Parent = clost
-bin_4.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_4.BorderSizePixel = 0
-bin_4.Position = UDim2.new(0.00422918983, 0, 0, 0)
-bin_4.Size = UDim2.new(0, 1, 0, 39)
-bin_4.Visible = false
-
-UICorner_5.Parent = bin_4
-
-exit.Name = "exit"
-exit.Parent = clost
-exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-exit.BackgroundTransparency = 1.000
-exit.BorderSizePixel = 0
-exit.Position = UDim2.new(0.27427879, 0, 0.0697436184, 0)
-exit.Size = UDim2.new(0, 29, 0, 29)
-exit.Image = "rbxassetid://5679295310"
+UICorner_5.Parent = Namee
 
 menu.Name = "menu"
 menu.Parent = bia
@@ -294,13 +277,13 @@ Server.BorderSizePixel = 0
 Server.Position = UDim2.new(0, 0, 0.00386100379, 0)
 Server.Size = UDim2.new(0, 430, 0, 29)
 
-bin_5.Name = "bin"
-bin_5.Parent = Server
-bin_5.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_5.BorderSizePixel = 0
-bin_5.Size = UDim2.new(0, 2, 0, 29)
+bin_4.Name = "bin"
+bin_4.Parent = Server
+bin_4.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_4.BorderSizePixel = 0
+bin_4.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_6.Parent = bin_5
+UICorner_6.Parent = bin_4
 
 TextLabel.Parent = Server
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -390,13 +373,13 @@ Run.BorderSizePixel = 0
 Run.Position = UDim2.new(0.00465116277, 0, 0.5549559, 0)
 Run.Size = UDim2.new(0, 208, 0, 29)
 
-bin_6.Name = "bin"
-bin_6.Parent = Run
-bin_6.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_6.BorderSizePixel = 0
-bin_6.Size = UDim2.new(0, 2, 0, 29)
+bin_5.Name = "bin"
+bin_5.Parent = Run
+bin_5.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_5.BorderSizePixel = 0
+bin_5.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_7.Parent = bin_6
+UICorner_7.Parent = bin_5
 
 TextLabel_4.Parent = Run
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -453,13 +436,13 @@ discor.BorderSizePixel = 0
 discor.Position = UDim2.new(0.516279042, 0, 0.5549559, 0)
 discor.Size = UDim2.new(0, 207, 0, 29)
 
-bin_7.Name = "bin"
-bin_7.Parent = discor
-bin_7.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_7.BorderSizePixel = 0
-bin_7.Size = UDim2.new(0, 2, 0, 29)
+bin_6.Name = "bin"
+bin_6.Parent = discor
+bin_6.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_6.BorderSizePixel = 0
+bin_6.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_9.Parent = bin_7
+UICorner_9.Parent = bin_6
 
 TextLabel_5.Parent = discor
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -522,13 +505,13 @@ ServerL.BorderSizePixel = 0
 ServerL.Position = UDim2.new(0, 0, 0.00386100379, 0)
 ServerL.Size = UDim2.new(0, 430, 0, 29)
 
-bin_8.Name = "bin"
-bin_8.Parent = ServerL
-bin_8.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_8.BorderSizePixel = 0
-bin_8.Size = UDim2.new(0, 2, 0, 29)
+bin_7.Name = "bin"
+bin_7.Parent = ServerL
+bin_7.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_7.BorderSizePixel = 0
+bin_7.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_11.Parent = bin_8
+UICorner_11.Parent = bin_7
 
 TextLabel_7.Parent = ServerL
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -649,13 +632,13 @@ ServerL_2.BorderSizePixel = 0
 ServerL_2.Position = UDim2.new(0, 0, 0.00386100379, 0)
 ServerL_2.Size = UDim2.new(0, 430, 0, 29)
 
-bin_9.Name = "bin"
-bin_9.Parent = ServerL_2
-bin_9.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_9.BorderSizePixel = 0
-bin_9.Size = UDim2.new(0, 2, 0, 29)
+bin_8.Name = "bin"
+bin_8.Parent = ServerL_2
+bin_8.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_8.BorderSizePixel = 0
+bin_8.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_15.Parent = bin_9
+UICorner_15.Parent = bin_8
 
 TextLabel_9.Parent = ServerL_2
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -738,13 +721,13 @@ ServerL_3.BorderSizePixel = 0
 ServerL_3.Position = UDim2.new(0, 0, 0.00386100379, 0)
 ServerL_3.Size = UDim2.new(0, 430, 0, 29)
 
-bin_10.Name = "bin"
-bin_10.Parent = ServerL_3
-bin_10.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_10.BorderSizePixel = 0
-bin_10.Size = UDim2.new(0, 2, 0, 29)
+bin_9.Name = "bin"
+bin_9.Parent = ServerL_3
+bin_9.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_9.BorderSizePixel = 0
+bin_9.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_16.Parent = bin_10
+UICorner_16.Parent = bin_9
 
 TextLabel_10.Parent = ServerL_3
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -797,13 +780,13 @@ ServerL_4.BorderSizePixel = 0
 ServerL_4.Position = UDim2.new(0, 0, 0.00386100379, 0)
 ServerL_4.Size = UDim2.new(0, 430, 0, 29)
 
-bin_11.Name = "bin"
-bin_11.Parent = ServerL_4
-bin_11.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_11.BorderSizePixel = 0
-bin_11.Size = UDim2.new(0, 2, 0, 29)
+bin_10.Name = "bin"
+bin_10.Parent = ServerL_4
+bin_10.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
+bin_10.BorderSizePixel = 0
+bin_10.Size = UDim2.new(0, 2, 0, 29)
 
-UICorner_19.Parent = bin_11
+UICorner_19.Parent = bin_10
 
 TextLabel_12.Parent = ServerL_4
 TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -891,31 +874,8 @@ TextBox.TextWrapped = true
 
 UICorner_24.Parent = TextBox
 
-Openn.Name = "Openn"
-Openn.Parent = MenuDINOV3
-Openn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Openn.BackgroundTransparency = 1.000
-Openn.BorderSizePixel = 0
-Openn.Position = UDim2.new(0, 0, 0.96305126, 0)
-Openn.Size = UDim2.new(0, 31, 0, 31)
-Openn.Image = "http://www.roblox.com/asset/?id=6446524235"
-
-UICorner_25.Parent = Openn
-
-name.Name = "name"
-name.Parent = Openn
-name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-name.BackgroundTransparency = 1.000
-name.Position = UDim2.new(1, 0, 0.258064508, 0)
-name.Size = UDim2.new(0, 80, 0, 23)
-name.Font = Enum.Font.SourceSans
-name.TextColor3 = Color3.fromRGB(255, 255, 255)
-name.TextScaled = true
-name.TextSize = 14.000
-name.TextWrapped = true
-
 loaddding.Name = "loaddding"
-loaddding.Parent = MenuDINOV3
+loaddding.Parent = DinoHudV4
 loaddding.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
 loaddding.BorderSizePixel = 0
 loaddding.Position = UDim2.new(0.330057353, 0, 0.370919108, 0)
@@ -953,7 +913,7 @@ TextLabel_13.TextScaled = true
 TextLabel_13.TextSize = 14.000
 TextLabel_13.TextWrapped = true
 
-UICorner_26.Parent = loaddding
+UICorner_25.Parent = loaddding
 
 menulaoding.Name = "menulaoding"
 menulaoding.Parent = loaddding
@@ -973,7 +933,7 @@ tanlaod.Parent = Frame_4
 tanlaod.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
 tanlaod.Size = UDim2.new(0, 0, 0, 11)
 
-UICorner_27.Parent = tanlaod
+UICorner_26.Parent = tanlaod
 
 maydor.Name = "maydor"
 maydor.Parent = menulaoding
@@ -990,7 +950,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function MWXEHU_fake_script() -- TextButton.LocalScript 
+local function ZYLK_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1075,9 +1035,9 @@ local function MWXEHU_fake_script() -- TextButton.LocalScript
 		})
 	end
 end
-coroutine.wrap(MWXEHU_fake_script)()
-local function WIPGC_fake_script() -- MenuDINOV3.On-OFF-SEVER 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(ZYLK_fake_script)()
+local function FETYCX_fake_script() -- DinoHudV4.On-OFF-SEVER 
+	local script = Instance.new('LocalScript', DinoHudV4)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
 	local StatusSever = script.Parent.bia.menu.status.Online.cmdServer
@@ -1105,9 +1065,9 @@ local function WIPGC_fake_script() -- MenuDINOV3.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(WIPGC_fake_script)()
-local function RRLZL_fake_script() -- MenuDINOV3.Login 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(FETYCX_fake_script)()
+local function FFSBSWE_fake_script() -- DinoHudV4.Login 
+	local script = Instance.new('LocalScript', DinoHudV4)
 
 	--ERRO
 	function erro001()
@@ -1163,6 +1123,7 @@ local function RRLZL_fake_script() -- MenuDINOV3.Login
 	local login = script.Parent.bia.Login.status.login
 	-----
 	local User = script.Parent.bia.Login.status.User
+	local UUser = script.Parent.bia.thanh.Namee
 	local ID = script.Parent.bia.Login.status.IDuser
 	local Userrank = script.Parent.bia.thanh.Rank
 	-----
@@ -1190,8 +1151,8 @@ local function RRLZL_fake_script() -- MenuDINOV3.Login
 	-----ID.Name
 	ID.Text = game.Players.LocalPlayer.userId
 	User.Text = game.Players.LocalPlayer.Name
-	
-	
+	UUser.Text = game.Players.LocalPlayer.Name
+	UUser.Visible = false
 	
 	
 	
@@ -1233,6 +1194,7 @@ local function RRLZL_fake_script() -- MenuDINOV3.Login
 		if User.Text == "bolatao2000" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "Thedemo2003" then
 			
 			Userrank.Text = "UT"
+			UUser.Visible = true
 			openall()
 			if not passuser() then
 			end	
@@ -1245,7 +1207,8 @@ local function RRLZL_fake_script() -- MenuDINOV3.Login
 	function autofremium()
 		if User.Text == "chuotti2008" then
 	
-			Userrank.Text = "UT"
+			Userrank.Text = "Premium"
+			UUser.Visible = true
 			openall()
 			if not passuser() then
 			end	
@@ -1270,9 +1233,9 @@ local function RRLZL_fake_script() -- MenuDINOV3.Login
 	
 	
 end
-coroutine.wrap(RRLZL_fake_script)()
-local function DSLQNJA_fake_script() -- MenuDINOV3.Menu run 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(FFSBSWE_fake_script)()
+local function INOS_fake_script() -- DinoHudV4.Menu run 
+	local script = Instance.new('LocalScript', DinoHudV4)
 
 	-----Statu.Menu
 	-----
@@ -1352,9 +1315,9 @@ local function DSLQNJA_fake_script() -- MenuDINOV3.Menu run
 	end)
 	
 end
-coroutine.wrap(DSLQNJA_fake_script)()
-local function PHRYS_fake_script() -- MenuDINOV3.Run Scrip 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(INOS_fake_script)()
+local function ZHJUB_fake_script() -- DinoHudV4.Run Scrip 
+	local script = Instance.new('LocalScript', DinoHudV4)
 
 	-----Run luacher
 	----
@@ -1393,7 +1356,7 @@ local function PHRYS_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 	local bia = script.Parent.bia
-	local menusl = script.Parent.Openn
+	
 	
 	
 	
@@ -1452,7 +1415,6 @@ local function PHRYS_fake_script() -- MenuDINOV3.Run Scrip
 			wait(3)
 			IDgame.Text = "All Star Tower Defense."
 			runall()
-			menusl.Visible = true
 			bia.Visible = false
 			--liclC()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/all%20star%20tower%20defense.lua")))()
@@ -1634,30 +1596,9 @@ local function PHRYS_fake_script() -- MenuDINOV3.Run Scrip
 	
 	
 end
-coroutine.wrap(PHRYS_fake_script)()
-local function EPFHH_fake_script() -- Openn.LocalScript 
-	local script = Instance.new('LocalScript', Openn)
-
-	local open = script.Parent.Parent.Openn
-	local bia = script.Parent.Parent.bia
-	local exit = script.Parent.Parent.bia.thanh.clost.exit
-	open.Visible = false
-	exit.MouseButton1Click:Connect(function()
-		bia.Visible = false
-		open.Visible = true
-	end)
-	
-	open.MouseButton1Click:Connect(function()
-		bia.Visible = true
-		open.Visible = false
-	end)
-	
-	local name = script.Parent.name
-	name.Text = game.Players.LocalPlayer.Name
-end
-coroutine.wrap(EPFHH_fake_script)()
-local function EHMPQH_fake_script() -- MenuDINOV3.loading 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(ZHJUB_fake_script)()
+local function RIMLI_fake_script() -- DinoHudV4.loading 
+	local script = Instance.new('LocalScript', DinoHudV4)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
 	local text = script.Parent.loaddding.menulaoding.maydor
@@ -1688,10 +1629,28 @@ local function EHMPQH_fake_script() -- MenuDINOV3.loading
 	menu.Visible = false
 	bia.Visible = true
 	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
+	
+	
+	
+	
+	--Key open/clost
+	local bia = script.Parent.bia
+	
+	local plr = game.Players.LocalPlayer
+	
+	plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "]" then
+			if bia.Visible == true then
+				bia.Visible = false
+			else
+				bia.Visible = true
+			end
+		end
+	end)
 end
-coroutine.wrap(EHMPQH_fake_script)()
-local function ROMBSN_fake_script() -- MenuDINOV3.controle 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(RIMLI_fake_script)()
+local function IAZH_fake_script() -- DinoHudV4.controle 
+	local script = Instance.new('LocalScript', DinoHudV4)
 
 	local controle = 1
 	--Update
@@ -1702,9 +1661,9 @@ local function ROMBSN_fake_script() -- MenuDINOV3.controle
 	
 	
 end
-coroutine.wrap(ROMBSN_fake_script)()
-local function ARNJAN_fake_script() -- MenuDINOV3.adminaa 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(IAZH_fake_script)()
+local function ZYZVQO_fake_script() -- DinoHudV4.adminaa 
+	local script = Instance.new('LocalScript', DinoHudV4)
 
 	-----Statu.Menu
 	-----
@@ -1718,6 +1677,7 @@ local function ARNJAN_fake_script() -- MenuDINOV3.adminaa
 	-----
 	local User = script.Parent.bia.Login.status.User
 	local ID = script.Parent.bia.Login.status.IDuser
+	local UUser = script.Parent.bia.thanh.Namee
 	local Userrank = script.Parent.bia.thanh.Rank
 	-----
 	-----IFNO.BIN
@@ -1735,11 +1695,6 @@ local function ARNJAN_fake_script() -- MenuDINOV3.adminaa
 	local OpenStatusMenu = script.Parent.bia.thanh.run.open
 	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
 	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
-	
-	
-	
-	
-	
 	
 	
 	
@@ -1799,6 +1754,7 @@ local function ARNJAN_fake_script() -- MenuDINOV3.adminaa
 	function DATAADMIN()
 		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
 			Userrank.Text = "ADMIN"
+			UUser.Visible = true
 			openallAdmin()
 			OpenStatusMenuAdmin.MouseButton1Click:Connect(function()
 				Adminss()
@@ -1814,11 +1770,11 @@ local function ARNJAN_fake_script() -- MenuDINOV3.adminaa
 	
 	DATAADMIN()
 end
-coroutine.wrap(ARNJAN_fake_script)()
-local function KCOY_fake_script() -- MenuDINOV3.Ban 
-	local script = Instance.new('LocalScript', MenuDINOV3)
+coroutine.wrap(ZYZVQO_fake_script)()
+local function AMTSB_fake_script() -- DinoHudV4.Ban 
+	local script = Instance.new('LocalScript', DinoHudV4)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(KCOY_fake_script)()
+coroutine.wrap(AMTSB_fake_script)()
