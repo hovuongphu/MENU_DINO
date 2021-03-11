@@ -950,7 +950,7 @@ maydor.TextWrapped = true
 
 -- Scripts:
 
-local function ZYLK_fake_script() -- TextButton.LocalScript 
+local function KIBKKGP_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1035,8 +1035,8 @@ local function ZYLK_fake_script() -- TextButton.LocalScript
 		})
 	end
 end
-coroutine.wrap(ZYLK_fake_script)()
-local function FETYCX_fake_script() -- DinoHudV4.On-OFF-SEVER 
+coroutine.wrap(KIBKKGP_fake_script)()
+local function KQEIE_fake_script() -- DinoHudV4.On-OFF-SEVER 
 	local script = Instance.new('LocalScript', DinoHudV4)
 
 	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
@@ -1065,8 +1065,8 @@ local function FETYCX_fake_script() -- DinoHudV4.On-OFF-SEVER
 	---Máy chủ-script
 	--ScriptOff()
 end
-coroutine.wrap(FETYCX_fake_script)()
-local function FFSBSWE_fake_script() -- DinoHudV4.Login 
+coroutine.wrap(KQEIE_fake_script)()
+local function KGWVF_fake_script() -- DinoHudV4.Login 
 	local script = Instance.new('LocalScript', DinoHudV4)
 
 	--ERRO
@@ -1233,8 +1233,8 @@ local function FFSBSWE_fake_script() -- DinoHudV4.Login
 	
 	
 end
-coroutine.wrap(FFSBSWE_fake_script)()
-local function INOS_fake_script() -- DinoHudV4.Menu run 
+coroutine.wrap(KGWVF_fake_script)()
+local function WFFMRV_fake_script() -- DinoHudV4.Menu run 
 	local script = Instance.new('LocalScript', DinoHudV4)
 
 	-----Statu.Menu
@@ -1315,8 +1315,8 @@ local function INOS_fake_script() -- DinoHudV4.Menu run
 	end)
 	
 end
-coroutine.wrap(INOS_fake_script)()
-local function ZHJUB_fake_script() -- DinoHudV4.Run Scrip 
+coroutine.wrap(WFFMRV_fake_script)()
+local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip 
 	local script = Instance.new('LocalScript', DinoHudV4)
 
 	-----Run luacher
@@ -1596,8 +1596,8 @@ local function ZHJUB_fake_script() -- DinoHudV4.Run Scrip
 	
 	
 end
-coroutine.wrap(ZHJUB_fake_script)()
-local function RIMLI_fake_script() -- DinoHudV4.loading 
+coroutine.wrap(VAJUUPX_fake_script)()
+local function HTJP_fake_script() -- DinoHudV4.loading-key 
 	local script = Instance.new('LocalScript', DinoHudV4)
 
 	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
@@ -1637,19 +1637,29 @@ local function RIMLI_fake_script() -- DinoHudV4.loading
 	local bia = script.Parent.bia
 	
 	local plr = game.Players.LocalPlayer
+	--
+	local mobia = UDim2.new(0.33, 0,0.315, 0)
+	local dongbia = UDim2.new(0.33, 0,-1, 0)
+	
 	
 	plr:GetMouse().KeyDown:Connect(function(K)
 		if K == "]" then
 			if bia.Visible == true then
+				bia:TweenPosition((dongbia), "Out", "Linear",.25)
+				wait(0.50)
 				bia.Visible = false
 			else
+				
 				bia.Visible = true
+				wait(0.50)
+				bia:TweenPosition((mobia), "Out", "Linear",.25)
+				
 			end
 		end
 	end)
 end
-coroutine.wrap(RIMLI_fake_script)()
-local function IAZH_fake_script() -- DinoHudV4.controle 
+coroutine.wrap(HTJP_fake_script)()
+local function SVXH_fake_script() -- DinoHudV4.controle 
 	local script = Instance.new('LocalScript', DinoHudV4)
 
 	local controle = 1
@@ -1661,8 +1671,8 @@ local function IAZH_fake_script() -- DinoHudV4.controle
 	
 	
 end
-coroutine.wrap(IAZH_fake_script)()
-local function ZYZVQO_fake_script() -- DinoHudV4.adminaa 
+coroutine.wrap(SVXH_fake_script)()
+local function NRLPZ_fake_script() -- DinoHudV4.adminaa 
 	local script = Instance.new('LocalScript', DinoHudV4)
 
 	-----Statu.Menu
@@ -1770,11 +1780,11 @@ local function ZYZVQO_fake_script() -- DinoHudV4.adminaa
 	
 	DATAADMIN()
 end
-coroutine.wrap(ZYZVQO_fake_script)()
-local function AMTSB_fake_script() -- DinoHudV4.Ban 
+coroutine.wrap(NRLPZ_fake_script)()
+local function YHSCN_fake_script() -- DinoHudV4.Ban 
 	local script = Instance.new('LocalScript', DinoHudV4)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(AMTSB_fake_script)()
+coroutine.wrap(YHSCN_fake_script)()
