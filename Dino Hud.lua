@@ -3,1224 +3,715 @@
 
 -- Instances:
 
-local DinoHudV4 = Instance.new("ScreenGui")
+local DinoHudV5 = Instance.new("ScreenGui")
 local bia = Instance.new("Frame")
-local thanh = Instance.new("Frame")
-local mis = Instance.new("Frame")
-local bin = Instance.new("Frame")
+local loading = Instance.new("Frame")
+local loading1 = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local mis_2 = Instance.new("ImageButton")
-local seting = Instance.new("Frame")
-local bin_2 = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
-local setting = Instance.new("ImageButton")
-local run = Instance.new("Frame")
-local bin_3 = Instance.new("Frame")
+local anh = Instance.new("ImageLabel")
+local iconload = Instance.new("ImageLabel")
+local Run = Instance.new("ImageButton")
+local ceck = Instance.new("ImageLabel")
 local UICorner_3 = Instance.new("UICorner")
-local open = Instance.new("ImageButton")
-local ImageButton = Instance.new("ImageButton")
-local ImageLabel = Instance.new("ImageLabel")
-local Rank = Instance.new("TextLabel")
+local loadingtxt = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
-local Namee = Instance.new("TextLabel")
+local HUDname = Instance.new("TextLabel")
+local boxmixx = Instance.new("Frame")
+local user = Instance.new("TextButton")
+local mix = Instance.new("TextButton")
+local opentapmixx = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
-local menu = Instance.new("Frame")
-local Server = Instance.new("Frame")
-local bin_4 = Instance.new("Frame")
+local boxUser = Instance.new("Frame")
+local Avatar = Instance.new("ImageLabel")
 local UICorner_6 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local status = Instance.new("Frame")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local Online = Instance.new("Frame")
-local cmdServer = Instance.new("TextLabel")
-local cmdScript = Instance.new("TextLabel")
-local Run = Instance.new("Frame")
-local bin_5 = Instance.new("Frame")
-local UICorner_7 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local Frame = Instance.new("Frame")
-local IDgame = Instance.new("TextLabel")
-local runscrop = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local discor = Instance.new("Frame")
-local bin_6 = Instance.new("Frame")
-local UICorner_9 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
-local Frame_2 = Instance.new("Frame")
-local TextLabel_6 = Instance.new("TextLabel")
-local copyLink = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local Mix = Instance.new("Frame")
-local ServerL = Instance.new("Frame")
-local bin_7 = Instance.new("Frame")
-local UICorner_11 = Instance.new("UICorner")
-local TextLabel_7 = Instance.new("TextLabel")
-local status_2 = Instance.new("Frame")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local counterbloxskins = Instance.new("Frame")
-local run_2 = Instance.new("ImageButton")
-local namegame = Instance.new("TextLabel")
-local UICorner_12 = Instance.new("UICorner")
-local ScriptAdmin = Instance.new("Frame")
-local run_3 = Instance.new("ImageButton")
-local namegame_2 = Instance.new("TextLabel")
-local UICorner_13 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
-local UICorner_14 = Instance.new("UICorner")
-local Login = Instance.new("Frame")
-local ServerL_2 = Instance.new("Frame")
-local bin_8 = Instance.new("Frame")
-local UICorner_15 = Instance.new("UICorner")
-local TextLabel_9 = Instance.new("TextLabel")
-local status_3 = Instance.new("Frame")
-local IDuser = Instance.new("TextLabel")
 local User = Instance.new("TextLabel")
-local login = Instance.new("TextLabel")
-local gameee = Instance.new("TextLabel")
-local setting_2 = Instance.new("Frame")
-local ServerL_3 = Instance.new("Frame")
-local bin_9 = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
-local TextLabel_10 = Instance.new("TextLabel")
-local status_4 = Instance.new("Frame")
-local TextLabel_11 = Instance.new("TextLabel")
-local UICorner_17 = Instance.new("UICorner")
-local UICorner_18 = Instance.new("UICorner")
-local admin = Instance.new("Frame")
-local ServerL_4 = Instance.new("Frame")
-local bin_10 = Instance.new("Frame")
-local UICorner_19 = Instance.new("UICorner")
-local TextLabel_12 = Instance.new("TextLabel")
-local status_5 = Instance.new("Frame")
-local TextButton = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local TextButton_2 = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local TextButton_3 = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local TextButton_4 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local TextBox = Instance.new("TextBox")
-local UICorner_24 = Instance.new("UICorner")
-local loaddding = Instance.new("Frame")
-local Frame_3 = Instance.new("Frame")
-local ImageLabel_2 = Instance.new("ImageLabel")
-local ImageLabel_3 = Instance.new("ImageLabel")
-local TextLabel_13 = Instance.new("TextLabel")
-local UICorner_25 = Instance.new("UICorner")
-local menulaoding = Instance.new("Frame")
-local Frame_4 = Instance.new("Frame")
-local tanlaod = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
-local maydor = Instance.new("TextLabel")
+local Rank = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local boxMix = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local Tool = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local Adminfake = Instance.new("TextButton")
+local counterbloxskins = Instance.new("TextButton")
+local SearchBar = Instance.new("TextBox")
+local GameID = Instance.new("TextBox")
+local Server = Instance.new("Folder")
 
 --Properties:
 
-DinoHudV4.Name = "Dino-HudV4"
-DinoHudV4.Parent = game.CoreGui
+DinoHudV5.Name = "Dino-HudV5"
+DinoHudV5.Parent = game.CoreGui
 
 bia.Name = "bia"
-bia.Parent = DinoHudV4
-bia.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
-bia.BorderSizePixel = 0
-bia.Position = UDim2.new(0.330057353, 0, 0.314660311, 0)
-bia.Size = UDim2.new(0, 539, 0, 293)
+bia.Parent = DinoHudV5
+bia.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+bia.Position = UDim2.new(0.497515142, 0, 0.487707376, 0)
+bia.Size = UDim2.new(0, 7, 0, 15)
 bia.Visible = false
 
-thanh.Name = "thanh"
-thanh.Parent = bia
-thanh.BackgroundColor3 = Color3.fromRGB(38, 52, 29)
-thanh.BorderSizePixel = 0
-thanh.Size = UDim2.new(0, 85, 0, 293)
+loading.Name = "loading"
+loading.Parent = bia
+loading.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+loading.Position = UDim2.new(0.0548387095, 0, 0.794143975, 0)
+loading.Size = UDim2.new(0, 276, 0, 8)
+loading.Visible = false
 
-mis.Name = "mis"
-mis.Parent = thanh
-mis.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
-mis.BackgroundTransparency = 1.000
-mis.BorderSizePixel = 0
-mis.Position = UDim2.new(0, 0, 0.296928316, 0)
-mis.Size = UDim2.new(0, 85, 0, 39)
+loading1.Name = "loading1"
+loading1.Parent = loading
+loading1.BackgroundColor3 = Color3.fromRGB(13, 199, 0)
+loading1.Position = UDim2.new(-2.21141875e-07, 0, 0, 0)
+loading1.Size = UDim2.new(2.21141846e-07, 0, 0.999997735, 0)
+loading1.Visible = false
 
-bin.Name = "bin"
-bin.Parent = mis
-bin.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin.BorderSizePixel = 0
-bin.Position = UDim2.new(0.00422918983, 0, 0, 0)
-bin.Size = UDim2.new(0, 1, 0, 39)
-bin.Visible = false
+UICorner.Parent = loading1
 
-UICorner.Parent = bin
+UICorner_2.Parent = loading
 
-mis_2.Name = "mis"
-mis_2.Parent = mis
-mis_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-mis_2.BackgroundTransparency = 1.000
-mis_2.BorderSizePixel = 0
-mis_2.Position = UDim2.new(0.262513995, 0, 0.0953846499, 0)
-mis_2.Size = UDim2.new(0, 30, 0, 29)
-mis_2.Image = "rbxassetid://5942241281"
+anh.Name = "anh"
+anh.Parent = loading
+anh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+anh.BackgroundTransparency = 1.000
+anh.Position = UDim2.new(0.0916082263, 0, -33.4000015, 0)
+anh.Size = UDim2.new(0, 224, 0, 224)
+anh.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-seting.Name = "seting"
-seting.Parent = thanh
-seting.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
-seting.BackgroundTransparency = 1.000
-seting.BorderSizePixel = 0
-seting.Position = UDim2.new(0, 0, 0.562002361, 0)
-seting.Size = UDim2.new(0, 84, 0, 39)
-
-bin_2.Name = "bin"
-bin_2.Parent = seting
-bin_2.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_2.BorderSizePixel = 0
-bin_2.Position = UDim2.new(0.00422918983, 0, -0.0170937572, 0)
-bin_2.Size = UDim2.new(0, 1, 0, 39)
-bin_2.Visible = false
-
-UICorner_2.Parent = bin_2
-
-setting.Name = "setting"
-setting.Parent = seting
-setting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-setting.BackgroundTransparency = 1.000
-setting.BorderSizePixel = 0
-setting.Position = UDim2.new(0.27427879, 0, 0.0746984258, 0)
-setting.Size = UDim2.new(0, 29, 0, 29)
-setting.Image = "rbxassetid://4492476121"
-
-run.Name = "run"
-run.Parent = thanh
-run.BackgroundColor3 = Color3.fromRGB(51, 83, 48)
-run.BackgroundTransparency = 1.000
-run.BorderSizePixel = 0
-run.Position = UDim2.new(0, 0, 0.431171834, 0)
-run.Size = UDim2.new(0, 85, 0, 39)
-
-bin_3.Name = "bin"
-bin_3.Parent = run
-bin_3.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_3.BorderSizePixel = 0
-bin_3.Position = UDim2.new(0.00422918983, 0, -0.0085464865, 0)
-bin_3.Size = UDim2.new(0, 1, 0, 39)
-bin_3.Visible = false
-
-UICorner_3.Parent = bin_3
-
-open.Name = "open"
-open.Parent = run
-open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-open.BackgroundTransparency = 1.000
-open.BorderSizePixel = 0
-open.Position = UDim2.new(0.27427879, 0, 0.0978620499, 0)
-open.Size = UDim2.new(0, 29, 0, 29)
-open.Image = "rbxassetid://2876994160"
-
-ImageButton.Parent = thanh
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton.BackgroundTransparency = 1.000
-ImageButton.BorderSizePixel = 0
-ImageButton.Position = UDim2.new(0.141000003, 0, 0.0579999983, 0)
-ImageButton.Size = UDim2.new(0, 61, 0, 61)
-ImageButton.Image = "http://www.roblox.com/asset/?id=6446524235"
-
-ImageLabel.Parent = ImageButton
-ImageLabel.BackgroundColor3 = Color3.fromRGB(56, 76, 43)
-ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Size = UDim2.new(0, 61, 0, 61)
-ImageLabel.Image = "rbxassetid://4031889928"
-ImageLabel.ImageColor3 = Color3.fromRGB(38, 52, 29)
-
-Rank.Name = "Rank"
-Rank.Parent = thanh
-Rank.BackgroundColor3 = Color3.fromRGB(61, 84, 46)
-Rank.BorderSizePixel = 0
-Rank.Position = UDim2.new(0.0705882385, 0, 0.8566553, 0)
-Rank.Size = UDim2.new(0, 72, 0, 28)
-Rank.Font = Enum.Font.SourceSans
-Rank.Text = "Rank?"
-Rank.TextColor3 = Color3.fromRGB(255, 255, 255)
-Rank.TextScaled = true
-Rank.TextSize = 14.000
-Rank.TextWrapped = true
-
-UICorner_4.Parent = Rank
-
-Namee.Name = "Namee"
-Namee.Parent = thanh
-Namee.BackgroundColor3 = Color3.fromRGB(61, 84, 46)
-Namee.BorderSizePixel = 0
-Namee.Position = UDim2.new(0.0705882385, 0, 0.740614355, 0)
-Namee.Size = UDim2.new(0, 72, 0, 28)
-Namee.Font = Enum.Font.SourceSans
-Namee.Text = "User?"
-Namee.TextColor3 = Color3.fromRGB(255, 255, 255)
-Namee.TextScaled = true
-Namee.TextSize = 14.000
-Namee.TextWrapped = true
-
-UICorner_5.Parent = Namee
-
-menu.Name = "menu"
-menu.Parent = bia
-menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-menu.BackgroundTransparency = 1.000
-menu.BorderSizePixel = 0
-menu.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
-menu.Size = UDim2.new(0, 430, 0, 271)
-menu.Visible = false
-
-Server.Name = "Server "
-Server.Parent = menu
-Server.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-Server.BorderSizePixel = 0
-Server.Position = UDim2.new(0, 0, 0.00386100379, 0)
-Server.Size = UDim2.new(0, 430, 0, 29)
-
-bin_4.Name = "bin"
-bin_4.Parent = Server
-bin_4.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_4.BorderSizePixel = 0
-bin_4.Size = UDim2.new(0, 2, 0, 29)
-
-UICorner_6.Parent = bin_4
-
-TextLabel.Parent = Server
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.0579710156, 0, 0.103448279, 0)
-TextLabel.Size = UDim2.new(0, 123, 0, 23)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Server Status"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-status.Name = "status"
-status.Parent = menu
-status.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-status.BorderSizePixel = 0
-status.Position = UDim2.new(0.00465116277, 0, 0.123974875, 0)
-status.Size = UDim2.new(0, 427, 0, 114)
-
-TextLabel_2.Parent = status
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.252927393, 0, 0.10898459, 0)
-TextLabel_2.Size = UDim2.new(0, 50, 0, 30)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Server"
-TextLabel_2.TextColor3 = Color3.fromRGB(90, 124, 94)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-TextLabel_3.Parent = status
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.629976511, 0, 0.10898459, 0)
-TextLabel_3.Size = UDim2.new(0, 50, 0, 30)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Script"
-TextLabel_3.TextColor3 = Color3.fromRGB(90, 124, 94)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
-
-Online.Name = "Online"
-Online.Parent = status
-Online.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Online.BackgroundTransparency = 1.000
-Online.BorderSizePixel = 0
-Online.Size = UDim2.new(0, 100, 0, 100)
-
-cmdServer.Name = "cmdServer"
-cmdServer.Parent = Online
-cmdServer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cmdServer.BackgroundTransparency = 1.000
-cmdServer.BorderSizePixel = 0
-cmdServer.Position = UDim2.new(0.920000076, 0, 0.49000001, 0)
-cmdServer.Size = UDim2.new(0, 82, 0, 30)
-cmdServer.Font = Enum.Font.SourceSans
-cmdServer.Text = "Online"
-cmdServer.TextColor3 = Color3.fromRGB(84, 192, 76)
-cmdServer.TextScaled = true
-cmdServer.TextSize = 14.000
-cmdServer.TextWrapped = true
-
-cmdScript.Name = "cmdScript"
-cmdScript.Parent = Online
-cmdScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cmdScript.BackgroundTransparency = 1.000
-cmdScript.BorderSizePixel = 0
-cmdScript.Position = UDim2.new(2.53000021, 0, 0.49000001, 0)
-cmdScript.Size = UDim2.new(0, 82, 0, 30)
-cmdScript.Font = Enum.Font.SourceSans
-cmdScript.Text = "Online"
-cmdScript.TextColor3 = Color3.fromRGB(84, 192, 76)
-cmdScript.TextScaled = true
-cmdScript.TextSize = 14.000
-cmdScript.TextWrapped = true
+iconload.Name = "iconload"
+iconload.Parent = anh
+iconload.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+iconload.BackgroundTransparency = 1.000
+iconload.Position = UDim2.new(0.830357134, 0, 0.830357015, 0)
+iconload.Size = UDim2.new(0, 38, 0, 38)
+iconload.Visible = false
+iconload.Image = "rbxassetid://4335476290"
+iconload.ImageColor3 = Color3.fromRGB(17, 255, 0)
 
 Run.Name = "Run"
-Run.Parent = menu
-Run.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-Run.BorderSizePixel = 0
-Run.Position = UDim2.new(0.00465116277, 0, 0.5549559, 0)
-Run.Size = UDim2.new(0, 208, 0, 29)
+Run.Parent = anh
+Run.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Run.BackgroundTransparency = 1.000
+Run.Position = UDim2.new(0.829999983, 0, 0.829999983, 0)
+Run.Size = UDim2.new(0, 38, 0, 38)
+Run.Visible = false
+Run.Image = "rbxassetid://2876994160"
+Run.ImageColor3 = Color3.fromRGB(17, 255, 0)
 
-bin_5.Name = "bin"
-bin_5.Parent = Run
-bin_5.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_5.BorderSizePixel = 0
-bin_5.Size = UDim2.new(0, 2, 0, 29)
+ceck.Name = "ceck"
+ceck.Parent = anh
+ceck.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ceck.BackgroundTransparency = 1.000
+ceck.Position = UDim2.new(0.829999983, 0, 0.829999983, 0)
+ceck.Size = UDim2.new(0, 38, 0, 38)
+ceck.Visible = false
+ceck.Image = "http://www.roblox.com/asset/?id=5082257850"
 
-UICorner_7.Parent = bin_5
+UICorner_3.Parent = anh
 
-TextLabel_4.Parent = Run
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(0.113808572, 0, 0.103448279, 0)
-TextLabel_4.Size = UDim2.new(0, 85, 0, 23)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Script"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
+loadingtxt.Name = "loadingtxt"
+loadingtxt.Parent = loading
+loadingtxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+loadingtxt.BackgroundTransparency = 1.000
+loadingtxt.Position = UDim2.new(0.137564272, 0, 2.25, 0)
+loadingtxt.Size = UDim2.new(0, 200, 0, 20)
+loadingtxt.Font = Enum.Font.SourceSans
+loadingtxt.Text = ""
+loadingtxt.TextColor3 = Color3.fromRGB(216, 216, 216)
+loadingtxt.TextScaled = true
+loadingtxt.TextSize = 14.000
+loadingtxt.TextWrapped = true
 
-Frame.Parent = Run
-Frame.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.00961538497, 0, 1.31034482, 0)
-Frame.Size = UDim2.new(0, 206, 0, 82)
+UICorner_4.Parent = bia
 
-IDgame.Name = "IDgame"
-IDgame.Parent = Frame
-IDgame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-IDgame.BackgroundTransparency = 1.000
-IDgame.BorderSizePixel = 0
-IDgame.Position = UDim2.new(0.174757287, 0, 0.0853658617, 0)
-IDgame.Size = UDim2.new(0, 132, 0, 23)
-IDgame.Font = Enum.Font.SourceSans
-IDgame.Text = "Script"
-IDgame.TextColor3 = Color3.fromRGB(225, 225, 225)
-IDgame.TextScaled = true
-IDgame.TextSize = 14.000
-IDgame.TextWrapped = true
+HUDname.Name = "HUDname"
+HUDname.Parent = bia
+HUDname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HUDname.BackgroundTransparency = 1.000
+HUDname.Position = UDim2.new(0.0548357293, 0, 0.0194437671, 0)
+HUDname.Size = UDim2.new(0, 169, 0, 23)
+HUDname.Visible = false
+HUDname.Font = Enum.Font.SourceSans
+HUDname.Text = "Dino-Hud/By:DINO#5485"
+HUDname.TextColor3 = Color3.fromRGB(216, 216, 216)
+HUDname.TextScaled = true
+HUDname.TextSize = 14.000
+HUDname.TextWrapped = true
 
-runscrop.Name = "runscrop"
-runscrop.Parent = Frame
-runscrop.BackgroundColor3 = Color3.fromRGB(94, 147, 85)
-runscrop.BorderSizePixel = 0
-runscrop.Position = UDim2.new(0.135922328, 0, 0.463414609, 0)
-runscrop.Size = UDim2.new(0, 149, 0, 21)
-runscrop.Font = Enum.Font.SourceSans
-runscrop.Text = "RUN"
-runscrop.TextColor3 = Color3.fromRGB(225, 225, 225)
-runscrop.TextScaled = true
-runscrop.TextSize = 14.000
-runscrop.TextWrapped = true
+boxmixx.Name = "boxmixx"
+boxmixx.Parent = bia
+boxmixx.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+boxmixx.BorderColor3 = Color3.fromRGB(49, 49, 49)
+boxmixx.Position = UDim2.new(-0.0216649212, 0, 0.0885933787, 0)
+boxmixx.Selectable = true
+boxmixx.Size = UDim2.new(0, 6, 0, 0)
+boxmixx.Visible = false
 
-UICorner_8.Parent = runscrop
+user.Name = "user"
+user.Parent = boxmixx
+user.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+user.BackgroundTransparency = 1.000
+user.BorderSizePixel = 0
+user.Size = UDim2.new(0, 44, 0, 18)
+user.Visible = false
+user.Font = Enum.Font.SourceSans
+user.Text = "User"
+user.TextColor3 = Color3.fromRGB(202, 202, 202)
+user.TextScaled = true
+user.TextSize = 14.000
+user.TextWrapped = true
 
-discor.Name = "discor"
-discor.Parent = menu
-discor.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-discor.BorderSizePixel = 0
-discor.Position = UDim2.new(0.516279042, 0, 0.5549559, 0)
-discor.Size = UDim2.new(0, 207, 0, 29)
+mix.Name = "mix"
+mix.Parent = boxmixx
+mix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mix.BackgroundTransparency = 1.000
+mix.BorderSizePixel = 0
+mix.Position = UDim2.new(0, 0, 0.389420897, 0)
+mix.Size = UDim2.new(0, 44, 0, 18)
+mix.Visible = false
+mix.Font = Enum.Font.SourceSans
+mix.Text = "Mix"
+mix.TextColor3 = Color3.fromRGB(202, 202, 202)
+mix.TextScaled = true
+mix.TextSize = 14.000
+mix.TextWrapped = true
 
-bin_6.Name = "bin"
-bin_6.Parent = discor
-bin_6.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_6.BorderSizePixel = 0
-bin_6.Size = UDim2.new(0, 2, 0, 29)
+opentapmixx.Name = "opentapmixx"
+opentapmixx.Parent = bia
+opentapmixx.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+opentapmixx.Position = UDim2.new(-0.063548997, 0, 0.05237028, 0)
+opentapmixx.Size = UDim2.new(0, 26, 0, 14)
+opentapmixx.Visible = false
+opentapmixx.AutoButtonColor = false
+opentapmixx.Font = Enum.Font.SourceSans
+opentapmixx.Text = ">"
+opentapmixx.TextColor3 = Color3.fromRGB(216, 216, 216)
+opentapmixx.TextScaled = true
+opentapmixx.TextSize = 14.000
+opentapmixx.TextWrapped = true
 
-UICorner_9.Parent = bin_6
+UICorner_5.Parent = opentapmixx
 
-TextLabel_5.Parent = discor
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0.113808572, 0, 0.103448279, 0)
-TextLabel_5.Size = UDim2.new(0, 85, 0, 23)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "Server"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextWrapped = true
+boxUser.Name = "boxUser"
+boxUser.Parent = bia
+boxUser.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+boxUser.BorderColor3 = Color3.fromRGB(49, 49, 49)
+boxUser.Position = UDim2.new(0, 0, 0.231000006, 0)
+boxUser.Size = UDim2.new(0, 5, 0, 152)
+boxUser.Visible = false
 
-Frame_2.Parent = discor
-Frame_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(0.00966183562, 0, 1.31034482, 0)
-Frame_2.Size = UDim2.new(0, 205, 0, 82)
+Avatar.Name = "Avatar"
+Avatar.Parent = boxUser
+Avatar.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
+Avatar.BorderSizePixel = 0
+Avatar.Position = UDim2.new(0.0336134471, 0, 0.125092149, 0)
+Avatar.Size = UDim2.new(0, 112, 0, 112)
+Avatar.Visible = false
+Avatar.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-TextLabel_6.Parent = Frame_2
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(0.175609753, 0, 0.0853658617, 0)
-TextLabel_6.Size = UDim2.new(0, 132, 0, 23)
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = "Discord"
-TextLabel_6.TextColor3 = Color3.fromRGB(225, 225, 225)
-TextLabel_6.TextScaled = true
-TextLabel_6.TextSize = 14.000
-TextLabel_6.TextWrapped = true
-
-copyLink.Name = "copyLink"
-copyLink.Parent = Frame_2
-copyLink.BackgroundColor3 = Color3.fromRGB(94, 147, 85)
-copyLink.BorderSizePixel = 0
-copyLink.Position = UDim2.new(0.13658537, 0, 0.463414639, 0)
-copyLink.Size = UDim2.new(0, 149, 0, 21)
-copyLink.Font = Enum.Font.SourceSans
-copyLink.Text = "Copy Link"
-copyLink.TextColor3 = Color3.fromRGB(225, 225, 225)
-copyLink.TextSize = 14.000
-
-UICorner_10.Parent = copyLink
-
-Mix.Name = "Mix"
-Mix.Parent = bia
-Mix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Mix.BackgroundTransparency = 1.000
-Mix.BorderSizePixel = 0
-Mix.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
-Mix.Size = UDim2.new(0, 430, 0, 271)
-Mix.Visible = false
-
-ServerL.Name = "Server L"
-ServerL.Parent = Mix
-ServerL.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-ServerL.BorderSizePixel = 0
-ServerL.Position = UDim2.new(0, 0, 0.00386100379, 0)
-ServerL.Size = UDim2.new(0, 430, 0, 29)
-
-bin_7.Name = "bin"
-bin_7.Parent = ServerL
-bin_7.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_7.BorderSizePixel = 0
-bin_7.Size = UDim2.new(0, 2, 0, 29)
-
-UICorner_11.Parent = bin_7
-
-TextLabel_7.Parent = ServerL
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BackgroundTransparency = 1.000
-TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
-TextLabel_7.Size = UDim2.new(0, 123, 0, 23)
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = "Create"
-TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextScaled = true
-TextLabel_7.TextSize = 14.000
-TextLabel_7.TextWrapped = true
-
-status_2.Name = "status"
-status_2.Parent = Mix
-status_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-status_2.BorderSizePixel = 0
-status_2.Position = UDim2.new(0.00465116277, 0, 0.123974904, 0)
-status_2.Size = UDim2.new(0, 427, 0, 235)
-
-ScrollingFrame.Parent = status_2
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
-ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(0.0281030443, 0, 0.268085092, 0)
-ScrollingFrame.Size = UDim2.new(0, 402, 0, 160)
-
-counterbloxskins.Name = "counterbloxskins"
-counterbloxskins.Parent = ScrollingFrame
-counterbloxskins.BackgroundColor3 = Color3.fromRGB(83, 112, 63)
-counterbloxskins.BorderSizePixel = 0
-counterbloxskins.Position = UDim2.new(0.0696517378, 0, 0.00851044711, 0)
-counterbloxskins.Size = UDim2.new(0, 100, 0, 100)
-
-run_2.Name = "run"
-run_2.Parent = counterbloxskins
-run_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-run_2.BackgroundTransparency = 1.000
-run_2.BorderSizePixel = 0
-run_2.Position = UDim2.new(0.0900000036, 0, 0.0799999982, 0)
-run_2.Size = UDim2.new(0, 82, 0, 60)
-run_2.Image = "rbxassetid://4030893123"
-
-namegame.Name = "name game"
-namegame.Parent = counterbloxskins
-namegame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-namegame.BackgroundTransparency = 1.000
-namegame.BorderSizePixel = 0
-namegame.Position = UDim2.new(0, 0, 0.74000001, 0)
-namegame.Size = UDim2.new(0, 100, 0, 26)
-namegame.Font = Enum.Font.SourceSans
-namegame.Text = "counter blox skins"
-namegame.TextColor3 = Color3.fromRGB(255, 255, 255)
-namegame.TextScaled = true
-namegame.TextSize = 14.000
-namegame.TextWrapped = true
-
-UICorner_12.Parent = counterbloxskins
-
-ScriptAdmin.Name = "ScriptAdmin"
-ScriptAdmin.Parent = ScrollingFrame
-ScriptAdmin.BackgroundColor3 = Color3.fromRGB(83, 112, 63)
-ScriptAdmin.BorderSizePixel = 0
-ScriptAdmin.Position = UDim2.new(0.338308454, 0, 0.00851044711, 0)
-ScriptAdmin.Size = UDim2.new(0, 100, 0, 100)
-
-run_3.Name = "run"
-run_3.Parent = ScriptAdmin
-run_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-run_3.BackgroundTransparency = 1.000
-run_3.BorderSizePixel = 0
-run_3.Position = UDim2.new(0.0900000036, 0, 0.0799999982, 0)
-run_3.Size = UDim2.new(0, 82, 0, 60)
-run_3.Image = "rbxassetid://4030893123"
-
-namegame_2.Name = "name game"
-namegame_2.Parent = ScriptAdmin
-namegame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-namegame_2.BackgroundTransparency = 1.000
-namegame_2.BorderSizePixel = 0
-namegame_2.Position = UDim2.new(0, 0, 0.74000001, 0)
-namegame_2.Size = UDim2.new(0, 100, 0, 26)
-namegame_2.Font = Enum.Font.SourceSans
-namegame_2.Text = "Script Admin fake"
-namegame_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-namegame_2.TextScaled = true
-namegame_2.TextSize = 14.000
-namegame_2.TextWrapped = true
-
-UICorner_13.Parent = ScriptAdmin
-
-TextLabel_8.Parent = status_2
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
-TextLabel_8.Position = UDim2.new(0.0280000009, 0, 0.0599999987, 0)
-TextLabel_8.Size = UDim2.new(0, 402, 0, 33)
-TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "Roblox game mix"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextScaled = true
-TextLabel_8.TextSize = 14.000
-TextLabel_8.TextWrapped = true
-
-UICorner_14.Parent = TextLabel_8
-
-Login.Name = "Login"
-Login.Parent = bia
-Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Login.BackgroundTransparency = 1.000
-Login.BorderSizePixel = 0
-Login.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
-Login.Size = UDim2.new(0, 430, 0, 271)
-
-ServerL_2.Name = "Server L"
-ServerL_2.Parent = Login
-ServerL_2.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-ServerL_2.BorderSizePixel = 0
-ServerL_2.Position = UDim2.new(0, 0, 0.00386100379, 0)
-ServerL_2.Size = UDim2.new(0, 430, 0, 29)
-
-bin_8.Name = "bin"
-bin_8.Parent = ServerL_2
-bin_8.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_8.BorderSizePixel = 0
-bin_8.Size = UDim2.new(0, 2, 0, 29)
-
-UICorner_15.Parent = bin_8
-
-TextLabel_9.Parent = ServerL_2
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.BorderSizePixel = 0
-TextLabel_9.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
-TextLabel_9.Size = UDim2.new(0, 123, 0, 23)
-TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = "Create"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextScaled = true
-TextLabel_9.TextSize = 14.000
-TextLabel_9.TextWrapped = true
-
-status_3.Name = "status"
-status_3.Parent = Login
-status_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-status_3.BorderSizePixel = 0
-status_3.Position = UDim2.new(0.00465116277, 0, 0.123974904, 0)
-status_3.Size = UDim2.new(0, 427, 0, 242)
-
-IDuser.Name = "IDuser"
-IDuser.Parent = status_3
-IDuser.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
-IDuser.BorderSizePixel = 0
-IDuser.Position = UDim2.new(0.173302114, 0, 0.318181813, 0)
-IDuser.Size = UDim2.new(0, 279, 0, 40)
-IDuser.Font = Enum.Font.SourceSans
-IDuser.TextColor3 = Color3.fromRGB(255, 255, 255)
-IDuser.TextScaled = true
-IDuser.TextSize = 14.000
-IDuser.TextWrapped = true
+UICorner_6.Parent = Avatar
 
 User.Name = "User"
-User.Parent = status_3
-User.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
+User.Parent = boxUser
+User.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+User.BackgroundTransparency = 1.000
 User.BorderSizePixel = 0
-User.Position = UDim2.new(0.173302114, 0, 0.0950413197, 0)
-User.Size = UDim2.new(0, 279, 0, 40)
+User.Position = UDim2.new(0.537815154, 0, 0.288533837, 0)
+User.Size = UDim2.new(0, 98, 0, 24)
+User.Visible = false
 User.Font = Enum.Font.SourceSans
-User.TextColor3 = Color3.fromRGB(255, 255, 255)
+User.TextColor3 = Color3.fromRGB(217, 217, 217)
 User.TextScaled = true
 User.TextSize = 14.000
 User.TextWrapped = true
 
-login.Name = "login"
-login.Parent = status_3
-login.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
-login.BorderSizePixel = 0
-login.Position = UDim2.new(0.334894598, 0, 0.545454562, 0)
-login.Size = UDim2.new(0, 141, 0, 31)
-login.Font = Enum.Font.SourceSans
-login.TextColor3 = Color3.fromRGB(255, 255, 255)
-login.TextScaled = true
-login.TextSize = 14.000
-login.TextWrapped = true
+Rank.Name = "Rank"
+Rank.Parent = boxUser
+Rank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rank.BackgroundTransparency = 1.000
+Rank.BorderSizePixel = 0
+Rank.Position = UDim2.new(0.537815154, 0, 0.545112789, 0)
+Rank.Size = UDim2.new(0, 98, 0, 24)
+Rank.Visible = false
+Rank.Font = Enum.Font.SourceSans
+Rank.TextColor3 = Color3.fromRGB(217, 217, 217)
+Rank.TextScaled = true
+Rank.TextSize = 14.000
+Rank.TextWrapped = true
 
-gameee.Name = "gameee"
-gameee.Parent = bia
-gameee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-gameee.Size = UDim2.new(0, 200, 0, 50)
-gameee.Visible = false
-gameee.Font = Enum.Font.SourceSans
-gameee.TextColor3 = Color3.fromRGB(0, 0, 0)
-gameee.TextSize = 14.000
+UICorner_7.Parent = boxUser
 
-setting_2.Name = "setting"
-setting_2.Parent = bia
-setting_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-setting_2.BackgroundTransparency = 1.000
-setting_2.BorderSizePixel = 0
-setting_2.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
-setting_2.Size = UDim2.new(0, 430, 0, 271)
-setting_2.Visible = false
+boxMix.Name = "boxMix"
+boxMix.Parent = bia
+boxMix.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+boxMix.BorderColor3 = Color3.fromRGB(49, 49, 49)
+boxMix.Position = UDim2.new(0, 0, 0.231000051, 0)
+boxMix.Size = UDim2.new(0, 5, 0, 289)
+boxMix.Visible = false
 
-ServerL_3.Name = "Server L"
-ServerL_3.Parent = setting_2
-ServerL_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-ServerL_3.BorderSizePixel = 0
-ServerL_3.Position = UDim2.new(0, 0, 0.00386100379, 0)
-ServerL_3.Size = UDim2.new(0, 430, 0, 29)
+UICorner_8.CornerRadius = UDim.new(0.0250000004, 0)
+UICorner_8.Parent = boxMix
 
-bin_9.Name = "bin"
-bin_9.Parent = ServerL_3
-bin_9.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_9.BorderSizePixel = 0
-bin_9.Size = UDim2.new(0, 2, 0, 29)
+Tool.Name = "Tool"
+Tool.Parent = boxMix
+Tool.Active = true
+Tool.AnchorPoint = Vector2.new(0.5, 0)
+Tool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tool.BackgroundTransparency = 1.000
+Tool.BorderSizePixel = 0
+Tool.Position = UDim2.new(0.5, 0, 0.125, 0)
+Tool.Size = UDim2.new(0.949999988, 0, 0.832699001, 5)
+Tool.Visible = false
+Tool.ScrollBarThickness = 0
 
-UICorner_16.Parent = bin_9
+UIListLayout.Parent = Tool
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.Padding = UDim.new(0, 5)
 
-TextLabel_10.Parent = ServerL_3
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
-TextLabel_10.Size = UDim2.new(0, 123, 0, 23)
-TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "Create"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextScaled = true
-TextLabel_10.TextSize = 14.000
-TextLabel_10.TextWrapped = true
+Adminfake.Name = "Adminfake"
+Adminfake.Parent = Tool
+Adminfake.AnchorPoint = Vector2.new(0.5, 0)
+Adminfake.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+Adminfake.BorderColor3 = Color3.fromRGB(32, 32, 32)
+Adminfake.BorderSizePixel = 2
+Adminfake.Position = UDim2.new(0.5, 0, 0.0250000004, 0)
+Adminfake.Size = UDim2.new(1, 0, 0.0500000007, -5)
+Adminfake.ZIndex = 2
+Adminfake.Font = Enum.Font.SourceSans
+Adminfake.Text = "Admin fake"
+Adminfake.TextColor3 = Color3.fromRGB(204, 204, 204)
+Adminfake.TextScaled = true
+Adminfake.TextSize = 14.000
+Adminfake.TextWrapped = true
 
-status_4.Name = "status"
-status_4.Parent = setting_2
-status_4.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-status_4.BorderSizePixel = 0
-status_4.Position = UDim2.new(0.00465116277, 0, 0.123974875, 0)
-status_4.Size = UDim2.new(0, 427, 0, 114)
+counterbloxskins.Name = "counterbloxskins"
+counterbloxskins.Parent = Tool
+counterbloxskins.AnchorPoint = Vector2.new(0.5, 0)
+counterbloxskins.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+counterbloxskins.BorderColor3 = Color3.fromRGB(32, 32, 32)
+counterbloxskins.BorderSizePixel = 2
+counterbloxskins.Position = UDim2.new(0.5, 0, 0.0250000004, 0)
+counterbloxskins.Size = UDim2.new(1, 0, 0.0500000007, -5)
+counterbloxskins.ZIndex = 2
+counterbloxskins.Font = Enum.Font.SourceSans
+counterbloxskins.Text = "Counter Blox Skins"
+counterbloxskins.TextColor3 = Color3.fromRGB(204, 204, 204)
+counterbloxskins.TextScaled = true
+counterbloxskins.TextSize = 14.000
+counterbloxskins.TextWrapped = true
 
-TextLabel_11.Parent = status_4
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(87, 127, 69)
-TextLabel_11.Position = UDim2.new(0.152224809, 0, 0.280701756, 0)
-TextLabel_11.Size = UDim2.new(0, 297, 0, 54)
-TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = "BY DINO#5485"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextScaled = true
-TextLabel_11.TextSize = 14.000
-TextLabel_11.TextWrapped = true
+SearchBar.Name = "SearchBar"
+SearchBar.Parent = boxMix
+SearchBar.AnchorPoint = Vector2.new(0.5, 0)
+SearchBar.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+SearchBar.BorderColor3 = Color3.fromRGB(32, 32, 32)
+SearchBar.BorderSizePixel = 2
+SearchBar.Position = UDim2.new(0.5, 0, 0.0250000004, 0)
+SearchBar.Size = UDim2.new(0.949999988, 0, 0.075000003, 0)
+SearchBar.Visible = false
+SearchBar.ZIndex = 2
+SearchBar.Font = Enum.Font.SourceSans
+SearchBar.PlaceholderColor3 = Color3.fromRGB(102, 102, 102)
+SearchBar.PlaceholderText = "Search"
+SearchBar.Text = ""
+SearchBar.TextColor3 = Color3.fromRGB(204, 204, 204)
+SearchBar.TextScaled = true
+SearchBar.TextSize = 14.000
+SearchBar.TextWrapped = true
 
-UICorner_17.Parent = TextLabel_11
+GameID.Name = "GameID"
+GameID.Parent = DinoHudV5
+GameID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameID.BackgroundTransparency = 1.000
+GameID.Position = UDim2.new(0, 0, 0, -2147483648)
+GameID.Size = UDim2.new(0, 0, 0, 1)
+GameID.Visible = false
+GameID.Font = Enum.Font.SourceSans
+GameID.TextColor3 = Color3.fromRGB(0, 0, 0)
+GameID.TextSize = 14.000
 
-UICorner_18.Parent = bia
-
-admin.Name = "admin"
-admin.Parent = bia
-admin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-admin.BackgroundTransparency = 1.000
-admin.BorderSizePixel = 0
-admin.Position = UDim2.new(0.178107604, 0, 0.0341296941, 0)
-admin.Size = UDim2.new(0, 430, 0, 271)
-admin.Visible = false
-
-ServerL_4.Name = "Server L"
-ServerL_4.Parent = admin
-ServerL_4.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-ServerL_4.BorderSizePixel = 0
-ServerL_4.Position = UDim2.new(0, 0, 0.00386100379, 0)
-ServerL_4.Size = UDim2.new(0, 430, 0, 29)
-
-bin_10.Name = "bin"
-bin_10.Parent = ServerL_4
-bin_10.BackgroundColor3 = Color3.fromRGB(95, 138, 92)
-bin_10.BorderSizePixel = 0
-bin_10.Size = UDim2.new(0, 2, 0, 29)
-
-UICorner_19.Parent = bin_10
-
-TextLabel_12.Parent = ServerL_4
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.BackgroundTransparency = 1.000
-TextLabel_12.BorderSizePixel = 0
-TextLabel_12.Position = UDim2.new(0.00448264182, 0, 0.103448279, 0)
-TextLabel_12.Size = UDim2.new(0, 123, 0, 23)
-TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "Admin"
-TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextScaled = true
-TextLabel_12.TextSize = 14.000
-TextLabel_12.TextWrapped = true
-
-status_5.Name = "status"
-status_5.Parent = admin
-status_5.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-status_5.BorderSizePixel = 0
-status_5.Position = UDim2.new(0.00465116277, 0, 0.123974904, 0)
-status_5.Size = UDim2.new(0, 427, 0, 235)
-
-TextButton.Parent = status_5
-TextButton.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
-TextButton.Position = UDim2.new(0.0468384102, 0, 0.114893615, 0)
-TextButton.Size = UDim2.new(0, 386, 0, 20)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Counter Blox config"
-TextButton.TextColor3 = Color3.fromRGB(203, 203, 203)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
-
-UICorner_20.Parent = TextButton
-
-TextButton_2.Parent = status_5
-TextButton_2.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
-TextButton_2.Position = UDim2.new(0.0468384102, 0, 0.280851066, 0)
-TextButton_2.Size = UDim2.new(0, 386, 0, 20)
-TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "shutdow monco"
-TextButton_2.TextColor3 = Color3.fromRGB(203, 203, 203)
-TextButton_2.TextScaled = true
-TextButton_2.TextSize = 14.000
-TextButton_2.TextWrapped = true
-
-UICorner_21.Parent = TextButton_2
-
-TextButton_3.Parent = status_5
-TextButton_3.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
-TextButton_3.Position = UDim2.new(0.754098356, 0, 0.765957415, 0)
-TextButton_3.Size = UDim2.new(0, 62, 0, 27)
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "ADD"
-TextButton_3.TextColor3 = Color3.fromRGB(203, 203, 203)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
-TextButton_3.TextWrapped = true
-
-UICorner_22.Parent = TextButton_3
-
-TextButton_4.Parent = status_5
-TextButton_4.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
-TextButton_4.Position = UDim2.new(0.590163946, 0, 0.765957415, 0)
-TextButton_4.Size = UDim2.new(0, 62, 0, 27)
-TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "Ban"
-TextButton_4.TextColor3 = Color3.fromRGB(203, 203, 203)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextWrapped = true
-
-UICorner_23.Parent = TextButton_4
-
-TextBox.Parent = status_5
-TextBox.BackgroundColor3 = Color3.fromRGB(68, 91, 51)
-TextBox.Position = UDim2.new(0.0468384326, 0, 0.765957415, 0)
-TextBox.Size = UDim2.new(0, 220, 0, 27)
-TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderText = "Name User"
-TextBox.Text = ""
-TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.TextScaled = true
-TextBox.TextSize = 14.000
-TextBox.TextWrapped = true
-
-UICorner_24.Parent = TextBox
-
-loaddding.Name = "loaddding"
-loaddding.Parent = DinoHudV4
-loaddding.BackgroundColor3 = Color3.fromRGB(63, 85, 49)
-loaddding.BorderSizePixel = 0
-loaddding.Position = UDim2.new(0.330057353, 0, 0.370919108, 0)
-loaddding.Size = UDim2.new(0, 539, 0, 182)
-
-Frame_3.Parent = loaddding
-Frame_3.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-Frame_3.BorderSizePixel = 0
-Frame_3.Size = UDim2.new(0, 539, 0, 38)
-
-ImageLabel_2.Parent = Frame_3
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_2.BorderSizePixel = 0
-ImageLabel_2.Size = UDim2.new(0, 38, 0, 38)
-ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6446524235"
-
-ImageLabel_3.Parent = ImageLabel_2
-ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_3.BackgroundTransparency = 1.000
-ImageLabel_3.BorderSizePixel = 0
-ImageLabel_3.Size = UDim2.new(0, 38, 0, 38)
-ImageLabel_3.Image = "rbxassetid://4031889928"
-ImageLabel_3.ImageColor3 = Color3.fromRGB(46, 62, 35)
-
-TextLabel_13.Parent = Frame_3
-TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.BackgroundTransparency = 1.000
-TextLabel_13.BorderSizePixel = 0
-TextLabel_13.Position = UDim2.new(0.788497329, 0, 0.131578952, 0)
-TextLabel_13.Size = UDim2.new(0, 87, 0, 28)
-TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "DINO"
-TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_13.TextScaled = true
-TextLabel_13.TextSize = 14.000
-TextLabel_13.TextWrapped = true
-
-UICorner_25.Parent = loaddding
-
-menulaoding.Name = "menulaoding"
-menulaoding.Parent = loaddding
-menulaoding.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-menulaoding.BackgroundTransparency = 1.000
-menulaoding.Position = UDim2.new(0.0667903498, 0, 0.335164845, 0)
-menulaoding.Size = UDim2.new(0, 466, 0, 100)
-
-Frame_4.Parent = menulaoding
-Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_4.BackgroundTransparency = 1.000
-Frame_4.Position = UDim2.new(0.00429184549, 0, 0.439999998, 0)
-Frame_4.Size = UDim2.new(0, 464, 0, 11)
-
-tanlaod.Name = "tanlaod"
-tanlaod.Parent = Frame_4
-tanlaod.BackgroundColor3 = Color3.fromRGB(46, 62, 35)
-tanlaod.Size = UDim2.new(0, 0, 0, 11)
-
-UICorner_26.Parent = tanlaod
-
-maydor.Name = "maydor"
-maydor.Parent = menulaoding
-maydor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-maydor.BackgroundTransparency = 1.000
-maydor.Position = UDim2.new(0.287553638, 0, 0.720000029, 0)
-maydor.Size = UDim2.new(0, 200, 0, 21)
-maydor.Font = Enum.Font.SourceSans
-maydor.Text = "Loading.."
-maydor.TextColor3 = Color3.fromRGB(255, 255, 255)
-maydor.TextScaled = true
-maydor.TextSize = 14.000
-maydor.TextWrapped = true
+Server.Name = "Server"
+Server.Parent = DinoHudV5
 
 -- Scripts:
 
-local function KIBKKGP_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
+local function WCMUEP_fake_script() -- Avatar.LocalScript 
+	local script = Instance.new('LocalScript', Avatar)
 
-	script.Parent.MouseButton1Click:Connect(function()
-		all()
-		runall()
-	end)
+	local Players = game:GetService("Players")
 	
-	function all()
-		loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
-		wait()
-		local LocalPlayer = game:GetService("Players").LocalPlayer
-		local Client = getsenv(game.Players.LocalPlayer.PlayerGui.Client)
-		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local player = Players.LocalPlayer
 	
-		local allSkins = {
-			{'Butterfly Knife_Jade Dream'},
-			{'Karambit_Jade Dream'},
-			{'Fingerless Glove_Scapter'},
-		}
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 	
-		local isUnlocked
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
 	
-		local mt = getrawmetatable(game)
-		local oldNamecall = mt.__namecall
-		setreadonly(mt, false)
+end
+coroutine.wrap(WCMUEP_fake_script)()
+local function GFYO_fake_script() -- boxMix.LocalScript 
+	local script = Instance.new('LocalScript', boxMix)
+
+	local searchBar = script.Parent.SearchBar
+	local items = script.Parent.Tool
 	
-		local isUnlocked
-	
-		mt.__namecall = newcclosure(function(self, ...)
-			local args = {...}
-			if getnamecallmethod() == "InvokeServer" and tostring(self) == "Hugh" then
-				return
-			end
-			if getnamecallmethod() == "FireServer" then
-				if args[1] == LocalPlayer.UserId then
-					return
-				end
-				if string.len(tostring(self)) == 38 then
-					if not isUnlocked then
-						isUnlocked = true
-						for i,v in pairs(allSkins) do
-							local doSkip
-							for i2,v2 in pairs(args[1]) do
-								if v[1] == v2[1] then
-									doSkip = true
-								end
-							end
-							if not doSkip then
-								table.insert(args[1], v)
-							end
-						end
-					end
-					return
-				end
-				if tostring(self) == "DataEvent" and args[1][4] then
-					local currentSkin = string.split(args[1][4][1], "_")[2]
-					if args[1][2] == "Both" then
-						LocalPlayer["SkinFolder"]["CTFolder"][args[1][3]].Value = currentSkin
-						LocalPlayer["SkinFolder"]["TFolder"][args[1][3]].Value = currentSkin
+	function UpdateResults()
+		local search = string.lower(searchBar.Text)
+		for i, v in	 pairs(items:GetChildren()) do
+			if v:IsA("GuiButton") then
+				if search ~= "" then
+					local item = string.lower(v.Text)
+					if string.find(item, search) then
+						v.Visible = true
 					else
-						LocalPlayer["SkinFolder"][args[1][2] .. "Folder"][args[1][3]].Value = currentSkin
+						v.Visible = false
 					end
+				else
+					v.Visible = true
 				end
 			end
-			return oldNamecall(self, ...)
-		end)
-	
-		setreadonly(mt, true)
-	
-	
-		local TClone, CTClone = LocalPlayer.SkinFolder.TFolder:Clone(), game.Players.LocalPlayer.SkinFolder.CTFolder:Clone()
-		LocalPlayer.SkinFolder.TFolder:Destroy()
-		LocalPlayer.SkinFolder.CTFolder:Destroy()
-		TClone.Parent = LocalPlayer.SkinFolder
-		CTClone.Parent = LocalPlayer.SkinFolder
+		end
 	end
-	function runall()
-		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "script system!!";
-			Text = "script run";
-			Duration = 20;
-		})
-	end
+	
+	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(KIBKKGP_fake_script)()
-local function KQEIE_fake_script() -- DinoHudV4.On-OFF-SEVER 
-	local script = Instance.new('LocalScript', DinoHudV4)
+coroutine.wrap(GFYO_fake_script)()
+local function INIP_fake_script() -- Adminfake.LocalScript 
+	local script = Instance.new('LocalScript', Adminfake)
 
-	local Statusscript = script.Parent.bia.menu.status.Online.cmdScript
-	local StatusSever = script.Parent.bia.menu.status.Online.cmdServer
 	
-	function SeverOff()
-		StatusSever.Text = "Offline"
-		StatusSever.TextColor3 = "121, 0, 0"
-	end
-	
-	function ScriptOff()
-		Statusscript.Text = "Offline"
-		Statusscript.TextColor3 = "121, 0, 0"
-	end
-	
-	
-	
-	
-	
-	
-	
-	
-	---Máy chủ-Sever
-	--SeverOff()
-	
-	---Máy chủ-script
-	--ScriptOff()
 end
-coroutine.wrap(KQEIE_fake_script)()
-local function KGWVF_fake_script() -- DinoHudV4.Login 
-	local script = Instance.new('LocalScript', DinoHudV4)
+coroutine.wrap(INIP_fake_script)()
+local function DNAU_fake_script() -- DinoHudV5.Scritp 
+	local script = Instance.new('LocalScript', DinoHudV5)
 
-	--ERRO
-	function erro001()
-		game.Players.LocalPlayer:Kick("Erro#001")
-	end
-	
-	function erro002()
-		game.Players.LocalPlayer:Kick("Erro#002")
-	end
-	
-	function erro003()
-		game.Players.LocalPlayer:Kick("Erro#003")
-	end
-	
-	function erro004()
-		game.Players.LocalPlayer:Kick("Erro#004")
-	end
-	
-	function erro005()
-		game.Players.LocalPlayer:Kick("Erro#005")
-	end
-	----
-	function erro00A()
-		game.Players.LocalPlayer:Kick("You are banned/Erro#00A")
-	end
-	
-	function erro00B()
-		game.Players.LocalPlayer:Kick("Erro#00B")
-	end
-	
-	function erro00C()
-		game.Players.LocalPlayer:Kick("Erro#00C")
-	end
-	
-	function erro00D()
-		game.Players.LocalPlayer:Kick("Erro#00D")
-	end
-	
-	function erro00C()
-		game.Players.LocalPlayer:Kick("Erro#00C")
-	end
+	--Không có trong menu
+	local IDgame = script.Parent.GameID
+	IDgame.Text = game.GameId--Tìm ID game
+	local plr = game.Players.LocalPlayer
 	--
+	local bia = script.Parent.bia--menu ở phí ngoài Bia
+	local DinoHud = script.Parent.bia.HUDname
+	--các tap bên bìa
+	local bialoading = script.Parent.bia.loading
+	--phần loading
+	local Loadlading = script.Parent.bia.loading.loading1
+	local hinhanhgame = script.Parent.bia.loading.anh--ảnh mini game
+	local iconload = script.Parent.bia.loading.anh.iconload--icon load
+	local iconcheck = script.Parent.bia.loading.anh.ceck
+	local RunScriptgame = script.Parent.bia.loading.anh.Run
+	local LoadText = script.Parent.bia.loading.loadingtxt
+	--thanh boxmixx
+	local biaboxmixx = script.Parent.bia.boxmixx
+	local openUser = script.Parent.bia.boxmixx.user
+	local openmixx = script.Parent.bia.boxmixx.mix
+	--Open tap boxmixx
+	local opentapboxmixx = script.Parent.bia.opentapmixx
+	--Boxmixx User/mix
+	local boxUser = script.Parent.bia.boxUser
+	local boxMix = script.Parent.bia.boxMix
+	--Name/Rank/Avatar
+	local User = script.Parent.bia.boxUser.User
+	local Rank = script.Parent.bia.boxUser.Rank
+	local Avatar = script.Parent.bia.boxUser.Avatar
+	--BoxMix mix
+	local SearchBar = script.Parent.bia.boxMix.SearchBar
+	local Tool = script.Parent.bia.boxMix.Tool
 	
 	
-	-----Statu.Menu
-	-----
-	local statusMenuAdmin = script.Parent.bia.admin
-	local statusMenu = script.Parent.bia.menu
-	local statusSetting = script.Parent.bia.setting
-	local statusMix = script.Parent.bia.Mix
-	local statuslogin = script.Parent.bia.Login
-	-----INFO.Login
-	local login = script.Parent.bia.Login.status.login
-	-----
-	local User = script.Parent.bia.Login.status.User
-	local UUser = script.Parent.bia.thanh.Namee
-	local ID = script.Parent.bia.Login.status.IDuser
-	local Userrank = script.Parent.bia.thanh.Rank
-	-----
-	-----IFNO.BIN
-	local BinMenu = script.Parent.bia.thanh.run.bin
-	local BinMix = script.Parent.bia.thanh.mis.bin
-	local BinSetting = script.Parent.bia.thanh.seting.bin
-	-----
-	-----INFO.Thanh.menu
-	local ThanhRunMenu = script.Parent.bia.thanh.run
-	local ThanhRunSettig = script.Parent.bia.thanh.seting
-	local ThanhRunMix = script.Parent.bia.thanh.mis
-	-----
-	-----Thanh.Open Statu
-	local OpenStatusMenuAdmin = script.Parent.bia.thanh.ImageButton
-	local OpenStatusMenu = script.Parent.bia.thanh.run.open
-	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
-	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
-	---
-	-----Off.Thanh.status
-	OpenStatusMenu.Visible = false
-	OpenStatusSetting.Visible = false
-	OpenStatusMix.Visible = false
-	-----
-	-----ID.Name
-	ID.Text = game.Players.LocalPlayer.userId
+	
+	hinhanhgame.Image = "http://www.roblox.com/asset/?id=6446524235"
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	--Name;vor
 	User.Text = game.Players.LocalPlayer.Name
-	UUser.Text = game.Players.LocalPlayer.Name
-	UUser.Visible = false
 	
 	
 	
-	-----
-	function openall()
-		----Status.Menu
-		statusMenu.Visible = true
-		BinMenu.Visible = true
-		OpenStatusMenu.Visible = true
-		ThanhRunMenu.BackgroundTransparency = "0.7"
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	--phần Load game
+	function LoadgameloadingIdgame()
+		RunScriptgame.Visible = false
+		Loadlading.Visible = true
+		iconload.Visible = true
+		LoadText.Text = "Load Game"
+		wait(1)
+		Loadlading:TweenSize(UDim2.new(0.138, 0,1, 0), "Out", "Linear", 2, true)
+		wait(2)
+		LoadText.Text = "Load Anti Cheat"
+		Loadlading:TweenSize(UDim2.new(0.384, 0,1, 0), "Out", "Linear", 2, true)
+		wait(2)
+		Loadlading:TweenSize(UDim2.new(0.652, 0,1, 0), "Out", "Linear", 2, true)
+		wait(1)
+		LoadText.Text = "Server Connection"
+		Loadlading:TweenSize(UDim2.new(0.797, 0,1, 0), "Out", "Linear", 2, true)
+		wait(2)
+		Loadlading:TweenSize(UDim2.new(1, 0,1, 0), "Out", "Linear", 2, true)
+		wait(3)
+		iconload.Visible = false
+		iconcheck.Visible = true
+		LoadText.Text = "Check Game"
+		DataScript()
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	RunScriptgame.MouseButton1Click:Connect(function()
+		LoadgameloadingIdgame()
+	end)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	openmixx.MouseButton1Click:Connect(function()
+		local SizedongboxUser = UDim2.new(0, 5,0, 152)--dóng
+		local PositiondongboxUser = UDim2.new(0, 0,0.231, 0)--dóng
+	
+		boxUser:TweenSize((SizedongboxUser), "Out", "Linear",.30)
+		boxUser:TweenPosition((PositiondongboxUser), "Out", "Linear",.30)
+		User.Visible = false
+		Rank.Visible = false
+		Avatar.Visible = false
+		wait(0.30)
+		boxUser.Visible = false
+		---
+		local SizemoboxMix = UDim2.new(0, 244,0, 289)--mở
+		local SizedongboxMix  = UDim2.new(0, 5,0, 289)--dóng
 		--
-		----Thanh.Seeting
-		OpenStatusSetting.Visible = true
-		--Thanh.Mix
-		OpenStatusMix.Visible = true
-		--Uot.Login.Status
-		statuslogin.Visible = false
-	end
-	---AQY
-	function openallQQ()
-		----Status.Menu
-		statusMenu.Visible = true
-		BinMenu.Visible = true
-		OpenStatusMenu.Visible = true
-		ThanhRunMenu.BackgroundTransparency = "0.7"
+		local PositionmoboxMix  = UDim2.new(-0.77, 0,0.231, 0)--mở
+		local PositiondongboxMix  = UDim2.new(0, 0,0.231, 0)--dóng
+		---
 		--
-		----Thanh.Seeting
-		OpenStatusSetting.Visible = true
-		--Uot.Login.Status
-		statuslogin.Visible = false
-	end
-	---Login
-	-----
-	
-	function passuser()
-		--NO user here UwU
-	end
-	function autoUT()
-		if User.Text == "bolatao2000" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "Thedemo2003" then
+		if boxMix.Visible == false then
+			boxMix.Visible = true
+			boxMix:TweenSize((SizemoboxMix), "Out", "Linear",.30)
+			boxMix:TweenPosition((PositionmoboxMix), "Out", "Linear",.30)
+			wait(0.20)
+			SearchBar.Visible = true
+			Tool.Visible = true
+		else
 			
-			Userrank.Text = "UT"
-			UUser.Visible = true
-			openall()
-			if not passuser() then
-			end	
-		else
-	
-			login.Text = "Erro:0001"
+			boxMix:TweenSize((SizedongboxMix), "Out", "Linear",.30)
+			boxMix:TweenPosition((PositiondongboxMix), "Out", "Linear",.30)
+			SearchBar.Visible = false
+			Tool.Visible = false
+			wait(0.30)
+			boxMix.Visible = false
 		end
+	end)
+	
+	
+	
+	
+	openUser.MouseButton1Click:Connect(function()
+		--
+		local SizedongboxMix  = UDim2.new(0, 5,0, 289)--dóng
+		local PositiondongboxMix  = UDim2.new(0, 0,0.231, 0)--dóng
+		boxMix:TweenSize((SizedongboxMix), "Out", "Linear",.30)
+		boxMix:TweenPosition((PositiondongboxMix), "Out", "Linear",.30)
+		SearchBar.Visible = false
+		Tool.Visible = false
+		wait(0.30)
+		boxMix.Visible = false
+		--
+		local SizemoboxUser = UDim2.new(0, 244,0, 152)--mở
+		local SizedongboxUser = UDim2.new(0, 5,0, 152)--dóng
+		--
+		local PositionmoboxUser = UDim2.new(-0.77, 0,0.231, 0)--mở
+		local PositiondongboxUser = UDim2.new(0, 0,0.231, 0)--dóng
+		---
+		--
+		if boxUser.Visible == false then
+			boxUser.Visible = true
+			boxUser:TweenSize((SizemoboxUser), "Out", "Linear",.30)
+			boxUser:TweenPosition((PositionmoboxUser), "Out", "Linear",.30)
+			wait(0.20)
+			User.Visible = true
+			Rank.Visible = true
+			Avatar.Visible = true
+			
+		else
+			boxUser:TweenSize((SizedongboxUser), "Out", "Linear",.30)
+			boxUser:TweenPosition((PositiondongboxUser), "Out", "Linear",.30)
+			User.Visible = false
+			Rank.Visible = false
+			Avatar.Visible = false
+			wait(0.30)
+			boxUser.Visible = false
+		end
+		
+		
+		
+	end)
+	
+	
+	
+	
+	
+	
+	
+	--mở tap/User.mix
+	opentapboxmixx.MouseButton1Click:Connect(function()
+		local SizedongboxMix  = UDim2.new(0, 5,0, 289)--dóng
+		local PositiondongboxMix  = UDim2.new(0, 0,0.231, 0)--dóng
+		boxMix:TweenSize((SizedongboxMix), "Out", "Linear",.30)
+		boxMix:TweenPosition((PositiondongboxMix), "Out", "Linear",.30)
+		SearchBar.Visible = false
+		Tool.Visible = false
+		wait(0.30)
+		boxMix.Visible = false
+		--
+		local SizedongboxUser = UDim2.new(0, 5,0, 152)--dóng
+		local PositiondongboxUser = UDim2.new(0, 0,0.231, 0)--dóng
+	
+		boxUser:TweenSize((SizedongboxUser), "Out", "Linear",.30)
+		boxUser:TweenPosition((PositiondongboxUser), "Out", "Linear",.30)
+		User.Visible = false
+		Rank.Visible = false
+		Avatar.Visible = false
+		wait(0.30)
+		boxUser.Visible = false
+		--
+		local Sizemoboxmixx = UDim2.new(0, 44,0, 45)--mở
+		local Sizedongboxmixx = UDim2.new(0, 6,0, 0)--dóng
+		--
+		local Positionmoboxmixx = UDim2.new(-0.144, 0,0.089, 0)--mở
+		local Positiondongboxmixx = UDim2.new(-0.022, 0,0.089, 0)--dóng
+		--
+		if biaboxmixx.Visible == false then
+			biaboxmixx:TweenSize((Sizemoboxmixx), "Out", "Linear",.30)
+			biaboxmixx:TweenPosition((Positionmoboxmixx), "Out", "Linear",.30)
+			biaboxmixx.Visible = true
+			opentapboxmixx.Text = "<"
+			wait(0.20)
+			openUser.Visible = true
+			openmixx.Visible = true
+		else
+			openUser.Visible = false
+			openmixx.Visible =false
+			biaboxmixx:TweenSize((Sizedongboxmixx), "Out", "Linear",.30)
+			biaboxmixx:TweenPosition((Positiondongboxmixx), "Out", "Linear",.30)
+			wait(0.30)
+			biaboxmixx.Visible = false
+			opentapboxmixx.Text = ">"
+			
+		end
+		
+		
+	end)
+	
+	
+	
+	
+	
+	
+	
+	function openll()--phần sẽ mở trong bìa
+		bialoading.Visible = true
+		DinoHud.Visible = true
 	end
 	
-	function autofremium()
-		if User.Text == "chuotti2008" then
 	
-			Userrank.Text = "Premium"
-			UUser.Visible = true
-			openall()
-			if not passuser() then
-			end	
-		else
 	
-			login.Text = "Erro:0001"
-		end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	function hangdongmobia()--khi mở lên nó sẽ load menu
+		local Abia = UDim2.new(0, 310,0, 376)
+		local Bbia = UDim2.new(0.406, 0,0.262, 0)
+	
+	
+		wait(1)
+		bia.Visible = true
+		bia:TweenSize((Abia), "Out", "Linear",1)
+		bia:TweenPosition((Bbia), "Out", "Linear",1)
+		wait(1.20)
+		openll()
 	end
 	
-	autoUT()
-	
-	autofremium()
+	hangdongmobia()
 	
 	
 	
@@ -1232,113 +723,7458 @@ local function KGWVF_fake_script() -- DinoHudV4.Login
 	
 	
 	
-end
-coroutine.wrap(KGWVF_fake_script)()
-local function WFFMRV_fake_script() -- DinoHudV4.Menu run 
-	local script = Instance.new('LocalScript', DinoHudV4)
-
-	-----Statu.Menu
-	-----
-	local statusAdmin = script.Parent.bia.admin
-	local statusMenu = script.Parent.bia.menu
-	local statusSetting = script.Parent.bia.setting
-	local statusMix = script.Parent.bia.Mix
-	local statuslogin = script.Parent.bia.Login
-	-----
-	-----IFNO.BIN
-	local BinMenu = script.Parent.bia.thanh.run.bin
-	local BinMix = script.Parent.bia.thanh.mis.bin
-	local BinSetting = script.Parent.bia.thanh.seting.bin
-	-----
-	-----INFO.Thanh.menu
-	local ThanhRunMenu = script.Parent.bia.thanh.run
-	local ThanhRunSettig = script.Parent.bia.thanh.seting
-	local ThanhRunMix = script.Parent.bia.thanh.mis
-	-----
-	-----Thanh.Open Statu
-	local OpenStatusMenu = script.Parent.bia.thanh.run.open
-	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
-	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
-	-----
-	-----Menu.Hoạt động
-	--
-	----Mix.game
-	OpenStatusMix.MouseButton1Click:Connect(function()
-		statusMix.Visible = true
-		BinMix.Visible = true
-		ThanhRunMix.BackgroundTransparency = "0.7"
-	
-		---
-		statusMenu.Visible = false
-		BinMenu.Visible = false
-		ThanhRunMenu.BackgroundTransparency = "1"
-		---
-		statusSetting.Visible = false
-		BinSetting.Visible = false
-		ThanhRunSettig.BackgroundTransparency = "1"
-		--
-		statusAdmin.Visible = false
-	
-	end)
-	--
-	----Open.menu
-	OpenStatusMenu.MouseButton1Click:Connect(function()
-		statusMenu.Visible = true
-		BinMenu.Visible = true
-		ThanhRunMenu.BackgroundTransparency = "0.7"
-		---
-		statusSetting.Visible = false
-		BinSetting.Visible = false
-		ThanhRunSettig.BackgroundTransparency = "1"
-		---
-		statusMix.Visible = false
-		BinMix.Visible = false
-		ThanhRunMix.BackgroundTransparency = "1"
-		--
-		statusAdmin.Visible = false
-	end)
-	----Open.setting
-	OpenStatusSetting.MouseButton1Click:Connect(function()
-		statusSetting.Visible = true
-		BinSetting.Visible = true
-		ThanhRunSettig.BackgroundTransparency = "0.7"
-		---
-		statusMenu.Visible = false
-		BinMenu.Visible = false
-		ThanhRunMenu.BackgroundTransparency = "1"
-		---
-		statusMix.Visible = false
-		BinMix.Visible = false
-		ThanhRunMix.BackgroundTransparency = "1"
-		--
-		statusAdmin.Visible = false
-	end)
-	
-end
-coroutine.wrap(WFFMRV_fake_script)()
-local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip 
-	local script = Instance.new('LocalScript', DinoHudV4)
-
-	-----Run luacher
-	----
-	----Menu
-	local gameee = script.Parent.bia.gameee
-	gameee.Text = game.GameId
-	local IDgame = script.Parent.bia.menu.Run.Frame.IDgame
-	local runscrip = script.Parent.bia.menu.Run.Frame.runscrop
 	
 	
-	--tapro run game
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	--Script game
+	
+	
 	function runall()
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "script system!!";
-			Text = "script run";
-			Duration = 20;
+			Text = "script Run!";
+			Duration = 15;
 		})
 	end
+	--
 	
-	
-	function rundatascrip()
+	--
+	function DataScript()
 		Counter()
 		roghoul()
 		Arsenal()
@@ -1351,32 +8187,19 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 		ERROgame()
 	end
 	
-	--IDgame
-	gameee.Text = game.GameId
-	
-	
-	local bia = script.Parent.bia
-	
-	
-	
-	
-	-------
+	--hack
 	--hack
 	function roghoul()
-		if gameee.Text == "380704901" then
-			IDgame.Text = "load DATA..."
-			wait(3)
-			IDgame.Text = "Ro-Ghoul."
+		if IDgame.Text == "380704901" then
+			LoadText.Text = "Ro-Ghoul."
 			runall()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lau")))()--Ro.Ghoul
 		end
 	end
 	
 	function Counter()
-		if gameee.Text == "115797356" then
-			IDgame.Text = "load DATA..."
-			wait(3)
-			IDgame.Text = "Counter Blox."
+		if IDgame.Text == "115797356" then
+			LoadText.Text = "Counter Blox."
 			runall()
 			--liclC()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
@@ -1384,10 +8207,8 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 	end
 	
 	function Arsenal()
-		if gameee.Text == "111958650" then
-			IDgame.Text = "load DATA..."
-			wait(3)
-			IDgame.Text = "Arsenal."
+		if IDgame.Text == "111958650" then
+			LoadText.Text = "Arsenal."
 			runall()
 			--liclC()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
@@ -1396,10 +8217,8 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 	
 	
 	function PhantomForces()
-		if gameee.Text == "113491250" then
-			IDgame.Text = "load DATA..."
-			wait(3)
-			IDgame.Text = "Phantom Forces."
+		if IDgame.Text == "113491250" then
+			LoadText.Text = "Phantom Forces."
 			runall()
 			--liclC()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
@@ -1410,23 +8229,19 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 	
 	
 	function AllStat()
-		if gameee.Text == "1720936166" then
-			IDgame.Text = "load DATA..."
-			wait(3)
-			IDgame.Text = "All Star Tower Defense."
+		if IDgame.Text == "1720936166" then
+			LoadText.Text = "All Star Tower Defense."
 			runall()
 			bia.Visible = false
 			--liclC()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/all%20star%20tower%20defense.lua")))()
-			
+	
 		end
 	end
 	
 	function KingPiece()
-		if gameee.Text == "1451439645" then
-			IDgame.Text = "load DATA..."
-			wait(3)
-			IDgame.Text = "King Piece."
+		if IDgame.Text == "1451439645" then
+			LoadText.Text = "King Piece."
 			runall()
 			--liclC()
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/King%20Piece.lua')))()
@@ -1434,10 +8249,8 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 	end
 	
 	function ProjectXL()
-		if gameee.Text == "2265532481" then
-			IDgame.Text = "load DATA..."
-			wait(3)
-			IDgame.Text = "Project XL."
+		if IDgame.Text == "2265532481" then
+			LoadText.Text = "Project XL."
 			runall()
 			--liclC()
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/projectXL.lua')))()
@@ -1445,10 +8258,8 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 	end
 	
 	function BeeSwarmSimulator()
-		if gameee.Text == "601130232" then
-			IDgame.Text = "load DATA..."
-			wait(3)
-			IDgame.Text = "Bee Swarm Simulator."
+		if IDgame.Text == "601130232" then
+			LoadText.Text = "Bee Swarm Simulator."
 			runall()
 			--liclC()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Bee%20Swarm%20Simulator.lua"))()
@@ -1491,15 +8302,12 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 	
 	--mix.no.game
 	function ERROgame()
-		if gameee.Text == "111958650" or gameee.Text == "115797356" or gameee.Text == "380704901" or gameee.Text == "113491250" or gameee.Text == "1720936166" or gameee.Text == "1451439645" or gameee.Text == "2265532481" or gameee.Text == "601130232"  then
-			
+		if IDgame.Text == "111958650" or IDgame.Text == "115797356" or IDgame.Text == "380704901" or IDgame.Text == "113491250" or IDgame.Text == "1720936166" or IDgame.Text == "1451439645" or IDgame.Text == "2265532481" or IDgame.Text == "601130232"  then
+	
 		else
-			wait()
-			IDgame.Text = "load DATA..."
-			wait(2)
-			IDgame.Text = "erro00D"
-			wait(5)
-			IDgame.Text = "Script"
+			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
+			iconcheck.Visible = false
+			LoadText.Text = "erro00D"
 		end
 	end
 	
@@ -1513,68 +8321,310 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 	
 	
 	
-	runscrip.MouseButton1Click:Connect(function()
-		rundatascrip()
-	end)
 	
 	
 	
 	
 	
-	--ERRO
-	function erro001()
-		game.Players.LocalPlayer:Kick("Erro#001")
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(DNAU_fake_script)()
+local function YFKNMPH_fake_script() -- DinoHudV5.kay 
+	local script = Instance.new('LocalScript', DinoHudV5)
+
+	local bia = script.Parent.bia
+	local loading = script.Parent.bia.loading
+	local hud = script.Parent.bia.HUDname
+	local DinoHud = script.Parent.bia.HUDname
+	local opentapboxmixx = script.Parent.bia.opentapmixx
+	--
+	local plr = game.Players.LocalPlayer
+	local blur = Instance.new("BlurEffect", game.Workspace.CurrentCamera)
+	--các tap bên bìa
+	local bialoading = script.Parent.bia.loading
+	--phần loading
+	local Loadlading = script.Parent.bia.loading.loading1
+	local hinhanhgame = script.Parent.bia.loading.anh--ảnh mini game
+	local iconload = script.Parent.bia.loading.anh.iconload--icon load
+	local iconcheck = script.Parent.bia.loading.anh.ceck
+	local RunScriptgame = script.Parent.bia.loading.anh.Run
+	local LoadText = script.Parent.bia.loading.loadingtxt
+	--thanh boxmixx
+	local biaboxmixx = script.Parent.bia.boxmixx
+	local openUser = script.Parent.bia.boxmixx.user
+	local openmixx = script.Parent.bia.boxmixx.mix
+	--Open tap boxmixx
+	local opentapboxmixx = script.Parent.bia.opentapmixx
+	--Boxmixx User/mix
+	local boxUser = script.Parent.bia.boxUser
+	local boxMix = script.Parent.bia.boxMix
+	--Name/Rank/Avatar
+	local User = script.Parent.bia.boxUser.User
+	local Rank = script.Parent.bia.boxUser.Rank
+	local Avatar = script.Parent.bia.boxUser.Avatar
+	--BoxMix mix
+	local SearchBar = script.Parent.bia.boxMix.SearchBar
+	local Tool = script.Parent.bia.boxMix.Tool
+	
+	
+	function biaoff()
+		offall()
+		local Aoffbia = UDim2.new(0, 7,0, 15)
+		local Boffbia = UDim2.new(0.498, 0,0.488, 0)
+		bia:TweenSize((Aoffbia), "Out", "Linear",1)
+		bia:TweenPosition((Boffbia), "Out", "Linear",1)
 	end
 	
-	function erro002()
-		game.Players.LocalPlayer:Kick("Erro#002")
+	function biaon()
+		local Aonbia = UDim2.new(0, 310,0, 376)
+		local Bonbia = UDim2.new(0.406, 0,0.262, 0)
+		bia:TweenSize((Aonbia), "Out", "Linear",1)
+		bia:TweenPosition((Bonbia), "Out", "Linear",1)
 	end
 	
-	function erro003()
-		game.Players.LocalPlayer:Kick("Erro#003")
+	function offall()
+		local SizedongboxMix  = UDim2.new(0, 5,0, 289)--dóng
+		local PositiondongboxMix  = UDim2.new(0, 0,0.231, 0)--dóng
+		boxMix:TweenSize((SizedongboxMix), "Out", "Linear",.30)
+		boxMix:TweenPosition((PositiondongboxMix), "Out", "Linear",.30)
+		SearchBar.Visible = false
+		Tool.Visible = false
+		wait(0.30)
+		boxMix.Visible = false
+		--
+		local SizedongboxUser = UDim2.new(0, 5,0, 152)--dóng
+		local PositiondongboxUser = UDim2.new(0, 0,0.231, 0)--dóng
+		
+		--
+		local Sizemoboxmixx = UDim2.new(0, 44,0, 45)--mở
+		local Sizedongboxmixx = UDim2.new(0, 6,0, 0)--dóng
+		--
+		local Positionmoboxmixx = UDim2.new(-0.144, 0,0.089, 0)--mở
+		local Positiondongboxmixx = UDim2.new(-0.022, 0,0.089, 0)--dóng
+		boxUser:TweenSize((SizedongboxUser), "Out", "Linear",.30)
+		boxUser:TweenPosition((PositiondongboxUser), "Out", "Linear",.30)
+		User.Visible = false
+		Rank.Visible = false
+		Avatar.Visible = false
+		wait(0.30)
+		boxUser.Visible = false
+		--
+		openUser.Visible = false
+		openmixx.Visible =false
+		biaboxmixx:TweenSize((Sizedongboxmixx), "Out", "Linear",.30)
+		biaboxmixx:TweenPosition((Positiondongboxmixx), "Out", "Linear",.30)
+		wait(0.30)
+		biaboxmixx.Visible = false
+		opentapboxmixx.Text = ">"
 	end
 	
-	function erro004()
-		game.Players.LocalPlayer:Kick("Erro#004")
+	
+	
+	blur.Size = 50
+	
+	function keyrr()
+		plr:GetMouse().KeyDown:Connect(function(K)
+			if K == "]" then
+				if bia.Visible == true then
+					DinoHud.Visible = false
+					loading.Visible = false 
+					biaoff()
+					wait(1)
+					bia.Visible = false
+					blur.Size = 0
+				else
+					blur.Size = 50
+					bia.Visible = true
+					biaon()
+					wait(1)
+					DinoHud.Visible = true
+					loading.Visible = true
+				end
+			end
+		end)
 	end
-	----
-	function erro00A()
-		game.Players.LocalPlayer:Kick("You are banned/Erro#00A")
+	
+	
+	
+	
+	keyrr()
+end
+coroutine.wrap(YFKNMPH_fake_script)()
+local function TNEJT_fake_script() -- DinoHudV5.Script mix 
+	local script = Instance.new('LocalScript', DinoHudV5)
+
+	local ScriptAdmin = script.Parent.bia.boxMix.Tool.Adminfake
+	local counterbloxgameskins = script.Parent.bia.boxMix.Tool.counterbloxskins
+	
+	function runall()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Script System!!";
+			Text = "Script/Mix run";
+			Duration = 5;
+		})
 	end
-	
-	function erro00B()
-		game.Players.LocalPlayer:Kick("Erro#00B")
-	end
-	
-	function erro00C()
-		game.Players.LocalPlayer:Kick("Erro#00C")
-	end
-	
-	function erro00D()
-		game.Players.LocalPlayer:Kick("Erro#00D")
-	end
-	
-	function erro00C()
-		game.Players.LocalPlayer:Kick("Erro#00C")
-	end
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	-----Run Mix
-	----
-	--Menu-Mix-Script.RUn
-	local counterbloxgameskins = script.Parent.bia.Mix.status.ScrollingFrame.counterbloxskins.run
-	local ScriptAdmin = script.Parent.bia.Mix.status.ScrollingFrame.ScriptAdmin.run
-	
-	
 	
 	ScriptAdmin.MouseButton1Click:Connect(function()
 		runall()
@@ -1586,81 +8636,21 @@ local function VAJUUPX_fake_script() -- DinoHudV4.Run Scrip
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/counterbloxskins.lua")))()	
 	end)
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 end
-coroutine.wrap(VAJUUPX_fake_script)()
-local function HTJP_fake_script() -- DinoHudV4.loading-key 
-	local script = Instance.new('LocalScript', DinoHudV4)
+coroutine.wrap(TNEJT_fake_script)()
+local function ENKQ_fake_script() -- DinoHudV5.spin loading 
+	local script = Instance.new('LocalScript', DinoHudV5)
 
-	local thanhloading = script.Parent.loaddding.menulaoding.Frame.tanlaod
-	local text = script.Parent.loaddding.menulaoding.maydor
-	local menu = script.Parent.loaddding
-	local bia = script.Parent.bia
+	local iconload = script.Parent.bia.loading.anh.iconload--icon load
 	
-	wait(2)
-	text.Text = "Check Version."
-	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
-	wait(0.50)
-	thanhloading :TweenSize(UDim2.new(0, 89,0, 11), "Out", "Linear", 1, true)
-	wait(0.50)
-	text.Text = "Server Connection."
-	thanhloading :TweenSize(UDim2.new(0, 163,0, 11), "Out", "Linear", 1, true)
-	wait(0.50)
-	thanhloading:TweenSize(UDim2.new(0, 224,0, 11), "Out", "Linear", 2, true)
-	wait(0.50)
-	thanhloading :TweenSize(UDim2.new(0, 307,0, 11), "Out", "Linear", 1, true)
-	wait(0.50)
-	text.Text = "Running Version."
-	thanhloading :TweenSize(UDim2.new(0, 395,0, 11), "Out", "Linear", 1, true)
-	wait(0.50)
-	thanhloading:TweenSize(UDim2.new(0, 435,0, 11), "Out", "Linear", 2, true)
-	wait(0.50)
-	text.Text = "Running Dino.Lua"
-	thanhloading :TweenSize(UDim2.new(0, 464,0, 11), "Out", "Linear", 1, true)
-	wait(2)
-	menu.Visible = false
-	bia.Visible = true
-	thanhloading:TweenSize(UDim2.new(0, 30,0, 11), "Out", "Linear", 2, true)
-	
-	
-	
-	
-	--Key open/clost
-	local bia = script.Parent.bia
-	
-	local plr = game.Players.LocalPlayer
-	--
-	local mobia = UDim2.new(0.33, 0,0.315, 0)
-	local dongbia = UDim2.new(0.33, 0,-1, 0)
-	
-	
-	plr:GetMouse().KeyDown:Connect(function(K)
-		if K == "]" then
-			if bia.Visible == true then
-				bia:TweenPosition((dongbia), "Out", "Linear",.25)
-				wait(0.50)
-				bia.Visible = false
-			else
-				
-				bia.Visible = true
-				wait(0.50)
-				bia:TweenPosition((mobia), "Out", "Linear",.25)
-				
-			end
-		end
-	end)
+	while true do
+		wait(0.01)
+		iconload.Rotation = iconload.Rotation +5
+	end
 end
-coroutine.wrap(HTJP_fake_script)()
-local function SVXH_fake_script() -- DinoHudV4.controle 
-	local script = Instance.new('LocalScript', DinoHudV4)
+coroutine.wrap(ENKQ_fake_script)()
+local function ZLAPY_fake_script() -- Server.controle 
+	local script = Instance.new('LocalScript', Server)
 
 	local controle = 1
 	--Update
@@ -1671,120 +8661,105 @@ local function SVXH_fake_script() -- DinoHudV4.controle
 	
 	
 end
-coroutine.wrap(SVXH_fake_script)()
-local function NRLPZ_fake_script() -- DinoHudV4.adminaa 
-	local script = Instance.new('LocalScript', DinoHudV4)
-
-	-----Statu.Menu
-	-----
-	local statusMenuAdmin = script.Parent.bia.admin
-	local statusMenu = script.Parent.bia.menu
-	local statusSetting = script.Parent.bia.setting
-	local statusMix = script.Parent.bia.Mix
-	local statuslogin = script.Parent.bia.Login
-	-----INFO.Login
-	local login = script.Parent.bia.Login.status.login
-	-----
-	local User = script.Parent.bia.Login.status.User
-	local ID = script.Parent.bia.Login.status.IDuser
-	local UUser = script.Parent.bia.thanh.Namee
-	local Userrank = script.Parent.bia.thanh.Rank
-	-----
-	-----IFNO.BIN
-	local BinMenu = script.Parent.bia.thanh.run.bin
-	local BinMix = script.Parent.bia.thanh.mis.bin
-	local BinSetting = script.Parent.bia.thanh.seting.bin
-	-----
-	-----INFO.Thanh.menu
-	local ThanhRunMenu = script.Parent.bia.thanh.run
-	local ThanhRunSettig = script.Parent.bia.thanh.seting
-	local ThanhRunMix = script.Parent.bia.thanh.mis
-	-----
-	-----Thanh.Open Statu
-	local OpenStatusMenuAdmin = script.Parent.bia.thanh.ImageButton
-	local OpenStatusMenu = script.Parent.bia.thanh.run.open
-	local OpenStatusSetting = script.Parent.bia.thanh.seting.setting
-	local OpenStatusMix = script.Parent.bia.thanh.mis.mis
-	
-	
-	
-	
-	
-	--Admin
-	function Adminss()
-		----Status.Admin
-		statusMenuAdmin.Visible = true	
-		----Status.Menu
-		statusMenu.Visible = false
-		BinMenu.Visible = false
-		ThanhRunMenu.BackgroundTransparency = "1"
-		--
-	end
-	
-	--
-	function openallAdmin()
-		statusMenuAdmin.Visible = true	
-		----Status.Menu
-		statusMenu.Visible = false
-		BinMenu.Visible = false
-		OpenStatusMenu.Visible = true
-		ThanhRunMenu.BackgroundTransparency = "1"
-		--
-		----Thanh.Seeting
-		OpenStatusSetting.Visible = true
-		--Thanh.Mix
-		OpenStatusMix.Visible = true
-		--Uot.Login.Status
-		statuslogin.Visible = false
-	end
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	function DATAADMIN()
-		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
-			Userrank.Text = "ADMIN"
-			UUser.Visible = true
-			openallAdmin()
-			OpenStatusMenuAdmin.MouseButton1Click:Connect(function()
-				Adminss()
-			end)
-			--
-			local loading = script.Parent.loaddding
-			local bia = script.Parent.bia
-			bia.Visible = true
-			loading.Visible = false
-			--
-		end
-	end
-	
-	DATAADMIN()
-end
-coroutine.wrap(NRLPZ_fake_script)()
-local function YHSCN_fake_script() -- DinoHudV4.Ban 
-	local script = Instance.new('LocalScript', DinoHudV4)
+coroutine.wrap(ZLAPY_fake_script)()
+local function IDFR_fake_script() -- Server.Ban 
+	local script = Instance.new('LocalScript', Server)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(YHSCN_fake_script)()
+coroutine.wrap(IDFR_fake_script)()
+local function ACJX_fake_script() -- DinoHudV5.login 
+	local script = Instance.new('LocalScript', DinoHudV5)
+
+	--Không có trong menu
+	local IDgame = script.Parent.GameID
+	IDgame.Text = game.GameId--Tìm ID game
+	local plr = game.Players.LocalPlayer
+	--
+	local bia = script.Parent.bia--menu ở phí ngoài Bia
+	local DinoHud = script.Parent.bia.HUDname
+	--các tap bên bìa
+	local bialoading = script.Parent.bia.loading
+	--phần loading
+	local Loadlading = script.Parent.bia.loading.loading1
+	local hinhanhgame = script.Parent.bia.loading.anh--ảnh mini game
+	local iconload = script.Parent.bia.loading.anh.iconload--icon load
+	local iconcheck = script.Parent.bia.loading.anh.ceck
+	local RunScriptgame = script.Parent.bia.loading.anh.Run
+	local LoadText = script.Parent.bia.loading.loadingtxt
+	--thanh boxmixx
+	local biaboxmixx = script.Parent.bia.boxmixx
+	local openUser = script.Parent.bia.boxmixx.user
+	local openmixx = script.Parent.bia.boxmixx.mix
+	--Open tap boxmixx
+	local opentapboxmixx = script.Parent.bia.opentapmixx
+	--Boxmixx User/mix
+	local boxUser = script.Parent.bia.boxUser
+	local boxMix = script.Parent.bia.boxMix
+	--Name/Rank/Avatar
+	local User = script.Parent.bia.boxUser.User
+	local Rank = script.Parent.bia.boxUser.Rank
+	local Avatar = script.Parent.bia.boxUser.Avatar
+	--BoxMix mix
+	local SearchBar = script.Parent.bia.boxMix.SearchBar
+	local Tool = script.Parent.bia.boxMix.Tool
+	
+	
+	
+	
+	
+	--Data login/User,Aadmin
+	
+	function Admin()
+		if User.Text == "hovuoghu4446" or User.Text == "hovuoghu4448" then
+			Rank.Text = "Admin"
+			RunScriptgame.Visible = true
+			opentapboxmixx.Visible = true
+			LoadText.Text = "ADMIN :3"
+		end
+	end
+	--
+	--
+	--
+	function autoUT()
+		if User.Text == "bolatao2000" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "Thedemo2003" then
+			Rank.Text = "UT"
+			RunScriptgame.Visible = true
+			opentapboxmixx.Visible = true
+			hinhanhgame.Image = "http://www.roblox.com/asset/?id=6446524235"
+		else
+			RunScriptgame.Visible = false
+			LoadText.Text = "ERROR#001"
+			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
+		end
+	end
+	
+	function autofremium()
+		if User.Text == "chuotti2008" then
+			Rank.Text = "Premium"
+			RunScriptgame.Visible = true
+			opentapboxmixx.Visible = true
+			hinhanhgame.Image = "http://www.roblox.com/asset/?id=6446524235"
+		else
+			RunScriptgame.Visible = false
+			LoadText.Text = "ERROR#001"
+			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
+		end
+	end
+	
+	
+	
+	autoUT()
+	
+	autofremium()
+	
+	Admin()
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(ACJX_fake_script)()
