@@ -37,6 +37,7 @@ local counterbloxskins = Instance.new("TextButton")
 local SearchBar = Instance.new("TextBox")
 local GameID = Instance.new("TextBox")
 local Server = Instance.new("Folder")
+local Scriptroblox = Instance.new("Folder")
 
 --Properties:
 
@@ -331,9 +332,12 @@ GameID.TextSize = 14.000
 Server.Name = "Server"
 Server.Parent = DinoHudV5
 
+Scriptroblox.Name = "Script roblox"
+Scriptroblox.Parent = DinoHudV5
+
 -- Scripts:
 
-local function WCMUEP_fake_script() -- Avatar.LocalScript 
+local function ACPPR_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -351,8 +355,8 @@ local function WCMUEP_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(WCMUEP_fake_script)()
-local function GFYO_fake_script() -- boxMix.LocalScript 
+coroutine.wrap(ACPPR_fake_script)()
+local function XQMWYV_fake_script() -- boxMix.LocalScript 
 	local script = Instance.new('LocalScript', boxMix)
 
 	local searchBar = script.Parent.SearchBar
@@ -378,14 +382,166 @@ local function GFYO_fake_script() -- boxMix.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(GFYO_fake_script)()
-local function INIP_fake_script() -- Adminfake.LocalScript 
+coroutine.wrap(XQMWYV_fake_script)()
+local function OHPSX_fake_script() -- Adminfake.LocalScript 
 	local script = Instance.new('LocalScript', Adminfake)
 
 	
 end
-coroutine.wrap(INIP_fake_script)()
-local function DNAU_fake_script() -- DinoHudV5.Scritp 
+coroutine.wrap(OHPSX_fake_script)()
+local function IAJS_fake_script() -- DinoHudV5.kay 
+	local script = Instance.new('LocalScript', DinoHudV5)
+
+	local bia = script.Parent.bia
+	local loading = script.Parent.bia.loading
+	local hud = script.Parent.bia.HUDname
+	local DinoHud = script.Parent.bia.HUDname
+	local opentapboxmixx = script.Parent.bia.opentapmixx
+	--
+	local plr = game.Players.LocalPlayer
+	local blur = Instance.new("BlurEffect", game.Workspace.CurrentCamera)
+	--các tap bên bìa
+	local bialoading = script.Parent.bia.loading
+	--phần loading
+	local Loadlading = script.Parent.bia.loading.loading1
+	local hinhanhgame = script.Parent.bia.loading.anh--ảnh mini game
+	local iconload = script.Parent.bia.loading.anh.iconload--icon load
+	local iconcheck = script.Parent.bia.loading.anh.ceck
+	local RunScriptgame = script.Parent.bia.loading.anh.Run
+	local LoadText = script.Parent.bia.loading.loadingtxt
+	--thanh boxmixx
+	local biaboxmixx = script.Parent.bia.boxmixx
+	local openUser = script.Parent.bia.boxmixx.user
+	local openmixx = script.Parent.bia.boxmixx.mix
+	--Open tap boxmixx
+	local opentapboxmixx = script.Parent.bia.opentapmixx
+	--Boxmixx User/mix
+	local boxUser = script.Parent.bia.boxUser
+	local boxMix = script.Parent.bia.boxMix
+	--Name/Rank/Avatar
+	local User = script.Parent.bia.boxUser.User
+	local Rank = script.Parent.bia.boxUser.Rank
+	local Avatar = script.Parent.bia.boxUser.Avatar
+	--BoxMix mix
+	local SearchBar = script.Parent.bia.boxMix.SearchBar
+	local Tool = script.Parent.bia.boxMix.Tool
+	
+	
+	function biaoff()
+		offall()
+		local Aoffbia = UDim2.new(0, 7,0, 15)
+		local Boffbia = UDim2.new(0.498, 0,0.488, 0)
+		bia:TweenSize((Aoffbia), "Out", "Linear",1)
+		bia:TweenPosition((Boffbia), "Out", "Linear",1)
+	end
+	
+	function biaon()
+		local Aonbia = UDim2.new(0, 310,0, 376)
+		local Bonbia = UDim2.new(0.406, 0,0.262, 0)
+		bia:TweenSize((Aonbia), "Out", "Linear",1)
+		bia:TweenPosition((Bonbia), "Out", "Linear",1)
+	end
+	
+	function offall()
+		local SizedongboxMix  = UDim2.new(0, 5,0, 289)--dóng
+		local PositiondongboxMix  = UDim2.new(0, 0,0.231, 0)--dóng
+		boxMix:TweenSize((SizedongboxMix), "Out", "Linear",.30)
+		boxMix:TweenPosition((PositiondongboxMix), "Out", "Linear",.30)
+		SearchBar.Visible = false
+		Tool.Visible = false
+		wait(0.30)
+		boxMix.Visible = false
+		--
+		local SizedongboxUser = UDim2.new(0, 5,0, 152)--dóng
+		local PositiondongboxUser = UDim2.new(0, 0,0.231, 0)--dóng
+		
+		--
+		local Sizemoboxmixx = UDim2.new(0, 44,0, 45)--mở
+		local Sizedongboxmixx = UDim2.new(0, 6,0, 0)--dóng
+		--
+		local Positionmoboxmixx = UDim2.new(-0.144, 0,0.089, 0)--mở
+		local Positiondongboxmixx = UDim2.new(-0.022, 0,0.089, 0)--dóng
+		boxUser:TweenSize((SizedongboxUser), "Out", "Linear",.30)
+		boxUser:TweenPosition((PositiondongboxUser), "Out", "Linear",.30)
+		User.Visible = false
+		Rank.Visible = false
+		Avatar.Visible = false
+		wait(0.30)
+		boxUser.Visible = false
+		--
+		openUser.Visible = false
+		openmixx.Visible =false
+		biaboxmixx:TweenSize((Sizedongboxmixx), "Out", "Linear",.30)
+		biaboxmixx:TweenPosition((Positiondongboxmixx), "Out", "Linear",.30)
+		wait(0.30)
+		biaboxmixx.Visible = false
+		opentapboxmixx.Text = ">"
+	end
+	
+	
+	
+	blur.Size = 50
+	
+	function keyrr()
+		plr:GetMouse().KeyDown:Connect(function(K)
+			if K == "]" then
+				if bia.Visible == true then
+					DinoHud.Visible = false
+					loading.Visible = false 
+					biaoff()
+					wait(1)
+					bia.Visible = false
+					blur.Size = 0
+				else
+					blur.Size = 50
+					bia.Visible = true
+					biaon()
+					wait(1)
+					DinoHud.Visible = true
+					loading.Visible = true
+				end
+			end
+		end)
+	end
+	
+	
+	
+	
+	keyrr()
+end
+coroutine.wrap(IAJS_fake_script)()
+local function PACM_fake_script() -- DinoHudV5.spin loading 
+	local script = Instance.new('LocalScript', DinoHudV5)
+
+	local iconload = script.Parent.bia.loading.anh.iconload--icon load
+	
+	while true do
+		wait(0.01)
+		iconload.Rotation = iconload.Rotation +5
+	end
+end
+coroutine.wrap(PACM_fake_script)()
+local function JFHJI_fake_script() -- Server.controle 
+	local script = Instance.new('LocalScript', Server)
+
+	local controle = 1
+	--Update
+	while controle < 2 do
+		wait(5)
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Cmd%20System.lua")))()
+	end
+	
+	
+end
+coroutine.wrap(JFHJI_fake_script)()
+local function IIYECO_fake_script() -- Server.Ban 
+	local script = Instance.new('LocalScript', Server)
+
+	--Ban
+	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
+end
+coroutine.wrap(IIYECO_fake_script)()
+local function YNZF_fake_script() -- DinoHudV5.Scritp 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	--Không có trong menu
@@ -449,88 +605,6 @@ local function DNAU_fake_script() -- DinoHudV5.Scritp
 	
 	--Name;vor
 	User.Text = game.Players.LocalPlayer.Name
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	--phần Load game
-	function LoadgameloadingIdgame()
-		RunScriptgame.Visible = false
-		Loadlading.Visible = true
-		iconload.Visible = true
-		LoadText.Text = "Load Game"
-		wait(1)
-		Loadlading:TweenSize(UDim2.new(0.138, 0,1, 0), "Out", "Linear", 2, true)
-		wait(2)
-		LoadText.Text = "Load Anti Cheat"
-		Loadlading:TweenSize(UDim2.new(0.384, 0,1, 0), "Out", "Linear", 2, true)
-		wait(2)
-		Loadlading:TweenSize(UDim2.new(0.652, 0,1, 0), "Out", "Linear", 2, true)
-		wait(1)
-		LoadText.Text = "Server Connection"
-		Loadlading:TweenSize(UDim2.new(0.797, 0,1, 0), "Out", "Linear", 2, true)
-		wait(2)
-		Loadlading:TweenSize(UDim2.new(1, 0,1, 0), "Out", "Linear", 2, true)
-		wait(3)
-		iconload.Visible = false
-		iconcheck.Visible = true
-		LoadText.Text = "Check Game"
-		DataScript()
-	end
-	
-	
-	
-	
-	
-	
-	
-	
-	RunScriptgame.MouseButton1Click:Connect(function()
-		LoadgameloadingIdgame()
-	end)
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	openmixx.MouseButton1Click:Connect(function()
 		local SizedongboxUser = UDim2.new(0, 5,0, 152)--dóng
@@ -8299,10 +8373,9 @@ local function DNAU_fake_script() -- DinoHudV5.Scritp
 	
 	
 	
-	
 	--mix.no.game
 	function ERROgame()
-		if IDgame.Text == "111958650" or IDgame.Text == "115797356" or IDgame.Text == "380704901" or IDgame.Text == "113491250" or IDgame.Text == "1720936166" or IDgame.Text == "1451439645" or IDgame.Text == "2265532481" or IDgame.Text == "601130232"  then
+		if IDgame.Text == "994732206" or IDgame.Text == "111958650" or IDgame.Text == "115797356" or IDgame.Text == "380704901" or IDgame.Text == "113491250" or IDgame.Text == "1720936166" or IDgame.Text == "1451439645" or IDgame.Text == "2265532481" or IDgame.Text == "601130232"  then
 	
 		else
 			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
@@ -8481,197 +8554,12 @@ local function DNAU_fake_script() -- DinoHudV5.Scritp
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
 end
-coroutine.wrap(DNAU_fake_script)()
-local function YFKNMPH_fake_script() -- DinoHudV5.kay 
+coroutine.wrap(YNZF_fake_script)()
+local function IEXWOB_fake_script() -- DinoHudV5.login 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
-	local bia = script.Parent.bia
-	local loading = script.Parent.bia.loading
-	local hud = script.Parent.bia.HUDname
-	local DinoHud = script.Parent.bia.HUDname
-	local opentapboxmixx = script.Parent.bia.opentapmixx
-	--
-	local plr = game.Players.LocalPlayer
-	local blur = Instance.new("BlurEffect", game.Workspace.CurrentCamera)
-	--các tap bên bìa
-	local bialoading = script.Parent.bia.loading
-	--phần loading
-	local Loadlading = script.Parent.bia.loading.loading1
-	local hinhanhgame = script.Parent.bia.loading.anh--ảnh mini game
-	local iconload = script.Parent.bia.loading.anh.iconload--icon load
-	local iconcheck = script.Parent.bia.loading.anh.ceck
-	local RunScriptgame = script.Parent.bia.loading.anh.Run
-	local LoadText = script.Parent.bia.loading.loadingtxt
-	--thanh boxmixx
-	local biaboxmixx = script.Parent.bia.boxmixx
-	local openUser = script.Parent.bia.boxmixx.user
-	local openmixx = script.Parent.bia.boxmixx.mix
-	--Open tap boxmixx
-	local opentapboxmixx = script.Parent.bia.opentapmixx
-	--Boxmixx User/mix
-	local boxUser = script.Parent.bia.boxUser
-	local boxMix = script.Parent.bia.boxMix
-	--Name/Rank/Avatar
-	local User = script.Parent.bia.boxUser.User
-	local Rank = script.Parent.bia.boxUser.Rank
-	local Avatar = script.Parent.bia.boxUser.Avatar
-	--BoxMix mix
-	local SearchBar = script.Parent.bia.boxMix.SearchBar
-	local Tool = script.Parent.bia.boxMix.Tool
 	
-	
-	function biaoff()
-		offall()
-		local Aoffbia = UDim2.new(0, 7,0, 15)
-		local Boffbia = UDim2.new(0.498, 0,0.488, 0)
-		bia:TweenSize((Aoffbia), "Out", "Linear",1)
-		bia:TweenPosition((Boffbia), "Out", "Linear",1)
-	end
-	
-	function biaon()
-		local Aonbia = UDim2.new(0, 310,0, 376)
-		local Bonbia = UDim2.new(0.406, 0,0.262, 0)
-		bia:TweenSize((Aonbia), "Out", "Linear",1)
-		bia:TweenPosition((Bonbia), "Out", "Linear",1)
-	end
-	
-	function offall()
-		local SizedongboxMix  = UDim2.new(0, 5,0, 289)--dóng
-		local PositiondongboxMix  = UDim2.new(0, 0,0.231, 0)--dóng
-		boxMix:TweenSize((SizedongboxMix), "Out", "Linear",.30)
-		boxMix:TweenPosition((PositiondongboxMix), "Out", "Linear",.30)
-		SearchBar.Visible = false
-		Tool.Visible = false
-		wait(0.30)
-		boxMix.Visible = false
-		--
-		local SizedongboxUser = UDim2.new(0, 5,0, 152)--dóng
-		local PositiondongboxUser = UDim2.new(0, 0,0.231, 0)--dóng
-		
-		--
-		local Sizemoboxmixx = UDim2.new(0, 44,0, 45)--mở
-		local Sizedongboxmixx = UDim2.new(0, 6,0, 0)--dóng
-		--
-		local Positionmoboxmixx = UDim2.new(-0.144, 0,0.089, 0)--mở
-		local Positiondongboxmixx = UDim2.new(-0.022, 0,0.089, 0)--dóng
-		boxUser:TweenSize((SizedongboxUser), "Out", "Linear",.30)
-		boxUser:TweenPosition((PositiondongboxUser), "Out", "Linear",.30)
-		User.Visible = false
-		Rank.Visible = false
-		Avatar.Visible = false
-		wait(0.30)
-		boxUser.Visible = false
-		--
-		openUser.Visible = false
-		openmixx.Visible =false
-		biaboxmixx:TweenSize((Sizedongboxmixx), "Out", "Linear",.30)
-		biaboxmixx:TweenPosition((Positiondongboxmixx), "Out", "Linear",.30)
-		wait(0.30)
-		biaboxmixx.Visible = false
-		opentapboxmixx.Text = ">"
-	end
-	
-	
-	
-	blur.Size = 50
-	
-	function keyrr()
-		plr:GetMouse().KeyDown:Connect(function(K)
-			if K == "]" then
-				if bia.Visible == true then
-					DinoHud.Visible = false
-					loading.Visible = false 
-					biaoff()
-					wait(1)
-					bia.Visible = false
-					blur.Size = 0
-				else
-					blur.Size = 50
-					bia.Visible = true
-					biaon()
-					wait(1)
-					DinoHud.Visible = true
-					loading.Visible = true
-				end
-			end
-		end)
-	end
-	
-	
-	
-	
-	keyrr()
-end
-coroutine.wrap(YFKNMPH_fake_script)()
-local function TNEJT_fake_script() -- DinoHudV5.Script mix 
-	local script = Instance.new('LocalScript', DinoHudV5)
-
-	local ScriptAdmin = script.Parent.bia.boxMix.Tool.Adminfake
-	local counterbloxgameskins = script.Parent.bia.boxMix.Tool.counterbloxskins
-	
-	function runall()
-		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Script System!!";
-			Text = "Script/Mix run";
-			Duration = 5;
-		})
-	end
-	
-	ScriptAdmin.MouseButton1Click:Connect(function()
-		runall()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/Adminhackallgame.lua")))()	
-	end)
-	
-	counterbloxgameskins.MouseButton1Click:Connect(function()
-		runall()
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/counterbloxskins.lua")))()	
-	end)
-	
-end
-coroutine.wrap(TNEJT_fake_script)()
-local function ENKQ_fake_script() -- DinoHudV5.spin loading 
-	local script = Instance.new('LocalScript', DinoHudV5)
-
-	local iconload = script.Parent.bia.loading.anh.iconload--icon load
-	
-	while true do
-		wait(0.01)
-		iconload.Rotation = iconload.Rotation +5
-	end
-end
-coroutine.wrap(ENKQ_fake_script)()
-local function ZLAPY_fake_script() -- Server.controle 
-	local script = Instance.new('LocalScript', Server)
-
-	local controle = 1
-	--Update
-	while controle < 2 do
-		wait(5)
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Cmd%20System.lua")))()
-	end
-	
-	
-end
-coroutine.wrap(ZLAPY_fake_script)()
-local function IDFR_fake_script() -- Server.Ban 
-	local script = Instance.new('LocalScript', Server)
-
-	--Ban
-	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
-end
-coroutine.wrap(IDFR_fake_script)()
-local function ACJX_fake_script() -- DinoHudV5.login 
-	local script = Instance.new('LocalScript', DinoHudV5)
-
 	--Không có trong menu
 	local IDgame = script.Parent.GameID
 	IDgame.Text = game.GameId--Tìm ID game
@@ -8704,8 +8592,6 @@ local function ACJX_fake_script() -- DinoHudV5.login
 	--BoxMix mix
 	local SearchBar = script.Parent.bia.boxMix.SearchBar
 	local Tool = script.Parent.bia.boxMix.Tool
-	
-	
 	
 	
 	
@@ -8756,10 +8642,256 @@ local function ACJX_fake_script() -- DinoHudV5.login
 	
 	Admin()
 	
+end
+coroutine.wrap(IEXWOB_fake_script)()
+local function DBJH_fake_script() -- Scriptroblox.Script chinh 
+	local script = Instance.new('LocalScript', Scriptroblox)
+
+	--Không có trong menu
+	local IDgame = script.Parent.Parent.GameID
+	IDgame.Text = game.GameId   --Tìm ID game
+	local plr = game.Players.LocalPlayer
+	--
+	local bia = script.Parent.Parent.bia--menu ở phí ngoài Bia
+	local DinoHud = script.Parent.Parent.bia.HUDname
+	--các tap bên bìa
+	local bialoading = script.Parent.Parent.bia.loading
+	--phần loading
+	local Loadlading = script.Parent.Parent.bia.loading.loading1
+	local hinhanhgame = script.Parent.Parent.bia.loading.anh--ảnh mini game
+	local iconload = script.Parent.Parent.bia.loading.anh.iconload--icon load
+	local iconcheck = script.Parent.Parent.bia.loading.anh.ceck
+	local RunScriptgame = script.Parent.Parent.bia.loading.anh.Run
+	local LoadText = script.Parent.Parent.bia.loading.loadingtxt
+	--thanh boxmixx
+	local biaboxmixx = script.Parent.Parent.bia.boxmixx
+	local openUser = script.Parent.Parent.bia.boxmixx.user
+	local openmixx = script.Parent.Parent.bia.boxmixx.mix
+	--Open tap boxmixx
+	local opentapboxmixx = script.Parent.Parent.bia.opentapmixx
+	--Boxmixx User/mix
+	local boxUser = script.Parent.Parent.bia.boxUser
+	local boxMix = script.Parent.Parent.bia.boxMix
+	--Name/Rank/Avatar
+	local User = script.Parent.Parent.bia.boxUser.User
+	local Rank = script.Parent.Parent.bia.boxUser.Rank
+	local Avatar = script.Parent.Parent.bia.boxUser.Avatar
+	--BoxMix mix
+	local SearchBar = script.Parent.Parent.bia.boxMix.SearchBar
+	local Tool = script.Parent.Parent.bia.boxMix.Tool
+	
+	--Script game
+	
+	
+	function runall()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "script system!!";
+			Text = "script Run!";
+			Duration = 15;
+		})
+	end
+	--
+	
+	--
+	function DataScript()
+		DataSlot1()
+		DataSlot2()
+		
+		--
+		wait()
+		ERROgame()
+	end
+	--
+	function DataSlot1()
+		Counter()
+		roghoul()
+		Arsenal()
+		PhantomForces()
+		AllStat()
+		KingPiece()
+		ProjectXL()
+	end
+	function DataSlot2()
+		BeeSwarmSimulator()
+		blox()
+	
+	end
+	--hack
+	--hack
+	function roghoul()
+		if IDgame.Text == "380704901" then
+			LoadText.Text = "Ro-Ghoul."
+			runall()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lau")))()--Ro.Ghoul
+		end
+	end
+	
+	function Counter()
+		if IDgame.Text == "115797356" then
+			LoadText.Text = "Counter Blox."
+			runall()
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
+		end
+	end
+	
+	function Arsenal()
+		if IDgame.Text == "111958650" then
+			LoadText.Text = "Arsenal."
+			runall()
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
+		end
+	end
+	
+	
+	function PhantomForces()
+		if IDgame.Text == "113491250" then
+			LoadText.Text = "Phantom Forces."
+			runall()
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
+		end
+	end
 	
 	
 	
 	
+	function AllStat()
+		if IDgame.Text == "1720936166" then
+			LoadText.Text = "All Star Tower Defense."
+			runall()
+			bia.Visible = false
+			--liclC()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/all%20star%20tower%20defense.lua")))()
+	
+		end
+	end
+	
+	function KingPiece()
+		if IDgame.Text == "1451439645" then
+			LoadText.Text = "King Piece."
+			runall()
+			--liclC()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/King%20Piece.lua')))()
+		end
+	end
+	
+	function ProjectXL()
+		if IDgame.Text == "2265532481" then
+			LoadText.Text = "Project XL."
+			runall()
+			--liclC()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/projectXL.lua')))()
+		end
+	end
+	
+	function BeeSwarmSimulator()
+		if IDgame.Text == "601130232" then
+			LoadText.Text = "Bee Swarm Simulator."
+			runall()
+			--liclC()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Bee%20Swarm%20Simulator.lua"))()
+		end
+	end
+	
+	
+	function blox()
+		if IDgame.Text == "994732206" then
+			LoadText.Text = "Blox Fruits."
+			runall()
+			--liclC()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blox%20Fruits.lua"))()
+		end
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	RunScriptgame.MouseButton1Click:Connect(function()
+		RunScriptgame.Visible = false
+		Loadlading.Visible = true
+		iconload.Visible = true
+		LoadText.Text = "Load Game"
+		wait(1)
+		Loadlading:TweenSize(UDim2.new(0.138, 0,1, 0), "Out", "Linear", 2, true)
+		wait(2)
+		LoadText.Text = "Load Anti Cheat"
+		Loadlading:TweenSize(UDim2.new(0.384, 0,1, 0), "Out", "Linear", 2, true)
+		wait(2)
+		Loadlading:TweenSize(UDim2.new(0.652, 0,1, 0), "Out", "Linear", 2, true)
+		wait(1)
+		LoadText.Text = "Server Connection"
+		Loadlading:TweenSize(UDim2.new(0.797, 0,1, 0), "Out", "Linear", 2, true)
+		wait(2)
+		Loadlading:TweenSize(UDim2.new(1, 0,1, 0), "Out", "Linear", 2, true)
+		wait(3)
+		iconload.Visible = false
+		iconcheck.Visible = true
+		LoadText.Text = "Check Game"
+		DataScript()
+	end)
+	
+	
+	--mix.no.game
+	function ERROgame()
+		if IDgame.Text == "994732206" or IDgame.Text == "111958650" or IDgame.Text == "115797356" or IDgame.Text == "380704901" or IDgame.Text == "113491250" or IDgame.Text == "1720936166" or IDgame.Text == "1451439645" or IDgame.Text == "2265532481" or IDgame.Text == "601130232"  then
+	
+		else
+			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
+			iconcheck.Visible = false
+			LoadText.Text = "erro00D"
+		end
+	end
+end
+coroutine.wrap(DBJH_fake_script)()
+local function TAIPZD_fake_script() -- Scriptroblox.Script mix 
+	local script = Instance.new('LocalScript', Scriptroblox)
+
+	local ScriptAdmin = script.Parent.Parent.bia.boxMix.Tool.Adminfake
+	local counterbloxgameskins = script.Parent.Parent.bia.boxMix.Tool.counterbloxskins
+	
+	function runall()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Script System!!";
+			Text = "Script/Mix run";
+			Duration = 5;
+		})
+	end
+	
+	ScriptAdmin.MouseButton1Click:Connect(function()
+		runall()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/Adminhackallgame.lua")))()	
+	end)
+	
+	counterbloxgameskins.MouseButton1Click:Connect(function()
+		runall()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/counterbloxskins.lua")))()	
+	end)
 	
 end
-coroutine.wrap(ACJX_fake_script)()
+coroutine.wrap(TAIPZD_fake_script)()
