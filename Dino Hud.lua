@@ -337,7 +337,7 @@ Scriptroblox.Parent = DinoHudV5
 
 -- Scripts:
 
-local function JNIPT_fake_script() -- Avatar.LocalScript 
+local function IQMRRT_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -355,8 +355,8 @@ local function JNIPT_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(JNIPT_fake_script)()
-local function FKKANR_fake_script() -- boxMix.LocalScript 
+coroutine.wrap(IQMRRT_fake_script)()
+local function CVMNF_fake_script() -- boxMix.LocalScript 
 	local script = Instance.new('LocalScript', boxMix)
 
 	local searchBar = script.Parent.SearchBar
@@ -382,14 +382,14 @@ local function FKKANR_fake_script() -- boxMix.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(FKKANR_fake_script)()
-local function KFKTSD_fake_script() -- Adminfake.LocalScript 
+coroutine.wrap(CVMNF_fake_script)()
+local function BUEOX_fake_script() -- Adminfake.LocalScript 
 	local script = Instance.new('LocalScript', Adminfake)
 
 	
 end
-coroutine.wrap(KFKTSD_fake_script)()
-local function UDAS_fake_script() -- DinoHudV5.kay 
+coroutine.wrap(BUEOX_fake_script)()
+local function PFBV_fake_script() -- DinoHudV5.kay 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local bia = script.Parent.bia
@@ -509,8 +509,8 @@ local function UDAS_fake_script() -- DinoHudV5.kay
 	
 	keyrr()
 end
-coroutine.wrap(UDAS_fake_script)()
-local function ERTTLZ_fake_script() -- DinoHudV5.spin loading 
+coroutine.wrap(PFBV_fake_script)()
+local function UIIVSP_fake_script() -- DinoHudV5.spin loading 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local iconload = script.Parent.bia.loading.anh.iconload--icon load
@@ -520,8 +520,8 @@ local function ERTTLZ_fake_script() -- DinoHudV5.spin loading
 		iconload.Rotation = iconload.Rotation +5
 	end
 end
-coroutine.wrap(ERTTLZ_fake_script)()
-local function QNTR_fake_script() -- Server.controle 
+coroutine.wrap(UIIVSP_fake_script)()
+local function RJHQI_fake_script() -- Server.controle 
 	local script = Instance.new('LocalScript', Server)
 
 	local controle = 1
@@ -533,15 +533,15 @@ local function QNTR_fake_script() -- Server.controle
 	
 	
 end
-coroutine.wrap(QNTR_fake_script)()
-local function PZCLAD_fake_script() -- Server.Ban 
+coroutine.wrap(RJHQI_fake_script)()
+local function ZNRCLLK_fake_script() -- Server.Ban 
 	local script = Instance.new('LocalScript', Server)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(PZCLAD_fake_script)()
-local function DKDNZC_fake_script() -- DinoHudV5.Scritp 
+coroutine.wrap(ZNRCLLK_fake_script)()
+local function ZMJDTTF_fake_script() -- DinoHudV5.Scritp 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	--Không có trong menu
@@ -8555,8 +8555,8 @@ local function DKDNZC_fake_script() -- DinoHudV5.Scritp
 	
 	
 end
-coroutine.wrap(DKDNZC_fake_script)()
-local function PMOLBT_fake_script() -- DinoHudV5.login 
+coroutine.wrap(ZMJDTTF_fake_script)()
+local function VFMOG_fake_script() -- DinoHudV5.login 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	
@@ -8607,6 +8607,15 @@ local function PMOLBT_fake_script() -- DinoHudV5.login
 	end
 	--
 	--
+	function CheckData()
+		if Rank.Text == "UT" or Rank.Text == "Admin" or Rank.Text == "Premium" then
+			
+		end
+		opentapboxmixx.Visible = false
+		RunScriptgame.Visible = false
+		LoadText.Text = "ERROR#001"
+		hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
+	end
 	--
 	function autoUT()
 		if User.Text == "bolatao2000" or User.Text == "conculenmen72" or User.Text == "anhbecun1611" or User.Text == "minhkhang2007" or User.Text == "DeathDemonvt" or User.Text == "kubin197763" or User.Text == "ruakhung1181" or User.Text == "Lemon_Sweet02" or User.Text == "kocotenlun" or User.Text == "kaubeks2" or User.Text == "Thedemo2003" then
@@ -8615,9 +8624,6 @@ local function PMOLBT_fake_script() -- DinoHudV5.login
 			opentapboxmixx.Visible = true
 			hinhanhgame.Image = "http://www.roblox.com/asset/?id=6446524235"
 		else
-			RunScriptgame.Visible = false
-			LoadText.Text = "ERROR#001"
-			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
 		end
 	end
 	
@@ -8627,10 +8633,6 @@ local function PMOLBT_fake_script() -- DinoHudV5.login
 			RunScriptgame.Visible = true
 			opentapboxmixx.Visible = true
 			hinhanhgame.Image = "http://www.roblox.com/asset/?id=6446524235"
-		else
-			RunScriptgame.Visible = false
-			LoadText.Text = "ERROR#001"
-			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
 		end
 	end
 	
@@ -8642,9 +8644,10 @@ local function PMOLBT_fake_script() -- DinoHudV5.login
 	
 	Admin()
 	
+	CheckData()
 end
-coroutine.wrap(PMOLBT_fake_script)()
-local function HZBOQCC_fake_script() -- Scriptroblox.Script chinh 
+coroutine.wrap(VFMOG_fake_script)()
+local function IRZIQZ_fake_script() -- Scriptroblox.Script chinh 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	--Không có trong menu
@@ -8816,8 +8819,8 @@ local function HZBOQCC_fake_script() -- Scriptroblox.Script chinh
 		end
 	end
 end
-coroutine.wrap(HZBOQCC_fake_script)()
-local function PCSC_fake_script() -- Scriptroblox.Script mix 
+coroutine.wrap(IRZIQZ_fake_script)()
+local function YEQN_fake_script() -- Scriptroblox.Script mix 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	local ScriptAdmin = script.Parent.Parent.bia.boxMix.Tool.Adminfake
@@ -8842,4 +8845,4 @@ local function PCSC_fake_script() -- Scriptroblox.Script mix
 	end)
 	
 end
-coroutine.wrap(PCSC_fake_script)()
+coroutine.wrap(YEQN_fake_script)()
