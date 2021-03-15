@@ -337,7 +337,7 @@ Scriptroblox.Parent = DinoHudV5
 
 -- Scripts:
 
-local function KAFCVB_fake_script() -- Avatar.LocalScript 
+local function VGSO_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -355,8 +355,8 @@ local function KAFCVB_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(KAFCVB_fake_script)()
-local function YVBIQTL_fake_script() -- boxMix.LocalScript 
+coroutine.wrap(VGSO_fake_script)()
+local function VNHEKM_fake_script() -- boxMix.LocalScript 
 	local script = Instance.new('LocalScript', boxMix)
 
 	local searchBar = script.Parent.SearchBar
@@ -382,14 +382,14 @@ local function YVBIQTL_fake_script() -- boxMix.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(YVBIQTL_fake_script)()
-local function LEOIDEB_fake_script() -- Adminfake.LocalScript 
+coroutine.wrap(VNHEKM_fake_script)()
+local function MVNUWR_fake_script() -- Adminfake.LocalScript 
 	local script = Instance.new('LocalScript', Adminfake)
 
 	
 end
-coroutine.wrap(LEOIDEB_fake_script)()
-local function ZCVJJWK_fake_script() -- DinoHudV5.kay 
+coroutine.wrap(MVNUWR_fake_script)()
+local function SWLQNE_fake_script() -- DinoHudV5.kay 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local bia = script.Parent.bia
@@ -509,8 +509,8 @@ local function ZCVJJWK_fake_script() -- DinoHudV5.kay
 	
 	keyrr()
 end
-coroutine.wrap(ZCVJJWK_fake_script)()
-local function SLPC_fake_script() -- DinoHudV5.spin loading 
+coroutine.wrap(SWLQNE_fake_script)()
+local function VXYXJ_fake_script() -- DinoHudV5.spin loading 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local iconload = script.Parent.bia.loading.anh.iconload--icon load
@@ -520,8 +520,8 @@ local function SLPC_fake_script() -- DinoHudV5.spin loading
 		iconload.Rotation = iconload.Rotation +5
 	end
 end
-coroutine.wrap(SLPC_fake_script)()
-local function TQHH_fake_script() -- Server.controle 
+coroutine.wrap(VXYXJ_fake_script)()
+local function KORDXSX_fake_script() -- Server.controle 
 	local script = Instance.new('LocalScript', Server)
 
 	local controle = 1
@@ -533,15 +533,15 @@ local function TQHH_fake_script() -- Server.controle
 	
 	
 end
-coroutine.wrap(TQHH_fake_script)()
-local function WHNL_fake_script() -- Server.Ban 
+coroutine.wrap(KORDXSX_fake_script)()
+local function YVBB_fake_script() -- Server.Ban 
 	local script = Instance.new('LocalScript', Server)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(WHNL_fake_script)()
-local function QCAQW_fake_script() -- DinoHudV5.Scritp 
+coroutine.wrap(YVBB_fake_script)()
+local function HKZP_fake_script() -- DinoHudV5.Scritp 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	--Không có trong menu
@@ -8555,8 +8555,8 @@ local function QCAQW_fake_script() -- DinoHudV5.Scritp
 	
 	
 end
-coroutine.wrap(QCAQW_fake_script)()
-local function YGEMSMI_fake_script() -- DinoHudV5.login 
+coroutine.wrap(HKZP_fake_script)()
+local function JXKJTGC_fake_script() -- DinoHudV5.login 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	
@@ -8645,8 +8645,8 @@ local function YGEMSMI_fake_script() -- DinoHudV5.login
 	
 	CheckData()
 end
-coroutine.wrap(YGEMSMI_fake_script)()
-local function GTXTRUE_fake_script() -- Scriptroblox.Script chinh 
+coroutine.wrap(JXKJTGC_fake_script)()
+local function LIVCJMM_fake_script() -- Scriptroblox.Script chinh 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	--Không có trong menu
@@ -8795,16 +8795,17 @@ local function GTXTRUE_fake_script() -- Scriptroblox.Script chinh
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Bee%20Swarm%20Simulator.lua"))()
 		end
 		--Blox Fruits
-		if IDgame.Text == "994732206" and Rank.Text == "Admin" or IDgame.Text == "994732206" and Rank.Text == "Premium" then
+		if IDgame.Text == "994732206" then
 			LoadText.Text = "Blox Fruits."
 			runall()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blox%20Fruits.lua"))()
-		else
-			if IDgame.Text == "994732206" and Rank.Text == "UT" then
-				LoadText.Text = "Need Premium"
-			end
 		end
-		
+		--Grand Piece Online
+		if IDgame.Text == "648454481" then
+			LoadText.Text = "Grand Piece Online."
+			runall()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/GPO.lua"))()
+		end
 		
 		
 		
@@ -8831,8 +8832,8 @@ local function GTXTRUE_fake_script() -- Scriptroblox.Script chinh
 		end
 	end
 end
-coroutine.wrap(GTXTRUE_fake_script)()
-local function KRMV_fake_script() -- Scriptroblox.Script mix 
+coroutine.wrap(LIVCJMM_fake_script)()
+local function WZREJ_fake_script() -- Scriptroblox.Script mix 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	local ScriptAdmin = script.Parent.Parent.bia.boxMix.Tool.Adminfake
@@ -8857,4 +8858,4 @@ local function KRMV_fake_script() -- Scriptroblox.Script mix
 	end)
 	
 end
-coroutine.wrap(KRMV_fake_script)()
+coroutine.wrap(WZREJ_fake_script)()
