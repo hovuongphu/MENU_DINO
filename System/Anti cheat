@@ -1,0 +1,5 @@
+rconsoleprint("Dino Hud" .. "["..os.date("%H"..":".."%M"..":".."%S").."]" .. " \n")
+wait(2)
+rconsoleprint("STARTING" .. "["..os.date("%H"..":".."%M"..":".."%S").."]" .. " \n")
+wait(3)
+rconsoleprint("STARTING" .. "["..os.date("%H"..":".."%M"..":".."%S").."]" .. " \n")
