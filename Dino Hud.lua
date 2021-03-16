@@ -337,7 +337,7 @@ Scriptroblox.Parent = DinoHudV5
 
 -- Scripts:
 
-local function CZWQK_fake_script() -- Avatar.LocalScript 
+local function FHWXBGR_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -355,8 +355,8 @@ local function CZWQK_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(CZWQK_fake_script)()
-local function AXBOHAR_fake_script() -- boxMix.LocalScript 
+coroutine.wrap(FHWXBGR_fake_script)()
+local function FEEAVAZ_fake_script() -- boxMix.LocalScript 
 	local script = Instance.new('LocalScript', boxMix)
 
 	local searchBar = script.Parent.SearchBar
@@ -382,14 +382,14 @@ local function AXBOHAR_fake_script() -- boxMix.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(AXBOHAR_fake_script)()
-local function BTZF_fake_script() -- Adminfake.LocalScript 
+coroutine.wrap(FEEAVAZ_fake_script)()
+local function OZTLS_fake_script() -- Adminfake.LocalScript 
 	local script = Instance.new('LocalScript', Adminfake)
 
 	
 end
-coroutine.wrap(BTZF_fake_script)()
-local function HYMUGW_fake_script() -- DinoHudV5.kay 
+coroutine.wrap(OZTLS_fake_script)()
+local function SLPRBTW_fake_script() -- DinoHudV5.kay 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local bia = script.Parent.bia
@@ -509,8 +509,8 @@ local function HYMUGW_fake_script() -- DinoHudV5.kay
 	
 	keyrr()
 end
-coroutine.wrap(HYMUGW_fake_script)()
-local function EYDH_fake_script() -- DinoHudV5.spin loading 
+coroutine.wrap(SLPRBTW_fake_script)()
+local function DUUFGT_fake_script() -- DinoHudV5.spin loading 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local iconload = script.Parent.bia.loading.anh.iconload--icon load
@@ -520,8 +520,8 @@ local function EYDH_fake_script() -- DinoHudV5.spin loading
 		iconload.Rotation = iconload.Rotation +5
 	end
 end
-coroutine.wrap(EYDH_fake_script)()
-local function PAJXU_fake_script() -- Server.controle 
+coroutine.wrap(DUUFGT_fake_script)()
+local function EXBXJXC_fake_script() -- Server.controle 
 	local script = Instance.new('LocalScript', Server)
 
 	local controle = 1
@@ -533,15 +533,15 @@ local function PAJXU_fake_script() -- Server.controle
 	
 	
 end
-coroutine.wrap(PAJXU_fake_script)()
-local function GUTDUYA_fake_script() -- Server.Ban 
+coroutine.wrap(EXBXJXC_fake_script)()
+local function NZZTRL_fake_script() -- Server.Ban 
 	local script = Instance.new('LocalScript', Server)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(GUTDUYA_fake_script)()
-local function KVCWSH_fake_script() -- DinoHudV5.Scritp 
+coroutine.wrap(NZZTRL_fake_script)()
+local function NYXPA_fake_script() -- DinoHudV5.Scritp 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	--Không có trong menu
@@ -8555,8 +8555,8 @@ local function KVCWSH_fake_script() -- DinoHudV5.Scritp
 	
 	
 end
-coroutine.wrap(KVCWSH_fake_script)()
-local function GFUAW_fake_script() -- DinoHudV5.login 
+coroutine.wrap(NYXPA_fake_script)()
+local function RELZA_fake_script() -- DinoHudV5.login 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	
@@ -8645,8 +8645,8 @@ local function GFUAW_fake_script() -- DinoHudV5.login
 	
 	CheckData()
 end
-coroutine.wrap(GFUAW_fake_script)()
-local function JVMZQPR_fake_script() -- Scriptroblox.Script chinh 
+coroutine.wrap(RELZA_fake_script)()
+local function BKUSG_fake_script() -- Scriptroblox.Script chinh 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	--Không có trong menu
@@ -8731,7 +8731,6 @@ local function JVMZQPR_fake_script() -- Scriptroblox.Script chinh
 		wait(1)
 		Loadlading:TweenSize(UDim2.new(0.138, 0,1, 0), "Out", "Linear", 2, true)
 		wait(2)
-		LoadText.Text = "Load Anti Cheat"
 		Loadlading:TweenSize(UDim2.new(0.384, 0,1, 0), "Out", "Linear", 2, true)
 		wait(2)
 		Loadlading:TweenSize(UDim2.new(0.652, 0,1, 0), "Out", "Linear", 2, true)
@@ -8832,8 +8831,8 @@ local function JVMZQPR_fake_script() -- Scriptroblox.Script chinh
 		end
 	end
 end
-coroutine.wrap(JVMZQPR_fake_script)()
-local function QCSC_fake_script() -- Scriptroblox.Script mix 
+coroutine.wrap(BKUSG_fake_script)()
+local function RJKJ_fake_script() -- Scriptroblox.Script mix 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	local ScriptAdmin = script.Parent.Parent.bia.boxMix.Tool.Adminfake
@@ -8858,4 +8857,4 @@ local function QCSC_fake_script() -- Scriptroblox.Script mix
 	end)
 	
 end
-coroutine.wrap(QCSC_fake_script)()
+coroutine.wrap(RJKJ_fake_script)()
