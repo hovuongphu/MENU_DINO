@@ -50,7 +50,7 @@ UIAspectRatioConstraint.Parent = Frame
 
 -- Scripts:
 
-local function LKMGWXU_fake_script() -- ITRO.LocalScript 
+local function XERDEMI_fake_script() -- ITRO.LocalScript 
 	local script = Instance.new('LocalScript', ITRO)
 
 	local logo = script.Parent.Frame
@@ -59,13 +59,19 @@ local function LKMGWXU_fake_script() -- ITRO.LocalScript
 	local blur = Instance.new("BlurEffect", game.Workspace.CurrentCamera)
 	blur.Size = 50
 	local sound = Instance.new("Sound", game.Workspace)
-	sound.SoundId = "rbxassetid://6446524241"
+	sound.SoundId = "rbxassetid://2790744535"
 	sound:Play()
 	wait(3.5)
 	logo.Visible = false
 	blur.Size = 0
-	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Dino%20Hud.lua")))()
+	wait(1)
+	sound:Stop()
+	heloo()
 	
+	function heloo()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Dino%20Hud.lua")))()
+	
+	end
 	
 end
-coroutine.wrap(LKMGWXU_fake_script)()
+coroutine.wrap(XERDEMI_fake_script)()
