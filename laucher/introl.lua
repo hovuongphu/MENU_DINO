@@ -50,12 +50,16 @@ UIAspectRatioConstraint.Parent = Frame
 
 -- Scripts:
 
-local function RXRIAE_fake_script() -- ITRO.LocalScript 
+local function YABMNL_fake_script() -- ITRO.LocalScript 
 	local script = Instance.new('LocalScript', ITRO)
 
 	local logo = script.Parent.Frame
+	local LogoName = script.Parent.Frame.TextLabel
+	
+	
 	
 	logo.Visible = true
+	LogoName.Text = "Dino Hud"
 	local blur = Instance.new("BlurEffect", game.Workspace.CurrentCamera)
 	blur.Size = 50
 	local sound = Instance.new("Sound", game.Workspace)
@@ -67,4 +71,4 @@ local function RXRIAE_fake_script() -- ITRO.LocalScript
 	sound:Stop()
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Dino%20Hud.lua")))()
 end
-coroutine.wrap(RXRIAE_fake_script)()
+coroutine.wrap(YABMNL_fake_script)()
