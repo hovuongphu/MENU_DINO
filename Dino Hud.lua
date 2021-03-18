@@ -38,6 +38,7 @@ local SearchBar = Instance.new("TextBox")
 local GameID = Instance.new("TextBox")
 local Server = Instance.new("Folder")
 local Scriptroblox = Instance.new("Folder")
+local Checknoyes = Instance.new("TextLabel")
 
 --Properties:
 
@@ -335,9 +336,18 @@ Server.Parent = DinoHudV5
 Scriptroblox.Name = "Script roblox"
 Scriptroblox.Parent = DinoHudV5
 
+Checknoyes.Name = "Checknoyes"
+Checknoyes.Parent = DinoHudV5
+Checknoyes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Checknoyes.Size = UDim2.new(0, 200, 0, 50)
+Checknoyes.Visible = false
+Checknoyes.Font = Enum.Font.SourceSans
+Checknoyes.TextColor3 = Color3.fromRGB(0, 0, 0)
+Checknoyes.TextSize = 14.000
+
 -- Scripts:
 
-local function FHWXBGR_fake_script() -- Avatar.LocalScript 
+local function BUAOG_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -355,8 +365,8 @@ local function FHWXBGR_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(FHWXBGR_fake_script)()
-local function FEEAVAZ_fake_script() -- boxMix.LocalScript 
+coroutine.wrap(BUAOG_fake_script)()
+local function AAHLPX_fake_script() -- boxMix.LocalScript 
 	local script = Instance.new('LocalScript', boxMix)
 
 	local searchBar = script.Parent.SearchBar
@@ -382,14 +392,14 @@ local function FEEAVAZ_fake_script() -- boxMix.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(FEEAVAZ_fake_script)()
-local function OZTLS_fake_script() -- Adminfake.LocalScript 
+coroutine.wrap(AAHLPX_fake_script)()
+local function SYSXAIL_fake_script() -- Adminfake.LocalScript 
 	local script = Instance.new('LocalScript', Adminfake)
 
 	
 end
-coroutine.wrap(OZTLS_fake_script)()
-local function SLPRBTW_fake_script() -- DinoHudV5.kay 
+coroutine.wrap(SYSXAIL_fake_script)()
+local function ULPT_fake_script() -- DinoHudV5.kay 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local bia = script.Parent.bia
@@ -509,8 +519,8 @@ local function SLPRBTW_fake_script() -- DinoHudV5.kay
 	
 	keyrr()
 end
-coroutine.wrap(SLPRBTW_fake_script)()
-local function DUUFGT_fake_script() -- DinoHudV5.spin loading 
+coroutine.wrap(ULPT_fake_script)()
+local function DICFA_fake_script() -- DinoHudV5.spin loading 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local iconload = script.Parent.bia.loading.anh.iconload--icon load
@@ -520,8 +530,8 @@ local function DUUFGT_fake_script() -- DinoHudV5.spin loading
 		iconload.Rotation = iconload.Rotation +5
 	end
 end
-coroutine.wrap(DUUFGT_fake_script)()
-local function EXBXJXC_fake_script() -- Server.controle 
+coroutine.wrap(DICFA_fake_script)()
+local function YXNWWEK_fake_script() -- Server.controle 
 	local script = Instance.new('LocalScript', Server)
 
 	local controle = 1
@@ -533,15 +543,15 @@ local function EXBXJXC_fake_script() -- Server.controle
 	
 	
 end
-coroutine.wrap(EXBXJXC_fake_script)()
-local function NZZTRL_fake_script() -- Server.Ban 
+coroutine.wrap(YXNWWEK_fake_script)()
+local function DSXCREN_fake_script() -- Server.Ban 
 	local script = Instance.new('LocalScript', Server)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(NZZTRL_fake_script)()
-local function NYXPA_fake_script() -- DinoHudV5.Scritp 
+coroutine.wrap(DSXCREN_fake_script)()
+local function PBLNPP_fake_script() -- DinoHudV5.Scritp 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	--Không có trong menu
@@ -8555,8 +8565,8 @@ local function NYXPA_fake_script() -- DinoHudV5.Scritp
 	
 	
 end
-coroutine.wrap(NYXPA_fake_script)()
-local function RELZA_fake_script() -- DinoHudV5.login 
+coroutine.wrap(PBLNPP_fake_script)()
+local function HXIQDKD_fake_script() -- DinoHudV5.login 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	
@@ -8612,10 +8622,8 @@ local function RELZA_fake_script() -- DinoHudV5.login
 		if Rank.Text == "UT" or Rank.Text == "Dino" or Rank.Text == "Premium"  then
 			--để trống
 		else
-			opentapboxmixx.Visible = false
-			RunScriptgame.Visible = false
-			LoadText.Text = "ERROR#001"
-			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
+			bia.Visible = false
+			game.Players.LocalPlayer:Kick("              Error#001/Up Premium Pls")
 		end
 	end
 	--
@@ -8645,8 +8653,8 @@ local function RELZA_fake_script() -- DinoHudV5.login
 	
 	CheckData()
 end
-coroutine.wrap(RELZA_fake_script)()
-local function BKUSG_fake_script() -- Scriptroblox.Script chinh 
+coroutine.wrap(HXIQDKD_fake_script)()
+local function RVGSNW_fake_script() -- Scriptroblox.Script chinh 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	--Không có trong menu
@@ -8683,7 +8691,7 @@ local function BKUSG_fake_script() -- Scriptroblox.Script chinh
 	local Tool = script.Parent.Parent.bia.boxMix.Tool
 	
 	--Script game
-	
+	local chreack = script.Parent.Parent.Checknoyes
 	
 	function runall()
 		game:GetService("StarterGui"):SetCore("SendNotification", {
@@ -8693,7 +8701,7 @@ local function BKUSG_fake_script() -- Scriptroblox.Script chinh
 		})
 	end
 	--
-	
+	chreack.Text = "No"
 	--
 	
 	
@@ -8747,30 +8755,35 @@ local function BKUSG_fake_script() -- Scriptroblox.Script chinh
 		--Ro-Ghoul
 		if IDgame.Text == "380704901" then
 			LoadText.Text = "Ro-Ghoul."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lau")))()--Ro.Ghoul
 		end
 		--Counter Blox
 		if IDgame.Text == "115797356" then
 			LoadText.Text = "Counter Blox."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
 		end
 		--Arsenal
 		if IDgame.Text == "111958650" then
 			LoadText.Text = "Arsenal."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
 		end
 		--Phantom Forces
 		if IDgame.Text == "113491250" then
 			LoadText.Text = "Phantom Forces."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
 		end
 		--All Star Tower Defense
 		if IDgame.Text == "1720936166" then
 			LoadText.Text = "All Star Tower Defense."
+			chreack.Text = "Yes"
 			runall()
 			bia.Visible = false
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/all%20star%20tower%20defense.lua")))()
@@ -8778,34 +8791,46 @@ local function BKUSG_fake_script() -- Scriptroblox.Script chinh
 		--King Piece
 		if IDgame.Text == "1451439645" then
 			LoadText.Text = "King Piece."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/King%20Piece.lua')))()
 		end
 		--Project XL
 		if IDgame.Text == "2265532481" then
 			LoadText.Text = "Project XL."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/projectXL.lua')))()
 		end
 		--Bee Swarm Simulator
 		if IDgame.Text == "601130232" then
 			LoadText.Text = "Bee Swarm Simulator."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Bee%20Swarm%20Simulator.lua"))()
 		end
 		--Blox Fruits
 		if IDgame.Text == "994732206" then
 			LoadText.Text = "Blox Fruits."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blox%20Fruits.lua"))()
 		end
 		--Grand Piece Online
 		if IDgame.Text == "648454481" and Rank.Text == "Premium" or IDgame.Text == "648454481" and Rank.Text == "Dino" then
 			LoadText.Text = "Grand Piece Online."
+			chreack.Text = "Yes"
 			runall()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/GPO.lua"))()
 		end
-		
+		--Dungeon Quest
+		if IDgame.Text == "848145103" then
+			LoadText.Text = "Dungeon Quest."
+			chreack.Text = "Yes"
+			runall()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Dungeon%20Quest.lua"))()
+		end
+	
 		
 		
 		
@@ -8822,17 +8847,16 @@ local function BKUSG_fake_script() -- Scriptroblox.Script chinh
 	
 	--mix.no.game
 	function ERROgame()
-		if IDgame.Text == "648454481" or IDgame.Text == "994732206" or IDgame.Text == "111958650" or IDgame.Text == "115797356" or IDgame.Text == "380704901" or IDgame.Text == "113491250" or IDgame.Text == "1720936166" or IDgame.Text == "1451439645" or IDgame.Text == "2265532481" or IDgame.Text == "601130232"  then
+		if chreack.Text == "Yes" then
 	
 		else
-			hinhanhgame.Image = "http://www.roblox.com/asset/?id=1062145221"
-			iconcheck.Visible = false
-			LoadText.Text = "erro00D"
+			bia.Visible = false
+			game.Players.LocalPlayer:Kick("Error#00D")
 		end
 	end
 end
-coroutine.wrap(BKUSG_fake_script)()
-local function RJKJ_fake_script() -- Scriptroblox.Script mix 
+coroutine.wrap(RVGSNW_fake_script)()
+local function YJFIOUI_fake_script() -- Scriptroblox.Script mix 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	local ScriptAdmin = script.Parent.Parent.bia.boxMix.Tool.Adminfake
@@ -8857,4 +8881,4 @@ local function RJKJ_fake_script() -- Scriptroblox.Script mix
 	end)
 	
 end
-coroutine.wrap(RJKJ_fake_script)()
+coroutine.wrap(YJFIOUI_fake_script)()
