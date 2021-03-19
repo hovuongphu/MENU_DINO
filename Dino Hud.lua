@@ -347,7 +347,7 @@ Checknoyes.TextSize = 14.000
 
 -- Scripts:
 
-local function BUAOG_fake_script() -- Avatar.LocalScript 
+local function STGU_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -365,8 +365,8 @@ local function BUAOG_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(BUAOG_fake_script)()
-local function AAHLPX_fake_script() -- boxMix.LocalScript 
+coroutine.wrap(STGU_fake_script)()
+local function KRSPGR_fake_script() -- boxMix.LocalScript 
 	local script = Instance.new('LocalScript', boxMix)
 
 	local searchBar = script.Parent.SearchBar
@@ -392,14 +392,14 @@ local function AAHLPX_fake_script() -- boxMix.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(AAHLPX_fake_script)()
-local function SYSXAIL_fake_script() -- Adminfake.LocalScript 
+coroutine.wrap(KRSPGR_fake_script)()
+local function DDYSUSC_fake_script() -- Adminfake.LocalScript 
 	local script = Instance.new('LocalScript', Adminfake)
 
 	
 end
-coroutine.wrap(SYSXAIL_fake_script)()
-local function ULPT_fake_script() -- DinoHudV5.kay 
+coroutine.wrap(DDYSUSC_fake_script)()
+local function CNSW_fake_script() -- DinoHudV5.kay 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local bia = script.Parent.bia
@@ -519,8 +519,8 @@ local function ULPT_fake_script() -- DinoHudV5.kay
 	
 	keyrr()
 end
-coroutine.wrap(ULPT_fake_script)()
-local function DICFA_fake_script() -- DinoHudV5.spin loading 
+coroutine.wrap(CNSW_fake_script)()
+local function GMNUOYV_fake_script() -- DinoHudV5.spin loading 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local iconload = script.Parent.bia.loading.anh.iconload--icon load
@@ -530,8 +530,8 @@ local function DICFA_fake_script() -- DinoHudV5.spin loading
 		iconload.Rotation = iconload.Rotation +5
 	end
 end
-coroutine.wrap(DICFA_fake_script)()
-local function YXNWWEK_fake_script() -- Server.controle 
+coroutine.wrap(GMNUOYV_fake_script)()
+local function ZFAL_fake_script() -- Server.controle 
 	local script = Instance.new('LocalScript', Server)
 
 	local controle = 1
@@ -543,15 +543,15 @@ local function YXNWWEK_fake_script() -- Server.controle
 	
 	
 end
-coroutine.wrap(YXNWWEK_fake_script)()
-local function DSXCREN_fake_script() -- Server.Ban 
+coroutine.wrap(ZFAL_fake_script)()
+local function YSXFF_fake_script() -- Server.Ban 
 	local script = Instance.new('LocalScript', Server)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(DSXCREN_fake_script)()
-local function PBLNPP_fake_script() -- DinoHudV5.Scritp 
+coroutine.wrap(YSXFF_fake_script)()
+local function JUKCLRZ_fake_script() -- DinoHudV5.Scritp 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	--Không có trong menu
@@ -8565,8 +8565,8 @@ local function PBLNPP_fake_script() -- DinoHudV5.Scritp
 	
 	
 end
-coroutine.wrap(PBLNPP_fake_script)()
-local function HXIQDKD_fake_script() -- DinoHudV5.login 
+coroutine.wrap(JUKCLRZ_fake_script)()
+local function CFUAE_fake_script() -- DinoHudV5.login 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	
@@ -8653,8 +8653,8 @@ local function HXIQDKD_fake_script() -- DinoHudV5.login
 	
 	CheckData()
 end
-coroutine.wrap(HXIQDKD_fake_script)()
-local function RVGSNW_fake_script() -- Scriptroblox.Script chinh 
+coroutine.wrap(CFUAE_fake_script)()
+local function SXSSW_fake_script() -- Scriptroblox.Script chinh 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	--Không có trong menu
@@ -8738,16 +8738,12 @@ local function RVGSNW_fake_script() -- Scriptroblox.Script chinh
 		LoadText.Text = "Load Game"
 		wait(1)
 		Loadlading:TweenSize(UDim2.new(0.138, 0,1, 0), "Out", "Linear", 2, true)
-		wait(2)
-		Loadlading:TweenSize(UDim2.new(0.384, 0,1, 0), "Out", "Linear", 2, true)
-		wait(2)
-		Loadlading:TweenSize(UDim2.new(0.652, 0,1, 0), "Out", "Linear", 2, true)
 		wait(1)
 		LoadText.Text = "Server Connection"
 		Loadlading:TweenSize(UDim2.new(0.797, 0,1, 0), "Out", "Linear", 2, true)
 		wait(2)
 		Loadlading:TweenSize(UDim2.new(1, 0,1, 0), "Out", "Linear", 2, true)
-		wait(3)
+		wait()
 		iconload.Visible = false
 		iconcheck.Visible = true
 		LoadText.Text = "Check Game"
@@ -8830,6 +8826,13 @@ local function RVGSNW_fake_script() -- Scriptroblox.Script chinh
 			runall()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Dungeon%20Quest.lua"))()
 		end
+		--Glue Piece
+		if IDgame.Text == "185639929" then
+			LoadText.Text = "Glue Piece."
+			chreack.Text = "Yes"
+			runall()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Glue%20Piece.lua"))()
+		end
 	
 		
 		
@@ -8855,8 +8858,8 @@ local function RVGSNW_fake_script() -- Scriptroblox.Script chinh
 		end
 	end
 end
-coroutine.wrap(RVGSNW_fake_script)()
-local function YJFIOUI_fake_script() -- Scriptroblox.Script mix 
+coroutine.wrap(SXSSW_fake_script)()
+local function ACNU_fake_script() -- Scriptroblox.Script mix 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	local ScriptAdmin = script.Parent.Parent.bia.boxMix.Tool.Adminfake
@@ -8881,4 +8884,4 @@ local function YJFIOUI_fake_script() -- Scriptroblox.Script mix
 	end)
 	
 end
-coroutine.wrap(YJFIOUI_fake_script)()
+coroutine.wrap(ACNU_fake_script)()
