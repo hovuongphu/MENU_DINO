@@ -157,8 +157,9 @@ rconsoleprint("Load Dino-Hud." .. " \n")
 wait(0.10)
 loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/laucher/introl.lua")))()
 ]]
---[[
 
+--[[
+rconsolename('Anti-Cheat.Dino Hud')
 rconsoleclear()
 rconsoleprint("@@GREEN@@")
 rconsoleprint("Create:DINO#5485." .. " \n")
