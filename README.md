@@ -1,6 +1,2 @@
-# MENU_DINO
-Menu.Dino_Script
-
+# Dino HUd
 # BY:DINO!#5485
-hello
-HOWWW
