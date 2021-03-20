@@ -1,4 +1,5 @@
 rconsoleclear()
+rconsolename('Anti-Cheat.Dino Hud')
 rconsoleprint("@@GREEN@@")
 rconsoleprint("Create:DINO#5485." .. " \n")
 game.Players.LocalPlayer:Kick("  Dino hud server stopped working due to maintenance and Update")
