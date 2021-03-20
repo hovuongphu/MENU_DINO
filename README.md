@@ -1,2 +1,2 @@
 # Dino HUd
-# BY:DINO!#5485
+# BY:DINO#5485
