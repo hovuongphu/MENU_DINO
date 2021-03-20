@@ -1,6 +1,8 @@
 rconsoleclear()
 rconsoleprint("@@GREEN@@")
 rconsoleprint("Create:DINO#5485." .. " \n")
+game.Players.LocalPlayer:Kick("  Dino hud server stopped working due to maintenance and Update")
+--[[
 rconsoleprint("Anti-CheatV3." .. " \n")
 wait(0.55)
 rconsoleprint(" " .. " \n")
@@ -154,3 +156,4 @@ wait(0.25)
 rconsoleprint("Load Dino-Hud." .. " \n")
 wait(0.10)
 loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/laucher/introl.lua")))()
+]]

@@ -8,4 +8,4 @@ function update()
 	game.Players.LocalPlayer:Kick("Please wait for the new update")
 end
 --update()
----game.Players.LocalPlayer:Kick("Error#005")
+game.Players.LocalPlayer:Kick("  Dino hud server stopped working due to maintenance and Update")
