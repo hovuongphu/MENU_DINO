@@ -1096,7 +1096,7 @@ local function KWIWLX_fake_script() -- Userlogin.login
 	end
 	--
 	function autofremium()
-		if User.Text == "minhkhang2007" or User.Text == "tatminh307" or User.Text == "chuotti2008" or User.Text == "DeathDemonvt" or User.Text == "axxhf2000" or User.Text == "ruakhung1181" then
+		if User.Text == "kocotenlun" or User.Text == "minhkhang2007" or User.Text == "tatminh307" or User.Text == "chuotti2008" or User.Text == "DeathDemonvt" or User.Text == "axxhf2000" or User.Text == "ruakhung1181" then
 			Rank.Text = "Premium"
 			RunScriptgame.Visible = true
 			opentapboxmixx.Visible = true
