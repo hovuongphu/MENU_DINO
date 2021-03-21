@@ -351,7 +351,7 @@ Userlogin.Parent = DinoHudV5
 
 -- Scripts:
 
-local function IBEDBZA_fake_script() -- Avatar.LocalScript 
+local function QGLYMU_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	local Players = game:GetService("Players")
@@ -369,8 +369,8 @@ local function IBEDBZA_fake_script() -- Avatar.LocalScript
 	imageLabel.Image = content
 	
 end
-coroutine.wrap(IBEDBZA_fake_script)()
-local function XZGO_fake_script() -- boxMix.LocalScript 
+coroutine.wrap(QGLYMU_fake_script)()
+local function MGYMKV_fake_script() -- boxMix.LocalScript 
 	local script = Instance.new('LocalScript', boxMix)
 
 	local searchBar = script.Parent.SearchBar
@@ -396,14 +396,14 @@ local function XZGO_fake_script() -- boxMix.LocalScript
 	
 	searchBar.Changed:Connect(UpdateResults)
 end
-coroutine.wrap(XZGO_fake_script)()
-local function GQOTX_fake_script() -- Adminfake.LocalScript 
+coroutine.wrap(MGYMKV_fake_script)()
+local function DQVEIA_fake_script() -- Adminfake.LocalScript 
 	local script = Instance.new('LocalScript', Adminfake)
 
 	
 end
-coroutine.wrap(GQOTX_fake_script)()
-local function TPGSG_fake_script() -- DinoHudV5.kay 
+coroutine.wrap(DQVEIA_fake_script)()
+local function AXLG_fake_script() -- DinoHudV5.kay 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local bia = script.Parent.bia
@@ -523,8 +523,8 @@ local function TPGSG_fake_script() -- DinoHudV5.kay
 	
 	keyrr()
 end
-coroutine.wrap(TPGSG_fake_script)()
-local function URWVRNP_fake_script() -- DinoHudV5.spin loading 
+coroutine.wrap(AXLG_fake_script)()
+local function VLVSLKU_fake_script() -- DinoHudV5.spin loading 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	local iconload = script.Parent.bia.loading.anh.iconload--icon load
@@ -534,8 +534,8 @@ local function URWVRNP_fake_script() -- DinoHudV5.spin loading
 		iconload.Rotation = iconload.Rotation +5
 	end
 end
-coroutine.wrap(URWVRNP_fake_script)()
-local function OKYDRDC_fake_script() -- Server.controle 
+coroutine.wrap(VLVSLKU_fake_script)()
+local function BQBYDFE_fake_script() -- Server.controle 
 	local script = Instance.new('LocalScript', Server)
 
 	local controle = 1
@@ -547,15 +547,15 @@ local function OKYDRDC_fake_script() -- Server.controle
 	
 	
 end
-coroutine.wrap(OKYDRDC_fake_script)()
-local function RWIPKEY_fake_script() -- Server.Ban 
+coroutine.wrap(BQBYDFE_fake_script)()
+local function HBSDO_fake_script() -- Server.Ban 
 	local script = Instance.new('LocalScript', Server)
 
 	--Ban
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()
 end
-coroutine.wrap(RWIPKEY_fake_script)()
-local function XWYL_fake_script() -- DinoHudV5.Open menu 
+coroutine.wrap(HBSDO_fake_script)()
+local function XJEIHG_fake_script() -- DinoHudV5.Open menu 
 	local script = Instance.new('LocalScript', DinoHudV5)
 
 	--Không có trong menu
@@ -804,8 +804,8 @@ local function XWYL_fake_script() -- DinoHudV5.Open menu
 	
 	
 end
-coroutine.wrap(XWYL_fake_script)()
-local function FNXI_fake_script() -- Scriptroblox.Script chinh 
+coroutine.wrap(XJEIHG_fake_script)()
+local function TUVULJX_fake_script() -- Scriptroblox.Script chinh 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	--Không có trong menu
@@ -1009,8 +1009,8 @@ local function FNXI_fake_script() -- Scriptroblox.Script chinh
 		end
 	end
 end
-coroutine.wrap(FNXI_fake_script)()
-local function DRHVQL_fake_script() -- Scriptroblox.Script mix 
+coroutine.wrap(TUVULJX_fake_script)()
+local function SVYVQ_fake_script() -- Scriptroblox.Script mix 
 	local script = Instance.new('LocalScript', Scriptroblox)
 
 	local ScriptAdmin = script.Parent.Parent.bia.boxMix.Tool.Adminfake
@@ -1035,8 +1035,8 @@ local function DRHVQL_fake_script() -- Scriptroblox.Script mix
 	end)
 	
 end
-coroutine.wrap(DRHVQL_fake_script)()
-local function YJWMPL_fake_script() -- Userlogin.login 
+coroutine.wrap(SVYVQ_fake_script)()
+local function KWIWLX_fake_script() -- Userlogin.login 
 	local script = Instance.new('LocalScript', Userlogin)
 
 	--Không có trong menu
@@ -1096,7 +1096,7 @@ local function YJWMPL_fake_script() -- Userlogin.login
 	end
 	--
 	function autofremium()
-		if User.Text == "tatminh307" or User.Text == "chuotti2008" or User.Text == "DeathDemonvt" or User.Text == "axxhf2000" or User.Text == "ruakhung1181" then
+		if User.Text == "minhkhang2007" or User.Text == "tatminh307" or User.Text == "chuotti2008" or User.Text == "DeathDemonvt" or User.Text == "axxhf2000" or User.Text == "ruakhung1181" then
 			Rank.Text = "Premium"
 			RunScriptgame.Visible = true
 			opentapboxmixx.Visible = true
@@ -1112,4 +1112,4 @@ local function YJWMPL_fake_script() -- Userlogin.login
 	
 	CheckData()
 end
-coroutine.wrap(YJWMPL_fake_script)()
+coroutine.wrap(KWIWLX_fake_script)()
