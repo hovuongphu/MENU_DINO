@@ -1,5 +1,5 @@
 
-rconsolename('Anti-Cheat.Dino Hud')
+rconsolename('Dino Hud')
 rconsoleclear()
 rconsoleprint("@@GREEN@@")
 rconsoleprint("Create:DINO#5485." .. " \n")
