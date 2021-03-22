@@ -1,3 +1,11 @@
+--[[
+
+
+
+
+
+
+
 -- Gui to Lua
 -- Version: 3.2
 
@@ -72,3 +80,8 @@ local function YABMNL_fake_script() -- ITRO.LocalScript
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Dino%20Hud.lua")))()
 end
 coroutine.wrap(YABMNL_fake_script)()
+
+]]
+
+
+loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Dino%20Hud.lua")))()
