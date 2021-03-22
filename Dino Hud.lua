@@ -1100,9 +1100,6 @@ local function KWIWLX_fake_script() -- Userlogin.login
 			Rank.Text = "Premium"
 			RunScriptgame.Visible = true
 			opentapboxmixx.Visible = true
-			--
-			game.Players.LocalPlayer:Kick("Block IP VietName (a time)")
-			bia.Visible = false
 		end
 	end
 	
