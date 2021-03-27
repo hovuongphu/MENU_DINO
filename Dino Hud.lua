@@ -989,7 +989,7 @@ local function TUVULJX_fake_script() -- Scriptroblox.Script chinh
 			LoadText.Text = "Blade Quest."
 			Gameerro.Text = "1"
 			runall()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/One%20Piece%20Millennium%203.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
 		end
 	
 		
