@@ -985,11 +985,11 @@ local function TUVULJX_fake_script() -- Scriptroblox.Script chinh
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Glue%20Piece.lua"))()
 		end
 		--One Piece: Millennium 3
-		if IDgame.Text == "185639929" then
+		if IDgame.Text == "2076312981" then
 			LoadText.Text = "One Piece: Millennium 3."
 			Gameerro.Text = "1"
 			runall()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Glue%20Piece.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/One%20Piece%20Millennium%203.lua"))()
 		end
 	
 		
