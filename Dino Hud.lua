@@ -970,13 +970,6 @@ local function TUVULJX_fake_script() -- Scriptroblox.Script chinh
 			runall()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/GPO.lua"))()
 		end
-		--Dungeon Quest
-		if IDgame.Text == "848145103" then
-			LoadText.Text = "Dungeon Quest."
-			Gameerro.Text = "1"
-			runall()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Dungeon%20Quest.lua"))()
-		end
 		--Glue Piece
 		if IDgame.Text == "185639929" then
 			LoadText.Text = "Glue Piece."
@@ -987,6 +980,13 @@ local function TUVULJX_fake_script() -- Scriptroblox.Script chinh
 		--One Piece: Millennium 3
 		if IDgame.Text == "2076312981" then
 			LoadText.Text = "One Piece: Millennium 3."
+			Gameerro.Text = "1"
+			runall()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/One%20Piece%20Millennium%203.lua"))()
+		end
+		--Blade Quest
+		if IDgame.Text == "2429242760" then
+			LoadText.Text = "Blade Quest."
 			Gameerro.Text = "1"
 			runall()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/One%20Piece%20Millennium%203.lua"))()
