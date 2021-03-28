@@ -80,8 +80,11 @@ if IDgame.Text == "2429242760" then
     rconsoleinfo("Blade Quest")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
 end
-
-
+--Mall Tycoon
+if IDgame.Text == "2033913602" then
+    rconsoleinfo("Mall Tycoon")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Mall%20Tycoon.lua"))()
+end
 
 
 
