@@ -184,23 +184,14 @@ end
 
 
 
-function Cek()
-    if Gameerro.Text == "1" then
-
-    else
-        rconsoleerr("The game is not in the system!")
-    end
-end
-
-
-
-
 
 
 
 
 
 wait(2)
-
-
-Cek()
+if Gameerro.Text == "1" then
+    --?AA
+else
+    rconsoleerr("The game is not in the system!")
+end
