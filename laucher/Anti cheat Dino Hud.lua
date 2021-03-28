@@ -1,4 +1,4 @@
-
+--[[
 rconsolename('Dino Hud')
 rconsoleclear()
 rconsoleprint("@@GREEN@@")
@@ -18,3 +18,4 @@ rconsoleprint("Loading.." .. " \n")
 wait(2.99)
 rconsoleprint("Complete." .. " \n")
 loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/laucher/introl.lua")))()
+]]
