@@ -40,7 +40,7 @@ function cheackpls()
 		wait(1.50)
 		rconsolewarn("Scanning Game on the system!")
 		wait(2.50)
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-HudV1/main/System/Load%20Game.lua")))()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Load%20Game.lua")))()
 	else
 		rconsoleerr("You need to buy Premium.")
 	end
