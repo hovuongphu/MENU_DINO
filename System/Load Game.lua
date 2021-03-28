@@ -181,9 +181,9 @@ end
 
 
 
-
+wait(2)
 if Gameerro.Text == "1" then
-    Gameerro.Text = "2"
+    
 else
     rconsoleerr("The game is not in the system!")
 end
