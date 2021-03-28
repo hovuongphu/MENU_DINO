@@ -1,11 +1,3 @@
-local IDgame = Instance.new("TextLabel", game.Workspace)
-local Gameerro = Instance.new("TextLabel", game.Workspace)
---
-Gameerro.Visible = false
-IDgame.Visible = false
---
-IDgame.Text = game.GameId
-
 Gameerro.Text = "00"
 
 

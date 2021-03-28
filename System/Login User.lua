@@ -1,7 +1,4 @@
-local pls = game.Players.LocalPlayer
-local heypls = Instance.new("TextLabel", game.Workspace)
 heypls.Text = "0"
-heypls.Visible = false
 
 function Premium()
 	if pls.Name == "tatminh307" or pls.Name == "DeathDemonvt" or pls.Name == "axxhf2000" or pls.Name == "ruakhung1181" then
