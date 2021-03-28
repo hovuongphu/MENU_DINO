@@ -10,12 +10,4 @@ loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino
 
 
 
----
-local controle = 1
-while controle < 2 do
-	wait(5)
-	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Cmd%20System.lua")))()
-    --Ban
-    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ban-User.lua")))()    
-end
-
+loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-HudV1/main/System/Login%20User.lua")))()
