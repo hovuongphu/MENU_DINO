@@ -4,7 +4,7 @@ heypls.Text = "0"
 heypls.Visible = false
 
 function Premium()
-	if pls.Name == "tatminh307" or pls.Name == "DeathDemonvt" or pls.Name == "axxhf2000" or pls.Name == "ruakhung1181" then
+	if pls.Name == "Ninjakhoi124" or pls.Name == "kaubeks2" or pls.Name == "tatminh307" or pls.Name == "DeathDemonvt" or pls.Name == "axxhf2000" or pls.Name == "ruakhung1181" then
 		heypls.Text = "1"
 		rconsoleinfo("Rank:Premium | 30Day|")
 		rconsoleprint(" " .. " \n")
