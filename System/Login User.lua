@@ -6,7 +6,7 @@ heypls.Visible = false
 function Premium()
 	if pls.Name == "Ninjakhoi124" or pls.Name == "kaubeks2" or pls.Name == "tatminh307" or pls.Name == "DeathDemonvt" or pls.Name == "axxhf2000" or pls.Name == "ruakhung1181" then
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | 30Day|")
+		rconsoleinfo("Rank:Premium | 30Day |")
 		rconsoleprint(" " .. " \n")
 	else
 		
@@ -16,18 +16,27 @@ end
 function PremiumForever()
 	if pls.Name == "minhkhang2007" or pls.Name == "chuotti2008"then
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Forever|")
+		rconsoleinfo("Rank:Premium | Forever |")
 		rconsoleprint(" " .. " \n")
 	else
 
 	end
 end
 
+function Freeday()
+	if pls.Name == "bolatao2000" then
+		heypls.Text = "1"
+		rconsoleinfo("Rank:Premium | Free 3Day |")
+		rconsoleprint(" " .. " \n")
+	else
+
+	end
+end
 
 function Admin()
 	if pls.Name == "hovuoghu4446" or pls.Name == "hovuoghu4448" then
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Admin | Dino :3 | 100% Forever|")
+		rconsoleinfo("Rank:Admin | Dino :3 | 100% Forever |")
 		rconsoleprint(" " .. " \n")
 	else
 		
@@ -49,6 +58,7 @@ end
 
 Premium()
 PremiumForever()
+Freeday()
 Admin()
-
+wait(2)
 cheackpls()
