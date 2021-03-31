@@ -31,7 +31,7 @@ function Premium()
 			heypls.Text = "2"
 		else
 			heypls.Text = "1"
-			rconsoleinfo("Rank:Premium | 30Day |")
+			rconsoleinfo("Rank:Premium | 30Day |Expired:4/17")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -42,7 +42,7 @@ function Premium()
 			heypls.Text = "2"
 		else
 			heypls.Text = "1"
-			rconsoleinfo("Rank:Premium | 30Day |")
+			rconsoleinfo("Rank:Premium | 30Day |Expired:4/14")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -53,7 +53,7 @@ function Premium()
 			heypls.Text = "2"
 		else
 			heypls.Text = "1"
-			rconsoleinfo("Rank:Premium | 30Day |")
+			rconsoleinfo("Rank:Premium | 30Day |Expired:4/14")
 			rconsoleprint(" " .. " \n")
 		end
 	end
