@@ -13,7 +13,7 @@ local Time = {
 
 
 	---Freeday
-	["bolatao2000"] = {Year = 2021, Month = 4, Day = 1},
+	["hovuoghu4446"] = {Year = 2021, Month = 3, Day = 1},
 	
 
 }
@@ -58,6 +58,16 @@ function Premium()
 		end
 	end
 	--//////////////
+	if pls.Name == "hovuoghu4446" then
+		local expire = Time.hovuoghu4446
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			heypls.Text == "2"
+		else
+			heypls.Text = "1"
+			rconsoleinfo("Rank:Premium | 30Day |")
+			rconsoleprint(" " .. " \n")
+		end
+	end
 end
 
 function PremiumForever()
