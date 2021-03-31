@@ -87,7 +87,7 @@ end
 function Admin()
 	if pls.Name == "hovuoghu4446" or pls.Name == "hovuoghu4448" then
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Admin | Dino :3 | 100% Forever |")
+		rconsoleinfo("Rank:Dino")
 		rconsoleprint(" " .. " \n")
 	else
 
