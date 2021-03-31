@@ -31,7 +31,7 @@ function Premium()
 			heypls.Text = "2"
 		else
 			heypls.Text = "1"
-			rconsoleinfo("Rank:Premium | 30Day |Expired:4/17")
+			rconsoleinfo("Rank:Premium | Expired:4/17")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -42,7 +42,7 @@ function Premium()
 			heypls.Text = "2"
 		else
 			heypls.Text = "1"
-			rconsoleinfo("Rank:Premium | 30Day |Expired:4/14")
+			rconsoleinfo("Rank:Premium | Expired:4/14")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -53,7 +53,7 @@ function Premium()
 			heypls.Text = "2"
 		else
 			heypls.Text = "1"
-			rconsoleinfo("Rank:Premium | 30Day |Expired:4/14")
+			rconsoleinfo("Rank:Premium | Expired:4/14")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -62,7 +62,7 @@ end
 function PremiumForever()
 	if pls.Name == "minhkhang2007" or pls.Name == "chuotti2008"then
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Forever |")
+		rconsoleinfo("Rank:Premium | Expired:Infinity")
 		rconsoleprint(" " .. " \n")
 	else
 
@@ -77,7 +77,7 @@ function Freeday()
 			heypls.Text = "2"
 		else
 			heypls.Text = "1"
-			rconsoleinfo("Rank:Premium | Free 3Day |")
+			rconsoleinfo("Rank:Premium | Expired:4/1")
 			rconsoleprint(" " .. " \n")
 		end
 	end
