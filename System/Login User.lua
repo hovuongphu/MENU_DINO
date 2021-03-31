@@ -13,7 +13,7 @@ local Time = {
 
 
 	---Freeday
-	["hovuoghu4446"] = {Year = 2031, Month = 3, Day = 1},
+	["hovuoghu4446"] = {Year = 2001, Month = 3, Day = 1},
 
 
 }
