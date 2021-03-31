@@ -109,7 +109,7 @@ function cheackpls()
 	end
 	--//////////////
 	if heypls.Text == "2" then
-		rconsoleerr("Your term has expired, you need to purchase Premium to increase time.")		
+		rconsoleerr("Your term has expired, you need to purchase Premium to increase time.")
 	end
 
 end
