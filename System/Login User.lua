@@ -128,6 +128,6 @@ end
 Premium()
 PremiumForever()
 Freeday()
-Admin()
+--Admin()
 wait(2)
 cheackpls()
