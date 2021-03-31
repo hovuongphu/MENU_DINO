@@ -71,9 +71,9 @@ end
 --Grand Piece Online
 if IDgame.Text == "648454481" then
     Gameerro.Text = "1"
-    --rconsoleinfo("Grand Piece Online")
-    --loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/GPO.lua"))()
-    rconsoleerr("(Grand Piece Online):Discarded for insecurity.")
+    rconsoleinfo("Grand Piece Online")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/GPO.lua"))()
+    --rconsoleerr("(Grand Piece Online):Discarded for insecurity.")
 end
 --Glue Piece
 if IDgame.Text == "185639929" then
