@@ -13,7 +13,7 @@ local Time = {
 
 
 	---Premium/AD
-	["chuotti2008"] = {Year = 2021, Month = 4, Day = 11},
+	["chuotti2008"] = {Year = 2021, Month = 4, Day = 5},
 
 
 	---Freeday
@@ -70,7 +70,7 @@ if pls.Name == "chuotti2008" then
 		heypls.Text = "2"
 	else
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Expired:4/11")
+		rconsoleinfo("Rank:Premium | Expired:4/5")
 		rconsoleprint(" " .. " \n")
 	end
 end
@@ -81,7 +81,7 @@ if pls.Name == "minhkhang2007" then
 		heypls.Text = "2"
 	else
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Expired:4/11")
+		rconsoleinfo("Rank:Premium | Expired:4/5")
 		rconsoleprint(" " .. " \n")
 	end
 end
@@ -125,11 +125,11 @@ end
 
 
 
-
+--Premium/Forever
 function PremiumForever()
 	if pls.Name == "minhkhang2007" or pls.Name == "chuotti2008"then
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Expired:Infinity")
+		rconsoleinfo("Rank:Premium | Expired:Forever")
 		rconsoleprint(" " .. " \n")
 	else
 
@@ -243,7 +243,7 @@ Freeday()
 function Admin()
 	if pls.Name == "hovuoghu4446" or pls.Name == "hovuoghu4448" then
 		heypls.Text = "1"
-		rconsoleinfo("Rank:Dino")
+		rconsoleinfo("Rank:Owner | Expired:Forever")
 		rconsoleprint(" " .. " \n")
 	else
 
