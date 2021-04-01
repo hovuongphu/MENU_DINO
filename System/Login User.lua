@@ -12,10 +12,6 @@ local Time = {
 
 
 
-	---Premium/AD
-	["chuotti2008"] = {Year = 2021, Month = 4, Day = 11},
-
-
 	---Freeday
 	["bolatao2000"] = {Year = 2021, Month = 4, Day = 1},
 
@@ -58,17 +54,6 @@ function Premium()
 		else
 			heypls.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/14")
-			rconsoleprint(" " .. " \n")
-		end
-	end
-	--//////////////
-	if pls.Name == "chuotti2008" then
-		local expire = Time.chuotti2008
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			heypls.Text = "2"
-		else
-			heypls.Text = "1"
-			rconsoleinfo("Rank:Premium | Expired:4/11")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -130,7 +115,7 @@ function cheackpls()
 end
 
 Premium()
---PremiumForever()
+PremiumForever()
 Freeday()
 Admin()
 wait(0.10)
