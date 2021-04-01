@@ -115,7 +115,7 @@ function cheackpls()
 end
 
 Premium()
-PremiumForever()
+--PremiumForever()
 Freeday()
 Admin()
 wait(0.10)
