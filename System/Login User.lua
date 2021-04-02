@@ -11,12 +11,6 @@ local Time = {
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 14},
 
 
-
-	---Premium/AD
-	["chuotti2008"] = {Year = 2021, Month = 4, Day = 5},
-	["minhkhang2007"] = {Year = 2021, Month = 4, Day = 5},
-
-
 	---Freeday
 	["bolatao2000"] = {Year = 2021, Month = 4, Day = 1},
 
@@ -66,32 +60,6 @@ function Premium()
 			rconsoleprint(" " .. " \n")
 		end
 	end
-
-	--Premium/AD
-	--//////////////
-	if User.Name == "chuotti2008" then
-		local expire = Time.chuotti2008
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("Rank:Premium | Expired:4/5")
-			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
-			rconsoleprint(" " .. " \n")
-		end
-	end
-	--//////////////
-	if User.Name == "minhkhang2007" then
-		local expire = Time.minhkhang2007
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("Rank:Premium | Expired:4/5")
-			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
-			rconsoleprint(" " .. " \n")
-		end
-	end
 end
 
 Premium()
@@ -134,6 +102,7 @@ function PremiumForever()
 	if User.Name == "minhkhang2007" or User.Name == "chuotti2008"then
 		Check.Text = "1"
 		rconsoleinfo("Rank:Premium | Expired:Forever")
+		rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
 		rconsoleprint(" " .. " \n")
 	else
 
@@ -152,7 +121,7 @@ end
 
 
 
---PremiumForever()
+PremiumForever()
 
 
 
