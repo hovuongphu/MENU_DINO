@@ -92,8 +92,6 @@ function banned()
 end
 
 
-banned()
-
 
 
 
