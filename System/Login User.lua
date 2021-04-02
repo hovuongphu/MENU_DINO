@@ -1,8 +1,8 @@
-local pls = game.Players.LocalPlayer
+local User = game.Players.LocalPlayer
 local date = os.date("*t", os.time())
-local heypls = Instance.new("TextLabel", game.Workspace)
-heypls.Text = "0"
-heypls.Visible = false
+local Check = Instance.new("TextLabel", game.Workspace)
+Check.Text = "0"
+Check.Visible = false
 
 local Time = {
 	---Premium
@@ -30,36 +30,36 @@ local Time = {
 --Premium
 function Premium()
 	--//////////////
-	if pls.Name == "Ninjakhoi124" or pls.Name == "kaubeks2" then
+	if User.Name == "Ninjakhoi124" or User.Name == "kaubeks2" then
 		local expire = Time.kaubeks2
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			heypls.Text = "2"
+			Check.Text = "2"
 		else
-			heypls.Text = "1"
+			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/17")
 			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
 			rconsoleprint(" " .. " \n")
 		end
 	end
 	--//////////////
-	if pls.Name == "axxhf2000" or pls.Name == "DeathDemonvt" then
+	if User.Name == "axxhf2000" or User.Name == "DeathDemonvt" then
 		local expire = Time.DeathDemonvt
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			heypls.Text = "2"
+			Check.Text = "2"
 		else
-			heypls.Text = "1"
+			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/14")
 			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
 			rconsoleprint(" " .. " \n")
 		end
 	end
 	--//////////////
-	if pls.Name == "ruakhung1181" then
+	if User.Name == "ruakhung1181" then
 		local expire = Time.ruakhung1181
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			heypls.Text = "2"
+			Check.Text = "2"
 		else
-			heypls.Text = "1"
+			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/14")
 			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
 			rconsoleprint(" " .. " \n")
@@ -68,24 +68,24 @@ function Premium()
 
 	--Premium/AD
 	--//////////////
-	if pls.Name == "chuotti2008" then
+	if User.Name == "chuotti2008" then
 		local expire = Time.chuotti2008
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			heypls.Text = "2"
+			Check.Text = "2"
 		else
-			heypls.Text = "1"
+			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/5")
 			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
 			rconsoleprint(" " .. " \n")
 		end
 	end
 	--//////////////
-	if pls.Name == "minhkhang2007" then
+	if User.Name == "minhkhang2007" then
 		local expire = Time.chuotti2008
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			heypls.Text = "2"
+			Check.Text = "2"
 		else
-			heypls.Text = "1"
+			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/5")
 			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
 			rconsoleprint(" " .. " \n")
@@ -130,8 +130,8 @@ Premium()
 
 --Premium/Forever
 function PremiumForever()
-	if pls.Name == "minhkhang2007" or pls.Name == "chuotti2008"then
-		heypls.Text = "1"
+	if User.Name == "minhkhang2007" or User.Name == "chuotti2008"then
+		Check.Text = "1"
 		rconsoleinfo("Rank:Premium | Expired:Forever")
 		rconsoleprint(" " .. " \n")
 	else
@@ -228,12 +228,12 @@ end
 
 function Freeday()
 	--//////////////
-	if pls.Name == "bolatao2000" then
+	if User.Name == "bolatao2000" then
 		local expire = Time.bolatao2000
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			heypls.Text = "2"
+			Check.Text = "2"
 		else
-			heypls.Text = "1"
+			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/1")
 			rconsoleprint(" " .. " \n")
 		end
@@ -244,8 +244,8 @@ Freeday()
 
 
 function Admin()
-	if pls.Name == "hovuoghu4446" or pls.Name == "hovuoghu4448" then
-		heypls.Text = "1"
+	if User.Name == "hovuoghu4446" or User.Name == "hovuoghu4448" then
+		Check.Text = "1"
 		rconsoleinfo("Rank:Owner | Expired:Forever")
 		rconsoleprint(" " .. " \n")
 	else
@@ -255,13 +255,13 @@ end
 Admin()
 
 
-function cheackpls()
+function cheackUser()
 	--//////////////
-	if heypls.Text == "0" then
+	if Check.Text == "0" then
 		rconsoleerr("You need to buy Premium.")		
 	end
 	--//////////////
-	if heypls.Text == "1" then
+	if Check.Text == "1" then
 		rconsoleprint(" " .. " \n")
 		wait(1.50)
 		rconsolewarn("Scanning Game on the system!")
@@ -269,10 +269,10 @@ function cheackpls()
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Load%20Game.lua")))()
 	end
 	--//////////////
-	if heypls.Text == "2" then
+	if Check.Text == "2" then
 		rconsoleerr("Your term has expired, you need to purchase Premium to increase time.")
 	end
 
 end
 wait(0.10)
-cheackpls()
+cheackUser()
