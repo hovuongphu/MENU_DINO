@@ -71,7 +71,6 @@ local allSkins = {
    {'AWP_Silence'},
    {'AWP_Venomus'},
    {'AWP_Weeb'},
-   {'Banana_Stock'},
    {'Bayonet_Aequalis'},
    {'Bayonet_Banner'},
    {'Bayonet_Candy Cane'},
