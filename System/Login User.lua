@@ -250,6 +250,6 @@ function cheackUser()
 
 end
 
-banned()
+--banned()
 wait(0.10)
 cheackUser()
