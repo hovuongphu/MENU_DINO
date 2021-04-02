@@ -28,74 +28,72 @@ local Time = {
 
 
 --Premium
---//////////////
-if pls.Name == "Ninjakhoi124" or pls.Name == "kaubeks2" then
-	local expire = Time.kaubeks2
-	if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-		heypls.Text = "2"
-	else
-		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Expired:4/17")
-		rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
-		rconsoleprint(" " .. " \n")
+function Premium()
+	--//////////////
+	if pls.Name == "Ninjakhoi124" or pls.Name == "kaubeks2" then
+		local expire = Time.kaubeks2
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			heypls.Text = "2"
+		else
+			heypls.Text = "1"
+			rconsoleinfo("Rank:Premium | Expired:4/17")
+			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsoleprint(" " .. " \n")
+		end
+	end
+	--//////////////
+	if pls.Name == "axxhf2000" or pls.Name == "DeathDemonvt" then
+		local expire = Time.DeathDemonvt
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			heypls.Text = "2"
+		else
+			heypls.Text = "1"
+			rconsoleinfo("Rank:Premium | Expired:4/14")
+			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsoleprint(" " .. " \n")
+		end
+	end
+	--//////////////
+	if pls.Name == "ruakhung1181" then
+		local expire = Time.ruakhung1181
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			heypls.Text = "2"
+		else
+			heypls.Text = "1"
+			rconsoleinfo("Rank:Premium | Expired:4/14")
+			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsoleprint(" " .. " \n")
+		end
+	end
+
+	--Premium/AD
+	--//////////////
+	if pls.Name == "chuotti2008" then
+		local expire = Time.chuotti2008
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			heypls.Text = "2"
+		else
+			heypls.Text = "1"
+			rconsoleinfo("Rank:Premium | Expired:4/5")
+			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsoleprint(" " .. " \n")
+		end
+	end
+	--//////////////
+	if pls.Name == "minhkhang2007" then
+		local expire = Time.chuotti2008
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			heypls.Text = "2"
+		else
+			heypls.Text = "1"
+			rconsoleinfo("Rank:Premium | Expired:4/5")
+			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsoleprint(" " .. " \n")
+		end
 	end
 end
---//////////////
-if pls.Name == "axxhf2000" or pls.Name == "DeathDemonvt" then
-	local expire = Time.DeathDemonvt
-	if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-		heypls.Text = "2"
-	else
-		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Expired:4/14")
-		rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
-		rconsoleprint(" " .. " \n")
-	end
-end
---//////////////
-if pls.Name == "ruakhung1181" then
-	local expire = Time.ruakhung1181
-	if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-		heypls.Text = "2"
-	else
-		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Expired:4/14")
-		rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
-		rconsoleprint(" " .. " \n")
-	end
-end
 
---Premium/AD
---//////////////
-if pls.Name == "chuotti2008" then
-	local expire = Time.chuotti2008
-	if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-		heypls.Text = "2"
-	else
-		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Expired:4/5")
-		rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
-		rconsoleprint(" " .. " \n")
-	end
-end
---//////////////
-if pls.Name == "minhkhang2007" then
-	local expire = Time.chuotti2008
-	if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-		heypls.Text = "2"
-	else
-		heypls.Text = "1"
-		rconsoleinfo("Rank:Premium | Expired:4/5")
-		rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
-		rconsoleprint(" " .. " \n")
-	end
-end
-
-
-
-
-
-
+Premium()
 
 
 
