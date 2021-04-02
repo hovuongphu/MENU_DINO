@@ -100,7 +100,7 @@ end
 
 --Premium/Forever
 function PremiumForever()
-	if User.Name == "minhkhang2007" or User.Name == "chuotti2008"then
+	if User.Name == "minhkhang2007" then
 		Check.Text = "1"
 		rconsoleinfo("Rank:Premium | Expired:Forever")
 		rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
@@ -245,7 +245,7 @@ function cheackUser()
 	end
 	--//////////////
 	if Check.Text == "3" then
-		rconsoleerr("You was given to the black list.")
+		rconsoleerr("You was given to the blacklist.")
 	end
 
 end
