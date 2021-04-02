@@ -18,14 +18,10 @@ local Time = {
 }
 
 
-
-
-
-
 --Premium
 function Premium()
 	--//////////////
-	if User.Name == "kaubeks2" then
+	if User.Name == "kaubeks2" or User.Name == "Ninjakhoi124" then
 		local expire = Time.kaubeks2
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
@@ -37,7 +33,7 @@ function Premium()
 		end
 	end
 	--//////////////
-	if User.Name == "DeathDemonvt" then
+	if User.Name == "DeathDemonvt" or User.Name == "axxhf2000" then
 		local expire = Time.DeathDemonvt
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
@@ -49,7 +45,7 @@ function Premium()
 		end
 	end
 	--//////////////
-	if User.Name == "tatminh307" then
+	if User.Name == "tatminh307" or User.Name == "ruakhung1181" then
 		local expire = Time.Tatminh307
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
@@ -86,10 +82,17 @@ Premium()
 
 
 
+--Ban
+function banned()
+	if User.Name == "chuotti2008" then
+		Check.Text = "3"
+	else
+
+	end
+end
 
 
-
-
+banned()
 
 
 
@@ -242,7 +245,13 @@ function cheackUser()
 	if Check.Text == "2" then
 		rconsoleerr("Your term has expired, you need to purchase Premium to increase time.")
 	end
+	--//////////////
+	if Check.Text == "3" then
+		rconsoleerr("You was given to the black list.")
+	end
 
 end
+
+banned()
 wait(0.10)
 cheackUser()
