@@ -31,7 +31,7 @@ local Time = {
 --Premium
 function Premium()
 	--//////////////
-	if User.Name == "Ninjakhoi124" or User.Name == "kaubeks2" then
+	if User.Name == "kaubeks2" then
 		local expire = Time.kaubeks2
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
@@ -43,7 +43,7 @@ function Premium()
 		end
 	end
 	--//////////////
-	if User.Name == "axxhf2000" or User.Name == "DeathDemonvt" then
+	if User.Name == "DeathDemonvt" then
 		local expire = Time.DeathDemonvt
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
