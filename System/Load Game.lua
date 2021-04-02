@@ -24,6 +24,7 @@ end
 if IDgame.Text == "115797356" then
     Gameerro.Text = "1"
     rconsoleinfo("Counter Blox")
+    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/counterbloxskins.lua")))()--Mixx
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
 end
 --Arsenal
