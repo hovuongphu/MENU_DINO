@@ -14,6 +14,7 @@ local Time = {
 
 	---Premium/AD
 	["chuotti2008"] = {Year = 2021, Month = 4, Day = 5},
+	["minhkhang2007"] = {Year = 2021, Month = 4, Day = 5},
 
 
 	---Freeday
@@ -81,7 +82,7 @@ function Premium()
 	end
 	--//////////////
 	if User.Name == "minhkhang2007" then
-		local expire = Time.chuotti2008
+		local expire = Time.minhkhang2007
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
 		else
