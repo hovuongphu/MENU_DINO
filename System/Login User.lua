@@ -11,7 +11,7 @@ local Time = {
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 14},
 
 
-	["45"] = {Year = 2021, Month = 4, Day = 5},
+	["sdsdsd"] = {Year = 2021, Month = 4, Day = 5},
 
 	---Freeday
 	["bolatao2000"] = {Year = 2021, Month = 4, Day = 1},
@@ -59,7 +59,7 @@ function Premium()
 		end
 	end
 	if User.Name == "chuotti2008" or User.Name == "minhkhang2007" then
-		local expire = Time.45
+		local expire = Time.sdsdsd
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
 		else
@@ -91,18 +91,6 @@ Premium()
 
 
 
-
-
-
-
---Ban
-function banned()
-	if User.Name == "chuotti2008" then
-		Check.Text = "3"
-	else
-
-	end
-end
 
 
 
@@ -256,13 +244,8 @@ function cheackUser()
 	if Check.Text == "2" then
 		rconsoleerr("Your term has expired, you need to purchase Premium to increase time.")
 	end
-	--//////////////
-	if Check.Text == "3" then
-		rconsoleerr("You was given to the blacklist.")
-	end
 
 end
 
---banned()
 wait(0.10)
 cheackUser()
