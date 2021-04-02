@@ -8,7 +8,7 @@ local Time = {
 	---Premium
 	["kaubeks2"] = {Year = 2021, Month = 4, Day = 17},
 	["DeathDemonvt"] = {Year = 2021, Month = 4, Day = 14},
-	["ruakhung1181"] = {Year = 2021, Month = 4, Day = 14},
+	["Tatminh307"] = {Year = 2021, Month = 4, Day = 14},
 
 
 
@@ -55,8 +55,8 @@ function Premium()
 		end
 	end
 	--//////////////
-	if User.Name == "ruakhung1181" then
-		local expire = Time.ruakhung1181
+	if User.Name == "Tatminh307" then
+		local expire = Time.Tatminh307
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
 		else
