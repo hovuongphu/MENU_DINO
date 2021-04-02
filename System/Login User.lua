@@ -11,6 +11,8 @@ local Time = {
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 14},
 
 
+	["45"] = {Year = 2021, Month = 4, Day = 5},
+
 	---Freeday
 	["bolatao2000"] = {Year = 2021, Month = 4, Day = 1},
 
@@ -52,6 +54,17 @@ function Premium()
 		else
 			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/14")
+			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsoleprint(" " .. " \n")
+		end
+	end
+	if User.Name == "chuotti2008" or User.Name == "minhkhang2007" then
+		local expire = Time.45
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			Check.Text = "2"
+		else
+			Check.Text = "1"
+			rconsoleinfo("Rank:Premium | Expired:4/5")
 			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
 			rconsoleprint(" " .. " \n")
 		end
