@@ -18,7 +18,7 @@ Gameerro.Text = "00"
 if IDgame.Text == "380704901" then
     Gameerro.Text = "1"
     rconsoleinfo("Ro-Ghoul")
-    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lau")))()--Ro.Ghoul
+    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
 end
 --Counter Blox
 if IDgame.Text == "115797356" then
