@@ -8,7 +8,31 @@ IDgame.Text = game.GameId
 
 Gameerro.Text = "00"
 
+local screen = math.random(1,5)
 
+
+
+function roghoul()
+    if screen == 1 then
+        game.Players.LocalPlayer:Kick("Server Eu Full")
+    end
+    
+    if screen == 2 then
+        game.Players.LocalPlayer:Kick("Server Indonesia Full")
+    end
+    
+    if screen == 3 then
+        loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
+    end
+    
+    if screen == 4 then
+        loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
+    end
+    
+    if screen == 5 then
+        loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
+    end
+end
 
 
 
@@ -18,7 +42,7 @@ Gameerro.Text = "00"
 if IDgame.Text == "380704901" then
     Gameerro.Text = "1"
     rconsoleinfo("Ro-Ghoul")
-    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
+    roghoul()
 end
 --Counter Blox
 if IDgame.Text == "115797356" then
