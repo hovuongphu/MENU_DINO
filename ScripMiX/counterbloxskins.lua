@@ -226,7 +226,6 @@ local allSkins = {
    {'FiveSeven_Stigma'},
    {'FiveSeven_Sub Zero'},
    {'FiveSeven_Summer'},
-   {'Flip Knife_Stock'},
    {'G3SG1_Amethyst'},
    {'G3SG1_Autumn'},
    {'G3SG1_Foliage'},
