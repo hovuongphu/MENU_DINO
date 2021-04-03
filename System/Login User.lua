@@ -20,7 +20,13 @@ local Time = {
 
 }
 
+local BanTime = {
 
+	["anhbecun1611"] = {Year = 2737909},
+
+
+
+}
 --Premium
 function Premium()
 	--//////////////
@@ -121,6 +127,20 @@ end
 
 
 
+function Ban()
+	--//////////////
+	if User.Name == "anhbecun1611" then
+		local expire = BanTime.anhbecun1611
+		if date.year >= expire.Year then
+			Check.Text = "3"
+		else
+			Check.Text = "3"
+			rconsoleinfo("Rank:Ban | Expired:999999999Day")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
+			rconsoleprint(" " .. " \n")
+		end
+	end
+end
 
 
 
@@ -245,8 +265,12 @@ function cheackUser()
 	if Check.Text == "2" then
 		rconsoleerr("Your term has expired, you need to purchase Premium to increase time.")
 	end
-
+	--//////////////
+	if Check.Text == "3" then
+		--
+	end
 end
 Admin()
+Ban()
 wait(0.10)
 cheackUser()
