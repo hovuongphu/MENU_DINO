@@ -9,6 +9,7 @@ local Time = {
 	["kaubeks2"] = {Year = 2021, Month = 4, Day = 17},
 	["DeathDemonvt"] = {Year = 2021, Month = 4, Day = 14},
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 14},
+	["anhbecun1611"] = {Year = 2021, Month = 5, Day = 2},
 
 
 	["sdsdsd"] = {Year = 2021, Month = 4, Day = 5},
@@ -58,6 +59,7 @@ function Premium()
 			rconsoleprint(" " .. " \n")
 		end
 	end
+	--//////////////
 	if User.Name == "chuotti2008" or User.Name == "minhkhang2007" then
 		local expire = Time.sdsdsd
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
@@ -65,6 +67,18 @@ function Premium()
 		else
 			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/5")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
+			rconsoleprint(" " .. " \n")
+		end
+	end
+	--//////////////
+	if User.Name == "anhbecun1611" then
+		local expire = Time.anhbecun1611
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			Check.Text = "2"
+		else
+			Check.Text = "1"
+			rconsoleinfo("Rank:Premium | Expired:5/2")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 			rconsoleprint(" " .. " \n")
 		end
