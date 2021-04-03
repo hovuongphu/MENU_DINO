@@ -30,7 +30,7 @@ function Premium()
 		else
 			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/17")
-			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -42,7 +42,7 @@ function Premium()
 		else
 			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/14")
-			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -54,7 +54,7 @@ function Premium()
 		else
 			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/14")
-			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -65,7 +65,7 @@ function Premium()
 		else
 			Check.Text = "1"
 			rconsoleinfo("Rank:Premium | Expired:4/5")
-			rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
 			rconsoleprint(" " .. " \n")
 		end
 	end
@@ -104,26 +104,13 @@ function PremiumForever()
 	if User.Name == "minhkhang2007" then
 		Check.Text = "1"
 		rconsoleinfo("Rank:Premium | Expired:Forever")
-		rconsolewarn("I banned you on happy day of the year, thanks for joining (Dino-Hud) :3")
+		rconsolewarn("Thanks for joining (Dino-Hud)")
 		rconsoleprint(" " .. " \n")
 	else
 
 	end
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-PremiumForever()
+--PremiumForever()
 
 
 
@@ -224,8 +211,6 @@ function Admin()
 
 	end
 end
-Admin()
-
 
 function cheackUser()
 	--//////////////
@@ -246,6 +231,6 @@ function cheackUser()
 	end
 
 end
-
+Admin()
 wait(0.10)
 cheackUser()
