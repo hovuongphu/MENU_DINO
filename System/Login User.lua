@@ -220,9 +220,9 @@ function cheackUser()
 	--//////////////
 	if Check.Text == "1" then
 		rconsoleprint(" " .. " \n")
-		wait(1.50)
+		wait(1)
 		rconsolewarn("Scanning Game on the system!")
-		wait(2.50)
+		wait(1.20)
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Load%20Game.lua")))()
 	end
 	--//////////////

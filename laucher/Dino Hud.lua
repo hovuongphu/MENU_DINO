@@ -5,7 +5,7 @@ rconsoleinfo("Create:DINO#5485")
 wait(1)
 rconsoleprint(" " .. " \n")
 rconsolewarn("Scanning user on the system!")
-wait(2.50)
+wait(1.20)
 loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Login%20User.lua")))()
 
 
