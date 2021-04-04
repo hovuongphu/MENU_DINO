@@ -235,7 +235,7 @@ Freeday()
 function Admin()
 	if User.Name == "hovuoghu4446" or User.Name == "hovuoghu4448" then
 		Check.Text = "1"
-		rconsoleinfo("Rank:Owner | Expired:Forever")
+		rconsoleinfo("Rank:Owner Dino | Expired:Forever")
 		rconsoleprint(" " .. " \n")
 	else
 
