@@ -227,18 +227,6 @@ function Freeday()
 			rconsoleprint(" " .. " \n")
 		end
 	end
-	--//////////////
-	if User.Name == "anhbecun1611" then
-		local expire = Time.anhbecun1611
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("Rank:Free Try | Expired:5/2")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
-		end
-	end
 end
 Freeday()
 
