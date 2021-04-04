@@ -130,7 +130,12 @@ if IDgame.Text == "1857011690" then
     rconsoleinfo("Two Piece")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Two%20Piece.lua"))()
 end
-
+--Pet Swarm Simulator
+if IDgame.Text == "2341107266" then
+    Gameerro.Text = "1"
+    rconsoleinfo("Pet Swarm Simulator")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Pet%20Swarm%20Simulator.lua"))()
+end
 
 
 
