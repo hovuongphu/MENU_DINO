@@ -9,13 +9,12 @@ local Time = {
 	["kaubeks2"] = {Year = 2021, Month = 4, Day = 17},
 	["DeathDemonvt"] = {Year = 2021, Month = 4, Day = 14},
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 14},
-	["anhbecun1611"] = {Year = 2021, Month = 5, Day = 2},
-
+	["bolatao2000"] = {Year = 2021, Month = 6, Day = 1},
 
 	["sdsdsd"] = {Year = 2021, Month = 4, Day = 5},
 
-	---Freeday
-	["bolatao2000"] = {Year = 2021, Month = 4, Day = 1},
+
+	
 
 
 }
@@ -77,8 +76,18 @@ function Premium()
 			rconsoleprint(" " .. " \n")
 		end
 	end
-
-	
+	--//////////////
+	if User.Name == "bolatao2000" then
+		local expire = Time.bolatao2000
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			Check.Text = "2"
+		else
+			Check.Text = "1"
+			rconsoleinfo("Rank:Premium | Expired:6/1")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
+			rconsoleprint(" " .. " \n")
+		end
+	end
 end
 
 Premium()
@@ -91,6 +100,9 @@ Premium()
 
 
 
+function Freeday()
+	
+end
 
 
 
@@ -209,32 +221,8 @@ end
 
 
 
-function Freeday()
-	--//////////////
-	if User.Name == "bolatao2000" then
-		local expire = Time.bolatao2000
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("Rank:Premium | Expired:4/1")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
-		end
-	end
-	--//////////////
-	if User.Name == "anhbecun1611" then
-		local expire = Time.anhbecun1611
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("Rank:Free Try | Expired:5/2")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
-		end
-	end
-end
+
+
 Freeday()
 
 
