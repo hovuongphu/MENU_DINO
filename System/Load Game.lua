@@ -124,6 +124,13 @@ if IDgame.Text == "2033913602" then
     rconsoleinfo("Mall Tycoon")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Mall%20Tycoon.lua"))()
 end
+--Two Piece
+if IDgame.Text == "1857011690" then
+    Gameerro.Text = "1"
+    rconsoleinfo("Two Piece")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Two%20Piece.lua"))()
+end
+
 
 
 
