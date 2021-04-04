@@ -99,7 +99,6 @@ function Premium()
 	
 end
 
-Premium()
 
 
 
@@ -277,6 +276,7 @@ function cheackUser()
 	end
 end
 Admin()
+Premium()
 Ban()
 wait(0.10)
 cheackUser()
