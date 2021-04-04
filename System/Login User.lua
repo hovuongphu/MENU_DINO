@@ -222,7 +222,8 @@ function Freeday()
 			Check.Text = "2"
 		else
 			Check.Text = "1"
-			rconsoleinfo("Rank:Premium | Expired:4/1")
+			rconsoleinfo("Event April")
+			rconsoleinfo("Rank:Premium | Expired:4/20")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 			rconsoleprint(" " .. " \n")
 		end
