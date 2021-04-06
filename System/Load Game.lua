@@ -57,23 +57,11 @@ if IDgame.Text == "111958650" then
     rconsoleinfo("Arsenal")
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
 end
---Phantom Forces
-if IDgame.Text == "113491250" then
-    Gameerro.Text = "1"
-    rconsoleinfo("Phantom Forces")
-    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Owl-Hubal.lua")))()--OWL HUB
-end
 --All Star Tower Defense
 if IDgame.Text == "1720936166" then
     Gameerro.Text = "1"
     rconsoleinfo("All Star Tower Defense")
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/all%20star%20tower%20defense.lua")))()
-end
---King Piece
-if IDgame.Text == "1451439645" then
-    Gameerro.Text = "1"
-    rconsoleinfo("King Piece")
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/King%20Piece.lua')))()
 end
 --Project XL
 if IDgame.Text == "2265532481" then
