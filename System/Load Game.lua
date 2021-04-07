@@ -8,41 +8,12 @@ IDgame.Text = game.GameId
 
 Gameerro.Text = "00"
 
-local screen = math.random(1,5)
-
-
-
-function roghoul()
-    if screen == 1 then
-        game.Players.LocalPlayer:Kick("Server Eu Full")
-    end
-    
-    if screen == 2 then
-        game.Players.LocalPlayer:Kick("Server Indonesia Full")
-    end
-    
-    if screen == 3 then
-        loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
-    end
-    
-    if screen == 4 then
-        loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
-    end
-    
-    if screen == 5 then
-        loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
-    end
-end
-
-
-
-
 
 --Ro-Ghoul
 if IDgame.Text == "380704901" then
     Gameerro.Text = "1"
     rconsoleinfo("Ro-Ghoul")
-    roghoul()
+    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
 end
 --Counter Blox
 if IDgame.Text == "115797356" then
@@ -62,12 +33,6 @@ if IDgame.Text == "1720936166" then
     Gameerro.Text = "1"
     rconsoleinfo("All Star Tower Defense")
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/all%20star%20tower%20defense.lua")))()
-end
---Project XL
-if IDgame.Text == "2265532481" then
-    Gameerro.Text = "1"
-    rconsoleinfo("Project XL")
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/projectXL.lua')))()
 end
 --Bee Swarm Simulator
 if IDgame.Text == "601130232" then
@@ -99,12 +64,6 @@ if IDgame.Text == "2076312981" then
     Gameerro.Text = "1"
     rconsoleinfo("One Piece: Millennium 3")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/One%20Piece%20Millennium%203.lua"))()
-end
---Blade Quest
-if IDgame.Text == "2429242760" then
-    Gameerro.Text = "1"
-    rconsoleinfo("Blade Quest")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
 end
 --Mall Tycoon
 if IDgame.Text == "2033913602" then

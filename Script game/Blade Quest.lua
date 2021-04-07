@@ -1,1 +1,0 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/DevHub-Paid/master/blade.lua"))()
