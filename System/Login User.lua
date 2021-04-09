@@ -44,7 +44,7 @@ function Premium()
 		end
 	end
 	--//////////////
-	if User.Name == "DeathDemonvt" or User.Name == "axxhf2000" then
+	if User.Name == "DeathDemonvt" or User.Name == "CB_TeKaShi" then
 		local expire = Time.DeathDemonvt
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
