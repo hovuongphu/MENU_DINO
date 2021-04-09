@@ -37,10 +37,10 @@ function Premium()
 			Check.Text = "2"
 		else
 			Check.Text = "1"
+			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Event April")
 			rconsoleinfo("Rank:Premium | Expired:5/2")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
 		end
 	end
 	--//////////////
@@ -50,10 +50,10 @@ function Premium()
 			Check.Text = "2"
 		else
 			Check.Text = "1"
+			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Event April")
 			rconsoleinfo("Rank:Premium | Expired:4/29")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
 		end
 	end
 	--//////////////
@@ -63,10 +63,10 @@ function Premium()
 			Check.Text = "2"
 		else
 			Check.Text = "1"
+			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Event April")
 			rconsoleinfo("Rank:Premium | Expired:4/29")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
 		end
 	end
 	--//////////////
@@ -76,10 +76,10 @@ function Premium()
 			Check.Text = "2"
 		else
 			Check.Text = "1"
+			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Event April")
 			rconsoleinfo("Rank:Premium | Expired:4/20")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
 		end
 	end
 	--//////////////
@@ -89,10 +89,10 @@ function Premium()
 			Check.Text = "2"
 		else
 			Check.Text = "1"
+			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Event April")
 			rconsoleinfo("Rank:Premium | Expired:4/19")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
 		end
 	end
 
@@ -120,7 +120,6 @@ function PremiumForever()
 		Check.Text = "1"
 		rconsoleinfo("Rank:Premium | Expired:Forever")
 		rconsolewarn("Thanks for joining (Dino-Hud)")
-		rconsoleprint(" " .. " \n")
 	else
 
 	end
@@ -142,7 +141,6 @@ function Ban()
 			Check.Text = "3"
 			rconsoleinfo("Rank:Ban | Expired:Forever")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
 		end
 	end
 end
@@ -222,10 +220,10 @@ function Freeday()
 			Check.Text = "2"
 		else
 			Check.Text = "1"
+			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Event April")
 			rconsoleinfo("Rank:Premium | Expired:4/20")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
-			rconsoleprint(" " .. " \n")
 		end
 	end
 end
@@ -235,8 +233,8 @@ Freeday()
 function Admin()
 	if User.Name == "hovuoghu4446" or User.Name == "hovuoghu4448" then
 		Check.Text = "1"
+		rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 		rconsoleinfo("Rank:Owner Dino | Expired:Forever")
-		rconsoleprint(" " .. " \n")
 	else
 
 	end
