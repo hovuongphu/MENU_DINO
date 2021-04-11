@@ -89,7 +89,7 @@ if IDgame.Text == "6494523288" then
     rconsoleinfo("Blade Quest")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
 end
-
+--
 
 
 
