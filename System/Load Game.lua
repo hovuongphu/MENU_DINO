@@ -87,7 +87,7 @@ end
 if IDgame.Text == "6494523288" then
     Gameerro.Text = "1"
     rconsoleinfo("Blade Quest")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Pet%20Swarm%20Simulator.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
 end
 
 
