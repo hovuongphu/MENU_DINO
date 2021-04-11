@@ -83,13 +83,15 @@ if IDgame.Text == "2341107266" then
     rconsoleinfo("Pet Swarm Simulator")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Pet%20Swarm%20Simulator.lua"))()
 end
+--[[
 --Blade Quest
 if IDgame.Text == "6494523288" then
     Gameerro.Text = "1"
     rconsoleinfo("Blade Quest")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
 end
---
+]]
+
 
 
 
