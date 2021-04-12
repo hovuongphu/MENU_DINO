@@ -9,6 +9,7 @@ local Time = {
 	["kaubeks2"] = {Year = 2021, Month = 5, Day = 2},
 	["DeathDemonvt"] = {Year = 2021, Month = 4, Day = 29},
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 29},
+	["chuotti2008"] = {Year = 2021, Month = 5, Day = 12},
 
 	["anhbecun1611"] = {Year = 2021, Month = 4, Day = 19},
 
@@ -65,15 +66,15 @@ function Premium()
 		end
 	end
 	--//////////////
-	if User.Name == "chuotti2008" or User.Name == "minhkhang2007" then
-		local expire = Time.sdsdsd
+	if User.Name == "chuotti2008" then
+		local expire = Time.chuotti2008
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
 		else
 			Check.Text = "1"
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Event April")
-			rconsoleinfo("Rank:Premium | Expired:4/12")
+			rconsoleinfo("Rank:Premium | Expired:5/12")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
