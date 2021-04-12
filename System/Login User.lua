@@ -13,7 +13,7 @@ local Time = {
 	["anhbecun1611"] = {Year = 2021, Month = 4, Day = 19},
 
 
-	["sdsdsd"] = {Year = 2021, Month = 4, Day = 20},
+	["sdsdsd"] = {Year = 2021, Month = 4, Day = 12},
 
 	---Freeday
 	["bolatao2000"] = {Year = 2021, Month = 4, Day = 20},
@@ -78,7 +78,7 @@ function Premium()
 			Check.Text = "1"
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Event April")
-			rconsoleinfo("Rank:Premium | Expired:4/20")
+			rconsoleinfo("Rank:Premium | Expired:4/12")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
