@@ -84,7 +84,7 @@ if IDgame.Text == "2341107266" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Pet%20Swarm%20Simulator.lua"))()
 end
 --Blade Quest
-if IDgame.Text == "6494523288" then
+if IDgame.Text == "2429242760" then
     Gameerro.Text = "1"
     rconsoleinfo("Blade Quest")
     rconsolewarn("Please stay in the raid and wait 5 seconds")
