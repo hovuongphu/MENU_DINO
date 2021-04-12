@@ -14,11 +14,6 @@ local Time = {
 
 
 	["sdsdsd"] = {Year = 2021, Month = 4, Day = 12},
-
-	---Freeday
-	["bolatao2000"] = {Year = 2021, Month = 4, Day = 20},
-
-
 }
 
 local BanTime = {
@@ -212,22 +207,6 @@ end
 
 
 
-function Freeday()
-	--//////////////
-	if User.Name == "bolatao2000" then
-		local expire = Time.bolatao2000
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
-			rconsoleinfo("Event April")
-			rconsoleinfo("Rank:Premium | Expired:4/20")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
-		end
-	end
-end
-Freeday()
 
 
 function Admin()
