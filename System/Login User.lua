@@ -10,8 +10,6 @@ local Time = {
 	["DeathDemonvt"] = {Year = 2021, Month = 4, Day = 29},
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 29},
 	["chuotti2008"] = {Year = 2021, Month = 5, Day = 12},
-
-	["Lemon_Sweet02"] = {Year = 2021, Month = 6, Day = 1},
 }
 
 local BanTime = {
