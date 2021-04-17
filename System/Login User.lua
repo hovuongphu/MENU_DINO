@@ -11,8 +11,6 @@ local Time = {
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 29},
 	["chuotti2008"] = {Year = 2021, Month = 5, Day = 12},
 
-	["anhbecun1611"] = {Year = 2021, Month = 4, Day = 19},
-
 
 	["sdsdsd"] = {Year = 2021, Month = 4, Day = 12},
 }
@@ -78,20 +76,7 @@ function Premium()
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
-	--//////////////
-	if User.Name == "anhbecun1611" then
-		local expire = Time.anhbecun1611
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
-			rconsoleinfo("Event April")
-			rconsoleinfo("Rank:Premium | Expired:4/19")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
-		end
-	end
-
+	
 	
 end
 
