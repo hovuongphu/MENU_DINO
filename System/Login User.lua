@@ -125,7 +125,7 @@ end
 
 function Ban()
 	--//////////////
-	if User.Name == "NOO" then
+	if User.Name == "anhbecun1611" then
 		local expire = BanTime.anhbecun1611
 		if date.year >= expire.Year then
 			Check.Text = "3"
