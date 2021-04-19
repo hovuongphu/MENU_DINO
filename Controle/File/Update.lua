@@ -3,4 +3,4 @@ game.Players.LocalPlayer:kick'UwU'
 rconsolewarn("Dino hud server stopped working due to maintenance and Update")
 ]]
 
-game.Players.LocalPlayer:kick'UwU'
+game.Players.LocalPlayer:kick'Dino hud server stopped working'
