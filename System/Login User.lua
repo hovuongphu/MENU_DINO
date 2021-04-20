@@ -114,7 +114,6 @@ function Ban()
 		else
 			Check.Text = "3"
 			rconsoleinfo("Rank:Ban | Expired:Forever")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
 	--//////////////
@@ -125,7 +124,6 @@ function Ban()
 		else
 			Check.Text = "3"
 			rconsoleinfo("Rank:Ban | Expired:30Day")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
 end
