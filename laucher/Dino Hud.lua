@@ -1,6 +1,7 @@
 rconsolename('Dino Hud')
 rconsoleclear()
 rconsoleinfo("Dino Hud")
+rconsoleinfo("https://dinohud.netlify.app")
 rconsoleinfo("Create:DINO#5485")
 wait(1)
 rconsoleprint(" " .. " \n")
