@@ -114,16 +114,7 @@ function Ban()
 		else
 			Check.Text = "3"
 			rconsoleinfo("Rank:Ban | Expired:Forever")
-		end
-	end
-	--//////////////
-	if User.Name == "chuotti2008" then
-		local expire = BanTime.anhbecun1611
-		if date.year >= expire.Year then
-			Check.Text = "3"
-		else
-			Check.Text = "3"
-			rconsoleinfo("Rank:Ban | Expired:30Day")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
 end
@@ -227,7 +218,6 @@ function cheackUser()
 	--//////////////
 	if Check.Text == "3" then
 		--
-		rconsolewarn("You was given to the blacklist!")
 	end
 end
 Admin()
