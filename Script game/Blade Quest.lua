@@ -1,5 +1,5 @@
 -- Dungeon Settings
-
+--[[
 _G.endlessmode = true -- Will only run endless mode and will reset dungeon after highest level gear is obtained (or the last area is cleared if lastendlesszone is not false), need to be lvl 25+
 
 _G.lastendlesszone = false -- leave false if farming for items and/or not farming xp, otherwise set to a number which will be the last area you will do before you start a new endless run
@@ -35,7 +35,7 @@ _G.UpgradeLegendaries = true -- will keep any legendaries earned and will merge 
 -- Misc Settings
 
 _G.BootlegRainbowBlade = false -- Recreates the Rainbow Blade Gamepass locally (Only you will see it) pure aesthetics only.
-
+]]
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
