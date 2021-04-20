@@ -117,6 +117,17 @@ function Ban()
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
+	--//////////////
+	if User.Name == "chuotti2008" then
+		local expire = BanTime.anhbecun1611
+		if date.year >= expire.Year then
+			Check.Text = "3"
+		else
+			Check.Text = "3"
+			rconsoleinfo("Rank:Ban | Expired:30Day")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
+		end
+	end
 end
 
 
