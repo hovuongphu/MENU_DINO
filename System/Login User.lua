@@ -229,6 +229,7 @@ function cheackUser()
 	--//////////////
 	if Check.Text == "3" then
 		--
+		rconsolewarn("You was given to the blacklist!")
 	end
 end
 Admin()
