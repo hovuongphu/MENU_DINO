@@ -201,11 +201,14 @@ end
 function cheackUser()
 	--//////////////
 	if Check.Text == "0" then
+		rconsolewarn("Hotfix activation:failed")
 		rconsoleerr("You need to buy Premium.")		
 	end
 	--//////////////
 	if Check.Text == "1" then
 		rconsoleprint(" " .. " \n")
+		wait(0.50)
+		rconsolewarn("Hotfix activation was successful")
 		wait(0.50)
 		rconsolewarn("Scanning Game on the system!")
 		wait(0.50)
@@ -213,11 +216,14 @@ function cheackUser()
 	end
 	--//////////////
 	if Check.Text == "2" then
+		rconsolewarn("Hotfix activation:failed")
 		rconsoleerr("Your term has expired, you need to purchase Premium to increase time.")
 	end
 	--//////////////
 	if Check.Text == "3" then
 		--
+		rconsolewarn("Hotfix activation:failed")
+		rconsolewarn("You was given to the blacklist!")
 	end
 end
 Admin()
