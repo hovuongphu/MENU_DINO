@@ -13,6 +13,7 @@ Gameerro.Text = "00"
 if IDgame.Text == "380704901" then
     Gameerro.Text = "1"
     rconsoleinfo("Ro-Ghoul")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Ro-Ghoul.lua")))()--Ro.Ghoul
 end
 --Counter Blox
@@ -32,24 +33,28 @@ end
 if IDgame.Text == "1720936166" then
     Gameerro.Text = "1"
     rconsoleinfo("All Star Tower Defense")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/all%20star%20tower%20defense.lua")))()
 end
 --Bee Swarm Simulator
 if IDgame.Text == "601130232" then
     Gameerro.Text = "1"
     rconsoleinfo("Bee Swarm Simulator")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Bee%20Swarm%20Simulator.lua"))()
 end
 --Blox Fruits
 if IDgame.Text == "994732206" then
     Gameerro.Text = "1"
     rconsoleinfo("Blox Fruits")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blox%20Fruits.lua"))()
 end
 --Grand Piece Online
 if IDgame.Text == "648454481" then
     Gameerro.Text = "1"
     rconsoleinfo("Grand Piece Online")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/GPO.lua"))()
     --rconsoleerr("(Grand Piece Online):Discarded for insecurity.")
 end
@@ -57,30 +62,35 @@ end
 if IDgame.Text == "185639929" then
     Gameerro.Text = "1"
     rconsoleinfo("Glue Piece")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Glue%20Piece.lua"))()
 end
 --One Piece: Millennium 3
 if IDgame.Text == "2076312981" then
     Gameerro.Text = "1"
     rconsoleinfo("One Piece: Millennium 3")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/One%20Piece%20Millennium%203.lua"))()
 end
 --Mall Tycoon
 if IDgame.Text == "2033913602" then
     Gameerro.Text = "1"
     rconsoleinfo("Mall Tycoon")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Mall%20Tycoon.lua"))()
 end
 --Two Piece
 if IDgame.Text == "1857011690" then
     Gameerro.Text = "1"
     rconsoleinfo("Two Piece")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Two%20Piece.lua"))()
 end
 --Pet Swarm Simulator
 if IDgame.Text == "2341107266" then
     Gameerro.Text = "1"
     rconsoleinfo("Pet Swarm Simulator")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Pet%20Swarm%20Simulator.lua"))()
 end
 --Blade Quest
