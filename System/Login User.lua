@@ -7,7 +7,7 @@ Check.Visible = false
 local Time = {
 	---Premium
 	["kaubeks2"] = {Year = 2021, Month = 5, Day = 2},
-	["DeathDemonvt"] = {Year = 2021, Month = 4, Day = 29},
+	["DeathDemonvt"] = {Year = 2021, Month = 5, Day = 29},
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 29},
 	["chuotti2008"] = {Year = 2021, Month = 5, Day = 12},
 	["kocotenlun"] = {Year = 2021, Month = 5, Day = 30},
@@ -35,14 +35,14 @@ function Premium()
 		end
 	end
 	--//////////////
-	if User.Name == "DeathDemonvt" or User.Name == "CB_TeKaShi" then
+	if User.Name == "DeathDemonvt" then
 		local expire = Time.DeathDemonvt
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
 		else
 			Check.Text = "1"
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
-			rconsoleinfo("Rank:Premium | Expired:4/29")
+			rconsoleinfo("Rank:Premium | Expired:5/29")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
