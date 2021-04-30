@@ -10,6 +10,7 @@ local Time = {
 	["DeathDemonvt"] = {Year = 2021, Month = 4, Day = 29},
 	["Tatminh307"] = {Year = 2021, Month = 4, Day = 29},
 	["chuotti2008"] = {Year = 2021, Month = 5, Day = 12},
+	["kocotenlun"] = {Year = 2021, Month = 5, Day = 30},
 }
 
 local BanTime = {
@@ -66,6 +67,18 @@ function Premium()
 			Check.Text = "1"
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Rank:Premium | Expired:5/12")
+			rconsolewarn("Thanks for joining (Dino-Hud)")
+		end
+	end
+	--//////////////
+	if User.Name == "kocotenlun" then
+		local expire = Time.kocotenlun
+		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
+			Check.Text = "2"
+		else
+			Check.Text = "1"
+			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
+			rconsoleinfo("Rank:Premium | Expired:5/30")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
