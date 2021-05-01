@@ -25,18 +25,6 @@ local BanTime = {
 --Premium
 function Premium()
 	--//////////////
-	if User.Name == "kaubeks2" or User.Name == "Ninjakhoi124" then
-		local expire = Time.kaubeks2
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
-			rconsoleinfo("Rank:Premium | Expired:5/2")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
-		end
-	end
-	--//////////////
 	if User.Name == "DeathDemonvt" then
 		local expire = Time.DeathDemonvt
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
@@ -45,18 +33,6 @@ function Premium()
 			Check.Text = "1"
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Rank:Premium | Expired:5/29")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
-		end
-	end
-	--//////////////
-	if User.Name == "tatminh307" or User.Name == "ruakhung1181" then
-		local expire = Time.Tatminh307
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			Check.Text = "2"
-		else
-			Check.Text = "1"
-			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
-			rconsoleinfo("Rank:Premium | Expired:4/29")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 		end
 	end
@@ -85,7 +61,7 @@ function Premium()
 		end
 	end
 	--//////////////Free
-	if User.Name == "dirtdiamonh" or User.Name == "minhkhang2007" then
+	if User.Name == "dirtdiamonh" or User.Name == "minhkhang2007" or User.Name == "CB_TeKaShi" then
 		local expire = Time.kocotenlun
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
