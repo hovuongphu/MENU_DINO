@@ -44,19 +44,19 @@ if not isfile("DinoHud/autoload.txt") then
 	writefile("DinoHud/autoload.txt", "")
 end
 
-if not isfile("hexagon/custom_skins.txt") then
-	print("downloading hexagon custom skins file")
-	writefile("hexagon/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_skins.txt"))
+if not isfile("DinoHud/custom_skins.txt") then
+	print("downloading DinoHud custom skins file")
+	writefile("DinoHud/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/custom_skins.txt"))
 end
 
-if not isfile("hexagon/custom_models.txt") then
-	print("downloading hexagon custom models file")
-	writefile("hexagon/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_models.txt"))
+if not isfile("DinoHud/custom_models.txt") then
+	print("downloading DinoHud custom models file")
+	writefile("DinoHud/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/custom_models.txt"))
 end
 
-if not isfile("hexagon/skyboxes.txt") then
-	print("downloading hexagon skyboxes file")
-	writefile("hexagon/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/skyboxes.txt"))
+if not isfile("DinoHud/skyboxes.txt") then
+	print("downloading DinoHud skyboxes file")
+	writefile("DinoHud/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/skyboxes.txt"))
 end
 rconsolewarn("DinoHud | Loading")
 
