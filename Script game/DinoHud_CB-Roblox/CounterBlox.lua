@@ -1,10 +1,11 @@
-local Hint = Instance.new("Hint", game.CoreGui)
-Hint.Text = "DinoHud | Waiting for the game to load..."
+rconsoleinfo("DinoHud Counter Blox")
+rconsoleprint(" " .. " \n")
+rconsolewarn("DinoHud | Waiting for the game to load")
 
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("GUI")
 
-Hint.Text = "DinoHud | Setting up environment..."
+rconsolewarn("DinoHud | Setting up environment")
 
 -- Services
 local UserInputService = game:GetService("UserInputService")
@@ -25,44 +26,25 @@ if (getsenv == false) then return game.Players.LocalPlayer:Kick("Exploit not sup
 if (listfiles == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: listfiles.") end
 if (isfolder == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: isfolder.") end
 
-Hint.Text = "DinoHud | Setting up configuration settings..."
+rconsolewarn("DinoHud | Setting up configuration settings")
 
 if not isfolder("DinoHud") then
-	print("creating DinoHud folder")
+	rconsoleinfo("creating DinoHud folder")
 	makefolder("DinoHud")
 end
 
 if not isfolder("DinoHud/configs") then
-	print("creating DinoHud configs folder")
+    
+	rconsoleinfo("creating DinoHud configs folder")
 	makefolder("DinoHud/configs")
 end
 
 if not isfile("DinoHud/autoload.txt") then
-	print("creating DinoHud autoload file")
+    rconsoleinfo("creating DinoHud autoload file")
 	writefile("DinoHud/autoload.txt", "")
 end
 
-if not isfile("DinoHud/custom_skins.txt") then
-	print("downloading DinoHud custom skins file")
-	writefile("DinoHud/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/default_data/custom_skins.txt"))
-end
-
-if not isfile("DinoHud/custom_models.txt") then
-	print("downloading DinoHud custom models file")
-	writefile("DinoHud/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/default_data/custom_models.txt"))
-end
-
-if not isfile("DinoHud/inventories.txt") then
-	print("downloading DinoHud inventories file")
-	writefile("DinoHud/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/default_data/inventories.txt"))
-end
-
-if not isfile("DinoHud/skyboxes.txt") then
-	print("downloading DinoHud skyboxes file")
-	writefile("DinoHud/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/default_data/skyboxes.txt"))
-end
-
-Hint.Text = "DinoHud | Loading..."
+rconsolewarn("DinoHud | Loading")
 
 -- Viewmodels fix
 for i,v in pairs(game.ReplicatedStorage.Viewmodels:GetChildren()) do
@@ -110,7 +92,7 @@ local FOVCircle = Drawing.new("Circle")
 local Cases = {}; for i,v in pairs(game.ReplicatedStorage.Cases:GetChildren()) do table.insert(Cases, v.Name) end
 
 local Configs = {}
-local Inventories = loadstring("return "..readfile("DinoHud/inventories.txt"))()
+--local Inventories = loadstring("return "..readfile("DinoHud/inventories.txt"))()
 local Skyboxes = loadstring("return "..readfile("DinoHud/skyboxes.txt"))()
 
 
@@ -121,7 +103,7 @@ local SilentRagebot = {target = nil, cooldown = false}
 local LocalPlayer = game.Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local cbClient = getsenv(LocalPlayer.PlayerGui:WaitForChild("Client"))
-local oldInventory = cbClient.CurrentInventory
+--local oldInventory = cbClient.CurrentInventory
 local nocw_s = {}
 local nocw_m = {}
 local curVel = 16
@@ -350,70 +332,7 @@ local function TableToNames(tbl, alt)
 end
 
 local function AddCustomSkin(tbl) 
-	if tbl and tbl.weaponname and tbl.skinname and tbl.model then
-		local isGlove = false
-		
-		if table.find({"Strapped Glove", "Handwraps", "Sports Glove", "Fingerless Glove"}, tbl.weaponname) then
-			isGlove = true
-		end
-		
-		newfolder = Instance.new("Folder")
-		newfolder.Name = tbl.skinname
-		newfolder.Parent = (isGlove == true and game.ReplicatedStorage.Gloves) or (game.ReplicatedStorage.Skins[tbl.weaponname])
-			
-		if tbl.skinimage ~= nil then
-			newvalue1 = Instance.new("StringValue")
-			newvalue1.Name = tbl.skinname
-			newvalue1.Value = tbl.skinimage
-			newvalue1.Parent = LocalPlayer.PlayerGui.Client.Images[tbl.weaponname]
-		end
-
-		if tbl.skinrarity ~= nil then
-			newvalue2 = Instance.new("StringValue")
-			newvalue2.Name = "Quality"
-			newvalue2.Value = tbl.skinrarity
-			newvalue2.Parent = (isGlove == false and newvalue1) or nil
-			
-			newvalue3 = Instance.new("StringValue")
-			newvalue3.Name = tostring(tbl.weaponname.."_"..tbl.skinname)
-			newvalue3.Value = tbl.skinrarity
-			newvalue3.Parent = LocalPlayer.PlayerGui.Client.Rarities
-		end
-
-		if isGlove == true then
-			newtextures = Instance.new("SpecialMesh")
-			newtextures.Name = "Textures"
-			newtextures.MeshId = game.ReplicatedStorage.Gloves.Models[tbl.weaponname].RGlove.Mesh.MeshId
-			newtextures.TextureId = tbl.model.Handle
-			newtextures.Parent = newfolder
-			
-			newtype = Instance.new("StringValue")
-			newtype.Name = "Type"
-			newtype.Value = tbl.weaponname
-			newtype.Parent = newfolder
-		else
-			for i,v in pairs(tbl.model) do
-				if i == "Main" then
-					for i2,v2 in pairs(game.ReplicatedStorage.Viewmodels["v_"..tbl.weaponname]:GetChildren()) do
-						if v2:IsA("BasePart") and not table.find({"Right Arm", "Left Arm", "Flash"}, v2.Name) and v2.Transparency ~= 1 then
-							newvalue = Instance.new("StringValue")
-							newvalue.Name = v2.Name
-							newvalue.Value = v
-							newvalue.Parent = newfolder
-						end
-					end
-				end
-				
-				newvalue = Instance.new("StringValue")
-				newvalue.Name = i
-				newvalue.Value = v
-				newvalue.Parent = newfolder
-			end
-		end
-		table.insert(nocw_s, {tostring(tbl.weaponname.."_"..tbl.skinname)})
-			
-		print("Custom skin: "..tostring(tbl.weaponname.."_"..tbl.skinname).." successfully injected!")
-	end
+    
 end
 
 local function AddCustomModel(tbl)
@@ -1042,7 +961,7 @@ end)
 if not a then
 	game.Players.LocalPlayer:Kick("DinoHud | Your custom models file is fucked up lol!")
 end
-
+--[[
 MiscellaneousTabCategoryMain:AddDropdown("Inventory Changer", TableToNames(Inventories), "-", "MiscellaneousTabCategoryMainInventoryChanger", function(val)
 	local InventoryLoadout = LocalPlayer.PlayerGui.GUI["Inventory&Loadout"]
 	local InventoriesData = loadstring("return "..readfile("DinoHud/inventories.txt"))()
@@ -1091,14 +1010,10 @@ MiscellaneousTabCategoryMain:AddDropdown("Inventory Changer", TableToNames(Inven
 		library.pointers.MiscellaneousTabCategoryMainInventoryChanger:Refresh(TableToNames(Inventories))
 	end)
 end)
-
+]]
 MiscellaneousTabCategoryMain:AddButton("Inject Custom Skins", function()
-	if #nocw_s == 0 then
-		for i,v in pairs(loadstring("return "..readfile("DinoHud/custom_skins.txt"))()) do
-			AddCustomSkin(v)
-			game:GetService("RunService").Stepped:Wait()
-		end
-	end
+	rconsoleinfo("Custom skin: successfully!")
+    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/counterbloxskins.lua")))()--Mixx
 end)
 
 MiscellaneousTabCategoryMain:AddButton("Crash Server", function()
@@ -1555,7 +1470,7 @@ SettingsTabCategoryMain:AddTextBox("Clantag", "", "SettingsTabCategoryMainClanta
 	end
 end)
 
-local SettingsTabCategoryPlayers = SettingsTab:AddCategory("Players", 1)
+local SettingsTabCategoryPlayers = SettingsTab:AddCategory("Players Check", 1)
 
 SettingsTabCategoryPlayers:AddTextBox("Username", "", "SettingsTabCategoryPlayersUsername", function(val, focus)
 	if game.Players:FindFirstChild(val) then
@@ -1626,27 +1541,10 @@ SettingsTabCategoryConfigs:AddButton("Set as default", function()
 	end
 end)
 
-local SettingsTabCategoryCredits = SettingsTab:AddCategory("Credits", 2)
+local SettingsTabCategoryCredits = SettingsTab:AddCategory("DinoHud Credits", 2)
 
-SettingsTabCategoryCredits:AddLabel("Script - Pawel12d#0272")
-
-SettingsTabCategoryCredits:AddLabel("ESP - Modified Kiriot ESP")
-
-SettingsTabCategoryCredits:AddLabel("UI Library - Modified Phantom Ware")
-
-SettingsTabCategoryCredits:AddLabel("")
-
-SettingsTabCategoryCredits:AddLabel("Special Thanks To:")
-
-SettingsTabCategoryCredits:AddLabel("ny#2817")
-
-SettingsTabCategoryCredits:AddLabel("neeX#3712")
-
-SettingsTabCategoryCredits:AddLabel("MrPolaczekPL#1884")
-
-SettingsTabCategoryCredits:AddLabel("")
-
-SettingsTabCategoryCredits:AddLabel("Don't steal credits or burn in hell.")
+SettingsTabCategoryCredits:AddLabel("DINO#5485")
+SettingsTabCategoryCredits:AddLabel("Thanks for joining (Dino-Hud)")
 
 
 
@@ -1969,11 +1867,11 @@ Mouse.Move:Connect(function()
 	end
 end)
 
-Hint.Text = "DinoHud | Setting up hooks..."
+rconsolewarn("DinoHud | Setting up hooks")
 
 hookfunc(getrenv().xpcall, function() end)
 
---print(library, LocalPlayer, IsAlive, SilentRagebot, SilentLegitbot, isBhopping, JumpBug, cbClient)
+--rconsoleinfo(library, LocalPlayer, IsAlive, SilentRagebot, SilentLegitbot, isBhopping, JumpBug, cbClient)
 
 local mt = getrawmetatable(game)
 local createNewMessage = getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Main.Chats.DisplayChat).createNewMessage
@@ -2192,9 +2090,6 @@ if readfile("DinoHud/autoload.txt") ~= "" and isfile("DinoHud/configs/"..readfil
 		library:LoadConfiguration(cfg)
 	end
 end
-
-print("DinoHud finished loading!")
-
-Hint.Text = "DinoHud | Loading finished!"
+rconsolewarn("DinoHud finished loading!")
 wait(1.5)
-Hint:Destroy()
+Destroy()
