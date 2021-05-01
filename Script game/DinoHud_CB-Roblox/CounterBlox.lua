@@ -1,10 +1,10 @@
 local Hint = Instance.new("Hint", game.CoreGui)
-Hint.Text = "Hexagon | Waiting for the game to load..."
+Hint.Text = "DinoHud | Waiting for the game to load..."
 
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("GUI")
 
-Hint.Text = "Hexagon | Setting up environment..."
+Hint.Text = "DinoHud | Setting up environment..."
 
 -- Services
 local UserInputService = game:GetService("UserInputService")
@@ -25,44 +25,44 @@ if (getsenv == false) then return game.Players.LocalPlayer:Kick("Exploit not sup
 if (listfiles == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: listfiles.") end
 if (isfolder == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: isfolder.") end
 
-Hint.Text = "Hexagon | Setting up configuration settings..."
+Hint.Text = "DinoHud | Setting up configuration settings..."
 
-if not isfolder("hexagon") then
-	print("creating hexagon folder")
-	makefolder("hexagon")
+if not isfolder("DinoHud") then
+	print("creating DinoHud folder")
+	makefolder("DinoHud")
 end
 
-if not isfolder("hexagon/configs") then
-	print("creating hexagon configs folder")
-	makefolder("hexagon/configs")
+if not isfolder("DinoHud/configs") then
+	print("creating DinoHud configs folder")
+	makefolder("DinoHud/configs")
 end
 
-if not isfile("hexagon/autoload.txt") then
-	print("creating hexagon autoload file")
-	writefile("hexagon/autoload.txt", "")
+if not isfile("DinoHud/autoload.txt") then
+	print("creating DinoHud autoload file")
+	writefile("DinoHud/autoload.txt", "")
 end
 
-if not isfile("hexagon/custom_skins.txt") then
-	print("downloading hexagon custom skins file")
-	writefile("hexagon/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_skins.txt"))
+if not isfile("DinoHud/custom_skins.txt") then
+	print("downloading DinoHud custom skins file")
+	writefile("DinoHud/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/default_data/custom_skins.txt"))
 end
 
-if not isfile("hexagon/custom_models.txt") then
-	print("downloading hexagon custom models file")
-	writefile("hexagon/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_models.txt"))
+if not isfile("DinoHud/custom_models.txt") then
+	print("downloading DinoHud custom models file")
+	writefile("DinoHud/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/default_data/custom_models.txt"))
 end
 
-if not isfile("hexagon/inventories.txt") then
-	print("downloading hexagon inventories file")
-	writefile("hexagon/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/inventories.txt"))
+if not isfile("DinoHud/inventories.txt") then
+	print("downloading DinoHud inventories file")
+	writefile("DinoHud/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/default_data/inventories.txt"))
 end
 
-if not isfile("hexagon/skyboxes.txt") then
-	print("downloading hexagon skyboxes file")
-	writefile("hexagon/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/skyboxes.txt"))
+if not isfile("DinoHud/skyboxes.txt") then
+	print("downloading DinoHud skyboxes file")
+	writefile("DinoHud/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/default_data/skyboxes.txt"))
 end
 
-Hint.Text = "Hexagon | Loading..."
+Hint.Text = "DinoHud | Loading..."
 
 -- Viewmodels fix
 for i,v in pairs(game.ReplicatedStorage.Viewmodels:GetChildren()) do
@@ -84,8 +84,8 @@ local Hitboxes = {
 	["Legs"] = {"LeftUpperLeg", "LeftLowerLeg", "LeftFoot", "RightUpperLeg", "RightLowerLeg", "RightFoot"}
 }
 
-local HexagonFolder = Instance.new("Folder", workspace)
-HexagonFolder.Name = "HexagonFolder"
+local DinoHudFolder = Instance.new("Folder", workspace)
+DinoHudFolder.Name = "DinoHudFolder"
 
 local oldOsPlatform = game.Players.LocalPlayer.OsPlatform
 local oldMusicT = game.Players.LocalPlayer.PlayerGui.Music.ValveT:Clone()
@@ -110,8 +110,8 @@ local FOVCircle = Drawing.new("Circle")
 local Cases = {}; for i,v in pairs(game.ReplicatedStorage.Cases:GetChildren()) do table.insert(Cases, v.Name) end
 
 local Configs = {}
-local Inventories = loadstring("return "..readfile("hexagon/inventories.txt"))()
-local Skyboxes = loadstring("return "..readfile("hexagon/skyboxes.txt"))()
+local Inventories = loadstring("return "..readfile("DinoHud/inventories.txt"))()
+local Skyboxes = loadstring("return "..readfile("DinoHud/skyboxes.txt"))()
 
 
 
@@ -127,8 +127,8 @@ local nocw_m = {}
 local curVel = 16
 local isBhopping = false
 
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/ESP.lua"))()
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/UILibrary.lua"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/ESP.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/UILibrary.lua"))()
 
 local Window = library:CreateWindow(Vector2.new(500, 500), Vector2.new((workspace.CurrentCamera.ViewportSize.X/2)-250, (workspace.CurrentCamera.ViewportSize.Y/2)-250))
 
@@ -262,7 +262,7 @@ local function GetLegitbotTarget()
 	for i,v in pairs(game.Players:GetPlayers()) do
 		if IsAlive(v) and v ~= LocalPlayer and not v.Character:FindFirstChild("ForceField") then
 			if library.pointers.AimbotTabCategoryLegitbotTeamCheck.value == false or GetTeam(v) ~= GetTeam(LocalPlayer) then
-				if library.pointers.AimbotTabCategoryLegitbotVisibilityCheck.value == false or IsVisible(v.Character.Head.Position, {v.Character, LocalPlayer.Character, HexagonFolder, workspace.CurrentCamera}) == true then
+				if library.pointers.AimbotTabCategoryLegitbotVisibilityCheck.value == false or IsVisible(v.Character.Head.Position, {v.Character, LocalPlayer.Character, DinoHudFolder, workspace.CurrentCamera}) == true then
 					local Vector, onScreen = workspace.CurrentCamera:WorldToScreenPoint(v.Character.HumanoidRootPart.Position)
 					local FOV = (Vector2.new(Mouse.X, Mouse.Y) - Vector2.new(Vector.X, Vector.Y)).magnitude
 					
@@ -719,13 +719,13 @@ VisualsTabCategoryOthers:AddColorPicker("Ambient", Color3.new(1,1,1), "VisualsTa
 end)
 
 VisualsTabCategoryOthers:AddDropdown("Skybox", TableToNames(Skyboxes), "Default", "VisualsTabCategoryOthersSkybox", function(val)
-	if game.Lighting:FindFirstChild("HEXAGON_SKYBOX") then
-		game.Lighting:FindFirstChild("HEXAGON_SKYBOX"):Destroy()
+	if game.Lighting:FindFirstChild("DinoHud_SKYBOX") then
+		game.Lighting:FindFirstChild("DinoHud_SKYBOX"):Destroy()
 	end
 	
 	if val ~= "Default" and rawget(Skyboxes, val) then
 		local NewSkybox = Instance.new("Sky", game.Lighting)
-		NewSkybox.Name = "HEXAGON_SKYBOX"
+		NewSkybox.Name = "DinoHud_SKYBOX"
 		
 		for i,v in pairs(rawget(Skyboxes, val)) do
 			NewSkybox[i] = v
@@ -1022,7 +1022,7 @@ end)
 MiscellaneousTabCategoryMain:AddSlider("Open Case Amount", {1, 100, 1, 1, ""}, "MiscellaneousTabCategoryMainOpenCaseAmount")
 
 local a,b = pcall(function()
-	MiscellaneousTabCategoryMain:AddMultiDropdown("Custom Models", TableToNames(loadstring("return "..readfile("hexagon/custom_models.txt"))(), true), {}, "MiscellaneousTabCategoryMainCustomModels", function(val)
+	MiscellaneousTabCategoryMain:AddMultiDropdown("Custom Models", TableToNames(loadstring("return "..readfile("DinoHud/custom_models.txt"))(), true), {}, "MiscellaneousTabCategoryMainCustomModels", function(val)
 		if not ViewmodelsBackup then
 			ViewmodelsBackup = game.ReplicatedStorage.Viewmodels:Clone()
 		end
@@ -1031,7 +1031,7 @@ local a,b = pcall(function()
 		
 		ViewmodelsBackup:Clone().Parent = game.ReplicatedStorage
 		
-		for i,v in pairs(loadstring("return "..readfile("hexagon/custom_models.txt"))()) do
+		for i,v in pairs(loadstring("return "..readfile("DinoHud/custom_models.txt"))()) do
 			if table.find(val, v.weaponname) then
 				AddCustomModel(v)
 			end
@@ -1040,12 +1040,12 @@ local a,b = pcall(function()
 end)
 
 if not a then
-	game.Players.LocalPlayer:Kick("Hexagon | Your custom models file is fucked up lol!")
+	game.Players.LocalPlayer:Kick("DinoHud | Your custom models file is fucked up lol!")
 end
 
 MiscellaneousTabCategoryMain:AddDropdown("Inventory Changer", TableToNames(Inventories), "-", "MiscellaneousTabCategoryMainInventoryChanger", function(val)
 	local InventoryLoadout = LocalPlayer.PlayerGui.GUI["Inventory&Loadout"]
-	local InventoriesData = loadstring("return "..readfile("hexagon/inventories.txt"))()
+	local InventoriesData = loadstring("return "..readfile("DinoHud/inventories.txt"))()
 	
 	if typeof(InventoriesData[val]) == "table" then
 		cbClient.CurrentInventory = InventoriesData[val]
@@ -1094,7 +1094,7 @@ end)
 
 MiscellaneousTabCategoryMain:AddButton("Inject Custom Skins", function()
 	if #nocw_s == 0 then
-		for i,v in pairs(loadstring("return "..readfile("hexagon/custom_skins.txt"))()) do
+		for i,v in pairs(loadstring("return "..readfile("DinoHud/custom_skins.txt"))()) do
 			AddCustomSkin(v)
 			game:GetService("RunService").Stepped:Wait()
 		end
@@ -1403,7 +1403,7 @@ MiscellaneousTabCategoryBacktrack:AddToggle("Enabled", false, "MiscellaneousTabC
 						NewBacktrackPart.Color = library.pointers.MiscellaneousTabCategoryBacktrackColor.value
 						NewBacktrackPart.Size = v.Character.Head.Size
 						NewBacktrackPart.CFrame = v.Character.Head.CFrame
-						NewBacktrackPart.Parent = HexagonFolder
+						NewBacktrackPart.Parent = DinoHudFolder
 						
 						local BacktrackTag = Instance.new("ObjectValue")
 						BacktrackTag.Parent = NewBacktrackPart
@@ -1466,7 +1466,7 @@ MiscellaneousTabCategoryChatSpam:AddToggle("Enabled", false, "MiscellaneousTabCa
 	end
 end)
 
-MiscellaneousTabCategoryChatSpam:AddTextBox("Message", "Hexagon is the best!", "MiscellaneousTabCategoryChatSpamMessage")
+MiscellaneousTabCategoryChatSpam:AddTextBox("Message", "DinoHud is the best!", "MiscellaneousTabCategoryChatSpamMessage")
 
 local MiscellaneousTabCategoryKeybinds = MiscellaneousTab:AddCategory("Keybinds", 2)
 
@@ -1587,16 +1587,16 @@ SettingsTabCategoryConfigs:AddTextBox("Name", "", "SettingsTabCategoryConfigsNam
 SettingsTabCategoryConfigs:AddDropdown("Config", {"-"}, "-", "SettingsTabCategoryConfigsConfig")
 
 SettingsTabCategoryConfigs:AddButton("Create", function()
-    writefile("hexagon/configs/"..library.pointers.SettingsTabCategoryConfigsName.value..".cfg", library:SaveConfiguration())
+    writefile("DinoHud/configs/"..library.pointers.SettingsTabCategoryConfigsName.value..".cfg", library:SaveConfiguration())
 end)
 
 SettingsTabCategoryConfigs:AddButton("Save", function()
-    writefile("hexagon/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg", library:SaveConfiguration())
+    writefile("DinoHud/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg", library:SaveConfiguration())
 end)
 
 SettingsTabCategoryConfigs:AddButton("Load", function()
 	local a,b = pcall(function()
-		cfg = loadstring("return "..readfile("hexagon/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg"))()
+		cfg = loadstring("return "..readfile("DinoHud/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg"))()
 	end)
 	
 	if a == false then
@@ -1609,7 +1609,7 @@ end)
 SettingsTabCategoryConfigs:AddButton("Refresh", function()
 	local cfgs = {}
 
-	for i,v in pairs(listfiles("hexagon/configs")) do
+	for i,v in pairs(listfiles("DinoHud/configs")) do
 		if v:sub(-4) == ".cfg" then
 			table.insert(cfgs, v:sub(17, -5))
 		end
@@ -1619,10 +1619,10 @@ SettingsTabCategoryConfigs:AddButton("Refresh", function()
 end)
 
 SettingsTabCategoryConfigs:AddButton("Set as default", function()
-	if isfile("hexagon/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg") then
-		writefile("hexagon/autoload.txt", library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg")
+	if isfile("DinoHud/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg") then
+		writefile("DinoHud/autoload.txt", library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg")
 	else
-		writefile("hexagon/autoload.txt", "")
+		writefile("DinoHud/autoload.txt", "")
 	end
 end)
 
@@ -1969,7 +1969,7 @@ Mouse.Move:Connect(function()
 	end
 end)
 
-Hint.Text = "Hexagon | Setting up hooks..."
+Hint.Text = "DinoHud | Setting up hooks..."
 
 hookfunc(getrenv().xpcall, function() end)
 
@@ -2044,7 +2044,7 @@ oldNamecall = hookfunc(mt.__namecall, newcclosure(function(self, ...)
 					end)
 				end
 				
-				if args[1].Parent == workspace.HexagonFolder then
+				if args[1].Parent == workspace.DinoHudFolder then
 					if args[1].PlayerName.Value.Character and args[1].PlayerName.Value.Character.Head ~= nil then
 						args[1] = args[1].PlayerName.Value.Character.Head
 					end
@@ -2181,9 +2181,9 @@ for i,v in pairs({"CT", "T"}) do
 	end)
 end
 
-if readfile("hexagon/autoload.txt") ~= "" and isfile("hexagon/configs/"..readfile("hexagon/autoload.txt")) then
+if readfile("DinoHud/autoload.txt") ~= "" and isfile("DinoHud/configs/"..readfile("DinoHud/autoload.txt")) then
 	local a,b = pcall(function()
-		cfg = loadstring("return "..readfile("hexagon/configs/"..readfile("hexagon/autoload.txt")))()
+		cfg = loadstring("return "..readfile("DinoHud/configs/"..readfile("DinoHud/autoload.txt")))()
 	end)
 	
 	if a == false then
@@ -2193,8 +2193,8 @@ if readfile("hexagon/autoload.txt") ~= "" and isfile("hexagon/configs/"..readfil
 	end
 end
 
-print("Hexagon finished loading!")
+print("DinoHud finished loading!")
 
-Hint.Text = "Hexagon | Loading finished!"
+Hint.Text = "DinoHud | Loading finished!"
 wait(1.5)
 Hint:Destroy()
