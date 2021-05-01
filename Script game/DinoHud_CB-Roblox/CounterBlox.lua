@@ -1433,7 +1433,7 @@ SettingsTabCategoryMain:AddKeybind("Toggle Keybind", Enum.KeyCode.RightShift, "S
 SettingsTabCategoryMain:AddButton("Server Rejoin", function()
     game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
 end)
-
+--[[
 SettingsTabCategoryMain:AddButton("Copy Discord Invite", function()
 	setclipboard("https://discord.gg/47YH2Ay")
 end)
@@ -1469,7 +1469,7 @@ SettingsTabCategoryMain:AddTextBox("Clantag", "", "SettingsTabCategoryMainClanta
 		end
 	end
 end)
-
+]]
 local SettingsTabCategoryPlayers = SettingsTab:AddCategory("Players Check", 1)
 
 SettingsTabCategoryPlayers:AddTextBox("Username", "", "SettingsTabCategoryPlayersUsername", function(val, focus)
