@@ -44,6 +44,20 @@ if not isfile("DinoHud/autoload.txt") then
 	writefile("DinoHud/autoload.txt", "")
 end
 
+if not isfile("hexagon/custom_skins.txt") then
+	print("downloading hexagon custom skins file")
+	writefile("hexagon/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_skins.txt"))
+end
+
+if not isfile("hexagon/custom_models.txt") then
+	print("downloading hexagon custom models file")
+	writefile("hexagon/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_models.txt"))
+end
+
+if not isfile("hexagon/skyboxes.txt") then
+	print("downloading hexagon skyboxes file")
+	writefile("hexagon/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/skyboxes.txt"))
+end
 rconsolewarn("DinoHud | Loading")
 
 -- Viewmodels fix
