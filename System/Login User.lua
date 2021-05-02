@@ -61,7 +61,7 @@ function Premium()
 		end
 	end
 	--//////////////Free
-	if User.Name == "dirtdiamonh" or User.Name == "minhkhang2007" or User.Name == "CB_TeKaShi" then
+	if User.Name == "dirtdiamonh" or User.Name == "kaubeks2" or User.Name == "CB_TeKaShi" then
 		local expire = Time.kocotenlun
 		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
 			Check.Text = "2"
