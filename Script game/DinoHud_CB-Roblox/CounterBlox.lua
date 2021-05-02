@@ -44,19 +44,19 @@ if not isfile("DinoHud/autoload.txt") then
 	writefile("DinoHud/autoload.txt", "")
 end
 
-if not isfile("DinoHud/custom_skins.txt") then
+if not isfile("DinoHud/skins.txt") then
 	print("downloading DinoHud custom skins file")
-	writefile("DinoHud/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/custom_skins.txt"))
+	writefile("DinoHud/skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/skins.txt"))
 end
 
-if not isfile("DinoHud/custom_models.txt") then
+if not isfile("DinoHud/models.txt") then
 	print("downloading DinoHud custom models file")
-	writefile("DinoHud/custom_models.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/custom_models.txt"))
+	writefile("DinoHud/models.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/models.txt"))
 end
 
-if not isfile("DinoHud/skyboxes.txt") then
+if not isfile("DinoHud/sky.txt") then
 	print("downloading DinoHud skyboxes file")
-	writefile("DinoHud/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/skyboxes.txt"))
+	writefile("DinoHud/sky.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/sky.txt"))
 end
 rconsolewarn("DinoHud | Loading")
 
@@ -107,7 +107,7 @@ local Cases = {}; for i,v in pairs(game.ReplicatedStorage.Cases:GetChildren()) d
 
 local Configs = {}
 --local Inventories = loadstring("return "..readfile("DinoHud/inventories.txt"))()
-local Skyboxes = loadstring("return "..readfile("DinoHud/skyboxes.txt"))()
+local Skyboxes = loadstring("return "..readfile("DinoHud/sky.txt"))()
 
 
 
@@ -955,7 +955,7 @@ end)
 MiscellaneousTabCategoryMain:AddSlider("Open Case Amount", {1, 100, 1, 1, ""}, "MiscellaneousTabCategoryMainOpenCaseAmount")
 
 local a,b = pcall(function()
-	MiscellaneousTabCategoryMain:AddMultiDropdown("Custom Models", TableToNames(loadstring("return "..readfile("DinoHud/custom_models.txt"))(), true), {}, "MiscellaneousTabCategoryMainCustomModels", function(val)
+	MiscellaneousTabCategoryMain:AddMultiDropdown("Custom Models", TableToNames(loadstring("return "..readfile("DinoHud/models.txt"))(), true), {}, "MiscellaneousTabCategoryMainCustomModels", function(val)
 		if not ViewmodelsBackup then
 			ViewmodelsBackup = game.ReplicatedStorage.Viewmodels:Clone()
 		end
@@ -964,7 +964,7 @@ local a,b = pcall(function()
 		
 		ViewmodelsBackup:Clone().Parent = game.ReplicatedStorage
 		
-		for i,v in pairs(loadstring("return "..readfile("DinoHud/custom_models.txt"))()) do
+		for i,v in pairs(loadstring("return "..readfile("DinoHud/models.txt"))()) do
 			if table.find(val, v.weaponname) then
 				AddCustomModel(v)
 			end
