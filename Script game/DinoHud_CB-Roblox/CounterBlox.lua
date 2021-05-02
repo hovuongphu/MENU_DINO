@@ -43,7 +43,7 @@ if not isfile("DinoHud/autoload.txt") then
     rconsoleinfo("creating DinoHud autoload file")
 	writefile("DinoHud/autoload.txt", "")
 end
-if not isfolder("DinoHud/configs") then
+if not isfolder("DinoHud/Item") then
     
 	rconsoleinfo("creating DinoHud Item folder")
 	makefolder("DinoHud/Item")
