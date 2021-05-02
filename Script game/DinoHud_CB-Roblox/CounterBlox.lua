@@ -43,7 +43,12 @@ if not isfile("DinoHud/autoload.txt") then
     rconsoleinfo("creating DinoHud autoload file")
 	writefile("DinoHud/autoload.txt", "")
 end
-
+if not isfolder("DinoHud/configs") then
+    
+	rconsoleinfo("creating DinoHud Item folder")
+	makefolder("DinoHud/Item")
+end
+--
 if not isfile("DinoHud/skins.txt") then
 	print("downloading DinoHud custom skins file")
 	writefile("DinoHud/skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/skins.txt"))
@@ -58,6 +63,12 @@ if not isfile("DinoHud/sky.txt") then
 	print("downloading DinoHud skyboxes file")
 	writefile("DinoHud/sky.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/sky.txt"))
 end
+
+if not isfile("DinoHud/Item/inventories.txt") then
+	print("downloading DinoHud skyboxes file")
+	writefile("DinoHud/Item/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/inventories.txt"))
+end
+
 rconsolewarn("DinoHud | Loading")
 
 -- Viewmodels fix
@@ -106,7 +117,7 @@ local FOVCircle = Drawing.new("Circle")
 local Cases = {}; for i,v in pairs(game.ReplicatedStorage.Cases:GetChildren()) do table.insert(Cases, v.Name) end
 
 local Configs = {}
---local Inventories = loadstring("return "..readfile("DinoHud/inventories.txt"))()
+local Inventories = loadstring("return "..readfile("DinoHud/Item/inventories.txt"))()
 local Skyboxes = loadstring("return "..readfile("DinoHud/sky.txt"))()
 
 
@@ -975,10 +986,10 @@ end)
 if not a then
 	game.Players.LocalPlayer:Kick("DinoHud | Your custom models file is fucked up lol!")
 end
---[[
+
 MiscellaneousTabCategoryMain:AddDropdown("Inventory Changer", TableToNames(Inventories), "-", "MiscellaneousTabCategoryMainInventoryChanger", function(val)
 	local InventoryLoadout = LocalPlayer.PlayerGui.GUI["Inventory&Loadout"]
-	local InventoriesData = loadstring("return "..readfile("DinoHud/inventories.txt"))()
+	local InventoriesData = loadstring("return "..readfile("DinoHud/Item/inventories.txt"))()
 	
 	if typeof(InventoriesData[val]) == "table" then
 		cbClient.CurrentInventory = InventoriesData[val]
@@ -1024,7 +1035,7 @@ MiscellaneousTabCategoryMain:AddDropdown("Inventory Changer", TableToNames(Inven
 		library.pointers.MiscellaneousTabCategoryMainInventoryChanger:Refresh(TableToNames(Inventories))
 	end)
 end)
-]]
+
 MiscellaneousTabCategoryMain:AddButton("Inject Custom Skins", function()
 	rconsoleinfo("Custom skin: successfully!")
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/counterbloxskins.lua")))()--Mixx
