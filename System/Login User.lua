@@ -79,18 +79,6 @@ end
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 --Infinity/Forever
 function Infinity()
 	if User.Name == "Lemon_Sweet02" then
@@ -104,7 +92,11 @@ end
 
 
 
-
+function EndTime()
+	if User.Name == "chuotti2008" then
+		Check.Text = "4"
+	end
+end
 
 
 
@@ -228,10 +220,17 @@ function cheackUser()
 		rconsolewarn("Hotfix activation:failed")
 		rconsolewarn("You was given to the blacklist!")
 	end
+	--//////////////
+	if Check.Text == "4" then
+		--
+		rconsolewarn("Hotfix activation:failed")
+		rconsolewarn("You have exceeded your amount of data, please wait a while for your account to return (record 1000 hours of play)")
+	end
 end
 Admin()
 Premium()
 Infinity()
+EndTime()
 Ban()
 wait(0.10)
 cheackUser()
