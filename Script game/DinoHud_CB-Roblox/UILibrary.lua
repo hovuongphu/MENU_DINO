@@ -158,7 +158,7 @@ local library = {
         guiname = "DinoHud",
 		title = "DinoHud",
 		logo = "http://www.roblox.com/asset/?id=6752418892", -- "http://www.roblox.com/asset/?id=6752418892",
-        footer = "Version:1.1 | Web:dinohud.netlify.app",
+        footer = "Version:1.2.1 | Web:dinohud.netlify.app",
         modal = true,
         font = Enum.Font.SourceSans,
         textsize = 16,

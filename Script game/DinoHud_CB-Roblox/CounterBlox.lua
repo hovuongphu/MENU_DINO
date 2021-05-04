@@ -960,7 +960,7 @@ MiscellaneousTabCategoryMain:AddDropdown("Play Sound", TableToNames(Sounds), "-"
 		library.pointers.MiscellaneousTabCategoryMainPlaySound:Set("-")
 	end
 end)
-MiscellaneousTabCategoryMain.Text = "Mis"
+
 MiscellaneousTabCategoryMain:AddDropdown("Open Case", Cases, "-", "MiscellaneousTabCategoryMainOpenCase", function(val)
 	if game.ReplicatedStorage.Cases:FindFirstChild(val) then
 		for i=1,library.pointers.MiscellaneousTabCategoryMainOpenCaseAmount.value do

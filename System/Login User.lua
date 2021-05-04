@@ -93,7 +93,7 @@ end
 
 
 function EndTime()
-	if User.Name == "chuotti2008" then
+	if User.Name == "chuo2tti2008" then
 		Check.Text = "4"
 	end
 end
