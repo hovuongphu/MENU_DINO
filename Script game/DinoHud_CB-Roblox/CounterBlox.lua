@@ -43,25 +43,32 @@ if not isfile("DinoHud/autoload.txt") then
     rconsoleinfo("creating DinoHud autoload file")
 	writefile("DinoHud/autoload.txt", "")
 end
+
 if not isfolder("DinoHud/Item") then
     
 	rconsoleinfo("creating DinoHud Item folder")
 	makefolder("DinoHud/Item")
 end
+
+if not isfolder("DinoHud/Data") then
+    
+	rconsoleinfo("creating DinoHud Data folder")
+	makefolder("DinoHud/Data")
+end
 --
-if not isfile("DinoHud/skins.txt") then
+if not isfile("DinoHud/Data/skins.txt") then
 	print("downloading DinoHud custom skins file")
-	writefile("DinoHud/skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/skins.txt"))
+	writefile("DinoHud/Data/skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/skins.txt"))
 end
 
-if not isfile("DinoHud/models.txt") then
-	print("downloading DinoHud custom models file")
-	writefile("DinoHud/models.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/models.txt"))
+if not isfile("DinoHud/Data/model.txt") then
+	print("downloading DinoHud custom model file")
+	writefile("DinoHud/Data/model.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/model.txt"))
 end
 
-if not isfile("DinoHud/sky.txt") then
-	print("downloading DinoHud skyboxes file")
-	writefile("DinoHud/sky.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/sky.txt"))
+if not isfile("DinoHud/Data/sky.txt") then
+	print("downloading DinoHud sky file")
+	writefile("DinoHud/Data/sky.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/sky.txt"))
 end
 
 if not isfile("DinoHud/Item/inventories.txt") then
@@ -118,7 +125,7 @@ local Cases = {}; for i,v in pairs(game.ReplicatedStorage.Cases:GetChildren()) d
 
 local Configs = {}
 local Inventories = loadstring("return "..readfile("DinoHud/Item/inventories.txt"))()
-local Skyboxes = loadstring("return "..readfile("DinoHud/sky.txt"))()
+local Skyboxes = loadstring("return "..readfile("DinoHud/Data/sky.txt"))()
 
 
 
@@ -953,7 +960,7 @@ MiscellaneousTabCategoryMain:AddDropdown("Play Sound", TableToNames(Sounds), "-"
 		library.pointers.MiscellaneousTabCategoryMainPlaySound:Set("-")
 	end
 end)
-
+MiscellaneousTabCategoryMain.Text = "Mis"
 MiscellaneousTabCategoryMain:AddDropdown("Open Case", Cases, "-", "MiscellaneousTabCategoryMainOpenCase", function(val)
 	if game.ReplicatedStorage.Cases:FindFirstChild(val) then
 		for i=1,library.pointers.MiscellaneousTabCategoryMainOpenCaseAmount.value do
@@ -966,7 +973,7 @@ end)
 MiscellaneousTabCategoryMain:AddSlider("Open Case Amount", {1, 100, 1, 1, ""}, "MiscellaneousTabCategoryMainOpenCaseAmount")
 
 local a,b = pcall(function()
-	MiscellaneousTabCategoryMain:AddMultiDropdown("Custom Models", TableToNames(loadstring("return "..readfile("DinoHud/models.txt"))(), true), {}, "MiscellaneousTabCategoryMainCustomModels", function(val)
+	MiscellaneousTabCategoryMain:AddMultiDropdown("Custom Models", TableToNames(loadstring("return "..readfile("DinoHud/Data/model.txt"))(), true), {}, "MiscellaneousTabCategoryMainCustomModels", function(val)
 		if not ViewmodelsBackup then
 			ViewmodelsBackup = game.ReplicatedStorage.Viewmodels:Clone()
 		end
@@ -975,7 +982,7 @@ local a,b = pcall(function()
 		
 		ViewmodelsBackup:Clone().Parent = game.ReplicatedStorage
 		
-		for i,v in pairs(loadstring("return "..readfile("DinoHud/models.txt"))()) do
+		for i,v in pairs(loadstring("return "..readfile("DinoHud/Data/model.txt"))()) do
 			if table.find(val, v.weaponname) then
 				AddCustomModel(v)
 			end
@@ -1458,11 +1465,11 @@ SettingsTabCategoryMain:AddKeybind("Toggle Keybind", Enum.KeyCode.RightShift, "S
 SettingsTabCategoryMain:AddButton("Server Rejoin", function()
     game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
 end)
---[[
-SettingsTabCategoryMain:AddButton("Copy Discord Invite", function()
-	setclipboard("https://discord.gg/47YH2Ay")
-end)
 
+SettingsTabCategoryMain:AddButton("Copy Web:DinoHud", function()
+	setclipboard("https://dinohud.netlify.app/")
+end)
+--[[
 SettingsTabCategoryMain:AddButton("Copy Roblox Game Invite", function()
 	setclipboard("Roblox.GameLauncher.joinGameInstance("..game.PlaceId..", '"..game.JobId.."')")
 end)
