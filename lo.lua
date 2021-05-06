@@ -3,17 +3,17 @@ if (isfolder == false) then return game.Players.LocalPlayer:Kick("Exploit not su
 --
 rconsolewarn("DinoHud | Setting up configuration settings")
 --FILE DINOHUD
-if not isfolder("DinoHud") then
+if not isfolder("DinoHud_Server") then
 	rconsoleinfo("creating DinoHud folder")
-	makefolder("DinoHud")
+	makefolder("DinoHud_Server")
 end
 --FILE DATA
-if not isfolder("DinoHud/Data") then
+if not isfolder("DinoHud_Server/Data") then
 	rconsoleinfo("creating DinoHud folder")
-	makefolder("DinoHud/Data")
+	makefolder("DinoHud_Server/Data")
 end
 --Game
-if not isfolder("DinoHud/Data/Game") then
+if not isfolder("DinoHud_Server/Data/Game") then
 	rconsoleinfo("creating DinoHud folder")
-	makefolder("DinoHud/Data/Game")
+	makefolder("DinoHud_Server/Data/Game")
 end
