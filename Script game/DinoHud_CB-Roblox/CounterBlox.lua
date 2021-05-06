@@ -2122,6 +2122,8 @@ if readfile("DinoHud/autoload.txt") ~= "" and isfile("DinoHud/configs/"..readfil
 		library:LoadConfiguration(cfg)
 	end
 end
-rconsolewarn("DinoHud finished loading!")
+--rconsolewarn("DinoHud finished loading!")
+rconsoleprint('@@GREEN@@')
+rconsoleprint('DinoHud finished loading!')
 wait(1.5)
 Destroy()
