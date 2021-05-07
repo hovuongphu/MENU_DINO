@@ -28,71 +28,53 @@ if (isfolder == false) then return game.Players.LocalPlayer:Kick("Exploit not su
 
 rconsolewarn("DinoHud | Setting up configuration settings")
 
-
 if not isfolder("DinoHud") then
 	rconsoleinfo("creating DinoHud folder")
 	makefolder("DinoHud")
 end
 
-if not isfolder("DinoHud/UserData") then
-	rconsoleinfo("creating DinoHud UserData folder")
-	makefolder("DinoHud/UserData")
-end
-
-if not isfolder("DinoHud/UserData/Game") then
-	rconsoleinfo("creating UserData Game folder")
-	makefolder("DinoHud/UserData/Game")
-end
-
-if not isfolder("DinoHud/UserData/Game/DinoHud(Counter Blox)") then
-	rconsoleinfo("creating DinoHud(Counter Blox) folder")
-	makefolder("DinoHud/UserData/Game/DinoHud(Counter Blox)")
-end
-
-
-if not isfolder("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs") then
+if not isfolder("DinoHud/configs") then
     
 	rconsoleinfo("creating DinoHud configs folder")
-	makefolder("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs")
+	makefolder("DinoHud/configs")
 end
 
-if not isfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/autoload.txt") then
+if not isfile("DinoHud/autoload.txt") then
     rconsoleinfo("creating DinoHud autoload file")
-	writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/autoload.txt", "")
+	writefile("DinoHud/autoload.txt", "")
 end
 
-if not isfolder("DinoHud/UserData/Game/DinoHud(Counter Blox)/Item") then
+if not isfolder("DinoHud/Item") then
     
 	rconsoleinfo("creating DinoHud Item folder")
-	makefolder("DinoHud/UserData/Game/DinoHud(Counter Blox)/Item")
+	makefolder("DinoHud/Item")
 end
 
-if not isfolder("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data") then
+if not isfolder("DinoHud/Data") then
     
 	rconsoleinfo("creating DinoHud Data folder")
-	makefolder("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data")
+	makefolder("DinoHud/Data")
 end
 --
-if not isfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/skins.txt") then
+if not isfile("DinoHud/Data/skins.txt") then
 	print("downloading DinoHud custom skins file")
-	writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/skins.txt"))
+	writefile("DinoHud/Data/skins.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/skins.txt"))
 end
 
-if not isfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/model.txt") then
+if not isfile("DinoHud/Data/model.txt") then
 	print("downloading DinoHud custom model file")
-	writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/model.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/model.txt"))
+	writefile("DinoHud/Data/model.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/model.txt"))
 end
 
-if not isfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/sky.txt") then
+if not isfile("DinoHud/Data/sky.txt") then
 	print("downloading DinoHud sky file")
-	writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/sky.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/sky.txt"))
+	writefile("DinoHud/Data/sky.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/sky.txt"))
 end
 
-if not isfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Item/inventories.txt") then
+if not isfile("DinoHud/Item/inventories.txt") then
 	print("downloading DinoHud skyboxes file")
-	writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Item/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/inventories.txt"))
+	writefile("DinoHud/Item/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/inventories.txt"))
 end
-
 
 rconsolewarn("DinoHud | Loading")
 
@@ -142,8 +124,8 @@ local FOVCircle = Drawing.new("Circle")
 local Cases = {}; for i,v in pairs(game.ReplicatedStorage.Cases:GetChildren()) do table.insert(Cases, v.Name) end
 
 local Configs = {}
-local Inventories = loadstring("return "..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Item/inventories.txt"))()
-local Skyboxes = loadstring("return "..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/sky.txt"))()
+local Inventories = loadstring("return "..readfile("DinoHud/Item/inventories.txt"))()
+local Skyboxes = loadstring("return "..readfile("DinoHud/Data/sky.txt"))()
 
 
 
@@ -991,7 +973,7 @@ end)
 MiscellaneousTabCategoryMain:AddSlider("Open Case Amount", {1, 100, 1, 1, ""}, "MiscellaneousTabCategoryMainOpenCaseAmount")
 
 local a,b = pcall(function()
-	MiscellaneousTabCategoryMain:AddMultiDropdown("Custom Models", TableToNames(loadstring("return "..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/model.txt"))(), true), {}, "MiscellaneousTabCategoryMainCustomModels", function(val)
+	MiscellaneousTabCategoryMain:AddMultiDropdown("Custom Models", TableToNames(loadstring("return "..readfile("DinoHud/Data/model.txt"))(), true), {}, "MiscellaneousTabCategoryMainCustomModels", function(val)
 		if not ViewmodelsBackup then
 			ViewmodelsBackup = game.ReplicatedStorage.Viewmodels:Clone()
 		end
@@ -1000,7 +982,7 @@ local a,b = pcall(function()
 		
 		ViewmodelsBackup:Clone().Parent = game.ReplicatedStorage
 		
-		for i,v in pairs(loadstring("return "..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Data/model.txt"))()) do
+		for i,v in pairs(loadstring("return "..readfile("DinoHud/Data/model.txt"))()) do
 			if table.find(val, v.weaponname) then
 				AddCustomModel(v)
 			end
@@ -1009,12 +991,12 @@ local a,b = pcall(function()
 end)
 
 if not a then
-	game.Players.LocalPlayer:Kick("DinoHud | Your custom models file!")
+	game.Players.LocalPlayer:Kick("DinoHud | Your custom models file is fucked up lol!")
 end
 
 MiscellaneousTabCategoryMain:AddDropdown("Inventory Changer", TableToNames(Inventories), "-", "MiscellaneousTabCategoryMainInventoryChanger", function(val)
 	local InventoryLoadout = LocalPlayer.PlayerGui.GUI["Inventory&Loadout"]
-	local InventoriesData = loadstring("return "..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/Item/inventories.txt"))()
+	local InventoriesData = loadstring("return "..readfile("DinoHud/Item/inventories.txt"))()
 	
 	if typeof(InventoriesData[val]) == "table" then
 		cbClient.CurrentInventory = InventoriesData[val]
@@ -1552,16 +1534,16 @@ SettingsTabCategoryConfigs:AddTextBox("Name", "", "SettingsTabCategoryConfigsNam
 SettingsTabCategoryConfigs:AddDropdown("Config", {"-"}, "-", "SettingsTabCategoryConfigsConfig")
 
 SettingsTabCategoryConfigs:AddButton("Create", function()
-    writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs/"..library.pointers.SettingsTabCategoryConfigsName.value..".cfg", library:SaveConfiguration())
+    writefile("DinoHud/configs/"..library.pointers.SettingsTabCategoryConfigsName.value..".cfg", library:SaveConfiguration())
 end)
 
 SettingsTabCategoryConfigs:AddButton("Save", function()
-    writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg", library:SaveConfiguration())
+    writefile("DinoHud/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg", library:SaveConfiguration())
 end)
 
 SettingsTabCategoryConfigs:AddButton("Load", function()
 	local a,b = pcall(function()
-		cfg = loadstring("return "..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg"))()
+		cfg = loadstring("return "..readfile("DinoHud/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg"))()
 	end)
 	
 	if a == false then
@@ -1574,7 +1556,7 @@ end)
 SettingsTabCategoryConfigs:AddButton("Refresh", function()
 	local cfgs = {}
 
-	for i,v in pairs(listfiles("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs")) do
+	for i,v in pairs(listfiles("DinoHud/configs")) do
 		if v:sub(-4) == ".cfg" then
 			table.insert(cfgs, v:sub(17, -5))
 		end
@@ -1584,10 +1566,10 @@ SettingsTabCategoryConfigs:AddButton("Refresh", function()
 end)
 
 SettingsTabCategoryConfigs:AddButton("Set as default", function()
-	if isfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg") then
-		writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/autoload.txt", library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg")
+	if isfile("DinoHud/configs/"..library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg") then
+		writefile("DinoHud/autoload.txt", library.pointers.SettingsTabCategoryConfigsConfig.value..".cfg")
 	else
-		writefile("DinoHud/UserData/Game/DinoHud(Counter Blox)/autoload.txt", "")
+		writefile("DinoHud/autoload.txt", "")
 	end
 end)
 
@@ -2129,9 +2111,9 @@ for i,v in pairs({"CT", "T"}) do
 	end)
 end
 
-if readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/autoload.txt") ~= "" and isfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs/"..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/autoload.txt")) then
+if readfile("DinoHud/autoload.txt") ~= "" and isfile("DinoHud/configs/"..readfile("DinoHud/autoload.txt")) then
 	local a,b = pcall(function()
-		cfg = loadstring("return "..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/configs/"..readfile("DinoHud/UserData/Game/DinoHud(Counter Blox)/autoload.txt")))()
+		cfg = loadstring("return "..readfile("DinoHud/configs/"..readfile("DinoHud/autoload.txt")))()
 	end)
 	
 	if a == false then
