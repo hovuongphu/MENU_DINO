@@ -4,6 +4,8 @@ rconsoleinfo("Dino Hud")
 rconsoleinfo("https://dinohud.netlify.app")
 rconsoleinfo("Create:DINO#5485")
 wait(1)
+rconsolewarn("DinoHud stops acting to report the fault of Crack behavior!")
+--[[
 rconsoleprint(" " .. " \n")
 rconsolewarn("Scanning user on the system!")
 wait(0.50)
@@ -12,3 +14,4 @@ loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino
 
 
 loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Controle/System.lua")))()
+]]
