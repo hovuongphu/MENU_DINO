@@ -1,7 +1,6 @@
 rconsolename('Dino Hud Crack')
 rconsoleclear()
 rconsoleinfo("Dino Hud Crack")
-rconsoleinfo("https://dinohud.netlify.app")
 rconsoleinfo("Crack:L9Der")
 wait(1)
 rconsoleprint(" " .. " \n")
