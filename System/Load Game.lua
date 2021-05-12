@@ -130,7 +130,14 @@ if IDgame.Text == "2411591707" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/A%20Destiny.lua"))()
 end
-
+--Jailbreak
+if IDgame.Text == "245662005" then
+    Gameerro.Text = "1"
+    rconsoleinfo("Jailbreak")
+    --TextLogo
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Jailbreak.lua"))()
+end
 
 
 
