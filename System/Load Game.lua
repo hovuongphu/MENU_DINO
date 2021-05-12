@@ -128,7 +128,7 @@ if IDgame.Text == "2411591707" then
     rconsoleinfo("A Hero's Destiny")
     --TextLogo
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
-    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/A%20Destiny.lua"))()
 end
 
 
