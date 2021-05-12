@@ -122,8 +122,14 @@ if IDgame.Text == "2429242760" then
     rconsolewarn("Please stay in the raid and wait 5 seconds")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
 end
-
-
+--A Hero's Destiny
+if IDgame.Text == "2411591707" then
+    Gameerro.Text = "1"
+    rconsoleinfo("A Hero's Destiny")
+    --TextLogo
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
+    
+end
 
 
 
