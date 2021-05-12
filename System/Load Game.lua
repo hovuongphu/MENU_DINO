@@ -106,34 +106,6 @@ if IDgame.Text == "648454481" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/GPO.lua"))()
     --rconsoleerr("(Grand Piece Online):Discarded for insecurity.")
 end
---Glue Piece
-if IDgame.Text == "185639929" then
-    Gameerro.Text = "1"
-    rconsoleinfo("Glue Piece")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Glue%20Piece.lua"))()
-end
---One Piece: Millennium 3
-if IDgame.Text == "2076312981" then
-    Gameerro.Text = "1"
-    rconsoleinfo("One Piece: Millennium 3")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/One%20Piece%20Millennium%203.lua"))()
-end
---Mall Tycoon
-if IDgame.Text == "2033913602" then
-    Gameerro.Text = "1"
-    rconsoleinfo("Mall Tycoon")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Mall%20Tycoon.lua"))()
-end
---Two Piece
-if IDgame.Text == "1857011690" then
-    Gameerro.Text = "1"
-    rconsoleinfo("Two Piece")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Two%20Piece.lua"))()
-end
 --Pet Swarm Simulator
 if IDgame.Text == "2341107266" then
     Gameerro.Text = "1"
@@ -149,7 +121,6 @@ if IDgame.Text == "2429242760" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     rconsolewarn("Please stay in the raid and wait 5 seconds")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
-
 end
 
 
