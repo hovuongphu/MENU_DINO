@@ -113,15 +113,6 @@ if IDgame.Text == "2341107266" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Pet%20Swarm%20Simulator.lua"))()
 end
---Blade Quest
-if IDgame.Text == "2429242760" then
-    Gameerro.Text = "1"
-    rconsoleinfo("Blade Quest")
-    --TextLogo
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix-Logo/Text-Logo.lua"))()
-    rconsolewarn("Please stay in the raid and wait 5 seconds")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/Blade%20Quest.lua"))()
-end
 --A Hero's Destiny
 if IDgame.Text == "2411591707" then
     Gameerro.Text = "1"
