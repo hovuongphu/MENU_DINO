@@ -455,7 +455,7 @@ Gift_Code_check.MouseButton1Click:Connect(function()
 		else
 			main_1.Visible = false
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
-			rconsoleinfo("Rank:Gift Code | Expired:5/16")
+			rconsoleinfo("Rank:Gift Code | Expired:5/20")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 			DinoHudScrip()
 		end
