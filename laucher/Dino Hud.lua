@@ -218,8 +218,6 @@ end
 local Time_Gift_Code = {
 	--
 	["A2Class"] = {Year = 2021, Month = 5, Day = 20},
-	["Free"] = {Year = 2021, Month = 5, Day = 16},
-
 }
 
 Execute.MouseButton1Click:Connect(function()
@@ -231,20 +229,6 @@ Execute.MouseButton1Click:Connect(function()
 			MainCode.Visible = false
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Rank:Gift Code | Expired:5/20")
-			rconsolewarn("Thanks for joining (Dino-Hud)")
-			DinoHudScrip()
-		end
-	else
-		BoxCode.Text = "The code is not correct"
-	end
-	if BoxCode.Text == "Gift_Code:49RY-N0EP-EOSB-34XT" then
-		local expire = Time_Gift_Code.Free
-		if date.year >= expire.Year and date.month >= expire.Month and date.day >= expire.Day then
-			BoxCode.Text = "Code has expired"
-		else
-			MainCode.Visible = false
-			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
-			rconsoleinfo("Rank:Gift Code | Expired:5/16")
 			rconsolewarn("Thanks for joining (Dino-Hud)")
 			DinoHudScrip()
 		end
