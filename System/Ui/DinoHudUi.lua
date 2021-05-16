@@ -247,7 +247,7 @@ end)
 local date = os.date("*t", os.time())
 local Time_Gift_Code = {
 	--
-	["A2Class"] = {Year = 2021, Month = 5, Day = 3},
+	["A2Class"] = {Year = 2021, Month = 5, Day = 20},
 }
 --Code 
 Execute.MouseButton1Click:Connect(function()
@@ -257,6 +257,12 @@ Execute.MouseButton1Click:Connect(function()
 			BoxCode.Text = "Code has expired"
 		else
 			main.Visible = false
+			rconsoleprint('@@GREEN@@')
+			rconsoleprint('-----------------Account-----------------' .. " \n")
+			rconsoleprint('@@WHITE@@')
+			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
+			rconsoleinfo("Rank:Gift Code | Expired:5/20")
+			rconsoleprint('-----------------------------------------' .. " \n")
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System_Beta/Mix/DinoHudCode.lua")))()
 		end
 	else
