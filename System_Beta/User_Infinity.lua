@@ -41,7 +41,7 @@ function cheackUser()
         rconsoleprint('@@GREEN@@')
 		rconsoleprint('-----------------------------------------' .. " \n")
 		wait(0.50)
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Load%20Game.lua")))()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System_Beta/LoadGame.lua")))()
 	end
 end
 Admin()
