@@ -262,7 +262,9 @@ Execute.MouseButton1Click:Connect(function()
 			rconsoleprint('@@WHITE@@')
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Rank:Gift Code | Expired:5/20")
+			rconsoleprint('@@GREEN@@')
 			rconsoleprint('-----------------------------------------' .. " \n")
+
 			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix_LoadGame/LoadGame.lua")))()
 		end
 	else
