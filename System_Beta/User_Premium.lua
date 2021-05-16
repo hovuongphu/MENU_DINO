@@ -73,19 +73,6 @@ function cheackUser()
 		rconsoleerr("Your term has expired, you need to purchase Premium to increase time.")
 	end
 	--//////////////
-	if Check.Text == "3" then
-		--
-		rconsolewarn("Hotfix activation:failed")
-		game.Players.LocalPlayer:kick'Ban'
-		rconsolewarn("You was given to the blacklist!")
-	end
-	--//////////////
-	if Check.Text == "4" then
-		--
-		rconsolewarn("Hotfix activation:failed")
-		game.Players.LocalPlayer:kick'Error Data'
-		rconsolewarn("You have exceeded your amount of data, please wait a while for your account to return (record 1000 hours of play)")
-	end
 end
 Admin()
 Premium()

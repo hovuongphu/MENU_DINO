@@ -228,10 +228,12 @@ CopyWeb.MouseButton1Click:Connect(function()
 end)
 --
 Premium.MouseButton1Click:Connect(function()
+	main.Visible = false
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System_Beta/User_Premium.lua")))()
 end)
 --
 Infinity.MouseButton1Click:Connect(function()
+	main.Visible = false
 	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System_Beta/User_Infinity.lua")))()
 end)
 ---
