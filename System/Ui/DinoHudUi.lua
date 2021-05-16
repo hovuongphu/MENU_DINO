@@ -263,7 +263,7 @@ Execute.MouseButton1Click:Connect(function()
 			rconsoleinfo("ID Server:" .. (math.random(100000000, 999999999)))
 			rconsoleinfo("Rank:Gift Code | Expired:5/20")
 			rconsoleprint('-----------------------------------------' .. " \n")
-			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System_Beta/Mix/DinoHudCode.lua")))()
+			loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix_LoadGame/LoadGame.lua")))()
 		end
 	else
 		BoxCode.Text = "The code is not correct"

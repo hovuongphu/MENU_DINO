@@ -70,7 +70,7 @@ function cheackUser()
         rconsoleprint('@@GREEN@@')
 		rconsoleprint('-----------------------------------------' .. " \n")
 		wait(0.50)
-		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System_Beta/LoadGame.lua")))()
+		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Mix_LoadGame/LoadGame.lua")))()
 	end
 	--//////////////
 	if Check.Text == "2" then
