@@ -17,7 +17,7 @@ wait(0.20)
 rconsoleprint('Loading System' .. " \n")
 rconsoleprint('-----------------------------------------' .. " \n")
 wait(1)
-loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System_Beta/Ui/DinoHudUi.lua")))()
+loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Ui/DinoHudUi.lua")))()
 
 
 
