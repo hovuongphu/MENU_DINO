@@ -1,16 +1,9 @@
-rconsoleinfo("DinoHud Counter Blox")
-rconsoleprint(" " .. " \n")
-rconsolewarn("DinoHud | Waiting for the game to load")
 
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("GUI")
-
-rconsolewarn("DinoHud | Setting up environment")
-
 -- Services
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
-
 -- Environment
 local getrawmetatable = getrawmetatable or false
 local http_request = http_request or request or (http and http.request) or (syn and syn.request) or false
@@ -18,15 +11,12 @@ local mousemove = mousemove or mousemoverel or mouse_move or false
 local getsenv = getsenv or false
 local listfiles = listfiles or listdir or syn_io_listdir or false
 local isfolder = isfolder or false
-
 if (getrawmetatable == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: getrawmetatable.") end
 if (http_request == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: request.") end
 if (mousemove == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: mousemove.") end
 if (getsenv == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: getsenv.") end
 if (listfiles == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: listfiles.") end
 if (isfolder == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: isfolder.") end
-
-rconsolewarn("DinoHud | Setting up configuration settings")
 
 if not isfolder("DinoHud") then
 	rconsoleinfo("creating DinoHud folder")
@@ -76,7 +66,7 @@ if not isfile("DinoHud/Item/inventories.txt") then
 	writefile("DinoHud/Item/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/Data/inventories.txt"))
 end
 
-rconsolewarn("DinoHud | Loading")
+rconsoleprint("Loading Ui" .. " \n")
 
 -- Viewmodels fix
 for i,v in pairs(game.ReplicatedStorage.Viewmodels:GetChildren()) do
@@ -1899,7 +1889,7 @@ Mouse.Move:Connect(function()
 	end
 end)
 
-rconsolewarn("DinoHud | Setting up hooks")
+rconsoleprint("Load Setting" .. " \n")
 
 hookfunc(getrenv().xpcall, function() end)
 
@@ -2122,8 +2112,7 @@ if readfile("DinoHud/autoload.txt") ~= "" and isfile("DinoHud/configs/"..readfil
 		library:LoadConfiguration(cfg)
 	end
 end
---rconsolewarn("DinoHud finished loading!")
-rconsoleprint('@@GREEN@@')
-rconsoleprint('DinoHud finished loading!')
+rconsoleprint('DinoHud finished loading!' .. " \n")
+rconsoleprint('-----------------------------------------' .. " \n")
 wait(1.5)
 Destroy()

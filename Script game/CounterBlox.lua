@@ -36,13 +36,15 @@ DinoHud.TextWrapped = true
 
 DinoHud.MouseButton1Click:Connect(function()
     Frame.Visible = false
-    rconsoleinfo("Used:DinoHud")
+    rconsoleprint('@@GREEN@@')
+    rconsoleprint('-----------CounterBlox DinoHud-----------' .. " \n")
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/Script%20game/DinoHud_CB-Roblox/CounterBlox.lua")))()
 end)
 
 Owl.MouseButton1Click:Connect(function()
     Frame.Visible = false
-    rconsoleinfo("Used:OwlHub")
+    rconsoleprint('-----------CounterBlox OWL HUB-----------' .. " \n")
     loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/ScripMiX/counterbloxskins.lua")))()--Mixx
     loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();--OWL HUB
+    rconsoleprint('-----------------------------------------' .. " \n")
 end)
