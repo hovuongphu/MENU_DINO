@@ -1,0 +1,7 @@
+rconsoleprint(" " .. " \n")
+wait(0.50)
+rconsolewarn("Hotfix activation was successful")
+wait(0.50)
+rconsolewarn("Scanning Game on the system!")
+wait(0.50)
+loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Load%20Game.lua")))()
