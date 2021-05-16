@@ -1,13 +1,3 @@
-local IDgame = Instance.new("TextLabel", game.Workspace)
-local Gameerro = Instance.new("TextLabel", game.Workspace)
---
-Gameerro.Visible = false
-IDgame.Visible = false
---
-IDgame.Text = game.GameId
-Gameerro.Text = "00"
---
-function Counter_Blox()
 local DinoOwl = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Owl = Instance.new("TextButton")
