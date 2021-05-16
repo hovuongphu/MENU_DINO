@@ -1,3 +1,7 @@
+rconsoleprint('@@GREEN@@')
+rconsoleprint('-----------------Account-----------------' .. " \n")
+rconsoleprint('@@WHITE@@')
+
 local User = game.Players.LocalPlayer
 local Check = Instance.new("TextLabel", game.Workspace)
 Check.Text = "0"
@@ -34,11 +38,8 @@ function cheackUser()
 	end
 	--//////////////
 	if Check.Text == "1" then
-		rconsoleprint(" " .. " \n")
-		wait(0.50)
-		rconsolewarn("Hotfix activation was successful")
-		wait(0.50)
-		rconsolewarn("Scanning Game on the system!")
+        rconsoleprint('@@GREEN@@')
+		rconsoleprint('-----------------------------------------' .. " \n")
 		wait(0.50)
 		loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/hovuongphu/Dino-Hud/main/System/Load%20Game.lua")))()
 	end
