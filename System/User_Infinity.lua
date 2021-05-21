@@ -1,3 +1,5 @@
+rconsoleerr("Will no longer support (Infinity) because of server data issues")		
+--[[
 rconsoleprint('@@GREEN@@')
 rconsoleprint('-----------------Account-----------------' .. " \n")
 rconsoleprint('@@WHITE@@')
@@ -48,3 +50,4 @@ Admin()
 Infinity()
 wait(0.10)
 cheackUser()
+]]
