@@ -1,4 +1,0 @@
-{
-	["Default"] = "table_def",
-	["DinoHud"] = {{'Huntsman Knife_Stock'},{'Karambit_Stock'},{'Falchion Knife_Stock'},{'Butterfly Knife_Stock'},{'Bayonet_Stock'},{'Butterfly Knife_Jade Dream'},{'Huntsman Knife_Marbleized'},{'Karambit_Jade Dream'},{'Fingerless Glove_Scapter'},{'Handwraps_Phantom Hex'},{"AWP_Nerf"},{"P90_Demon Within"},{"DesertEagle_DropX"},{"M4A4_Candyskull"},{"Glock_Biotrip"},{"AUG_Sunsthetic"},{"FiveSeven_Fluid"},{"USP_Jade Dream"},{"Famas_MK11"},{"DualBerettas_Xmas"},{"G3SG1_Foliage"},{"SG_DropX"},{"SawedOff_Executioner"},{"Bizon_Autumic"},{"M249_Aggressor"},{"Tec9_Samurai"},{"MAC10_Skeleboney"},{"XM_Artic"},{"Nova_Tiger"},{"Scout_Xmas"},{"MAG7_Frosty"},{"Negev_Striped"},{"UMP_Gum Drop"},{"MP9_Vaporwave"},{"MP7_Calaxian"},{"P250_Frosted"},{"AK47_VAV"},{"Galil_Toxicity"},{"Fingerless Glove_Crystal"},{"Karambit_Ruby"}}
-}

