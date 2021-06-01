@@ -1,2 +1,0 @@
-# DinoHUD
-BY:DINO#5485
